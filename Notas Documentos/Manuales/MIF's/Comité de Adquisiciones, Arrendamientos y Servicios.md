@@ -1,0 +1,4 @@
+---
+aliases:
+- Comité de Adquisiciones
+---
