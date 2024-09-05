@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": false,
@@ -12,6 +12,13 @@
       "color": {
         "a": 1,
         "rgb": 16711888
+      }
+    },
+    {
+      "query": "tag:#mif  ",
+      "color": {
+        "a": 1,
+        "rgb": 1083904
       }
     }
   ],
@@ -25,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.00000000000002,
+  "scale": 0.3628873693012269,
   "close": true
 }

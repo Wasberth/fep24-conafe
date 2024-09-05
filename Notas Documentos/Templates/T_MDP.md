@@ -1,5 +1,5 @@
 
-| [[Manual de Procedimiento]] de | [[LinkAlDocumento\|{{title}}]]                                 |
+| [[Manual de Procedimiento]] de | [[LinkAlDocumento\|{{title}}]] |
 |-----------------------------|-------------------------------------------|
 | Palabras clave              | #mdp #unfinished|
 | Objetivo                    |  |

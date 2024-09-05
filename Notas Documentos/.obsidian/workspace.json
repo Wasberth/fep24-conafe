@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "42c3e2d2229456bf",
+        "id": "80f07cf366e8c85c",
         "type": "tabs",
         "children": [
           {
-            "id": "425675de6af838cf",
+            "id": "f05355f8716e676f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manuales/MIF's/Comisión Interna de Administración y Programación.md",
-                "mode": "source",
+                "file": "Manuales/Manual de Procedimiento.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#unfinished",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 256.5
   },
   "right": {
     "id": "acd8c0ba8f831205",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manuales/MIF's/Comisión Interna de Administración y Programación.md",
+                "file": "Manuales/Manual de Procedimiento.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manuales/MIF's/Comisión Interna de Administración y Programación.md",
+                "file": "Manuales/Manual de Procedimiento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manuales/MIF's/Comisión Interna de Administración y Programación.md"
+                "file": "Manuales/Manual de Procedimiento.md"
               }
             }
           }
@@ -147,42 +147,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "425675de6af838cf",
+  "active": "f05355f8716e676f",
   "lastOpenFiles": [
+    "Manuales/Manual de Integración y Funcionamiento.md",
+    "Apoyo económico a docentes o beneficiaros.md",
     "Manuales/MIF's/Consejo Nacional de Fomento Educativo.md",
-    "Manuales/MIF's/Comisión Interna de Administración y Programación.md",
+    "Tesorería de la Federación.md",
+    "Sistema Único de Control Escolar de Educación Comunitaria.md",
+    "Programación Detallada Anual.md",
+    "Plan Nacional de Evaluación de los Aprendizajes.md",
+    "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
+    "Untitled.canvas",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Comercializacion Ediciones.pdf",
+    "Manuales/MDPs/Registro y Control de Bienes Muebles.md",
+    "Documentos CONAFE/Bases y Lineamientos/Bases generales para el registro, afectación, disposición final y baja de bienes muebles del Conafe..pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf",
+    "Manuales/MIF's/Comité Interno.md",
+    "Manuales/MIF's/Sistema de Estudios a Docentes.md",
+    "Manuales/MIF's/Subcomité Revisor de Convocatorias e Invitaciones.md",
+    "Manuales/MIF's/Comité Editorial.md",
+    "Manuales/MIF's/Comité de Transparencia.md",
     "Manuales/MIF's/Comité de Mejora Regulatoria Interna.md",
     "Manuales/MIF's/Comité de Bienes Muebles.md",
     "Manuales/MIF's/Comité de Adquisiciones, Arrendamientos y Servicios.md",
-    "Manuales/MDPs/Levantamiento Estadístico.md",
+    "Manuales/MIF's/Comisión Interna de Administración y Programación.md",
+    "Manuales/MDPs/Planeación y Evaluación Institucional.md",
+    "Manuales/MDPs/Sistema de Estudios a Docentes.md",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Sed.pdf",
+    "Manuales/MDPs/Subdirección Programación y Seguimiento.md",
     "Manuales/MDPs/Subdireccion financiera.md",
-    "Manuales/MDPs/Dirección de Asuntos Jurídicos.md",
-    "Manuales/MDPs/Control escolar.md",
-    "Manuales/MDPs/Control de Gestión.md",
-    "Templates/T_MDP.md",
-    "Manuales/Manual de Operacion.md",
-    "Manuales/MIF's/Comité Editorial.md",
-    "Manuales/MIF's/Comité de Transparencia.md",
-    "Manuales/MIF's/Subcomité Revisor de Convocatorias e Invitaciones.md",
-    "Manuales/MIF's/Comité Interno.md",
-    "Manuales/Manual de Procedimiento.md",
-    "Manuales/Manual de Integración y Funcionamiento.md",
-    "Manuales/MDPs/Fomento Educativo.md",
-    "Manuales/MIF's",
-    "Manuales/Untitled.md",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Archivos.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Levantamiento Estadistico.pdf",
-    "Untitled.canvas",
-    "2024-09-04.md",
-    "LinkAlDocumento.md",
-    "Documentos CONAFE/Manuales y procedimientos/Manual de Proc. de Control de Gestión, Archivos de Trámite y Archivos de Concentración del CONAFE..pdf",
-    "Untitled.md",
-    "Manuales/Lista de Manuales de Procedimientos.md",
-    "Manuales/MDPs",
-    "Manuales",
-    "Welcome.md",
-    "create a link.md",
-    "Templates"
+    "Manuales/MDPs/Subdirección de Producción Editorial.md",
+    "Manuales/MDPs/Subdirección de Presupuesto.md",
+    "Manuales/MDPs/Organo Interno de Control.md",
+    "Manuales/MDPs/Microplaneación.md",
+    "Documentos CONAFE/Manuales y procedimientos/MDP organo interno.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP disponibilidades financieras.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP almacenes.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP subdireccion programacion y seguimiento.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP subdireccion produccion editorial.pdf"
   ]
 }

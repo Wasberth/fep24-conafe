@@ -1,7 +1,7 @@
 
 | [[Manual de Operacion]] de | [[Manual de operación de la subdirección financiera del conafe.pdf\|Subdireccion financiera]]                                 |
 |-----------------------------|-------------------------------------------|
-| Palabras clave              | #mdp #unfinished #finanzas|
+| Palabras clave              | #mdp #finanzas|
 | Objetivo                    | Establecer los procedimientos para el manejo y otorgamiento de recursos financieros del CONAFE|
 
 ---
@@ -19,4 +19,4 @@
 ---
 
 ### Notas adicionales
-Este documento sigue la estructura de los mdp, pero parece ser un manual de operación. Aunque es el único
+Este documento sigue la estructura de los [[Manual de Procedimiento|MDP]], pero parece ser un manual de operación. Aunque es el único

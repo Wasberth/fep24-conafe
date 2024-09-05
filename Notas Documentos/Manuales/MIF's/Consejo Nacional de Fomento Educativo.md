@@ -3,7 +3,9 @@ aliases:
 - CONAFE
 ---
 
-[[Manual de organizacion del conafe.pdf\|Manual de Organización]]
+[[Manual de Integración y Funcionamiento]]
+
+[[Manual de organizacion del conafe.pdf]]
 
 #mif #organizacion
 

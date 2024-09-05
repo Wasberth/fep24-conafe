@@ -17,10 +17,8 @@
 8. Emisión de los certificados de estudios con firma electrónica
 9. Comprobación del paquete de certificación electrónica y seguimiento al proceso de control escolar
 10. Dictaminar casos especiales
-11. Administración de usuarios en el SUCECOM
+11. Administración de usuarios en el [[Sistema Único de Control Escolar de Educación Comunitaria|SUCECOM]]
 
 ---
 
 ### Notas adicionales
-
-El SUCECOM (Sistema Único de Control Escolar de Educación Comunitaria) es una herramienta mediante la cual se realiza de forma automatizada, la administración escolar de los alumnos atendidos en los programas y modalidades educativas del CONAFE
