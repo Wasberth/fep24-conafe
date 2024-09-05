@@ -1,5 +1,5 @@
 
-| [[Manual de Procedimiento]] de | [[MDP organo interno.pdf\|Organo Interno de Control]] |
+| [[Manual de Procedimiento]] de | [[MDP organo interno.pdf\|Órgano Interno de Control]] |
 |-----------------------------|-------------------------------------------|
 | Palabras clave              | #mdp #plan #jurisdiccion #quejas |
 | Objetivo                    | Contar con una herramienta que estandarice el desarrollo de los procedimientos administrativos necesarios para el correcto funcionamiento, conforme a sus atribuciones y responsabilidades, con la finalidad de alinear y homologar el desarrollo de las actividades que competen a las áreas que lo conforman |
@@ -21,7 +21,7 @@
 	1. Evaluación del sistema de control interno institucional (SCII) o de la dependencia o entidad (anual)
 	2. Seguimiento al cumplimiento del programa de trabajo de control interno institucional del consejo nacional de fomento educativo
 	3. Apoyar la administración de riesgos de la institución (anual)
-	4. Segimiento al programa de trabajo de administración de riesgos (trimestral)
+	4. Seguimiento al programa de trabajo de administración de riesgos (trimestral)
 	5. Realización de diagnósticos
 	6. Emisión de sugerencias y comentarios de estudios de factibilidad (8 días hábiles a partir de la presentación de los estudios de factibilidad)
 	7. Verificación de las contrataciones contenidas en CompraNet (mensual)

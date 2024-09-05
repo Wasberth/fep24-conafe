@@ -1,5 +1,5 @@
 
-| [[Manual de Operacion]] de | [[Manual de operación de la subdirección financiera del conafe.pdf\|Subdireccion financiera]]                                 |
+| [[Manual de Operación]] de la | [[Manual de operación de la subdirección financiera del conafe.pdf\|Subdirección financiera]]                                 |
 |-----------------------------|-------------------------------------------|
 | Palabras clave              | #mdp #finanzas|
 | Objetivo                    | Establecer los procedimientos para el manejo y otorgamiento de recursos financieros del CONAFE|

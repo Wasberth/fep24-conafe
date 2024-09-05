@@ -24,11 +24,11 @@
 15. Captura de la Propuesta de Atención en el Módulo de Microplaneación del SIINAFE
 16. Integración y Dictaminación de la [[Programación Detallada Anual|PRODET]] para Educación Básica Comunitaria
 17. Seguimiento a la PRODET a lo largo del Ciclo Escolar
-18. Solicitud de Servicios de Educación Incial
+18. Solicitud de Servicios de Educación Inicial
 19. Conformación de la Propuesta de Atención de Educación Inicial - Gabinete
 20. Conformación de la Propuesta de Atención de Educación Inicial - Campo
 21. Captura de la Propuesta de Atención en el Módulo de Educación Inicial del SIIINAFE
-22. Integración y Dictaminación de la PRODET para Eduación Inicial
+22. Integración y Dictaminación de la PRODET para Educación Inicial
 23. Seguimiento a la PRODET a lo Largo del Ciclo Operativo
 
 ---

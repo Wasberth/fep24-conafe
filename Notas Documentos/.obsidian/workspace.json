@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manuales/Manual de Procedimiento.md",
-                "mode": "preview",
+                "file": "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "unfini",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manuales/Manual de Procedimiento.md",
+                "file": "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manuales/Manual de Procedimiento.md",
+                "file": "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manuales/Manual de Procedimiento.md"
+                "file": "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md"
               }
             }
           }
@@ -149,42 +149,41 @@
   },
   "active": "f05355f8716e676f",
   "lastOpenFiles": [
-    "Manuales/Manual de Integración y Funcionamiento.md",
-    "Apoyo económico a docentes o beneficiaros.md",
-    "Manuales/MIF's/Consejo Nacional de Fomento Educativo.md",
-    "Tesorería de la Federación.md",
-    "Sistema Único de Control Escolar de Educación Comunitaria.md",
-    "Programación Detallada Anual.md",
-    "Plan Nacional de Evaluación de los Aprendizajes.md",
-    "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
     "Untitled.canvas",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Comercializacion Ediciones.pdf",
+    "Untitled.md",
+    "Manuales/MDPs/Recepción de Donaciones y Donativos.md",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Donaciones.pdf",
+    "Apoyo económico a docentes o beneficiaros.md",
+    "Educador comunitario.md",
+    "Templates/T_MDP.md",
+    "Manuales/MDPs/Otorgación de apoyos económicos bajo condiciones específicas.md",
+    "Manuales/MDPs/Levantamiento Estadístico.md",
     "Manuales/MDPs/Registro y Control de Bienes Muebles.md",
-    "Documentos CONAFE/Bases y Lineamientos/Bases generales para el registro, afectación, disposición final y baja de bienes muebles del Conafe..pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf",
-    "Manuales/MIF's/Comité Interno.md",
-    "Manuales/MIF's/Sistema de Estudios a Docentes.md",
-    "Manuales/MIF's/Subcomité Revisor de Convocatorias e Invitaciones.md",
-    "Manuales/MIF's/Comité Editorial.md",
-    "Manuales/MIF's/Comité de Transparencia.md",
-    "Manuales/MIF's/Comité de Mejora Regulatoria Interna.md",
-    "Manuales/MIF's/Comité de Bienes Muebles.md",
-    "Manuales/MIF's/Comité de Adquisiciones, Arrendamientos y Servicios.md",
-    "Manuales/MIF's/Comisión Interna de Administración y Programación.md",
+    "Modelo educativo intercultural para la población infantil migrante.md",
     "Manuales/MDPs/Planeación y Evaluación Institucional.md",
-    "Manuales/MDPs/Sistema de Estudios a Docentes.md",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Sed.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Apoyos economicos.pdf",
+    "Manuales/Manual de Procedimiento.md",
+    "Manuales/Manual de Integración y Funcionamiento.md",
     "Manuales/MDPs/Subdirección Programación y Seguimiento.md",
     "Manuales/MDPs/Subdireccion financiera.md",
     "Manuales/MDPs/Subdirección de Producción Editorial.md",
     "Manuales/MDPs/Subdirección de Presupuesto.md",
+    "Manuales/MDPs/Sistema de Estudios a Docentes.md",
     "Manuales/MDPs/Organo Interno de Control.md",
     "Manuales/MDPs/Microplaneación.md",
-    "Documentos CONAFE/Manuales y procedimientos/MDP organo interno.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP disponibilidades financieras.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP almacenes.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP subdireccion programacion y seguimiento.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP subdireccion produccion editorial.pdf"
+    "Manuales/MDPs/Materia Audiovisual.md",
+    "Manuales/MDPs/Disponibilidades Financieras.md",
+    "Manuales/MDPs/Dirección de Asuntos Jurídicos.md",
+    "Manuales/MDPs/Convenios con Sectores.md",
+    "Manuales/MDPs/Control escolar.md",
+    "Manuales/MDPs/Control de Gestión.md",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Material audiovisual.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Convenios.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/Manual de organizacion del conafe.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Comercializacion Ediciones.pdf",
+    "Documentos CONAFE/Bases y Lineamientos/Bases generales para el registro, afectación, disposición final y baja de bienes muebles del Conafe..pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Sed.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP organo interno.pdf"
   ]
 }

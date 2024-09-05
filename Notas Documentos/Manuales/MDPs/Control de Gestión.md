@@ -1,5 +1,5 @@
 
-| [[Manual de Procedimiento]] de | [[mdp archivos.pdf\|Control de Gestion, Archivos de Trámite y Archivos de Concentración del CONAFE]] |
+| [[Manual de Procedimiento]] de | [[mdp archivos.pdf\|Control de Gestión, Archivos de Trámite y Archivos de Concentración del CONAFE]] |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Palabras clave                 | #mdp #archivo #correspondencia #control/documentos                                                                                                                                                      |
 | Objetivo                       | Establecer los procedimientos para la producción, recepción, distribución, trámite, organización, consulta, conservación y disposición final de los documentos                             |

@@ -11,7 +11,7 @@
 2. Asesoría en materia de su competencia
 3. Representar al [[Consejo Nacional de Fomento Educativo|CONAFE]] en la defensa de sus intereses
 4. Resguardo de convenios, contratos o cualquier acuerdo de voluntades que suscribe el CONAFE
-5. Participación en el subcomité revisor de convocatiorias e invitaciones del CONAFE en oficinas centrales, así como en los procesos de licicatión pública y de invitación a cuando menos tres personas (tremendo nombre xD)
+5. Participación en el subcomité revisor de convocatorias e invitaciones del CONAFE en oficinas centrales, así como en los procesos de licitación pública y de invitación a cuando menos tres personas (tremendo nombre xD)
 6. Actualización electrónica de la normatividad en materia de arrendamiento
 7. Asesoramiento para la regularización de espacios educativos y/o técnico administrativos
 8. Materia de derechos de autor y propiedad intelectual
