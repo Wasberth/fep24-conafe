@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"27de5f88f0b28565","type":"text","text":"Capacitador Tutor CT (recibe datos )","x":-200,"y":-80,"width":250,"height":50},
+		{"id":"06229e385ca9aacf","type":"text","text":"PGO  (presupuesto de gobierno para obras )","x":-472,"y":-76,"width":250,"height":60},
+		{"id":"470e22ab73964531","type":"text","text":"SHCP (da presupuesto --superviza VALIDACION )","x":-450,"y":-320,"width":250,"height":60},
+		{"id":"111649459ad196b3","type":"text","text":"Director de CONAFE (admin admin????","x":-280,"y":-680,"width":250,"height":60,"color":"#d01616"},
+		{"id":"7f953f1176eed505","type":"text","text":"lider COMUNITARIO (emite reportes e informes para padres segun nivel ) LEC","x":108,"y":-85,"width":312,"height":55},
+		{"id":"a68e6022fa907555","type":"text","text":"JIAL (Jefatura de Información y Apoyo Logístico )","x":-242,"y":-400,"width":290,"height":80},
+		{"id":"7d7c051a501580b7","type":"text","text":"AIAL (area central)","x":139,"y":-390,"width":250,"height":60,"color":"1"},
+		{"id":"d49a2ebfb96412a0","type":"text","text":"JIAL (supervisa) ","x":-57,"y":-290,"width":250,"height":60},
+		{"id":"65bdeafc30fae421","x":264,"y":-200,"width":250,"height":60,"type":"text","text":"lider de comunidad"},
+		{"id":"442d587148c20191","x":420,"y":-7,"width":250,"height":60,"type":"text","text":"asesor comunitario "},
+		{"id":"cdfa42f65b909214","type":"text","text":"APEC (Presidencia Municipal, y/o Asociaciones Promotoras de Educación Comunitaria)   ceps ,APF asociacion a padres de familia  USUARIOS FINAL MAS RESTRINGIDO (SUBE DATA)","x":-575,"y":53,"width":375,"height":87},
+		{"id":"9cbb19bd2498b7a8","type":"text","text":"estudiantes (otro usuario)","x":-111,"y":180,"width":250,"height":60},
+		{"id":"42167ccdfb535fc1","type":"text","text":"área estatal ","x":-557,"y":280,"width":715,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"a0fef34e57c9d088","fromNode":"d49a2ebfb96412a0","fromSide":"bottom","toNode":"27de5f88f0b28565","toSide":"top"},
+		{"id":"db9c146cfebf8e5d","fromNode":"cdfa42f65b909214","fromSide":"top","toNode":"27de5f88f0b28565","toSide":"bottom"},
+		{"id":"f05b5ed1933f2f6d","fromNode":"a68e6022fa907555","fromSide":"bottom","toNode":"06229e385ca9aacf","toSide":"top"},
+		{"id":"696e55a3a080a27f","fromNode":"06229e385ca9aacf","fromSide":"bottom","toNode":"cdfa42f65b909214","toSide":"left"},
+		{"id":"efa0697060a908e4","fromNode":"470e22ab73964531","fromSide":"bottom","toNode":"06229e385ca9aacf","toSide":"top"},
+		{"id":"58d786d5d318d12f","fromNode":"a68e6022fa907555","fromSide":"right","toNode":"7d7c051a501580b7","toSide":"left"},
+		{"id":"de4d9fb3728f3fcc","fromNode":"7d7c051a501580b7","fromSide":"left","toNode":"a68e6022fa907555","toSide":"right"},
+		{"id":"555276342268bff4","fromNode":"27de5f88f0b28565","fromSide":"right","toNode":"7f953f1176eed505","toSide":"left"},
+		{"id":"1fbe0bcab3ad4acc","fromNode":"7f953f1176eed505","fromSide":"bottom","toNode":"cdfa42f65b909214","toSide":"right","label":"sucecom (evaluacion bimestral CALIFCACIONES )"},
+		{"id":"5add19d0dad14ec2","fromNode":"cdfa42f65b909214","fromSide":"bottom","toNode":"9cbb19bd2498b7a8","toSide":"top"},
+		{"id":"c14ae78c51a75700","fromNode":"7f953f1176eed505","fromSide":"bottom","toNode":"442d587148c20191","toSide":"top"},
+		{"id":"11844b65eac482a1","fromNode":"7f953f1176eed505","fromSide":"top","toNode":"65bdeafc30fae421","toSide":"bottom"},
+		{"id":"72c98b69312b08ba","fromNode":"7d7c051a501580b7","fromSide":"top","toNode":"65bdeafc30fae421","toSide":"top"}
+	]
+}

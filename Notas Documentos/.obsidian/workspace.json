@@ -4,6 +4,27 @@
     "type": "split",
     "children": [
       {
+        "id": "d223a8afc2dc85fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "626c30265d7aa5f8",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Diagrama de Usuarios.canvas",
+                "viewState": {
+                  "x": 69.45056973660876,
+                  "y": 60.46927111673614,
+                  "zoom": -1.0431402241438628
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "80f07cf366e8c85c",
         "type": "tabs",
         "children": [
@@ -13,13 +34,84 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
-                "mode": "source",
+                "file": "Manuales/MDPs/Microplaneación.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0140159e7b26f754",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf"
+              }
+            }
+          },
+          {
+            "id": "ee378ab7cfd8750b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modelo educativo intercultural para la población infantil migrante.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "324662bcb05c9033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manuales/MDPs/Organo Interno de Control.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f1fc766b979763c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manuales/MDPs/Subdireccion financiera.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f96f9378ce31e39b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manuales/MDPs/Subdireccion financiera.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1e9139050fa8f8e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manuales/MDPs/Dirección de Asuntos Jurídicos.md",
+                "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unfini",
+                "query": "conafe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "acd8c0ba8f831205",
@@ -85,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
+                "file": "Diagrama de Usuarios.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
+                "file": "Diagrama de Usuarios.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md"
+                "file": "Diagrama de Usuarios.canvas"
               }
             }
           }
@@ -147,8 +240,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f05355f8716e676f",
+  "active": "626c30265d7aa5f8",
   "lastOpenFiles": [
+    "Manuales/MDPs/Control escolar.md",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf",
+    "Diagrama de Usuarios.canvas",
+    "Manuales/MIF's/Consejo Nacional de Fomento Educativo.md",
+    "Documentos CONAFE/Manuales y procedimientos/Manual de organizacion del conafe.pdf",
+    "Manuales/Manual de Integración y Funcionamiento.md",
+    "Modelo educativo intercultural para la población infantil migrante.md",
+    "Lineamientos para la organización y.md",
+    "Documentos CONAFE/Bases y Lineamientos/LINEAMIENTOS GENERALES DEL SISTEMA DE FORMACIÓN EN LA PRÁCTICA EDUCATIVA COMUNITARIA.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
+    "Manuales/MDPs/Subdireccion financiera.md",
+    "Manuales/MDPs/Dirección de Asuntos Jurídicos.md",
+    "Manuales/MDPs/Organo Interno de Control.md",
+    "Manuales/MDPs/Microplaneación.md",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Subdireccion de planeacion.pdf",
+    "Manuales/MDPs/Planeación y Evaluación Institucional.md",
+    "Programación Detallada Anual.md",
+    "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
     "Untitled.canvas",
     "Untitled.md",
     "Manuales/MDPs/Recepción de Donaciones y Donativos.md",
@@ -159,31 +270,14 @@
     "Manuales/MDPs/Otorgación de apoyos económicos bajo condiciones específicas.md",
     "Manuales/MDPs/Levantamiento Estadístico.md",
     "Manuales/MDPs/Registro y Control de Bienes Muebles.md",
-    "Modelo educativo intercultural para la población infantil migrante.md",
-    "Manuales/MDPs/Planeación y Evaluación Institucional.md",
     "Documentos CONAFE/Manuales y procedimientos/MDP Apoyos economicos.pdf",
     "Manuales/Manual de Procedimiento.md",
-    "Manuales/Manual de Integración y Funcionamiento.md",
     "Manuales/MDPs/Subdirección Programación y Seguimiento.md",
-    "Manuales/MDPs/Subdireccion financiera.md",
     "Manuales/MDPs/Subdirección de Producción Editorial.md",
     "Manuales/MDPs/Subdirección de Presupuesto.md",
     "Manuales/MDPs/Sistema de Estudios a Docentes.md",
-    "Manuales/MDPs/Organo Interno de Control.md",
-    "Manuales/MDPs/Microplaneación.md",
-    "Manuales/MDPs/Materia Audiovisual.md",
-    "Manuales/MDPs/Disponibilidades Financieras.md",
-    "Manuales/MDPs/Dirección de Asuntos Jurídicos.md",
-    "Manuales/MDPs/Convenios con Sectores.md",
-    "Manuales/MDPs/Control escolar.md",
-    "Manuales/MDPs/Control de Gestión.md",
     "Documentos CONAFE/Manuales y procedimientos/MDP Material audiovisual.pdf",
     "Documentos CONAFE/Manuales y procedimientos/MDP Convenios.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/Manual de organizacion del conafe.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Comercializacion Ediciones.pdf",
-    "Documentos CONAFE/Bases y Lineamientos/Bases generales para el registro, afectación, disposición final y baja de bienes muebles del Conafe..pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Sed.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP organo interno.pdf"
+    "Documentos CONAFE/Manuales y procedimientos/MDP Comercializacion Ediciones.pdf"
   ]
 }
