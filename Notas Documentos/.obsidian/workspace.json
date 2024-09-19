@@ -28,10 +28,10 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "ROLES.canvas",
                 "viewState": {
-                  "x": -50,
-                  "y": -70,
+                  "x": -31,
+                  "y": -60,
                   "zoom": 0
                 }
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "ROLES.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "ROLES.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "ROLES.canvas"
               }
             }
           }
@@ -210,9 +210,14 @@
   },
   "active": "e1f4b8f54e594f86",
   "lastOpenFiles": [
-    "Tesorería de la Federación.md",
-    "Propuesta 1.md",
     "Programación Detallada Anual.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "ROLES.canvas",
+    "Propuesta 1.md",
+    "Sistema Único de Control Escolar de Educación Comunitaria.md",
+    "Tesorería de la Federación.md",
+    "Untitled.canvas",
     "Plan Nacional de Evaluación de los Aprendizajes.md",
     "Modelo educativo intercultural para la población infantil migrante.md",
     "Educador comunitario.md",
@@ -227,7 +232,6 @@
     "Manuales/MDPs/Microplaneación.md",
     "Manuales/MDPs/Registro y Control de Bienes Muebles.md",
     "Manuales/MIF's/Comité de Bienes Muebles.md",
-    "Untitled.canvas",
     "Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
     "Manuales/MDPs/Control escolar.md",
     "Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf",
@@ -244,9 +248,6 @@
     "Manuales/MDPs/Recepción de Donaciones y Donativos.md",
     "Documentos CONAFE/Manuales y procedimientos/MDP Donaciones.pdf",
     "Templates/T_MDP.md",
-    "Manuales/MDPs/Otorgación de apoyos económicos bajo condiciones específicas.md",
-    "Manuales/MDPs/Levantamiento Estadístico.md",
-    "Manuales/Manual de Procedimiento.md",
-    "Manuales/MDPs/Subdirección Programación y Seguimiento.md"
+    "Manuales/MDPs/Otorgación de apoyos económicos bajo condiciones específicas.md"
   ]
 }
