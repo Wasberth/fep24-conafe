@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"74a90cbe2bcbec05","type":"text","text":"Gómez Tagle Espinosa José Ricardo","x":0,"y":0,"width":320,"height":60,"color":"5"},
+		{"id":"daf5ca9732babfb6","x":0,"y":-80,"width":300,"height":50,"color":"6","type":"text","text":"García Piña Wilberth David (Project Manager)"},
+		{"id":"ab24e6603b2e608e","x":-340,"y":-230,"width":272,"height":60,"color":"2","type":"text","text":"DBA - Admin Base de Datos  "},
+		{"id":"fc71ad51683d9aed","x":30,"y":-230,"width":250,"height":60,"color":"2","type":"text","text":"Noguez Ortiz Paula Sofia "},
+		{"id":"8d09bc94c400bd21","x":-340,"y":-60,"width":272,"height":60,"color":"5","type":"text","text":"Developer "},
+		{"id":"9d131b8430d2c550","type":"text","text":"Martínez Barragán Martín ","x":0,"y":80,"width":320,"height":60,"color":"5"},
+		{"id":"382e457827e8f7f4","x":-382,"y":-340,"width":260,"height":60,"color":"3","type":"text","text":"Documentación "},
+		{"id":"8d65b84300155c06","x":-12,"y":-340,"width":325,"height":60,"color":"3","type":"text","text":"Alvarado Guzmán Gloria Arisbeth"},
+		{"id":"67d616c4869986da","type":"text","text":"Hernández Lucio Ibrahim Abraham ","x":0,"y":160,"width":320,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"c98068be42926941","fromNode":"8d09bc94c400bd21","fromSide":"right","toNode":"daf5ca9732babfb6","toSide":"left"},
+		{"id":"688daa4ea812565a","fromNode":"8d09bc94c400bd21","fromSide":"right","toNode":"74a90cbe2bcbec05","toSide":"left"},
+		{"id":"907fef5e8faa43dc","fromNode":"ab24e6603b2e608e","fromSide":"right","toNode":"fc71ad51683d9aed","toSide":"left"},
+		{"id":"c3bf28bfd09c3794","fromNode":"8d09bc94c400bd21","fromSide":"right","toNode":"9d131b8430d2c550","toSide":"left"},
+		{"id":"de9cb917687615e8","fromNode":"382e457827e8f7f4","fromSide":"right","toNode":"8d65b84300155c06","toSide":"left"},
+		{"id":"5dceb00c96f5e7fe","fromNode":"8d09bc94c400bd21","fromSide":"right","toNode":"67d616c4869986da","toSide":"left"}
+	]
+}
