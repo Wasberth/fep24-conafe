@@ -33,9 +33,11 @@
             "id": "05d2b1d9294c8466",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/PRODET metas.pdf"
+                "file": "Propuesta 2.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -48,9 +50,21 @@
                 "file": "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf"
               }
             }
+          },
+          {
+            "id": "a299357bd113cfcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Visión del proyecto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -116,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/PRODET metas.pdf",
+                "file": "Visión del proyecto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/PRODET metas.pdf",
+                "file": "Visión del proyecto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/PRODET metas.pdf"
+                "file": "Visión del proyecto.md"
               }
             }
           }
@@ -177,34 +191,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05d2b1d9294c8466",
+  "active": "a299357bd113cfcc",
   "lastOpenFiles": [
+    "Propuesta 2.md",
+    "Visión del proyecto.md",
+    "Jefatura de Información y Apoyo Logístico.md",
+    "investigador de campo.md",
+    "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/PRODET metas.pdf",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Bases para Baja de Bienes Muebles.pdf",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Bases Comité de etica.pdf",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Bases adquisiciones.pdf",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Apoyos SEP.pdf",
     "Untitled.canvas",
-    "Propuesta 2.md",
     "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
     "Notas Documentos/Manuales/Manual de Procedimiento.md",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf",
     "Notas Documentos/Manuales/Manual de Integración y Funcionamiento.md",
-    "Visión del proyecto.md",
-    "Jefatura de Información y Apoyo Logístico.md",
     "Imagen de WhatsApp 2024-09-25 a las 11.29.12_2f96f563.jpg",
     "Untitled.md",
     "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
     "Notas Documentos/Propuesta 1.md",
     "Cordinador Territorial.md",
     "Notas Documentos/Programación Detallada Anual.md",
-    "investigador de campo.md",
     "petición de servicios educativos.md",
     "Notas Documentos/Manuales/MDPs/Microplaneación.md",
     "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/Procedimientos cancelar adeudos.pdf",
     "Notas Documentos/Templates/T_MDP.md",
     "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MIF Subcomite Adquisiciones.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MIF Comité Adquisiciones.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/Procedimiento elaboracion de MDPs.pdf",
     "Notas Documentos/Manuales/MIF's/Subcomité Revisor de Convocatorias e Invitaciones.md",
     "profesor de acompañamiento.md",
     "Notas Documentos/Diagrama de Usuarios.canvas",

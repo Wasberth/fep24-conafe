@@ -1,13 +1,14 @@
-# Company name
+# CONAFE 
 
-# Project name
+# Project name 
 ## Vision
 version: <1.0>
 
 ### Introducción
 
 +++ Escribir un resumen de un párrafo del proyecto aquí +++
-El proyecto busca dar seguimiento al proceso de las figuras educativas w
+
+El proyecto busca dar seguimiento al proceso de captación, capacitación y seguimiento a  las figuras educativas ,como una aplicación para el control de documentación solicitada para los aspirantes, siguiendo las metas propuestas por la PRODET según cada región; y dando seguimiento a su proceso según el *Calendario de los procesos de formación de la Dirección de Educación Comunitaria para el Bienestar* , y la digitalización de las formas del departamento de programas educativos para agilizar los procesos y dar organización y estructura al proceso con una interfaz amigable.
 
 SKIP Acrónimos abreviaciones y referencias
 ### Posicionamiento
@@ -16,24 +17,24 @@ SKIP
 ####  Enunciado del problema
 +++ Resumir el problema que se va a resolver en este proyecto +++
 
-| Sección                    | a llenar |
-|----------------------------|----------|
-| The problem of             |  |
-| Affects                    |  |
-| The impact of which is     |  |
-| A succesful solution would |  |
+| Sección                    | a llenar                                                                                                       |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| The problem of             | Dar seguimiento y agilidad  al proceso de  captación, capacitación y apoyo económico a las figuras educativas. |
+| Affects                    | Figuras educativas , aspirantes a Educador Comunitario, APF                                                    |
+| The impact of which is     |                                                                                                                |
+| A succesful solution would | Pagina web para el proceso de formación y seguimiento de figuras educativas.                                   |
 
 #### Product position statement
 +++ Cual es la posición **única** que el producto tendrá en el mercado +++
 
-| Sección            | a llenar |
-|--------------------|----------|
-| For                |  |
-| Who                |  |
-| The (product name) |  |
-| That               |  |
-| Unlike             |  |
-| Our product        |  |
+| Sección            | a llenar                        |
+| ------------------ | ------------------------------- |
+| For                | Figuras educativas y aspirantes |
+| Who                |                                 |
+| The (product name) |                                 |
+| That               |                                 |
+| Unlike             |                                 |
+| Our product        |                                 |
 
 A product position statement commmunicates the intent of the application and the importance of the project to all concerned personnel
 
@@ -44,14 +45,15 @@ SKIP
 #### Resumen de stakeholders
 
 +++ Presenta una lista resumen de todos los stakeholders identificados +++
+ //rellenar con los casos de uso 
 
-| Nombre | Representa | Rol |
-|--------------------|----------|-|
+| Nombre                        | Representa                                                      | Rol                                                                                  |
+| ----------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | Nombra el tipo de stakeholder | Describe brevemente lo que representan con respecto al proyecto | Describe brevemente el rol que juegan en el desarrollo (e.g.) "Asegúrate de que ..." |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+|                               |                                                                 |                                                                                      |
+|                               |                                                                 |                                                                                      |
+|                               |                                                                 |                                                                                      |
+|                               |                                                                 |                                                                                      |
 
 #### Resumen de usuarios
 +++ Presenta una lista resumen de todos los usuarios identificados +++
