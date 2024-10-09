@@ -48,6 +48,46 @@
                 "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MIF CIDAP.pdf"
               }
             }
+          },
+          {
+            "id": "e4aa69d87437fe03",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf"
+              }
+            }
+          },
+          {
+            "id": "63cf996728a82da4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Subdireccion de presupuesto.pdf"
+              }
+            }
+          },
+          {
+            "id": "aa7ffbc3e85b7cab",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP disponibilidades financieras.pdf"
+              }
+            }
+          },
+          {
+            "id": "16d14d87a92f3db8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Apoyos economicos.pdf"
+              }
+            }
           }
         ]
       }
@@ -179,42 +219,45 @@
   "active": "458aca3edab23452",
   "lastOpenFiles": [
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf",
-    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MIF CIDAP.pdf",
     "Visión del proyecto.md",
-    "Notas Documentos/Templates/T_MDP.md",
     "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
-    "Untitled 1.canvas",
-    "Propuesta 2.md",
-    "Notas Documentos/Propuesta 1.md",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MIF CIDAP.pdf",
+    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Apoyos economicos.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP disponibilidades financieras.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Subdireccion de presupuesto.pdf",
+    "Notas Documentos/Manuales/MDPs/Otorgación de apoyos económicos bajo condiciones específicas.md",
+    "Notas Documentos/Manuales/MDPs/Disponibilidades Financieras.md",
+    "Notas Documentos/Manuales/MDPs/Subdirección de Presupuesto.md",
     "Notas Documentos/Manuales/MDPs/Microplaneación.md",
+    "Propuesta 2.md",
+    "profesor de acompañamiento.md",
+    "petición de servicios educativos.md",
+    "Jefatura de Información y Apoyo Logístico.md",
+    "investigador de campo.md",
+    "Cordinador Territorial.md",
     "[Microplaneación.md",
+    "Notas Documentos/Plan Nacional de Evaluación de los Aprendizajes.md",
+    "Notas Documentos/Modelo educativo intercultural para la población infantil migrante.md",
+    "Notas Documentos/Educador comunitario.md",
+    "Notas Documentos/Diagrama de Usuarios.canvas",
+    "Notas Documentos/Apoyo económico a docentes o beneficiaros.md",
+    "Notas Documentos/Templates/T_MDP.md",
+    "Untitled 1.canvas",
+    "Notas Documentos/Propuesta 1.md",
     "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Sed.pdf",
     "Notas Documentos/Manuales/MDPs/Sistema de Estudios a Docentes.md",
     "Notas Documentos/Manuales/MIF's/Sistema de Estudios a Docentes.md",
     "Notas Documentos/Manuales/Manual de Integración y Funcionamiento.md",
-    "Jefatura de Información y Apoyo Logístico.md",
-    "investigador de campo.md",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/PRODET metas.pdf",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Bases para Baja de Bienes Muebles.pdf",
-    "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Bases Comité de etica.pdf",
-    "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Bases adquisiciones.pdf",
-    "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Apoyos SEP.pdf",
     "Untitled.canvas",
     "Notas Documentos/Manuales/Manual de Procedimiento.md",
     "Imagen de WhatsApp 2024-09-25 a las 11.29.12_2f96f563.jpg",
     "Untitled.md",
-    "Cordinador Territorial.md",
     "Notas Documentos/Programación Detallada Anual.md",
-    "petición de servicios educativos.md",
     "Notas Documentos/Manuales/MIF's/Subcomité Revisor de Convocatorias e Invitaciones.md",
-    "profesor de acompañamiento.md",
-    "Notas Documentos/Diagrama de Usuarios.canvas",
-    "Notas Documentos/Educador comunitario.md",
-    "Notas Documentos/Modelo educativo intercultural para la población infantil migrante.md",
-    "Notas Documentos/Plan Nacional de Evaluación de los Aprendizajes.md",
     "Notas Documentos/ROLES.canvas",
-    "Notas Documentos/Untitled.md",
     "Notas Documentos/Untitled.canvas"
   ]
 }

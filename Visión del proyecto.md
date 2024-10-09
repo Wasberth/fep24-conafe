@@ -1,6 +1,6 @@
 # CONAFE 
 
-# Project name 
+# Sistema de Información para Guía y Evaluación  del Educador Comunitario (SIGUEEC)
 ## Vision
 version: <1.0>
 
@@ -19,10 +19,8 @@ El proyecto busca dar seguimiento al proceso de captación, capacitación y segu
 | CIDAP (Comisión Interna de Administración y Programación.) | Órgano colegiado del CONAFE que tiene por objeto acordar las adecuaciones a los planes, programas, estructuras orgánico-funcionales, procedimientos y esquemas de operación de presupuestos y apoyos económicos a figuras educativas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ### Posicionamiento
-#### Oportunidad de negocio
-SKIP
+
 ####  Enunciado del problema
-+++ Resumir el problema que se va a resolver en este proyecto +++
 
 | Sección                    | a llenar                                                                                                                                                                     |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -78,118 +76,85 @@ El usuario debe de contar con un dispositivo electrónico que cuente con interne
 
 #### Necesidades clave de Stakeholders/Usuarios
 
-Enlista los problemas clave con las soluciones existentes como las perciben los stakeholder. Clarifica los problemas siguientes para cada problema
-- Cuáles son las razones del problema
-- Cómo se resuelva ahora
-- Qué soluciones quieren los stakeholders
-
-Es importante entender la importancia *relativa* que tiene el stakeholder para resolver cada problema. Ranking and cumulative voting techniques indicate problems that **must** be solved versus issues they would like addressed
-
-+++ Presenta una lista resumen de todas las necesidades de los stakeholders/usuarios +++
-
-You may want to skip some of the current and proposed solutions because we have not developed the details   COT   DPE   EC    Aspirante Capacitador  
-
-| Necesidad                                                                                | Prioridad | Stakeholder | Solución Actual                                                                                 | Solución Propuesta                                      |
-| ---------------------------------------------------------------------------------------- | --------- | ----------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| Carga de instructivos según la PRODET                                                    | Alta      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Carga de metas según la PRODET                                                           | Baja      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Carga del calendario de planeación propuesto por la CONAFE                               | Alta      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Actualización del calendario de planeación propuesto por la CONAFE                       | Alta      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Carga y visualización de los Centros de Trabajo actualizados                             | Media     | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de los datos específicos de cada Centro de Trabajo                         | Media     | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualizacion de cantidad de solicitudes de apoyo economico  solicitadas                 | Media     | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualizacion de cantidad de solicitudes de apoyo economico  aprobadas                   | Baja      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualizacion de cantidad de solicitudes de apoyo economico  rechazadas                  | Baja      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualizar el presupuesto anual de la PRODET                                             | Media     | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Carga de documentación de Apoyos Económicos para figuras educativas actualizados         | Media     | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de documentación de Apoyos Económicos para figuras educativas actualizados | Media     | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de solicitudes de apoyos económicos en el periodo académico                | Media     | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de estatus de solicitudes de apoyos económicos en el periodo académico     | Baja      | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de el instructivo regional proporcionado por la PRODET                     | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de Centros de Trabajo de su región                                         | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Registro de los datos de los candidatos por la convocatoria                              | Alta      | COT         | Se llena un formulario en la página oficial de la CONAFE o se hace presencialmente con el COT   |                                                         |
-| Visualización de las  solicitudes de aspirantes en su región                             | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Carga de los links de los webinars introductorios                                        | Media     | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de los CCT y su estado                                                     | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Asignación de los CCT a los aspirantes                                                   | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de las solicitudes de apoyo económico                                      | Media     | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Cambio del estatus de las solicitudes de apoyo económico                                 | Baja      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de los formatos de evaluación del capacitador                              | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de calendario escolar anual                                                | Alta      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de apoyo economico paralelo                                                | Media     | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización del material de apoyo para el aprendizaje                                  | Baja      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualizacion de Expediente Único Digital del Educador                                   | Alta      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de documento con su firma digital                                          | Alta      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Firma del convenio                                                                       | Alta      | EC1         | Se firma un papel físico que recibe el COT                                                      | Se va a reemplazar por una firma digital que se realiza |
-| Visualización de CCT asignados                                                           | Alta      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualiza el formato de Programa de trabajo y Plan de Fortalecimiento Académico          | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de calendario académico                                                    | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Carga de formatos para solicitud de apoyo económico                                      | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de los estatus de formatos para solicitud de apoyo económico               | Media     | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Carga de formatos de evaluación                                                          | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de CCT asignado                                                            | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de CCT's asignados                                                         | Alta      | ECA         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de formatos de Programa de trabajo de EC asignados                         | Baja      | ECA         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Carga de formatos de Programa de Trabajo                                                 | Alta      | ECA         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de EC asignados a su cargo                                                 | Alta      | ECA         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de Convocatoria                                                            | Alta      | Aspirante   | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Carga de solicitud de convocatoria                                                       | Alta      | Aspirante   | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualizacion de estatus de solicitud de convocatoria                                    | Media     | Aspirante   | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
-| Visualización de información sobre el proceso de convocatoria                            | Baja      | Aspirante   | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. |                                                         |
+| Necesidad                                                                                | Prioridad | Stakeholder | Solución Actual                                                                                 | Solución Propuesta                                                                                             |
+| ---------------------------------------------------------------------------------------- | --------- | ----------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Carga de instructivos según la PRODET                                                    | Alta      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Hacer un formulario que reciba archivos PDF                                                                    |
+| Carga de metas según la PRODET                                                           | Baja      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Hacer un formulario siguiendo las formas para las metas                                                        |
+| Carga del calendario de planeación propuesto por la CONAFE                               | Alta      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Hacer un formulario siguiendo las formas para las metas                                                        |
+| Actualización del calendario de planeación propuesto por la CONAFE                       | Alta      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Hacer un formulario siguiendo las formas para las metas                                                        |
+| Carga y visualización de los Centros de Trabajo actualizados                             | Media     | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Hacer un formulario que contenga todos los datos necesarios para CCT's                                         |
+| Visualización de los datos específicos de cada Centro de Trabajo                         | Media     | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualizacion de cantidad de solicitudes de apoyo economico  solicitadas                 | Media     | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualizacion de cantidad de solicitudes de apoyo economico  aprobadas                   | Baja      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualizacion de cantidad de solicitudes de apoyo economico  rechazadas                  | Baja      | DPE         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualizar el presupuesto anual de la PRODET                                             | Media     | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Carga de documentación de Apoyos Económicos para figuras educativas actualizados         | Media     | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Hacer un formulario siguiendo las formas para apoyos económicos                                                |
+| Visualización de documentación de Apoyos Económicos para figuras educativas actualizados | Media     | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de solicitudes de apoyos económicos en el periodo académico                | Media     | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de estatus de solicitudes de apoyos económicos en el periodo académico     | Baja      | CIDAP       | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de el instructivo regional proporcionado por la PRODET                     | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de Centros de Trabajo de su región                                         | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Registro de los datos de los candidatos por la convocatoria                              | Alta      | COT         | Se llena un formulario en la página oficial de la CONAFE o se hace presencialmente con el COT   | Hacer un formulario que pida los datos necesarios a los aspirantes                                             |
+| Visualización de las  solicitudes de aspirantes en su región                             | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Carga de los links de los webinars introductorios                                        | Media     | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Hacer un formulario que pida los links                                                                         |
+| Visualización de los CCT y su estado                                                     | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Asignación de los CCT a los aspirantes                                                   | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Hacer un formulario para el COT que contenga la lista de CCT's y EC's                                          |
+| Visualización de las solicitudes de apoyo económico                                      | Media     | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Cambio del estatus de las solicitudes de apoyo económico                                 | Baja      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de los formatos de evaluación del capacitador                              | Alta      | COT         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de calendario escolar anual                                                | Alta      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de apoyo economico paralelo                                                | Media     | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización del material de apoyo para el aprendizaje                                  | Baja      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualizacion de Expediente Único Digital del Educador                                   | Alta      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de documento con su firma digital                                          | Alta      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Firma del convenio                                                                       | Alta      | EC1         | Se firma un papel físico que recibe el COT                                                      | Se va a reemplazar por una firma digital que se realiza al obtener el convenio                                 |
+| Visualización de CCT asignados                                                           | Alta      | EC1         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualiza el formato de Programa de trabajo y Plan de Fortalecimiento Académico          | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de calendario académico                                                    | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar la imagen de calendario obtenido del PDF                                                               |
+| Carga de formatos para solicitud de apoyo económico                                      | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Guardar dentro de la base de datos la forma cargada y asignarle el estatus de 'Solicitada'                     |
+| Visualización de los estatus de formatos para solicitud de apoyo económico               | Media     | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Carga de formatos de evaluación                                                          | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Guardar dentro de la base de datos la forma cargada y asignarle el estatus de 'Solicitada'                     |
+| Visualización de CCT asignado                                                            | Alta      | EC2         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de CCT's asignados                                                         | Alta      | ECA         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de formatos de Programa de trabajo de EC asignados                         | Baja      | ECA         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Carga de formatos de Programa de Trabajo                                                 | Alta      | ECA         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Guardar dentro de la base de datos la forma cargada y agregarla dentro del expediente docente correspondiente. |
+| Visualización de EC asignados a su cargo                                                 | Alta      | ECA         | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de Convocatoria                                                            | Alta      | Aspirante   | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar el link de la convocatoria  y el formato                                                               |
+| Carga de solicitud de convocatoria                                                       | Alta      | Aspirante   | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Guardar dentro de la base de datos la forma cargada y agregarla dentro del expediente docente correspondiente. |
+| Visualizacion de estatus de solicitud de convocatoria                                    | Media     | Aspirante   | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar los registros de la base de datos                                                                      |
+| Visualización de información sobre el proceso de convocatoria                            | Baja      | Aspirante   | Desarrollo y difusión electrónica (por correo o internet ) como formato PDF o de manera manual. | Mostrar la documentacion e informacion y requerimeitnos para la conovcactior obtenidos de la CONAFE            |
 
 #### Alternativas y Competencias 
-SKIP
+
+
 El CONAFE  realiza el llenado de estos formatos de manera manual , hasta la nueva micro planeación planteada en marzo de 2023 en el [[MDP Microplaneacion.pdf]]  , donde se plantea la realización de estos procesos de manera tecnológica usando aplicaciones y paginas web; la problemática aquí se presenta al no tener la información o manuales de usuario que le permitan a los stakeholders darle un correcto uso, y a los aspirantes en la pagina oficial de la CONAFE no se les a dado  aviso de ese cambio o avance en los procesos.
-### Vista  General de Producto 
-SKIP
+
 
 ### Características de Producto 
-
-+++ List the top  features for the class project +++
 
 1. Carga de instructivos basados en las directrices establecidas por el Programa de Desarrollo de Talento Educativo (PRODET). Los instructivos deberán estar alineados con las normas operativas y los procedimientos definidos en el Manual de Integración y Funcionamiento de la Comisión Interna de Administración y Programación (CIDAP) y deben ser actualizados periódicamente para garantizar la congruencia con los objetivos de la organización.
 2. Carga de metas debe ser realizada considerando las líneas de acción estratégicas definidas en el Programa Nacional de Combate a la Corrupción y a la Impunidad, y de Mejora de la Gestión Pública.
 3. Carga del calendario debe realizarse siguiendo un proceso participativo que involucre a todos los stakeholders relevantes. El calendario debe incluir fechas específicas para la ejecución de cada etapa del plan de desarrollo, garantizando la correcta asignación de recursos y tiempos.
-4. La actualización del calendario debe ser realizada de manera continua, teniendo en cuenta cualquier cambio en las políticas educativas o en las necesidades de la comunidad educativa. Es fundamental que todas las modificaciones sean documentadas y aprobadas por la CIDAP.
-5. Digitalizar todos los procesos administrativos (solicitudes de convocatoria, formatos de apoyos económicos y convenios ) y de formación de los educadores comunitarios para mejorar la eficiencia operativa.
-6. Organizar programas de capacitación intensiva durante los meses de julio y agosto para los educadores comunitarios, siguiendo el modelo de formación inicial intensiva descrito en "Lineamientos Formación."
+4. La actualización del calendario debe ser realizada de manera continua, teniendo en cuenta cualquier cambio en las políticas educativas o en las necesidades de la comunidad educativa. Es fundamental que todas las modificaciones sean documentadas y aprobadas por la DEP y CIDAP.
+5. Digitalizar todos los procesos administrativos (solicitudes de convocatoria, formatos de apoyos económicos y convenios del [[Catálogo Formas básicas.pdf]] ) y de formación de los educadores comunitarios para mejorar la eficiencia operativa.
+6. Organizar los programas de capacitación intensiva durante el periodo marcado en calendario  para los educadores comunitarios, siguiendo el modelo de formación inicial intensiva descrito en https://educacionbasica.sep.gob.mx/taller-intensivo-de-formacion-continua-para-directivos-y-docentes/ .
 7. Cargar y distribuir materiales didácticos digitales para educadores y estudiantes comunitarios según las etapas de cada EC.
 8. Cargar de la bitácora del educador comunitario para su evaluación docente ,describiendo su relación con la comunidad y si existió alguna problemática entre los estudiantes y la comunidad en su periodo de estadía .
 10. Llenado de formas de evaluación del [[Catálogo Formas básicas.pdf]] al realizar las visitas de acompañamiento y revisión de las bitácoras del EC por parte del ECA para asegurar la evaluación de los EC en permanencia y su  progreso como docente.
-11. Cargar  la  solicitud de la convocatoria por parte del aspirante usando el .
+11. Cargar   y captar  la  solicitud de la convocatoria por parte de los aspirantes junto con los documentos y datos requeridos en la convocatoria().
 12. Descargar  la respuesta a  la solicitud  del aspirante con su estatus. 
-13. Captar los datos de los aspirantes
-14. Gestionar CCT's
-15. Llenado de formas para seguimiento
-16. Firmar digitalmente los convenios después de la capacitación
-17. Solicitar apoyos de los docentes
-18. Aprobar apoyos solicitados por los docentes
-19. Cargar las metas de la PRODET
-20. Visualizar las metas de la PRODET
+13. Insertar en la bases de datos todos los registros de los CCT´s según los siguientes catálogos https://escuelasmex.com/curso-comunitario-indigena , https://escuelasmex.com/servicios-educativos, https://www.siged.sep.gob.mx/SIGED/escuelas.html ; regidos por las normas de http://148.235.6.142/user1/2017/2/P/XXX/SEC/ManualdelCatalogodeCentrosdeTrabajo.pdf  para pode obtener un mapa de los CCT.
+14. Carga de los formatos de presupuestos y apoyos económicos por parte de la CIDAP  usando los formatos de [[MDP disponibilidades financieras.pdf]] .Y actualizando dicho formato según los acuerdos que se definan en la PRODET.
+16. Entrega de convenio al termino de la etapa inicial del EC , verificado por las evaluaciones (formato de evaluación en [[Catálogo Formas básicas.pdf]]) realizadas al mismo  por parte de la ECA para su firma electrónica.
+17. Visualización de la lista de los EC a cargo de los ECA para realizar su evaluación en la etapa permanente del proceso de capacitación por cada región estatal, siguiendo los formatos de evaluación de [[Catálogo Formas básicas.pdf]]
+18. Carga los  formatos de solicitud de apoyos económicos por parte del EC durante el proceso de operación dentro del CCT asignado y esta debe reflejarse en su expediente único digital   si su apoyo es aceptado.
+19. Verificación de la transferencia (monto) acorde con el apoyo solicitado por parte del EC y la constancias de apoyos económicos electrónicos adjunta a su expediente único digital de la figura educativa.
 
 ### Restricciones 
-+++ Enlista 3 constraints para el proyecto+++
 
-1. Constraint
-2. Constraint
-3. Constraint
+1. *Tiempo.* Debido a que el proyecto se va a entregar en Diciembre, nos quedan 2 meses de desarrollo y habrá que limitar su alcance para alcanzar los objetivos más importantes.
+2. *Entendimiento del modelo de negocio.* Debido a que no conocemos directamente la estructura del CONAFE, y que el planteamiento de sus procesos puede no estar completo ni actualizado, complica la compresión y el desarrollo de los mismos.
+3. *Falta de experiencia del equipo de desarrollo.* Debido a que muchos de los proyectos que los integrantes del equipo han desarrollado no se adaptan a entregables realistas, ni se cuenta con experiencia laboral significativa, puede que sea difícil adaptarse a trabajar bajo un modelo formal. 
+4. *Trabajos externos al proyecto.* Debido a que los integrantes del equipo cuentan con actividades externas al desarrollo del proyecto, el enfoque puede no estar totalmente dirigido hacia este proyecto. 
+5. *Recursos computacionales limitados.* Debido a que no todos cuentan con una computadora portátil, nos vemos obligados a trabajar a distancia, o en el horario de la materia. Esto limita gravemente el seguimiento del proyecto. Además, en la escuela no se cuenta con las capacidades, sobre todo de internet, lo que obstaculiza el desarrollo eficaz.
 
-### Rangos de Calidad 
-Define los rangos de calidad para performance, robustez, tolerancia de fallos, usabilidad y características similares que no son capturadas en el conjunto de features.
-SKIP
-
-### Prioridad y Precedencia 
-Define la prioridad de los diferentes features.
-SKIP
-
-### Requerimientos Adicionales 
-A un alto nivel, enlista estándares aplicables, requerimientos de hardware o de plataforma, requerimientos de performance y requerimientos de ambiente.
-SKIP
-
-### Requerimientos de documentación 
-Esta sección describe la documentación que se debe desarrollar para apoyar el deployment exitoso de la aplicación.
-SKIP, ¿Quién rayos quiere saber esta cosa?
-
-### Anexos 1 - Atributos de caracteristicas
-Las features deberían tener atributos para que puedan ser evaluados, rastreados, priorizados y pode manejar los items propuestos para implementación. Todos los tipos de requerimientos y atributos deben de ser destacados en el Plan de Manejo de Requerimientos; sin embargo, tal vez quieras enlistar y describir brevemente los atributos para las features que se han elegido. Las subsecciones siguientes representan el conjunto de atributos de features sugerido.
-SKIP
