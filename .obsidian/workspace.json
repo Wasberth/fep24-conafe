@@ -8,51 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6b29e7cdfd8f8734",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas Documentos/Propuesta 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d5782040a4bc81e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf"
-              }
-            }
-          },
-          {
-            "id": "05d2b1d9294c8466",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Propuesta 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22be9c6616320437",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf"
-              }
-            }
-          },
-          {
-            "id": "a299357bd113cfcc",
+            "id": "458aca3edab23452",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +18,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8556459ff7692266",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf"
+              }
+            }
+          },
+          {
+            "id": "3a71cff55ecc415b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf"
+              }
+            }
+          },
+          {
+            "id": "51be365ba87bd6b5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MIF CIDAP.pdf"
+              }
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 293.5
   },
   "right": {
     "id": "13c7db72e272f76f",
@@ -191,10 +176,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a299357bd113cfcc",
+  "active": "458aca3edab23452",
   "lastOpenFiles": [
-    "Propuesta 2.md",
+    "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf",
+    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MIF CIDAP.pdf",
     "Visión del proyecto.md",
+    "Notas Documentos/Templates/T_MDP.md",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
+    "Untitled 1.canvas",
+    "Propuesta 2.md",
+    "Notas Documentos/Propuesta 1.md",
+    "Notas Documentos/Manuales/MDPs/Microplaneación.md",
+    "[Microplaneación.md",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Sed.pdf",
+    "Notas Documentos/Manuales/MDPs/Sistema de Estudios a Docentes.md",
+    "Notas Documentos/Manuales/MIF's/Sistema de Estudios a Docentes.md",
+    "Notas Documentos/Manuales/Manual de Integración y Funcionamiento.md",
     "Jefatura de Información y Apoyo Logístico.md",
     "investigador de campo.md",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/PRODET metas.pdf",
@@ -203,21 +201,12 @@
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Bases adquisiciones.pdf",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Apoyos SEP.pdf",
     "Untitled.canvas",
-    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
     "Notas Documentos/Manuales/Manual de Procedimiento.md",
-    "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf",
-    "Notas Documentos/Manuales/Manual de Integración y Funcionamiento.md",
     "Imagen de WhatsApp 2024-09-25 a las 11.29.12_2f96f563.jpg",
     "Untitled.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
-    "Notas Documentos/Propuesta 1.md",
     "Cordinador Territorial.md",
     "Notas Documentos/Programación Detallada Anual.md",
     "petición de servicios educativos.md",
-    "Notas Documentos/Manuales/MDPs/Microplaneación.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/Procedimientos cancelar adeudos.pdf",
-    "Notas Documentos/Templates/T_MDP.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MIF Subcomite Adquisiciones.pdf",
     "Notas Documentos/Manuales/MIF's/Subcomité Revisor de Convocatorias e Invitaciones.md",
     "profesor de acompañamiento.md",
     "Notas Documentos/Diagrama de Usuarios.canvas",
