@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1a4c592ef031945d",
+        "id": "9a196e4a02342472",
         "type": "tabs",
         "children": [
           {
-            "id": "458aca3edab23452",
+            "id": "a064d8e52fdb18c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,27 +20,41 @@
             }
           },
           {
-            "id": "8556459ff7692266",
+            "id": "7f636b34354c2624",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf"
+                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP equipamento figuras educativas.pdf"
               }
             }
           },
           {
-            "id": "0d470db309e92fac",
+            "id": "2f86c0bf87639611",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Apoyos economicos.pdf"
+                "file": "Planeación.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "3a71cff55ecc415b",
+            "id": "80f62e92cb19660a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planeación pero por alguien que no sabe escribir Uwu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "009db7ba4b90b71f",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -50,92 +64,12 @@
             }
           },
           {
-            "id": "b8a7b0aa3f29cbd9",
+            "id": "adfc6b97f21379e2",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Sed.pdf"
-              }
-            }
-          },
-          {
-            "id": "e4aa69d87437fe03",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf"
-              }
-            }
-          },
-          {
-            "id": "9f5665ab34687988",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP organo interno.pdf"
-              }
-            }
-          },
-          {
-            "id": "d985131787f795d2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf"
-              }
-            }
-          },
-          {
-            "id": "05b2fc85a69919d6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Subdireccion de planeacion.pdf"
-              }
-            }
-          },
-          {
-            "id": "aa7ffbc3e85b7cab",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP almacenes.pdf"
-              }
-            }
-          },
-          {
-            "id": "e87725a354add6b0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf"
-              }
-            }
-          },
-          {
-            "id": "c03f3b9d5d2d362f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Levantamiento Estadistico.pdf"
-              }
-            }
-          },
-          {
-            "id": "672ce5690b5ec4a8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/Manual de operación de la subdirección financiera del conafe.pdf"
+                "file": "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf"
               }
             }
           }
@@ -266,25 +200,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "458aca3edab23452",
+  "active": "a064d8e52fdb18c2",
   "lastOpenFiles": [
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf",
+    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
     "Visión del proyecto.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP almacenes.pdf",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Apoyos economicos.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP equipamento figuras educativas.pdf",
+    "Planeación.md",
+    "Planeación pero por alguien que no sabe escribir Uwu.md",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP subdireccion programacion y seguimiento.pdf",
+    "Notas Documentos/Manuales/MDPs/Subdirección Programación y Seguimiento.md",
+    "Propuesta 2.md",
     "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/Manual de operación de la subdirección financiera del conafe.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Levantamiento Estadistico.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP almacenes.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Subdireccion de planeacion.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf",
     "Notas Documentos/Manuales/MIF's/Comité de Bienes Muebles.md",
     "Notas Documentos/Manuales/MDPs/Subdireccion financiera.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Levantamiento Estadistico.pdf",
     "Notas Documentos/Manuales/MDPs/Levantamiento Estadístico.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP disponibilidades financieras.pdf",
     "Notas Documentos/Manuales/MDPs/Disponibilidades Financieras.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Sed.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP organo interno.pdf",
     "Notas Documentos/Manuales/MDPs/Registro y Control de Bienes Muebles.md",
-    "Notas Documentos/Manuales/MDPs/Subdirección Programación y Seguimiento.md",
     "Notas Documentos/Manuales/MDPs/Sistema de Estudios a Docentes.md",
     "Notas Documentos/Manuales/MDPs/Planeación y Evaluación Institucional.md",
     "Notas Documentos/Manuales/MDPs/Subdirección de Presupuesto.md",
@@ -298,11 +235,8 @@
     "Notas Documentos/Manuales/MDPs/Almacenes.md",
     "Notas Documentos/Manuales/MIF's/Sistema de Estudios a Docentes.md",
     "Notas Documentos/Manuales/MDPs/Microplaneación.md",
-    "Propuesta 2.md",
     "profesor de acompañamiento.md",
     "petición de servicios educativos.md",
-    "Jefatura de Información y Apoyo Logístico.md",
-    "investigador de campo.md",
     "Notas Documentos/Diagrama de Usuarios.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
