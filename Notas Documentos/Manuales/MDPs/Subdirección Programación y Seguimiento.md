@@ -1,8 +1,8 @@
 
 | [[Manual de Procedimiento]] de la | [[MDP subdireccion programacion y seguimiento.pdf\|Subdirección Programación y Seguimiento]] |
-| --------------------------------- | -------------------------------------------------------------------------------------------- |
-| Palabras clave                    | #mdp #programacion #seguimiento                                                              |
-| Objetivo                          | Revisar los procedimientos de la subdirección                                                |
+|-----------------------------|-------------------------------------------|
+| Palabras clave              | #mdp #programacion #seguimiento|
+| Objetivo                    | Revisar los procedimientos de la subdirección |
 
 ---
 

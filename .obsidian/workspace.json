@@ -36,42 +36,6 @@
             }
           },
           {
-            "id": "7f636b34354c2624",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP equipamento figuras educativas.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "MDP equipamento figuras educativas"
-            }
-          },
-          {
-            "id": "009db7ba4b90b71f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Catálogo Formas básicas"
-            }
-          },
-          {
-            "id": "adfc6b97f21379e2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Lineamientos Formación"
-            }
-          },
-          {
             "id": "f1a979982aea1c9f",
             "type": "leaf",
             "state": {
@@ -139,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "13c7db72e272f76f",
@@ -226,34 +191,36 @@
   },
   "active": "b5b0c4aa6ceb8345",
   "lastOpenFiles": [
+    "Notas Documentos/FEPI/~$Catalogo_SIC_2024.xlsx",
     "Planeación de Proyecto SIGUEEC.md",
-    "Visión del proyecto.md",
-    "Notas Documentos/Templates/T_MDP.md",
     "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf",
-    "Notas Documentos/Manuales/MDPs/Control escolar.md",
-    "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf",
-    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP equipamento figuras educativas.pdf",
-    "Planeación.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP subdireccion programacion y seguimiento.pdf",
+    "Visión del proyecto.md",
     "Notas Documentos/Manuales/MDPs/Subdirección Programación y Seguimiento.md",
-    "Propuesta 2.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/Manual de operación de la subdirección financiera del conafe.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Levantamiento Estadistico.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP almacenes.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Subdireccion de planeacion.pdf",
-    "Notas Documentos/Manuales/MIF's/Comité de Bienes Muebles.md",
+    "Notas Documentos/Manuales/MDPs/MP Equipamento de Fig Educativa.pdf",
+    "Notas Documentos/FEPI/MDP subdireccion programacion y seguimiento.pdf",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP equipamento figuras educativas.pdf",
+    "Notas Documentos/Manuales/MDPs/Subdirección de Producción Editorial.md",
+    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP subdireccion produccion editorial.pdf",
+    "Notas Documentos/Manuales/Manual de Integración y Funcionamiento.md",
+    "Notas Documentos/Manuales/Manual de Procedimiento.md",
     "Notas Documentos/Manuales/MDPs/Subdireccion financiera.md",
+    "Notas Documentos/FEPI/Manual de operación de la subdirección financiera del conafe.pdf",
+    "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf",
+    "Notas Documentos/Manuales/MDPs/Control escolar.md",
+    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
+    "Notas Documentos/FEPI/ROP2024.pdf",
+    "Notas Documentos/FEPI/MP Equipamento de Fig Educativa.pdf",
+    "Notas Documentos/FEPI/Diagrama Casos  Propuesta 1 FEPI.jpg",
+    "Notas Documentos/Templates/T_MDP.md",
+    "Planeación.md",
+    "Propuesta 2.md",
+    "Notas Documentos/Manuales/MIF's/Comité de Bienes Muebles.md",
     "Notas Documentos/Manuales/MDPs/Levantamiento Estadístico.md",
     "Notas Documentos/Manuales/MDPs/Disponibilidades Financieras.md",
     "Notas Documentos/Manuales/MDPs/Registro y Control de Bienes Muebles.md",
     "Notas Documentos/Manuales/MDPs/Sistema de Estudios a Docentes.md",
     "Notas Documentos/Manuales/MDPs/Planeación y Evaluación Institucional.md",
     "Notas Documentos/Manuales/MDPs/Subdirección de Presupuesto.md",
-    "Notas Documentos/Manuales/MDPs/Subdirección de Producción Editorial.md",
-    "Notas Documentos/Manuales/Manual de Integración y Funcionamiento.md",
-    "Notas Documentos/Manuales/Manual de Procedimiento.md",
     "Notas Documentos/Manuales/MDPs/Control de Gestión.md",
     "Notas Documentos/Manuales/MDPs/Otorgación de apoyos económicos bajo condiciones específicas.md",
     "Notas Documentos/Manuales/MDPs/Organo Interno de Control.md",
@@ -261,7 +228,6 @@
     "Notas Documentos/Manuales/MIF's/Sistema de Estudios a Docentes.md",
     "Notas Documentos/Manuales/MDPs/Microplaneación.md",
     "profesor de acompañamiento.md",
-    "petición de servicios educativos.md",
     "Notas Documentos/Diagrama de Usuarios.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

@@ -1,1 +1,8 @@
-{}
+{
+	"nodes":[
+		{"id":"77abf5a3a8b2728f","x":-500,"y":-320,"width":250,"height":60,"type":"text","text":"Texto"},
+		{"id":"128ad38af29158e1","x":-460,"y":-220,"width":400,"height":400,"type":"file","file":"Templates/T_MDP.md"},
+		{"id":"9be0466ef2946e7e","x":0,"y":-220,"width":400,"height":400,"type":"file","file":"Documentos CONAFE/Manuales y procedimientos/MDP Material audiovisual.pdf"}
+	],
+	"edges":[]
+}

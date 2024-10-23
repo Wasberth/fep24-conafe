@@ -4,61 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d223a8afc2dc85fc",
+        "id": "80f07cf366e8c85c",
         "type": "tabs",
         "children": [
           {
-            "id": "626c30265d7aa5f8",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Diagrama de Usuarios.canvas",
-                "viewState": {
-                  "x": 69.45056973660876,
-                  "y": 60.46927111673614,
-                  "zoom": -1.0431402241438628
-                }
-              }
-            }
-          },
-          {
-            "id": "e1f4b8f54e594f86",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "ROLES.canvas",
-                "viewState": {
-                  "x": -31,
-                  "y": -60,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "98927da3b83c2291",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf"
-              }
-            }
-          },
-          {
-            "id": "d764b2698548eed6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf"
-              }
-            }
-          },
-          {
-            "id": "86ed7ded0f66107e",
+            "id": "f05355f8716e676f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,12 +20,46 @@
             }
           },
           {
-            "id": "810d335dd62829d8",
+            "id": "0140159e7b26f754",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf"
+              }
+            }
+          },
+          {
+            "id": "626c30265d7aa5f8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Documentos CONAFE/Manuales y procedimientos/MDP Subdireccion de planeacion.pdf"
+              }
+            }
+          },
+          {
+            "id": "b830a04c6581a108",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manuales/MDPs/Dirección de Asuntos Jurídicos.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f96f9378ce31e39b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manuales/MDPs/Subdireccion financiera.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -109,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lineamientos",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROLES.canvas",
+                "file": "Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROLES.canvas",
+                "file": "Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROLES.canvas"
+                "file": "Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf"
               }
             }
           }
@@ -208,46 +192,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1f4b8f54e594f86",
+  "active": "b2e75901d413183d",
   "lastOpenFiles": [
-    "Programación Detallada Anual.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "ROLES.canvas",
-    "Propuesta 1.md",
-    "Sistema Único de Control Escolar de Educación Comunitaria.md",
-    "Tesorería de la Federación.md",
-    "Untitled.canvas",
-    "Plan Nacional de Evaluación de los Aprendizajes.md",
-    "Modelo educativo intercultural para la población infantil migrante.md",
-    "Educador comunitario.md",
-    "Diagrama de Usuarios.canvas",
-    "Apoyo económico a docentes o beneficiaros.md",
-    "Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf",
-    "Documentos CONAFE/Otros/Elementos Basicos Formación.pdf",
-    "Lineamientos para la organización y.md",
-    "Gestion de recursos.md",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Microplaneacion.pdf",
     "Manuales/MDPs/Microplaneación.md",
-    "Manuales/MDPs/Registro y Control de Bienes Muebles.md",
-    "Manuales/MIF's/Comité de Bienes Muebles.md",
-    "Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
-    "Manuales/MDPs/Control escolar.md",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf",
-    "Manuales/MIF's/Consejo Nacional de Fomento Educativo.md",
-    "Documentos CONAFE/Manuales y procedimientos/Manual de organizacion del conafe.pdf",
-    "Manuales/Manual de Integración y Funcionamiento.md",
-    "Documentos CONAFE/Bases y Lineamientos/LINEAMIENTOS GENERALES DEL SISTEMA DE FORMACIÓN EN LA PRÁCTICA EDUCATIVA COMUNITARIA.pdf",
+    "Manuales/MDPs/Planeación y Evaluación Institucional.md",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Subdireccion de planeacion.pdf",
+    "Programación Detallada Anual.md",
     "Manuales/MDPs/Subdireccion financiera.md",
     "Manuales/MDPs/Dirección de Asuntos Jurídicos.md",
-    "Manuales/MDPs/Organo Interno de Control.md",
-    "Documentos CONAFE/Manuales y procedimientos/MDP Subdireccion de planeacion.pdf",
-    "Manuales/MDPs/Planeación y Evaluación Institucional.md",
     "Manuales/MDPs/Comercialización de ediciones CONAFE en oficinas centrales.md",
+    "Untitled.canvas",
+    "Untitled.md",
     "Manuales/MDPs/Recepción de Donaciones y Donativos.md",
     "Documentos CONAFE/Manuales y procedimientos/MDP Donaciones.pdf",
+    "Apoyo económico a docentes o beneficiaros.md",
+    "Educador comunitario.md",
     "Templates/T_MDP.md",
-    "Manuales/MDPs/Otorgación de apoyos económicos bajo condiciones específicas.md"
+    "Manuales/MDPs/Otorgación de apoyos económicos bajo condiciones específicas.md",
+    "Manuales/MDPs/Levantamiento Estadístico.md",
+    "Manuales/MDPs/Registro y Control de Bienes Muebles.md",
+    "Modelo educativo intercultural para la población infantil migrante.md",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Apoyos economicos.pdf",
+    "Manuales/Manual de Procedimiento.md",
+    "Manuales/Manual de Integración y Funcionamiento.md",
+    "Manuales/MDPs/Subdirección Programación y Seguimiento.md",
+    "Manuales/MDPs/Subdirección de Producción Editorial.md",
+    "Manuales/MDPs/Subdirección de Presupuesto.md",
+    "Manuales/MDPs/Sistema de Estudios a Docentes.md",
+    "Manuales/MDPs/Organo Interno de Control.md",
+    "Manuales/MDPs/Materia Audiovisual.md",
+    "Manuales/MDPs/Disponibilidades Financieras.md",
+    "Manuales/MDPs/Convenios con Sectores.md",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Material audiovisual.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Convenios.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/Manual de organizacion del conafe.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Comercializacion Ediciones.pdf",
+    "Documentos CONAFE/Bases y Lineamientos/Bases generales para el registro, afectación, disposición final y baja de bienes muebles del Conafe..pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Bienes muebles.pdf",
+    "Documentos CONAFE/Manuales y procedimientos/MDP Sed.pdf"
   ]
 }

@@ -1,8 +1,8 @@
 
-| [[Manual de Procedimiento]] de | [[MDP Control escolar.pdf\|Control escolar]]                        |
-| ------------------------------ | ------------------------------------------------------------------- |
-| Palabras clave                 | #mdp #control/escolar #alumnos #estudios                            |
-| Objetivo                       | Establecer los procedimientos para la operación del control escolar |
+| [[Manual de Procedimiento]] de | [[MDP Control escolar.pdf\|Control escolar]]                                 |
+|-----------------------------|-------------------------------------------|
+| Palabras clave              | #mdp #control/escolar #alumnos #estudios|
+| Objetivo                    | Establecer los procedimientos para la operación del control escolar |
 
 ---
 

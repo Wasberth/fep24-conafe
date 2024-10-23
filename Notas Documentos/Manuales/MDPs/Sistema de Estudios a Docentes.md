@@ -1,7 +1,7 @@
-| [[Manual de Procedimiento]] de | [[MDP Sed.pdf\|Sistema de Estudios a Docentes]]                                                 |
-| ------------------------------ | ----------------------------------------------------------------------------------------------- |
-| Palabras clave                 | #mdp #docentes #estudios #apoyo                                                                 |
-| Objetivo                       | Normar los procesos por los que se rigen los Beneficiarios en el sistema de estudios a docentes |
+| [[Manual de Procedimiento]] de | [[MDP Sed.pdf\|Sistema de Estudios a Docentes]] |
+|-----------------------------|-------------------------------------------|
+| Palabras clave              | #mdp #docentes #estudios #apoyo|
+| Objetivo                    | Normar los procesos por los que se rigen los Beneficiarios en el sistema de estudios a docentes |
 
 ---
 
