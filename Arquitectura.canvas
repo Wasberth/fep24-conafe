@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"7bd7793469d5ef4b","type":"text","text":"Interfaz Web","x":-218,"y":-185,"width":157,"height":60},
+		{"id":"9e014b88d5dab3df","x":-472,"y":-31,"width":224,"height":92,"type":"text","text":"MS1 Módulo de autenticación"}
+	],
+	"edges":[]
+}
