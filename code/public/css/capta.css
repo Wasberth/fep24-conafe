@@ -1,0 +1,158 @@
+nav {
+    background-color: #700c34;
+}
+
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.get-in-touch .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+    color: #700c34;
+    background: #700c34;
+/*
+    background: -moz-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
+    background: -webkit-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
+    background: linear-gradient(to right, #f4524d 0%, #5543ca 100%) !important;
+*/
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #700c34;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+    outline: none;
+}
+
+.contact-form .input-text:focus+.label,
+.contact-form .input-text.not-empty+.label {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+}
+
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #8c264f;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out,
+        -webkit-transform .2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+    background-image: linear-gradient(125deg, #a72879, #064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.contact-form input[type="date"] {
+    height: auto; /* Permite al navegador manejar la altura del campo */
+    line-height: normal; /* Restablece el comportamiento predeterminado */
+    padding: 6px; /* Agrega algo de espacio interno para evitar solapamiento */
+    border-width: 1px; /* Reduce el borde inferior */
+}
+
+.contact-form input[type="date"] + .label {
+    bottom: auto; /* Desactiva el posicionamiento absoluto basado en el campo */
+    top: -24px; /* Ajusta la posición superior para simular el desplazamiento */
+    left: 0;
+}
+
+.contact-form input[type="date"]:focus + .label {
+    transform: translateY(-30px); /* Ajusta correctamente al enfoque */
+}
+
+.contact-form input[type="date"]:not(:placeholder-shown) + .label {
+    transform: translateY(-30px); /* Asegura que el label se mueva en campos llenos */
+}
+
+.contact-form input[type="date"]:focus {
+    outline: none; /* Desactiva el estilo predeterminado al enfocarse */
+    border-color: #8c264f; /* Cambia el color del borde en el enfoque */
+}
+
+.contact-form select {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 2px solid #700c34;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 4px 8px;
+    background-color: transparent; /* Fondo transparente para integrarlo mejor */
+    color: #000; /* Color de texto */
+    border-radius: 4px;
+    appearance: none; /* Elimina el estilo por defecto */
+    -webkit-appearance: none; /* Compatibilidad con Safari */
+    -moz-appearance: none; /* Compatibilidad con Firefox */
+    cursor: pointer;
+    position: relative;
+}
+
+.contact-form select:focus {
+    outline: none;
+    border-color: #8c264f; /* Color de borde en foco */
+}
+
+.contact-form select + .label {
+    position: absolute;
+    left: 10px;
+    top: -18px; /* Posición para simular el movimiento */
+    font-size: 16px;
+    color: #8c264f;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-form select:not(:placeholder-shown) + .label {
+    transform: translateY(-24px);
+}
+
+.contact-form select:focus + .label {
+    transform: translateY(-24px);
+}
+
+.contact-form select::after {
+    content: '▼'; /* Agrega una flecha para simular el desplegable */
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    font-size: 16px;
+    color: #8c264f;
+    pointer-events: none; /* Evita interacción con la flecha */
+}

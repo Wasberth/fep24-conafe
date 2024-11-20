@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Captación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/capta.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>CONAFE</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Página principal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="get-in-touch">
+        <h1 class="title">Solicitud de incorporación de Figuras Educativas</h1>
+        <p>El proceso de captación de aspirantes a Líder para la Educación Comunitaria es un trámite gratuito</p>
+        <form class="contact-form row">
+            <div class="form-field col-lg-12">
+                <input id="curp" class="input-text js-input" type="text" required>
+                <label class="label" for="curp">CURP*:</label>
+            </div>
+            <div class="form-field col-lg-12 ">
+                <input id="nombre" class="input-text js-input" type="email" required>
+                <label class="label" for="nombre">Nombre(s)*:</label>
+            </div>
+            <div class="form-field col-lg-6 ">
+                <input id="apellido1" class="input-text js-input" type="text" required>
+                <label class="label" for="apellido1">Primer apellido*:</label>
+            </div>
+            <div class="form-field col-lg-6 ">
+                <input id="apellido2" class="input-text js-input" type="text">
+                <label class="label" for="apellido2">Segundo apellido</label>
+            </div>
+            <div class="form-field col-lg-4">
+                <input id="fecha-nacimiento" class="input-text js-input" type="date" required>
+                <label class="label" for="fecha-nacimiento">Fecha de nacimiento*:</label>
+            </div>
+            <div class="form-field col-lg-4">
+                <select id="genero" class="js-input" required>
+                    <option value="" disabled selected hidden>Seleccione una opción</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <label class="label" for="genero">Género*:</label>
+            </div>
+            <div class="form-field col-lg-4">
+                <select id="nacionalidad" class="js-input" required>
+                    <option value="" disabled selected hidden>Seleccione una opción</option>
+                    <option value="mexicano">Mexicano</option>
+                    <option value="extranjero">Extranjero</option>
+                </select>
+                <label class="label" for="nacionalidad">Nacionalidad*:</label>
+            </div>
+            <div class="form-field col-lg-4">
+                <select id="playera" class="js-input" required>
+                    <option value="" disabled selected hidden>Seleccione una opción</option>
+                    <option value="c">Chico</option>
+                    <option value="m">Mediano</option>
+                    <option value="g">Grande</option>
+                    <option value="xg">Extra Grande</option>
+                </select>
+                <label class="label" for="playera">Talla de Playera*:</label>
+            </div>
+            <div class="form-field col-lg-4">
+                <select id="pantalon" class="js-input" required>
+                    <option value="" disabled selected hidden>Seleccione una opción</option>
+                    <option value="c">Chico</option>
+                    <option value="m">Mediano</option>
+                    <option value="g">Grande</option>
+                    <option value="xg">Extra Grande</option>
+                </select>
+                <label class="label" for="pantalon">Talla de Pantalón*:</label>
+            </div>
+            <div class="form-field col-lg-4">
+                <select id="calzado" class="js-input" required>
+                    <option value="" disabled selected hidden>Seleccione una opción</option>
+                    <option value="20">20</option>
+                    <option value="20.5">20.5</option>
+                    <option value="21">21</option>
+                    <option value="21.5">21.5</option>
+                    <option value="22">22</option>
+                    <option value="22.5">22.5</option>
+                    <option value="23">23</option>
+                    <option value="23.5">23.5</option>
+                    <option value="24">24</option>
+                    <option value="24.5">24.5</option>
+                    <option value="25">25</option>
+                    <option value="25.5">25.5</option>
+                    <option value="26">26</option>
+                    <option value="26.5">26.5</option>
+                    <option value="27">27</option>
+                    <option value="27.5">27.5</option>
+                    <option value="28">28</option>
+                    <option value="28.5">28.5</option>
+                    <option value="29">29</option>
+                    <option value="29.5">29.5</option>
+                    <option value="30">30</option>
+                </select>
+                <label class="label" for="calzado">Talla de Calzado*:</label>
+            </div>
+            <div class="form-field col-lg-4">
+                <select id="banco" class="js-input" required>
+                    <option value="" disabled selected hidden>Seleccione una opción</option>
+                    <option value="ABC Capital">ABC Capital</option>
+                    <option value="Banca Afirme">Banca Afirme</option>
+                    <option value="Banca Mifel">Banca Mifel</option>
+                    <option value="Banco Actinver">Banco Actinver</option>
+                    <option value="Banco Azteca">Banco Azteca</option>
+                    <option value="Banco Bancrea">Banco Bancrea</option>
+                    <option value="Banco Base">Banco Base</option>
+                    <option value="Banco Bineo">Banco Bineo</option>
+                    <option value="Banco Compartamos">Banco Compartamos</option>
+                    <option value="Banco Covalto">Banco Covalto</option>
+                    <option value="Banco Credit Suisse (México)">Banco Credit Suisse (México)</option>
+                    <option value="Banco de Inversión Afirme">Banco de Inversión Afirme</option>
+                    <option value="Banco del Bajío">Banco del Bajío</option>
+                    <option value="Banco Forjadores">Banco Forjadores</option>
+                    <option value="Banco Inbursa">Banco Inbursa</option>
+                    <option value="Banco Inmobiliario Mexicano">Banco Inmobiliario Mexicano</option>
+                    <option value="Banco Invex">Banco Invex</option>
+                    <option value="Banco JP Morgan">Banco JP Morgan</option>
+                    <option value="Banco KEB Hana México">Banco KEB Hana México</option>
+                    <option value="Banco Monex">Banco Monex</option>
+                    <option value="Banco Multiva">Banco Multiva</option>
+                    <option value="Banco PagaTodo">Banco PagaTodo</option>
+                    <option value="Banco Regional de Monterrey">Banco Regional de Monterrey</option>
+                    <option value="Banco S3 Caceis México">Banco S3 Caceis México</option>
+                    <option value="Banco Sabadell">Banco Sabadell</option>
+                    <option value="Banco Santander">Banco Santander</option>
+                    <option value="Banco Shinhan de México">Banco Shinhan de México</option>
+                    <option value="Banco Ve por Más">Banco Ve por Más</option>
+                    <option value="BanCoppel">BanCoppel</option>
+                    <option value="Bank of America Mexico">Bank of America Mexico</option>
+                    <option value="Bank of China Mexico">Bank of China Mexico</option>
+                    <option value="Bankaool">Bankaool</option>
+                    <option value="Banorte">Banorte</option>
+                    <option value="Bansí">Bansí</option>
+                    <option value="Barclays Bank México">Barclays Bank México</option>
+                    <option value="BBVA México">BBVA México</option>
+                    <option value="BNP Paribas">BNP Paribas</option>
+                    <option value="CBM Banco">CBM Banco</option>
+                    <option value="CIBanco">CIBanco</option>
+                    <option value="Citibanamex">Citibanamex</option>
+                    <option value="Consubanco">Consubanco</option>
+                    <option value="Fundación Dondé Banco">Fundación Dondé Banco</option>
+                    <option value="HSBC México">HSBC México</option>
+                    <option value="Industrial and Commercial Bank of China">Industrial and Commercial Bank of China</option>
+                    <option value="Kapital Bank">Kapital Bank</option>
+                    <option value="Intercam Banco">Intercam Banco</option>
+                    <option value="Mizuho Bank">Mizuho Bank</option>
+                    <option value="MUFG Bank Mexico">MUFG Bank Mexico</option>
+                    <option value="Openbank">Openbank</option>
+                    <option value="Revolut">Revolut</option>
+                    <option value="Scotiabank">Scotiabank</option>
+                </select>
+                <label class="label" for="banco">Banco*:</label>
+            </div>
+            <div class="form-field col-lg-4 ">
+                <input id="cuenta_bancaria" class="input-text js-input" type="text">
+                <label class="label" for="cuenta_bancaria">Cuenta bancaria (sólo en caso de bancomer)</label>
+            </div>
+            <div class="form-field col-lg-4 ">
+                <input id="clabe" class="input-text js-input" type="text">
+                <label class="label" for="CLABE">CLABE (Banco diferente a Bancomer)</label>
+            </div>
+            <div class="form-check col-lg-12">
+                <input class="form-check-input" type="checkbox" value="" id="lengua">
+                <label class="form-check-label" for="lengua">
+                    ¿Habla alguna lengua indígena?
+                </label>
+            </div>
+            <div class="form-field col-lg-4 ">
+                <input id="email" class="input-text js-input" type="email">
+                <label class="label" for="email">Correo electrónico</label>
+            </div>
+            <div class="form-field col-lg-4 ">
+                <input id="telefono_fijo" class="input-text js-input" type="text">
+                <label class="label" for="telefono_fijo">Teléfono Fijo (10 dígitos)</label>
+            </div>
+            <div class="form-field col-lg-4 ">
+                <input id="telefono_movil" class="input-text js-input" type="text">
+                <label class="label" for="telefono_movil">Teléfono Movil (10 dígitos)</label>
+            </div>
+            <div class="form-field col-lg-4">
+                <select id="nivel_educativo" class="js-input" required>
+                    <option value="" disabled selected hidden>Seleccione una opción</option>
+                    <option value="primaria">Educación Primaria</option>
+                    <option value="secundaria">Educación Postprimaria / Secundaria</option>
+                    <option value="medio superior">Educación Media superior</option>
+                    <option value="superior">Educación Superior</option>
+                </select>
+                <label class="label" for="nivel_educativo">Nivel Educativo*:</label>
+            </div>
+            <div class="form-field col-lg-4">
+                <select id="situacion_educativa" class="js-input" required>
+                    <option value="" disabled selected hidden>Seleccione una opción</option>
+                    <option value="concluida">Concluida</option>
+                    <option value="cursando">Cursando</option>
+                    <option value="trunca">Trunca</option>
+                </select>
+                <label class="label" for="situacion_educativa">Situación Educativa*:</label>
+            </div>
+            <div class="form-field col-lg-12">
+                <input class="submit-btn" type="submit" value="Subir">
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
