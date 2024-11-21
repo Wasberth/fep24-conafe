@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+<main class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h1 class="display-4 text-primary mb-4">¡Éxito!</h1>
+                    <p class="lead mb-4">Tu acción ha sido realizada con éxito.</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#2cad32" class="bi bi-check-circle mb-4" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                    </svg>
+                    <p class="mb-4">{{ extra_info }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% if redirect %}
+<meta http-equiv="refresh" content="5;url=/" />
+{% endif %}
+{% endblock %}

@@ -8,6 +8,34 @@
         "type": "tabs",
         "children": [
           {
+            "id": "19b0e40471dbe0b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Visión del proyecto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Visión del proyecto"
+            }
+          },
+          {
+            "id": "d2bcb9869b54ad53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Relación entre servicios y base de datos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relación entre servicios y base de datos"
+            }
+          },
+          {
             "id": "b5b0c4aa6ceb8345",
             "type": "leaf",
             "state": {
@@ -16,7 +44,7 @@
                 "file": "Arquitectura.canvas",
                 "viewState": {
                   "x": -9.168875468293985,
-                  "y": 26.85404273735411,
+                  "y": -66.14595726264588,
                   "zoom": 0
                 }
               },
@@ -30,12 +58,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Visión del proyecto.md",
+                "file": "Patrones de diseño.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Visión del proyecto"
+              "title": "Patrones de diseño"
             }
           },
           {
@@ -65,47 +93,8 @@
               "icon": "lucide-file",
               "title": "Matriz de Habilidades"
             }
-          },
-          {
-            "id": "d2bcb9869b54ad53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Relación entre servicios y base de datos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Relación entre servicios y base de datos"
-            }
-          },
-          {
-            "id": "6b06d8ccc26cf590",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
-          },
-          {
-            "id": "f1a979982aea1c9f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "MDP Control escolar"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,34 +235,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80f62e92cb19660a",
+  "active": "19b0e40471dbe0b6",
   "lastOpenFiles": [
-    "Patrones de diseño.md",
-    "Visión del proyecto.md",
-    "Matriz de Habilidades.md",
+    "New Text Document.txt",
     "Relación entre servicios y base de datos.md",
+    "code/pages/test.py",
+    "code/pages/index.py",
+    "code/public/convocatoria.html",
+    "code/pages/convocatoria.py",
+    "Visión del proyecto.md",
+    "code/pages/captacion.py",
+    "code/pages",
+    "Matriz de Habilidades.md",
+    "Patrones de diseño.md",
     "Arquitectura.canvas",
+    "code/public/img",
+    "code/public/js",
+    "code/dbtest.py",
+    "code/decorators.py",
     "Untitled 1.canvas",
     "petición de servicios educativos.md",
     "Planeación.md",
     "Planeación de Proyecto SIGUEEC.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP Control escolar.pdf",
     "Arquitectura.md",
-    "Notas Documentos/FEPI/~$Catalogo_SIC_2024.xlsx",
     "Notas Documentos/Manuales/MDPs/Subdirección Programación y Seguimiento.md",
-    "Notas Documentos/Manuales/MDPs/MP Equipamento de Fig Educativa.pdf",
-    "Notas Documentos/FEPI/MDP subdireccion programacion y seguimiento.pdf",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP equipamento figuras educativas.pdf",
     "Notas Documentos/Manuales/MDPs/Subdirección de Producción Editorial.md",
-    "Notas Documentos/Documentos CONAFE/Manuales y procedimientos/MDP subdireccion produccion editorial.pdf",
     "Notas Documentos/Manuales/Manual de Integración y Funcionamiento.md",
     "Notas Documentos/Manuales/Manual de Procedimiento.md",
     "Notas Documentos/Manuales/MDPs/Subdireccion financiera.md",
-    "Notas Documentos/FEPI/Manual de operación de la subdirección financiera del conafe.pdf",
-    "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/Lineamientos Formación.pdf",
     "Notas Documentos/Manuales/MDPs/Control escolar.md",
-    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
-    "Notas Documentos/FEPI/ROP2024.pdf",
     "Notas Documentos/FEPI/Diagrama Casos  Propuesta 1 FEPI.jpg",
     "Notas Documentos/Templates/T_MDP.md",
     "Propuesta 2.md",
