@@ -152,3 +152,7 @@
     color: #8c264f;
     pointer-events: none; /* Evita interacción con la flecha */
 }
+
+.etiqueta-formulario{
+    color: #700c34;
+}
