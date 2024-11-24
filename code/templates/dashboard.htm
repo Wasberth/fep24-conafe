@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}Panel de Control{% endblock %}
+
+{% block content %}
+<section class="dashboard container">
+    <h1 class="title">Panel de Control</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>CURP</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for convocatoria in convocatorias %}
+            <tr>
+                <td>{{ convocatoria._id }}</td>
+                <td>{{ convocatoria.nombre }}</td>
+                <td>{{ convocatoria.curp }}</td>
+                <td>
+                    <form action="{{ url_for('aceptar_convocatoria', id=convocatoria._id) }}" method="post" style="display:inline;">
+                        <button type="submit">Aceptar</button>
+                    </form>
+                    <form action="{{ url_for('rechazar_convocatoria', id=convocatoria._id) }}" method="post" style="display:inline;">
+                        <button type="submit">Rechazar</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+{% endblock %}
