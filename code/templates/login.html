@@ -2,19 +2,19 @@
 {% block title %}Inicio de Sesión{% endblock %}
 
 {% block content %}
-<section class="login container">
-    <h1 class="title">Inicio de Sesión</h1>
-    <form class="login-form row" action="login" method="post">
-        <div class="form-field col-lg-12">
-            <input name="registro_id" id="registro_id" class="input-text js-input" type="text" required>
+<section class="login container d-flex flex-column justify-content-center align-items-center vh-100">
+    <h1 class="title text-center">Inicio de Sesión</h1>
+    <form class="login-form row w-100" action="auth" method="post" style="max-width: 400px;">
+        <div class="form-field col-lg-12 mb-3">
+            <input name="registro_id" id="registro_id" class="form-control input-text js-input" type="text" required>
             <label class="label" for="registro_id">ID de Registro*:</label>
         </div>
-        <div class="form-field col-lg-12">
-            <input name="curp" id="curp" class="input-text js-input" type="text" required>
+        <div class="form-field col-lg-12 mb-3">
+            <input name="curp" id="curp" class="form-control input-text js-input" type="text" required>
             <label class="label" for="curp">CURP*:</label>
         </div>
-        <div class="form-field col-lg-12">
-            <input class="submit-btn" type="submit" value="Iniciar Sesión">
+        <div class="form-field col-lg-12 text-center">
+            <input class="btn btn-primary submit-btn" type="submit" value="Iniciar Sesión">
         </div>
     </form>
 </section>
