@@ -10,7 +10,7 @@ load_dotenv()
 uri = os.environ['uri']
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['captacion']
-convocatorias = db['convocatorias']
+convocatorias = db.formulario
 
 @route('/dashboard')
 def dashboard():
