@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19b0e40471dbe0b6",
+            "id": "77f91208e29b14d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,15 +22,17 @@
             }
           },
           {
-            "id": "d25c42a0ccba0766",
+            "id": "cd5b192af3f019db",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "Historias de usuario.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "Historias de usuario"
             }
           },
           {
@@ -48,38 +50,7 @@
             }
           },
           {
-            "id": "b5b0c4aa6ceb8345",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Arquitectura.canvas",
-                "viewState": {
-                  "x": -9.168875468293985,
-                  "y": -66.14595726264588,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Arquitectura"
-            }
-          },
-          {
             "id": "80f62e92cb19660a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Patrones de diseño.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Patrones de diseño"
-            }
-          },
-          {
-            "id": "4634b233e3645b1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,7 +77,8 @@
               "title": "Matriz de Habilidades"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -247,24 +219,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19b0e40471dbe0b6",
+  "active": "cd5b192af3f019db",
   "lastOpenFiles": [
-    "New Text Document.txt",
+    "Visión del proyecto.md",
+    "Historias de usuario.md",
     "Relación entre servicios y base de datos.md",
+    "Matriz de Habilidades.md",
+    "Patrones de diseño.md",
+    "Arquitectura.canvas",
+    "New Text Document.txt",
     "code/pages/test.py",
     "code/pages/index.py",
     "code/public/convocatoria.html",
     "code/pages/convocatoria.py",
-    "Visión del proyecto.md",
     "code/pages/captacion.py",
     "code/pages",
-    "Matriz de Habilidades.md",
-    "Patrones de diseño.md",
-    "Arquitectura.canvas",
     "code/public/img",
     "code/public/js",
     "code/dbtest.py",
-    "code/decorators.py",
     "Untitled 1.canvas",
     "petición de servicios educativos.md",
     "Planeación.md",
@@ -287,7 +259,6 @@
     "Notas Documentos/Manuales/MDPs/Planeación y Evaluación Institucional.md",
     "Notas Documentos/Manuales/MDPs/Subdirección de Presupuesto.md",
     "Notas Documentos/Manuales/MDPs/Control de Gestión.md",
-    "Notas Documentos/Manuales/MDPs/Otorgación de apoyos económicos bajo condiciones específicas.md",
     "Notas Documentos/Diagrama de Usuarios.canvas",
     "Untitled.canvas",
     "Imagen de WhatsApp 2024-09-25 a las 11.29.12_2f96f563.jpg",
