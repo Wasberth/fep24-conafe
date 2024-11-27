@@ -21,16 +21,28 @@
     <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><b>CONAFE</b></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
-                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarsExample04">
+    
+            <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Página principal</a>
                     </li>
+                </ul>
+    
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    {% if 'user_id' in session %}
+                    <form action="{{ url_for('logout') }}" method="POST">
+                        <button type="submit" class="btn btn-link nav-link text-white p-0">Cerrar sesión</button>
+                    </form>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('login') }}">Iniciar sesión</a>
+                    </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>

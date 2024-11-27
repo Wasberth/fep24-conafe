@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
+app.secret_key = os.environ['secret_key']
 
 def load_pages_and_register_routes(app, pages_folder="pages"):
     """Carga las páginas de forma dinámica de la carpeta pages."""
