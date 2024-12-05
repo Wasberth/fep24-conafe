@@ -2,6 +2,7 @@ from flask import render_template, request, redirect, url_for, session, flash
 from decos import route
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+from bson.objectid import ObjectId
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -28,7 +29,7 @@ def aceptar_convocatoria(id):
     if 'user_id' not in session:
         return redirect(url_for('login'))
     
-    convocatorias.update_one({'_id': id}, {'$set': {'estado': 'aceptada'}})
+    convocatorias.update_one({'_id': ObjectId(id)}, {'$set': {'estado': 'aceptada'}})
     flash('Convocatoria aceptada', 'success')
     
     return redirect(url_for('dashboard'))
@@ -39,7 +40,9 @@ def rechazar_convocatoria(id):
     if 'user_id' not in session:
         return redirect(url_for('login'))
     
-    convocatorias.update_one({'_id': id}, {'$set': {'estado': 'rechazada'}})
+    print("Rechazando ", id)
+    
+    convocatorias.update_one({'_id': ObjectId(id)}, {'$set': {'estado': 'rechazada'}})
     flash('Convocatoria rechazada', 'success')
     
     return redirect(url_for('dashboard'))
