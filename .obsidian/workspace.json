@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "fd23caf4f2df2beb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
             "id": "d2bcb9869b54ad53",
             "type": "leaf",
             "state": {
@@ -223,6 +235,8 @@
   "lastOpenFiles": [
     "Visión del proyecto.md",
     "Historias de usuario.md",
+    "code/static/js/populateFormFields.js",
+    "code/static/js",
     "Relación entre servicios y base de datos.md",
     "Matriz de Habilidades.md",
     "Patrones de diseño.md",
@@ -235,8 +249,6 @@
     "code/pages/captacion.py",
     "code/pages",
     "code/public/img",
-    "code/public/js",
-    "code/dbtest.py",
     "Untitled 1.canvas",
     "petición de servicios educativos.md",
     "Planeación.md",
