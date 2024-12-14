@@ -233,6 +233,7 @@
   },
   "active": "cd5b192af3f019db",
   "lastOpenFiles": [
+    "code/services/aceptacion.py",
     "code/pages/__pycache__/login.cpython-310.pyc",
     "code/pages/login.py",
     "Visión del proyecto.md",
@@ -245,7 +246,6 @@
     "code/__pycache__/decos.cpython-310.pyc",
     "code/__pycache__",
     "code/pages/__pycache__/auth.cpython-310.pyc",
-    "code/pages/__pycache__",
     "Historias de usuario.md",
     "Relación entre servicios y base de datos.md",
     "Matriz de Habilidades.md",

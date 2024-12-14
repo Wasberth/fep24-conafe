@@ -1,34 +1,41 @@
-from flask import render_template, request, redirect, url_for, session, flash
+from flask import render_template, request, redirect, url_for, session, jsonify
 from decos import route
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
-from bson.objectid import ObjectId
 import os
+import requests
+import json
 from dotenv import load_dotenv
 load_dotenv()
 
-# Configurar la conexión a MongoDB
-uri = os.environ['uri']
-client = MongoClient(uri, server_api=ServerApi('1'))
-db = client['captacion']
-convocatorias = db.formulario
+CAPTACION_URL = os.environ['captacion']
+AUTENTICACION_URL = os.environ['autenticacion']
+ACEPTACION_URL = os.environ['aceptacion']
+
 
 @route('/dashboard')
 def dashboard():
-    """Muestra el panel de control para visualizar y aceptar/denegar formatos de convocatoria."""
+    """Renderiza el panel de control y las convocatorias."""
     if 'user_id' not in session:
         return redirect(url_for('login'))
     if session['nivel'] != "COT":
         return redirect(url_for('test_page'))
 
+    # Obtener los datos del microservicio
+    try:
+        response = requests.get(ACEPTACION_URL + '/lista_convocatoria')
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        
+    microservice_data = json.loads(microservice_data)
+    return render_template('dashboard.html', convocatorias=microservice_data)
 
-    convocatorias_list = list(convocatorias.find())
-    
-    return render_template('dashboard.html', convocatorias=convocatorias_list)
+
+
 
 @route('/convocatoria/<id>/aceptar', methods=['POST'])
 def aceptar_convocatoria(id):
-    """Acepta una convocatoria."""
+    """"""
     if 'user_id' not in session:
         return redirect(url_for('login'))
     
@@ -39,7 +46,7 @@ def aceptar_convocatoria(id):
 
 @route('/convocatoria/<id>/rechazar', methods=['POST'])
 def rechazar_convocatoria(id):
-    """Rechaza una convocatoria."""
+    """"""
     if 'user_id' not in session:
         return redirect(url_for('login'))
     

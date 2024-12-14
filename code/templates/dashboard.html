@@ -7,18 +7,45 @@
     <table>
         <thead>
             <tr>
-                <th>ID</th>
                 <th>Nombre</th>
-                <th>CURP</th>
+                <th>Apellido1</th>
+                <th>Apellido2</th>
+                <th>Género</th>
+                <th>Nacionalidad</th>
+                <th>Playera</th>
+                <th>Pantalon</th>
+                <th>Calzado</th>
+                <th>banco</th>
+                <th>cuenta_bancaria</th>
+                <th>clabe</th>
+                <th>email</th>
+                <th>teléfono</th>
+                <th>celular</th>
+                <th>nivel educativo</th>
+                <th>situacion</th>
                 <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
             {% for convocatoria in convocatorias %}
             <tr>
-                <td>{{ convocatoria._id }}</td>
+                <!--<td>{{ convocatoria._id }}</td>-->
                 <td>{{ convocatoria.nombre }}</td>
-                <td>{{ convocatoria.curp }}</td>
+                <td>{{ convocatoria.apellido1 }}</td>
+                <td>{{ convocatoria.apellido2 }}</td>
+                <td>{{ convocatoria.genero }}</td>
+                <td>{{ convocatoria.nacionalidad }}</td>
+                <td>{{ convocatoria.playera }}</td>
+                <td>{{ convocatoria.pantalon }}</td>
+                <td>{{ convocatoria.calzado }}</td>
+                <td>{{ convocatoria.banco }}</td>
+                <td>{{ convocatoria.cuenta_bancaria }}</td>
+                <td>{{ convocatoria.clabe }}</td>
+                <td>{{ convocatoria.email }}</td>
+                <td>{{ convocatoria.telefono_fijo }}</td>
+                <td>{{ convocatoria.telefono_movil }}</td>
+                <td>{{ convocatoria.nivel_educativo }}</td>
+                <td>{{ convocatoria.situacion_educativa }}</td>
                 <td>
                     <form action="{{ url_for('aceptar_convocatoria', id=convocatoria._id) }}" method="post" style="display:inline;">
                         <button type="submit">Aceptar</button>
