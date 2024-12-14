@@ -18,7 +18,10 @@ def dashboard():
     """Muestra el panel de control para visualizar y aceptar/denegar formatos de convocatoria."""
     if 'user_id' not in session:
         return redirect(url_for('login'))
-    
+    if session['nivel'] != "COT":
+        return redirect(url_for('test_page'))
+
+
     convocatorias_list = list(convocatorias.find())
     
     return render_template('dashboard.html', convocatorias=convocatorias_list)

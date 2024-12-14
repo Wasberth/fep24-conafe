@@ -12,7 +12,7 @@ uri = os.environ['uri']
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['captacion']
 
-formulario = db['formulario']
+formulario = db['credenciales']
 @app.route('/registrar', methods=['POST'])
 def get_list():
     """Registra un formulario en la base de datos y retorna la ID del registro."""
