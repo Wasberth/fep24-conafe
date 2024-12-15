@@ -1,12 +1,10 @@
 from flask import render_template, request, redirect, url_for, session, jsonify
 from decos import route
-from dotenv import load_dotenv
 import requests
-import os
 
-load_dotenv()
+from mode_handler import get_url
 
-AUTENTICACION_URL = os.environ['autenticacion']
+AUTENTICACION_URL = get_url('autenticacion')
 
 @route('/login', methods=['GET'])
 def login():

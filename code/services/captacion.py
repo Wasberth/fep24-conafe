@@ -21,4 +21,6 @@ def get_list():
     return jsonify({"id": str(insert_result.inserted_id)})
 
 if __name__ == '__main__':
-    app.run(port=5001)  # Ejecuta el microservicio en un puerto diferente
+    from __args__ import parse_args
+    args = parse_args()
+    app.run(port=args.port, debug=args.debug)

@@ -22,4 +22,6 @@ def get_convocatoria_list():
     return jsonify(convocatorias_list)
 
 if __name__ == '__main__':
-    app.run(port=5003)  # Ejecuta el microservicio en un puerto diferente
+    from __args__ import parse_args
+    args = parse_args()
+    app.run(port=args.port, debug=args.debug)

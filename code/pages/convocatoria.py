@@ -1,9 +1,10 @@
 from flask import render_template, request, jsonify, make_response
 from decos import route
 import requests
-import os
 
-CAPTACION_URL = os.environ['captacion']
+from mode_handler import get_url
+
+CAPTACION_URL = get_url('captacion')
 
 @route('/convocatoria')
 def register_page():

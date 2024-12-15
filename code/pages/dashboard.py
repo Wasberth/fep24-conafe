@@ -1,14 +1,13 @@
 from flask import render_template, request, redirect, url_for, session, jsonify
 from decos import route
-import os
 import requests
 import json
-from dotenv import load_dotenv
-load_dotenv()
 
-CAPTACION_URL = os.environ['captacion']
-AUTENTICACION_URL = os.environ['autenticacion']
-ACEPTACION_URL = os.environ['aceptacion']
+from mode_handler import get_url
+
+CAPTACION_URL = get_url('captacion')
+AUTENTICACION_URL = get_url('autenticacion')
+ACEPTACION_URL = get_url('captacion')
 
 
 @route('/dashboard')
