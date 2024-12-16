@@ -32,7 +32,7 @@ def validacion_login():
             #Validar si el curp coincide
             if user:
                 # TODO: Corregir el id
-                return jsonify({"nivel": str(user['nivel']), "user_id": str(user['_id'])})
+                return jsonify({"nivel": str(user['nivel']), "user_id": str(user['usuario'])})
             else:
                 return jsonify({"error": "El usuario o la contraseña están incorrectas. Inténtelo de nuevo"}), 500
         except:
