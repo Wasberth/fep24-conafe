@@ -10,8 +10,28 @@ CAPACITACION_URL = get_url('capacitacion')
 @route('/evaluacion/capacitacion')
 def evaluacion_capacitacion():
     """Renderiza la página de evaluación al educador comunitario en capacitacion (EC1)"""
+    if 'user_id' not in session:
+        return redirect(url_for('login'))
+    if session['nivel'] != "COT":
+        return redirect(url_for('test_page'))
+
     return render_template(
         f'eval_capacitacion.html',
         stylesheets=['success', 'button'],
         scripts=['addEvaluationEC1']
     )
+
+@route('/evaluacion/servicio')
+def evaluacion_capacitacion():
+    """Renderiza la página de evaluación al educador comunitario en servicio (EC1)"""
+    if 'user_id' not in session:
+        return redirect(url_for('login'))
+    if session['nivel'] != "COT":
+        return redirect(url_for('test_page'))
+
+    return render_template(
+        f'eval_servicio.html',
+        stylesheets=['success', 'button'],
+        scripts=['addEvaluationInServiceEC1']
+    )
+

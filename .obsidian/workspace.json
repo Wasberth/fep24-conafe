@@ -25,14 +25,12 @@
             "id": "cd5b192af3f019db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Historias de usuario.md",
-                "mode": "source",
-                "source": false
+                "file": "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo de Formas Básicas de las Delegaciones Estatales (febrero 2012).pdf"
               },
-              "icon": "lucide-file",
-              "title": "Historias de usuario"
+              "icon": "lucide-file-text",
+              "title": "Catálogo de Formas Básicas de las Delegaciones Estatales (febrero 2012)"
             }
           },
           {
@@ -233,6 +231,13 @@
   },
   "active": "cd5b192af3f019db",
   "lastOpenFiles": [
+    "code/static/js/addEvaluationInServiceEC1.js",
+    "code/static/js/addEvaluationEC1 copy.js",
+    "code/templates/eval_servicio.html",
+    "code/templates/eval_capacitacion copy.html",
+    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
+    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo de Formas Básicas de las Delegaciones Estatales (febrero 2012).pdf",
+    "Historias de usuario.md",
     "code/services/aceptacion.py",
     "code/pages/__pycache__/login.cpython-310.pyc",
     "code/pages/login.py",
@@ -240,13 +245,6 @@
     "Patrones de diseño.md",
     "code/pages/__pycache__/test_page.cpython-310.pyc",
     "code/pages/__pycache__/pagina_principal.cpython-310.pyc",
-    "code/pages/__pycache__/exito.cpython-310.pyc",
-    "code/pages/__pycache__/dashboard.cpython-310.pyc",
-    "code/pages/__pycache__/convocatoria.cpython-310.pyc",
-    "code/__pycache__/decos.cpython-310.pyc",
-    "code/__pycache__",
-    "code/pages/__pycache__/auth.cpython-310.pyc",
-    "Historias de usuario.md",
     "Relación entre servicios y base de datos.md",
     "Matriz de Habilidades.md",
     "Arquitectura.canvas",

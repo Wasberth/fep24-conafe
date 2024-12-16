@@ -1,8 +1,8 @@
 {% extends 'form.html' %}
-{% block formtitle %} Evaluar docentes en capacitación {% endblock %}
+{% block formtitle %} Evaluar docentes en servicio {% endblock %}
 {% block form %}
 <div class="container-fluid p-4">
-    <h1 class="text-center mb-4">EVALUACIÓN DE FIGURAS DOCENTES EN CAPACITACIÓN</h1>
+    <h1 class="text-center mb-4">EVALUACIÓN DE FIGURAS DOCENTES EN SERVICIO</h1>
     
     <form id="downloadableForm">
         <div class="row mb-3">
@@ -42,13 +42,12 @@
                     <option value="Veracruz">Veracruz</option>
                     <option value="Yucatán ">Yucatán </option>
                     <option value="Zacatecas">Zacatecas</option>
-                    <!-- Agregar los demás estados de México aquí. Ya los agregué jaja-->
                 </select>
             </div>
-            <div class="col-md-4">
+            <!--<div class="col-md-4">
                 <label for="evento" class="form-label">Evento:</label>
                 <input type="text" name="evento" id="evento" class="form-control" required>
-            </div>
+            </div>-->
             <div class="col-md-4">
                 <label for="fecha" class="form-label">Fecha de la evaluación:</label>
                 <input type="date" name="fecha" id="fecha" class="form-control" required>
@@ -73,12 +72,9 @@
                     <tr>
                         <th>Num</th>
                         <th>Nombre</th>
-                        <th>Expone temas con claridad</th>
-                        <th>Comprende lo que lee</th>
-                        <th>Comprende el enfoque o contenidos del programa</th>
-                        <th>Otorga eficientemente su trabajo</th>
-                        <th>Participa adecuadamente en actividades de equipo</th>
-                        <th>Asiste con regularidad a la capacitación</th>
+                        <th>Asistencia</th>
+                        <th>Relación con la comunidad</th>
+                        <th>Actitud en el aula</th>
                         <th>Observaciones</th>
                         <th>Acciones</th>
                     </tr>
