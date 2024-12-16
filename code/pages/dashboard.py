@@ -7,7 +7,7 @@ from mode_handler import get_url
 
 CAPTACION_URL = get_url('captacion')
 AUTENTICACION_URL = get_url('autenticacion')
-ACEPTACION_URL = get_url('captacion')
+ACEPTACION_URL = get_url('aceptacion')
 
 
 @route('/dashboard')
