@@ -20,7 +20,7 @@ def load_services():
 
     # Iterar sobre los archivos en la carpeta "services"
     for filename in os.listdir(services_dir):
-        if filename.endswith(".py"):
+        if filename.endswith(".py") and not filename.startswith("__"):
             service_name = filename[:-3]  # Nombre del archivo sin la extensión .py
 
             # Buscar en el .env la variable "<filename>_dev"

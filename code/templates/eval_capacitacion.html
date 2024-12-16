@@ -1,0 +1,69 @@
+{% extends 'form.html' %}
+{% block formtitle %} Evaluar docentes en capacitación {% endblock %}
+{% block form %}
+<div class="container-fluid p-4">
+    <h1 class="text-center mb-4">EVALUACIÓN DE FIGURAS DOCENTES EN CAPACITACIÓN</h1>
+    
+    <form id="downloadableForm">
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label for="estado" class="form-label">Delegación en el estado de:</label>
+                <select id="estado" name="estado" class="form-select" required>
+                    <option value="">Seleccione un estado</option>
+                    <option value="Aguascalientes">Aguascalientes</option>
+                    <option value="Baja California">Baja California</option>
+                    <!-- Agregar los demás estados de México aquí -->
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="evento" class="form-label">Evento:</label>
+                <input type="text" name="evento" id="evento" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label for="fecha" class="form-label">Fecha de la evaluación:</label>
+                <input type="date" name="fecha" id="fecha" class="form-control" required>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-12">
+                <label for="tipoEvaluacion" class="form-label">Evaluación de:</label>
+                <select id="tipoEvaluacion" name="tipoEvaluacion" class="form-select" required>
+                    <option value="">Seleccione el tipo de evaluación</option>
+                    <option value="instructores">Instructores comunitarios</option>
+                    <option value="capacitadores">Capacitadores tutores</option>
+                    <option value="asistentes">Asistentes educativos</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered bg-white text-dark">
+                <thead>
+                    <tr>
+                        <th>Num</th>
+                        <th>Nombre</th>
+                        <th>Expone temas con claridad</th>
+                        <th>Comprende lo que lee</th>
+                        <th>Comprende el enfoque o contenidos del programa</th>
+                        <th>Otorga eficientemente su trabajo</th>
+                        <th>Participa adecuadamente en actividades de equipo</th>
+                        <th>Asiste con regularidad a la capacitación</th>
+                        <th>Observaciones</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="evaluationTableBody">
+                    <!-- Las filas de evaluación se agregarán aquí dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="button" class="btn btn-primary" id="addEvaluationBtn">Agregar Evaluación</button>
+            <button type="submit" class="btn btn-success" id="submitBtn">Aceptar</button>
+            <button type="button" class="btn btn-secondary" id="downloadBtn">Descargar</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

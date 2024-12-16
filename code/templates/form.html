@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %} Formulario de {% block formtitle %} {% endblock %} {% endblock %}
+
+{% block content %}
+    {% block form %} {% endblock %}
+    <script src="{{ url_for('static', filename='js/populateFormFields.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/downloadForm.js') }}"></script> 
+{% endblock %}

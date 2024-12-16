@@ -21,14 +21,21 @@
      */
     function populateFormFields(data) {
         Object.keys(data).forEach(key => {
-            const field = document.querySelector(`[name="${key}"]`);
-            if (field) {
-                field.value = data[key];
-            }
+            const fields = document.querySelectorAll(`[name="${key}"]`);
+            
+            fields.forEach(field => {
+                if (field.type === "checkbox" || field.type === "radio") {
+                    // Set 'checked' if the value matches
+                    field.checked = field.value === data[key];
+                } else {
+                    // Default case: assign the value
+                    field.value = data[key];
+                }
+            });
         });
     }
 
-    // Check for the existence of the preparar_formulario function and execute it if available
+    // Check for the existence of the prepareForm function and execute it if available
     if (typeof prepareForm === "function") {
         prepareForm();
     }

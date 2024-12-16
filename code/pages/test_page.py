@@ -5,4 +5,4 @@ from decos import route
 @route('/test')
 def test_page():
     """Renderiza la página principal"""
-    return render_template(f'success.html', stylesheets=['success', 'button'])
+    return render_template(f'test.html')
