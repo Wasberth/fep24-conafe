@@ -7,9 +7,11 @@
     <table>
         <thead>
             <tr>
+                <th>ID</th>
                 <th>Nombre</th>
                 <th>Apellido1</th>
                 <th>Apellido2</th>
+                <th>curp</th>
                 <th>Género</th>
                 <th>Nacionalidad</th>
                 <th>Playera</th>
@@ -29,10 +31,11 @@
         <tbody>
             {% for convocatoria in convocatorias %}
             <tr>
-                <!--<td>{{ convocatoria._id }}</td>-->
+                <td>{{ convocatoria._id }}</td>
                 <td>{{ convocatoria.nombre }}</td>
                 <td>{{ convocatoria.apellido1 }}</td>
                 <td>{{ convocatoria.apellido2 }}</td>
+                <td>{{ convocatoria.curp }}</td>
                 <td>{{ convocatoria.genero }}</td>
                 <td>{{ convocatoria.nacionalidad }}</td>
                 <td>{{ convocatoria.playera }}</td>
@@ -47,7 +50,7 @@
                 <td>{{ convocatoria.nivel_educativo }}</td>
                 <td>{{ convocatoria.situacion_educativa }}</td>
                 <td>
-                    <form action="{{ url_for('aceptar_convocatoria', id=convocatoria._id) }}" method="post" style="display:inline;">
+                    <form action="{{ url_for('aceptar_convocatoria', id=convocatoria._id, curp=convocatoria.curp) }}" method="post" style="display:inline;">
                         <button type="submit">Aceptar</button>
                     </form>
                     <form action="{{ url_for('rechazar_convocatoria', id=convocatoria._id) }}" method="post" style="display:inline;">

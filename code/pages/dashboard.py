@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, url_for, session, jsonify
+from flask import render_template, request, redirect, url_for, session, jsonify, make_response
 from decos import route
 import requests
 import json
@@ -28,26 +28,50 @@ def dashboard():
     microservice_data = microservice_data["result"]
     return render_template('dashboard.html', convocatorias=microservice_data)
 
-@route('/convocatoria/<id>/aceptar', methods=['POST'])
-def aceptar_convocatoria(id):
-    """"""
-    if 'user_id' not in session:
-        return redirect(url_for('login'))
+@route('/convocatoria/<id>/<curp>/aceptar', methods=['POST'])
+def aceptar_convocatoria(id, curp):
+    """Acepta la convocatoria del aspirante y actualiza su estado."""
+    #Declarar json con datos del usuario
+    datos = {'usuario': id, 'contraseña':curp, 'nivel':'EC1'}
+
+ # Obtener los datos del microservicio
+    try:
+        response = requests.post(ACEPTACION_URL + '/convocatoria/aceptar_bd', json=datos)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+
+    # Obtener la ID del registro desde el microservicio
+    nuevo_usuario = microservice_data.get('id')
+    if not nuevo_usuario:
+        return jsonify({"error": "El microservicio no retornó una ID válida"}), 500
     
-    convocatorias.update_one({'_id': ObjectId(id)}, {'$set': {'estado': 'aceptada'}})
-    flash('Convocatoria aceptada', 'success')
+    #Respuesta del servidor
+    resp = make_response(render_template(f'success.html',
+                           stylesheets=['success', 'button'],
+                           title='Convocatoria Aceptada',
+                           extra_info=f'La convocatoria ha sido aceptada con éxito, creando el usuario con el registro: {nuevo_usuario}'))
     
-    return redirect(url_for('dashboard'))
+    return resp
 
 @route('/convocatoria/<id>/rechazar', methods=['POST'])
 def rechazar_convocatoria(id):
-    """"""
-    if 'user_id' not in session:
-        return redirect(url_for('login'))
+    """Rechaza la convocatoria del aspirante."""
     
-    print("Rechazando ", id)
+    datos = {'_id': id}
+    # Obtener los datos del microservicio
+    try:
+        response = requests.post(ACEPTACION_URL + '/convocatoria/rechazar_bd', json=datos)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+
+    #Respuesta del servidor
+    resp = make_response(render_template(f'success.html',
+                           stylesheets=['success', 'button'],
+                           title='Convocatoria Rechazada',
+                           extra_info=f'La convocatoria ha sido rechazada con éxito. id del aspirante rechazado: {id}'))
     
-    convocatorias.update_one({'_id': ObjectId(id)}, {'$set': {'estado': 'rechazada'}})
-    flash('Convocatoria rechazada', 'success')
-    
-    return redirect(url_for('dashboard'))
+    return resp
