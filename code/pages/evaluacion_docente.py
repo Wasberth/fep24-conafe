@@ -22,7 +22,7 @@ def evaluacion_capacitacion():
     )
 
 @route('/evaluacion/servicio')
-def evaluacion_capacitacion():
+def evaluacion_capacitacion_servicio():
     """Renderiza la página de evaluación al educador comunitario en servicio (EC1)"""
     if 'user_id' not in session:
         return redirect(url_for('login'))
