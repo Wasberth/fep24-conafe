@@ -20,21 +20,23 @@ def validacion_login():
     """Valida si el usuario ingresado existe en la base de datos y si las credenciales coinciden."""
 
     if request.method == 'POST':
+        # TODO: Los nombres de los campos de JSON no se deben quedar así jaja
         data = request.get_json()
-        registro_id = data.get('registro_id')
-        curp = data.get('curp')
+        user = data.get('registro_id')
+        password = data.get('curp')
 
         #Verificar si el usuario existe
         try:
-            usuario = usuarios.find_one({'_id': ObjectId(registro_id)})
+            user = usuarios.find_one({'usuario': user, 'contraseña': password})
             
             #Validar si el curp coincide
-            if str(curp) == str(usuario['curp']):
-                return jsonify({"nivel": str(usuario['nivel']), "user_id": str(usuario['_id'])})
+            if user:
+                # TODO: Corregir el id
+                return jsonify({"nivel": str(user['nivel']), "user_id": str(user['_id'])})
             else:
-                return jsonify({"error": "Las contraseñas no coinciden."}), 500
+                return jsonify({"error": "El usuario o la contraseña están incorrectas. Inténtelo de nuevo"}), 500
         except:
-            return jsonify({"error": "El usuario no existe."}), 500
+            return jsonify({"error": "Ocurrió un error al conectarse a la base de datos, inténtelo más tarde"}), 500
         
     
 

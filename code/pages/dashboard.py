@@ -9,7 +9,6 @@ CAPTACION_URL = get_url('captacion')
 AUTENTICACION_URL = get_url('autenticacion')
 ACEPTACION_URL = get_url('aceptacion')
 
-
 @route('/dashboard')
 def dashboard():
     """Renderiza el panel de control y las convocatorias."""
@@ -26,11 +25,8 @@ def dashboard():
     except requests.RequestException as e:
         return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
         
-    microservice_data = json.loads(microservice_data)
+    microservice_data = microservice_data["result"]
     return render_template('dashboard.html', convocatorias=microservice_data)
-
-
-
 
 @route('/convocatoria/<id>/aceptar', methods=['POST'])
 def aceptar_convocatoria(id):

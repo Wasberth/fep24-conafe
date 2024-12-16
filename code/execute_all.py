@@ -1,8 +1,7 @@
 import os
 import subprocess
 from dotenv import load_dotenv
-
-from main import app
+from time import sleep
 
 # Cargar las variables de entorno desde el archivo .env
 load_dotenv()
@@ -50,8 +49,14 @@ def run_main():
     """
     Ejecuta el main que incluye todas las páginas web
     """
-    port = int(os.getenv(f"main_dev"))
-    app.run(debug=True, port=int(port))
+    port = os.getenv(f"main_dev")
+    command = [
+        "python", "main.py",
+        "--port", port,
+        "--debug"
+    ]
+    subprocess.Popen(command, creationflags=subprocess.CREATE_NEW_CONSOLE)
+    print("Ejecutando main")
 
 if __name__ == "__main__":
     from mode_handler import is_dev_mode

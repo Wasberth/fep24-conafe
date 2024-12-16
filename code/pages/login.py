@@ -25,10 +25,11 @@ def auth():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
+        # TODO: Corregir la forma de mandar el error, matar el servicio no es viable xD
         return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
     
-    usuario =microservice_data.get("user_id")
-    nivel = microservice_data.get("nivel")
+    usuario=microservice_data.get("user_id")
+    nivel=microservice_data.get("nivel")
 
     #Validar si existe usuario
     if usuario:
