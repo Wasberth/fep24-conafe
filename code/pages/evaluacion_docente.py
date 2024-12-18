@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, url_for, session, jsonify
+from flask import render_template, request, redirect, url_for, session, jsonify, make_response
 from decos import route
 import requests
 import json
@@ -20,6 +20,50 @@ def evaluacion_capacitacion():
         stylesheets=['success', 'button'],
         scripts=['addEvaluationEC1']
     )
+
+@route('/evaluacion/capacitacion_bd', methods=['POST'])
+def evaluacion_capacitacion_bd():
+    """Envía los datos del form al microservicio."""
+    # Obtener los datos del formulario enviados por el cliente
+    form_data = request.form.to_dict()
+    
+    # Enviar los datos al microservicio
+    try:
+        response = requests.post(CAPACITACION_URL + '/registrar_capacitacion', json=form_data)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+
+     # Crear la respuesta con la cookie
+    resp = make_response(render_template(f'success.html',
+                           stylesheets=['success', 'button'],
+                           title='Registro Concluido',
+                           extra_info=f'Los registros se han guardado correctamente!'))
+
+    return resp
+
+@route('/evaluacion/servicio_bd', methods=['POST'])
+def evaluacion_capacitacion_bd():
+    """Envía los datos del form al microservicio."""
+    # Obtener los datos del formulario enviados por el cliente
+    form_data = request.form.to_dict()
+    
+    # Enviar los datos al microservicio
+    try:
+        response = requests.post(CAPACITACION_URL + '/registrar_servicio', json=form_data)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+
+     # Crear la respuesta con la cookie
+    resp = make_response(render_template(f'success.html',
+                           stylesheets=['success', 'button'],
+                           title='Registro Concluido',
+                           extra_info=f'Los registros se han guardado correctamente!'))
+
+    return resp
 
 @route('/evaluacion/servicio')
 def evaluacion_capacitacion_servicio():
