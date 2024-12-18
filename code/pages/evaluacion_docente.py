@@ -44,7 +44,7 @@ def evaluacion_capacitacion_bd():
     return resp
 
 @route('/evaluacion/servicio_bd', methods=['POST'])
-def evaluacion_capacitacion_bd():
+def evaluacion_servicio_bd():
     """Envía los datos del form al microservicio."""
     # Obtener los datos del formulario enviados por el cliente
     form_data = request.form.to_dict()
@@ -57,7 +57,7 @@ def evaluacion_capacitacion_bd():
     except requests.RequestException as e:
         return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
 
-     # Crear la respuesta con la cookie
+     # Crear la respuesta
     resp = make_response(render_template(f'success.html',
                            stylesheets=['success', 'button'],
                            title='Registro Concluido',

@@ -268,6 +268,7 @@ El CONAFE  realiza el llenado de estos formatos de manera manual , hasta la nuev
 | ------------------------------------ | ------------ | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Incapacidad temporal por causa mayor | Media        | Alto    | Recalendarizar las actividades más importantes al tiempo restante. Asegurar que la planeación contenga metas realistas para que puedan ser completadas a tiempo                                    |
 | Historia de usuario mal definida     | Media        | Alto    | Realizar sesiones de refinamiento de historias con el equipo de desarrollo y el cliente para aclarar dudas antes de iniciar el desarrollo. Incluir pruebas de concepto rápidas y feedback temprano |
+|                                      |              |         |                                                                                                                                                                                                    |
 ## Riesgos de negocio
 
 | Riesgo                                            | Probabilidad | Impacto | Solución                                                                                                                |

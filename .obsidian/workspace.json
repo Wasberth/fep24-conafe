@@ -34,18 +34,6 @@
             }
           },
           {
-            "id": "fd23caf4f2df2beb",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
-          },
-          {
             "id": "d2bcb9869b54ad53",
             "type": "leaf",
             "state": {
@@ -87,8 +75,7 @@
               "title": "Matriz de Habilidades"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,24 +216,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd5b192af3f019db",
+  "active": "77f91208e29b14d1",
   "lastOpenFiles": [
+    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo de Formas Básicas de las Delegaciones Estatales (febrero 2012).pdf",
+    "Visión del proyecto.md",
+    "Matriz de Habilidades.md",
+    "Patrones de diseño.md",
+    "Relación entre servicios y base de datos.md",
     "code/static/js/addEvaluationInServiceEC1.js",
     "code/static/js/addEvaluationEC1 copy.js",
     "code/templates/eval_servicio.html",
     "code/templates/eval_capacitacion copy.html",
     "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
-    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo de Formas Básicas de las Delegaciones Estatales (febrero 2012).pdf",
     "Historias de usuario.md",
     "code/services/aceptacion.py",
     "code/pages/__pycache__/login.cpython-310.pyc",
     "code/pages/login.py",
-    "Visión del proyecto.md",
-    "Patrones de diseño.md",
     "code/pages/__pycache__/test_page.cpython-310.pyc",
-    "code/pages/__pycache__/pagina_principal.cpython-310.pyc",
-    "Relación entre servicios y base de datos.md",
-    "Matriz de Habilidades.md",
     "Arquitectura.canvas",
     "Untitled 1.canvas",
     "petición de servicios educativos.md",
