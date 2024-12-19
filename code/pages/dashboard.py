@@ -4,19 +4,16 @@ import requests
 import json
 
 from mode_handler import get_url
+from pages._check_level_ import restricted
 
 CAPTACION_URL = get_url('captacion')
 AUTENTICACION_URL = get_url('autenticacion')
 ACEPTACION_URL = get_url('aceptacion')
 
 @route('/dashboard')
+@restricted('COT')
 def dashboard():
     """Renderiza el panel de control y las convocatorias."""
-    if 'user_id' not in session:
-        return redirect(url_for('login'))
-    if session['nivel'] != "COT":
-        return redirect(url_for('test_page'))
-
     # Obtener los datos del microservicio
     try:
         response = requests.get(ACEPTACION_URL + '/lista_convocatoria')

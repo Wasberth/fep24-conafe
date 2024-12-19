@@ -4,17 +4,14 @@ import requests
 import json
 
 from mode_handler import get_url
+from pages._check_level_ import restricted
 
 CAPACITACION_URL = get_url('capacitacion')
 
 @route('/evaluacion/capacitacion')
+@restricted('COT')
 def evaluacion_capacitacion():
     """Renderiza la página de evaluación al educador comunitario en capacitacion (EC1)"""
-    if 'user_id' not in session:
-        return redirect(url_for('login'))
-    if session['nivel'] != "COT":
-        return redirect(url_for('test_page'))
-
     return render_template(
         f'eval_capacitacion.html',
         stylesheets=['success', 'button'],
@@ -66,13 +63,9 @@ def evaluacion_servicio_bd():
     return resp
 
 @route('/evaluacion/servicio')
+@restricted('COT')
 def evaluacion_capacitacion_servicio():
     """Renderiza la página de evaluación al educador comunitario en servicio (EC1)"""
-    if 'user_id' not in session:
-        return redirect(url_for('login'))
-    if session['nivel'] != "COT":
-        return redirect(url_for('test_page'))
-
     return render_template(
         f'eval_servicio.html',
         stylesheets=['success', 'button'],

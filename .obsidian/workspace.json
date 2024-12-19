@@ -75,7 +75,8 @@
               "title": "Matriz de Habilidades"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -216,13 +217,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77f91208e29b14d1",
+  "active": "80f62e92cb19660a",
   "lastOpenFiles": [
-    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo de Formas Básicas de las Delegaciones Estatales (febrero 2012).pdf",
+    "code/pages/__pycache__/_check_level_.cpython-312.pyc",
+    "code/pages/__pycache__/__init__.cpython-312.pyc",
+    "code/pages/_check_level_.py",
+    "code/pages/__init__.py",
     "Visión del proyecto.md",
     "Matriz de Habilidades.md",
     "Patrones de diseño.md",
     "Relación entre servicios y base de datos.md",
+    "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo de Formas Básicas de las Delegaciones Estatales (febrero 2012).pdf",
     "code/static/js/addEvaluationInServiceEC1.js",
     "code/static/js/addEvaluationEC1 copy.js",
     "code/templates/eval_servicio.html",
@@ -230,9 +235,6 @@
     "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo Formas básicas.pdf",
     "Historias de usuario.md",
     "code/services/aceptacion.py",
-    "code/pages/__pycache__/login.cpython-310.pyc",
-    "code/pages/login.py",
-    "code/pages/__pycache__/test_page.cpython-310.pyc",
     "Arquitectura.canvas",
     "Untitled 1.canvas",
     "petición de servicios educativos.md",
