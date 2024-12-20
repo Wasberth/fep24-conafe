@@ -101,7 +101,8 @@
               "title": "Matriz de Habilidades"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,10 +243,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77f91208e29b14d1",
+  "active": "8139d289d4326455",
   "lastOpenFiles": [
-    "Historias de usuario.md",
     "Visión del proyecto.md",
+    "Historias de usuario.md",
     "Notas Documentos/Documentos CONAFE/Catálogos/Catálogo de Formas Básicas de las Delegaciones Estatales (febrero 2012).pdf",
     "Relación entre servicios y base de datos.md",
     "Notas Documentos/Documentos CONAFE/Bases y Lineamientos/LINEAMIENTOS GENERALES DEL SISTEMA DE FORMACIÓN EN LA PRÁCTICA EDUCATIVA COMUNITARIA.pdf",
