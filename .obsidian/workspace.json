@@ -204,6 +204,7 @@
   },
   "active": "77f91208e29b14d1",
   "lastOpenFiles": [
+    "code/templates/checar_estado_login.html",
     "code/templates/estado_solicitud.html",
     "code/pages/_check_level_.py",
     "code/mongo_objects/_common_types_.py",
@@ -220,7 +221,6 @@
     "Patrones de diseño.md",
     "Relación entre servicios y base de datos.md",
     "code/static/js/addEvaluationInServiceEC1.js",
-    "code/static/js/addEvaluationEC1 copy.js",
     "Arquitectura.canvas",
     "Untitled 1.canvas",
     "petición de servicios educativos.md",

@@ -4,8 +4,28 @@
 <main class="hero">
     <div class="container">
         <h1>Consejo Nacional de Fomento Educativo</h1>
-        <p class="lead mb-4">El Consejo Nacional de Fomento Educativo (Conafe) es un organismo público descentralizado de la Secretaría de Educación Pública (SEP), que brinda servicios de educación comunitaria para el bienestar desde la primera infancia a niñas, niños y adolescentes que habitan en localidades de alta y muy alta marginación de nuestro país, en donde no es posible contar con un servicio educativo regular.</p>
-        <a href="/convocatoria" class="btn btn-primary btn-custom">Regístrate</a>
+        <p class="lead mb-4">El Consejo Nacional de Fomento Educativo (Conafe) es un organismo público
+            descentralizado de la Secretaría de Educación Pública (SEP), que brinda servicios de educación
+            comunitaria para el bienestar desde la primera infancia a niñas, niños y adolescentes que habitan en
+            localidades de alta y muy alta marginación de nuestro país, en donde no es posible contar con un
+            servicio educativo regular.</p>
+        <a href="/convocatoria" class="btn btn-primary btn-custom mb-5">Regístrate</a>
+        <form action="/estado" method="post">
+            <div class="row g-3">
+                <div class="col-sm-7">
+                    <p> Si ya te registraste y quieres revisar tu solicitud, puedes hacerlo aquí: </p>
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="ID de registro" name="id">
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="CURP" name="curp">
+                </div>
+                <div class="col-sm">
+                    <input type="submit" class="btn btn-primary" value="Revisar mi solicitud">
+                </div>
+            </div>
+        </form>
     </div>
 </main>
 {% endblock %}

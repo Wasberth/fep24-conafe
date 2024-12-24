@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %} Estado de tu solicitud {% endblock %}
+
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card text-center">
+        {% if estado == 'aceptada' %}
+            <div class="card-body bg-success-subtle" id="messageCard">
+                <h4 class="card-title text-success">¡Felicidades!</h4>
+                <p class="card-text">Has sido aceptado para participar como Figura Educativa.</p>
+                <p class="card-text">Puedes iniciar sesión con tu folio de registro como usuario y tu curp como contraseña.</p>
+            </div>
+        {% elif estado == 'rechazada' %}
+            <div class="card-body bg-danger-subtle" id="messageCard">
+                <h4 class="card-title text-danger">Lo sentimos.</h4>
+                <p class="card-text">No has sido aceptado para participar como Figura Educativa.</p>
+                <p class="card-text">Si crees que este es un error, acude a la central para apelar tu situación.</p>
+                <p class="card-text">O llama al siguiente número: <strong>55 5241 7400</strong> extensiones <strong>7641</strong> o <strong>7621</strong>.</p>
+                <p class="card-text">O manda un correo a <strong>tcv@conafe.gob.mx</strong> o <strong>estrategias@conafe.gob.mx</strong>.</p>
+            </div>
+        {% else %}
+            <div class="card-body bg-info-subtle" id="messageCard">
+                <h4 class="card-title text-info">Solicitud en Revisión</h4>
+                <p class="card-text">Tu solicitud para participar como Figura Educativa está actualmente en proceso de revisión.</p>
+                <p class="card-text">Por favor, ten paciencia mientras evaluamos tu aplicación. Te notificaremos el resultado lo antes posible.</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

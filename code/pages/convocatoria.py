@@ -37,3 +37,25 @@ def register_form():
                            extra_info=f'El personal de CONAFE se comunicará contigo por los medios proporcionados. Para cualquier trámite recuerda guardar tu código de registro {registro_id}'))
     resp.set_cookie('token', registro_id)  # Guardar la ID en las cookies
     return resp
+
+@route('/estado', methods=['POST'])
+def check_status():
+    """Verifica el estado de un registro en el microservicio."""
+    # Obtener la CURP del formulario
+    id = request.form.get('id')
+    curp = request.form.get('curp')
+    if not curp:
+        return jsonify({"error": "No se proporcionó la CURP"}), 400
+
+    # Enviar la petición al microservicio
+    try:
+        response = requests.post(CAPTACION_URL + '/estado', json={"id": id, "curp": curp})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+        print(microservice_data)
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+
+    estado = microservice_data.get("estado")
+
+    return render_template('estado_solicitud.html', estado=estado) if microservice_data else jsonify({"error": "No se encontró el registro"})
