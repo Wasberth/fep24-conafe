@@ -1,5 +1,5 @@
 from flask import render_template, request, redirect, url_for, session, jsonify, make_response
-from decos import route
+from decos import route, nav
 import requests
 import json
 
@@ -9,6 +9,7 @@ from pages._check_level_ import restricted
 CAPACITACION_URL = get_url('capacitacion')
 
 @route('/evaluacion/capacitacion')
+@nav('Evaluación/Capacitación')
 @restricted('COT')
 def evaluacion_capacitacion():
     """Renderiza la página de evaluación al educador comunitario en capacitacion (EC1)"""
@@ -63,6 +64,7 @@ def evaluacion_servicio_bd():
     return resp
 
 @route('/evaluacion/servicio')
+@nav('Evaluación/Servicio')
 @restricted('COT')
 def evaluacion_capacitacion_servicio():
     """Renderiza la página de evaluación al educador comunitario en servicio (EC1)"""

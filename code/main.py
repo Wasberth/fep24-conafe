@@ -8,6 +8,8 @@ load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.environ['secret_key']
 
+nav_items = {}
+
 def load_pages_and_register_routes(app: Flask, pages_folder: str = "pages"):
     """Carga las páginas de forma dinámica de la carpeta pages."""
     modules_path = os.path.join(os.path.dirname(__file__), pages_folder)
@@ -33,6 +35,21 @@ def load_pages_and_register_routes(app: Flask, pages_folder: str = "pages"):
 
                 if hasattr(attr, "route") and hasattr(attr, "methods"):
                     app.route(attr.route, methods=attr.methods)(attr)
+                
+                access = ['public']
+                if hasattr(attr, "restricted"):
+                    access = attr.restricted
+
+                if hasattr(attr, "nav"):
+                    for person in access:
+                        if person not in nav_items:
+                            nav_items[person] = []
+                        nav_items[person].append({'text': attr.nav, 'url': attr.route})
+
+@app.context_processor
+def inject_nav_items():
+    """Inyecta los items de navegación en el contexto de Jinja."""
+    return dict(nav_items=nav_items)
 
 # Load modules and register routes
 load_pages_and_register_routes(app)

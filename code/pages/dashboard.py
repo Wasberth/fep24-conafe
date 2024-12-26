@@ -1,5 +1,5 @@
 from flask import render_template, request, redirect, url_for, session, jsonify, make_response
-from decos import route
+from decos import route, nav
 import requests
 import json
 
@@ -11,6 +11,7 @@ AUTENTICACION_URL = get_url('autenticacion')
 ACEPTACION_URL = get_url('aceptacion')
 
 @route('/dashboard')
+@nav('Revisar Solicitudes')
 @restricted('COT')
 def dashboard():
     """Renderiza el panel de control y las convocatorias."""

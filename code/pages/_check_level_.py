@@ -25,6 +25,8 @@ def restricted(levels):
     :param list|str levels: String o lista de strings donde cada item marca el nivel de usuario permitido 
     """
     def decorator(func):
+        nonlocal levels
+
         @wraps(func)
         def wrapper(*args, **kwargs):
             """
@@ -36,6 +38,9 @@ def restricted(levels):
             
             return func(*args, **kwargs)
         
+        if type(levels) == str:
+            levels = [levels]
+        wrapper.restricted = levels
         return wrapper
     
     return decorator

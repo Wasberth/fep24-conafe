@@ -31,6 +31,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Página principal</a>
                     </li>
+                    {% for item in nav_items['public'] %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ item.url }}">{{ item.text }}</a>
+                    </li>
+                    {% endfor %}
+    
+                    {% if 'user_id' in session %}
+                    {% for item in nav_items[session['nivel']] %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ item.url }}">{{ item.text }}</a>
+                    </li>
+                    {% endfor %}
+                    {% endif %}
                 </ul>
     
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
