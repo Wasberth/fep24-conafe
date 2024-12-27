@@ -5,6 +5,7 @@ import json
 
 from mode_handler import get_url
 from pages._check_level_ import restricted
+from pages._card_ import Card, CONVOCATORIA_TEMPLATE
 
 CAPTACION_URL = get_url('captacion')
 AUTENTICACION_URL = get_url('autenticacion')
@@ -24,7 +25,18 @@ def dashboard():
         return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
         
     microservice_data = microservice_data["result"]
-    return render_template('dashboard.html', convocatorias=microservice_data)
+    microservice_data = [
+        {
+            **convocatoria,
+            'apellido':convocatoria['apellido1'] + ' ' + convocatoria['apellido2'] \
+                if 'apellido2' in convocatoria and convocatoria['apellido2'] else convocatoria['apellido1'],
+            'cuenta_bancaria': convocatoria['clabe'] \
+                if 'clabe' in convocatoria and convocatoria['clabe'] else convocatoria['cuenta_bancaria'],
+        }
+        for convocatoria in microservice_data
+    ]
+    cards = [Card.card_from_dict(CONVOCATORIA_TEMPLATE, **convocatoria) for convocatoria in microservice_data]
+    return render_template('cartas.html', cards=cards, tipo_carta='carta_convocatoria', stylesheets=['button'])
 
 @route('/convocatoria/<id>/<curp>/aceptar', methods=['POST'])
 def aceptar_convocatoria(id, curp):

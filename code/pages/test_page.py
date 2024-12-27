@@ -44,4 +44,4 @@ def test_card():
         "lengua": "false"
     }
     
-    return render_template('cartas.html', cards=[Card.card_from_dict(CONVOCATORIA_TEMPLATE, **datos).my_dict()])
+    return render_template('cartas.html', cards=[Card.card_from_dict(CONVOCATORIA_TEMPLATE, **datos)], tipo_carta='carta')

@@ -1,0 +1,12 @@
+{% extends "carta.html" %}
+
+{% block card_footer %}
+    <div class="card-footer px-0">
+        <form action="{{ url_for('aceptar_convocatoria', id=carta.raw._id, curp=carta.raw.curp) }}" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+        </form>
+        <form action="{{ url_for('rechazar_convocatoria', id=carta.raw._id) }}" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-primary">Rechazar</button>
+        </form>
+    </div>
+{% endblock %}

@@ -1,7 +1,7 @@
 import re
 from typing import List, Dict
 
-CONVOCATORIA_TEMPLATE = '{nombre} {apellido}#Datos personales:{curp}|CURP;{fecha_nacimiento}|Fecha de Nacimiento>{genero}|Género;{nacionalidad}>>{lengua}|Habla lengua indígena>>{nivel_educativo} ({situacion_educativa})|Nivel Educativo#Tallas:{playera}>{pantalon}>{calzado}#Cuenta de Banco:{banco}>{cuenta_banco}|Cuenta#Datos de Contacto:{correo_electronico};{telefono_fijo};{telefono_movil}'
+CONVOCATORIA_TEMPLATE = '{nombre} {apellido}#Datos personales:{curp}|CURP;{fecha_nacimiento}|Fecha de Nacimiento>{genero}|Género;{nacionalidad}>>{lengua}|Habla lengua indígena>>{nivel_educativo} ({situacion_educativa})|Nivel Educativo#Dirección:{estado_republica}|Estado>{delegacion_municipio}|Delegacion/Municipio>>{colonia};{codigo_postal}>{direccion}#Tallas:{playera}>{pantalon}>{calzado}#Cuenta de Banco:{banco}>{cuenta_bancaria}|Cuenta#Datos de Contacto:{email};{telefono_fijo};{telefono_movil}'
 
 class Field:
     def __init__(self, label: str, value: str):
@@ -12,37 +12,26 @@ class Column:
     def __init__(self, fields: List[Field]):
         self.fields = fields
 
-    def my_dict(self):
-        return [{'label': field.label, 'value':field.value} for field in self.fields]
+    def __iter__(self):
+        return iter(self.fields)
 
 class Row:
     def __init__(self, columns: List[Column]):
         self.columns = columns
 
-    def my_dict(self):
-        return [column.my_dict() for column in self.columns]
+    def __iter__(self):
+        return iter(self.columns)
 
 class Section:
     def __init__(self, title: str, rows: List[Row]):
         self.title = title
-        self.rows = rows
-
-    def my_dict(self):
-        return {
-            'title': self.title,
-            'content': [row.my_dict() for row in self.rows]
-        }
+        self.content = rows
 
 class Card:
-    def __init__(self, title: str, sections: List[Section]):
+    def __init__(self, title: str, sections: List[Section], raw_data: Dict[str, any] = None):
         self.title = title
-        self.sections = sections
-    
-    def my_dict(self):
-        return {
-            'title': self.title,
-            'content': [section.my_dict() for section in self.sections]
-        }
+        self.content = sections
+        self.raw = raw_data
 
     @staticmethod
     def card_from_dict(template: str, *args, **kwargs):
@@ -67,7 +56,7 @@ class Card:
                 data = field_data.get(key)
 
                 if data is None:
-                    return '{' + key + '}'
+                    return 'No proporcionado'
 
                 if type(data) == bool:
                     return 'Sí' if data else 'No'
@@ -122,5 +111,5 @@ class Card:
                 rows.append(Row(cols))
             sections.append(Section(section_title, rows))
 
-        return Card(title, sections)
+        return Card(title, sections, field_data)
     
