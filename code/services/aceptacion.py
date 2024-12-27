@@ -23,10 +23,16 @@ convocatorias = db.formulario
 db2 = client['login']
 usuarios = db2.credenciales
 
+db3 = client['CCT']
+estados = db3.estados_republica
+
 @app.route('/lista_convocatoria', methods=['GET'])
 def get_convocatoria_list():
     """Obtiene la lista de la convocatoria."""
-    convocatorias_list = convocatorias.find({"estado":{"$exists": False}})
+    data = request.get_json()
+    estado = estados.find_one({"COT": ObjectId(data['cot_id'])})
+    print(estado)
+    convocatorias_list = convocatorias.find({"estado":{"$exists": False}, "estado_republica": estado['estado']})
     return jsonify(objectid_to_str({"result":list(convocatorias_list)}))
 
 @app.route('/convocatoria/aceptar_bd', methods=['POST'])

@@ -12,7 +12,6 @@ uri = os.environ['uri']
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['login']
 
-formulario = db['credenciales']
 usuarios = db.credenciales
 
 @app.route('/validacion_login', methods=['POST'])
@@ -32,7 +31,7 @@ def validacion_login():
             #Validar si el curp coincide
             if user:
                 # TODO: Corregir el id
-                return jsonify({"nivel": str(user['nivel']), "user_id": str(user['usuario'])})
+                return jsonify({"nivel": str(user['nivel']), "user_id": str(user['usuario']), "real_id": str(user['_id'])})
             else:
                 return jsonify({"error": "El usuario o la contraseña están incorrectas. Inténtelo de nuevo"}), 500
         except:

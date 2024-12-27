@@ -18,23 +18,37 @@ def dashboard():
     """Renderiza el panel de control y las convocatorias."""
     # Obtener los datos del microservicio
     try:
-        response = requests.get(ACEPTACION_URL + '/lista_convocatoria')
+        response = requests.get(ACEPTACION_URL + '/lista_convocatoria', json={'cot_id': session['real_id']})
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
         return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
         
     microservice_data = microservice_data["result"]
-    microservice_data = [
-        {
-            **convocatoria,
-            'apellido':convocatoria['apellido1'] + ' ' + convocatoria['apellido2'] \
-                if 'apellido2' in convocatoria and convocatoria['apellido2'] else convocatoria['apellido1'],
-            'cuenta_bancaria': convocatoria['clabe'] \
-                if 'clabe' in convocatoria and convocatoria['clabe'] else convocatoria['cuenta_bancaria'],
-        }
-        for convocatoria in microservice_data
-    ]
+
+    for i in range(len(microservice_data)):
+        convocatoria = microservice_data[i]
+
+        apellido = convocatoria['apellido1']
+        if 'apellido2' in convocatoria and convocatoria['apellido2']:
+            apellido += ' ' + convocatoria['apellido2']
+        microservice_data[i]['apellido'] = apellido
+
+        cuenta_bancaria = convocatoria['cuenta_bancaria']
+        if 'clabe' in convocatoria and convocatoria['clabe']:
+            cuenta_bancaria = convocatoria['clabe']
+        microservice_data[i]['cuenta_bancaria'] = cuenta_bancaria
+
+        direccion = convocatoria['direccion']
+        if 'num_exterior' in convocatoria and convocatoria['num_exterior']:
+            direccion += ' No. ' + convocatoria['num_exterior']
+        else:
+            direccion += ' S/N'
+
+        if 'num_interior' in convocatoria and convocatoria['num_interior']:
+            direccion += ' Interior ' + convocatoria['num_interior']
+        microservice_data[i]['direccion'] = direccion
+
     cards = [Card.card_from_dict(CONVOCATORIA_TEMPLATE, **convocatoria) for convocatoria in microservice_data]
     return render_template('cartas.html', cards=cards, tipo_carta='carta_convocatoria', stylesheets=['button'])
 
@@ -61,6 +75,7 @@ def aceptar_convocatoria(id, curp):
     resp = make_response(render_template(f'success.html',
                            stylesheets=['success', 'button'],
                            title='Convocatoria Aceptada',
+                           redirect=url_for('dashboard'),
                            extra_info=f'La convocatoria ha sido aceptada con éxito, creando el usuario con el registro: {nuevo_usuario}'))
     
     return resp
@@ -82,6 +97,7 @@ def rechazar_convocatoria(id):
     resp = make_response(render_template(f'success.html',
                            stylesheets=['success', 'button'],
                            title='Convocatoria Rechazada',
+                           redirect=url_for('dashboard'),
                            extra_info=f'La convocatoria ha sido rechazada con éxito. id del aspirante rechazado: {id}'))
     
     return resp

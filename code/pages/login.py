@@ -30,11 +30,13 @@ def auth():
     
     usuario=microservice_data.get("user_id")
     nivel=microservice_data.get("nivel")
+    user_id=microservice_data.get("real_id")
 
     #Validar si existe usuario
     if usuario:
         session['user_id'] = str(usuario)
         session['nivel'] = str(nivel)
+        session['real_id'] = str(user_id)
         #Redireccionar dependiendo del nivel del usuario
         if session['nivel'] == "COT":
             return redirect(url_for('dashboard'))
