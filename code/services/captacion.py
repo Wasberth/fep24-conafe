@@ -17,6 +17,11 @@ formulario = db['formulario']
 def get_list():
     """Registra un formulario en la base de datos y retorna la ID del registro."""
     data = request.get_json()
+
+    #Asignar valor default a lengua en caso de no ser seleccionado
+    if 'lengua' not in data:
+        data['lengua'] = 'false'
+
     insert_result = formulario.insert_one(data)
     return jsonify({"id": str(insert_result.inserted_id)})
 

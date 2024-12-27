@@ -1,7 +1,7 @@
 from typing import Literal, Optional, Union
 
-Talla = Literal['s', 'm', 'g', 'xg']
-Genero = Literal['masculino', 'femenino']
+Talla = Literal['Chico', 'Mediano', 'Grande', 'Extra Grande']
+Genero = Literal['masculino', 'femenino', 'otro']
 Nacionalidad = Literal['mexicano', 'extranjero']
 Situacion_educativa = Literal['concluida', 'cursando', 'trunca']
 Nivel_educativo = Literal['primaria', 'secundaria', 'medio superior', 'superior']
@@ -14,6 +14,12 @@ class FormularioConvocatoria:
         curp: str,
         nombre: str,
         apellido1: str,
+        estado_republica: str,
+        delegacion_municipio: str,
+        colonia: str,
+        direccion: str,
+        num_exterior: str,
+        codigo_postal: str,
         fecha_nacimiento: str,
         genero: Genero,
         nacionalidad: Nacionalidad,
@@ -28,6 +34,7 @@ class FormularioConvocatoria:
         año_convocatoria: str,
 
         apellido2: Optional[str] = None,
+        num_interior: Optional[str] = None,
         estado: Estado_convocatoria = None,
         clabe: Optional[str] = None,
         email: Optional[str] = None,
@@ -41,6 +48,13 @@ class FormularioConvocatoria:
         self.nombre = nombre
         self.apellido1 = apellido1
         self.apellido2 = apellido2
+        self.estado_republica = estado_republica
+        self.delegacion_municipio = delegacion_municipio
+        self.colonia = colonia
+        self.direccion = direccion
+        self.num_exterior = num_exterior
+        self.num_interior = num_interior
+        self.codigo_postal = codigo_postal
         self.fecha_nacimiento = fecha_nacimiento
         self.genero = genero
         self.nacionalidad = nacionalidad
@@ -68,6 +82,10 @@ if __name__ == '__main__':
         "nombre": "Ibrahin Abraham",
         "apellido1": "Hernández",
         "apellido2": "Lucio",
+        "direccion": "Lázaro Cárdenas",
+        "num_exterior": "2",
+        "num_interior": "1",
+        "codigo_postal": "07710",
         "fecha_nacimiento": "2003-11-22",
         "genero": "masculino",
         "nacionalidad": "mexicano",

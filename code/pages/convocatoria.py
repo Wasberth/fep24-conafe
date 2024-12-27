@@ -1,6 +1,7 @@
 from flask import render_template, request, jsonify, make_response
 from decos import route
 import requests
+import base64
 
 from mode_handler import get_url
 
@@ -14,8 +15,18 @@ def register_page():
 @route('/llenar_convocatoria', methods=['POST'])
 def register_form():
     """Envía los datos del formulario al microservicio y guarda la ID en las cookies."""
+
+    file = request.files['documentos_necesarios']
+    pdf_content = file.read()
+
+    # Codificar el archivo en Base64
+    encoded_pdf = base64.b64encode(pdf_content).decode('utf-8')
+
     # Obtener los datos del formulario enviados por el cliente
     form_data = request.form.to_dict()
+
+    form_data["documentos_necesarios"] = encoded_pdf
+    
     
     # Enviar los datos al microservicio
     try:
