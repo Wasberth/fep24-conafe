@@ -14,6 +14,9 @@ class FormularioConvocatoria:
         curp: str,
         nombre: str,
         apellido1: str,
+        estado_republica: str,
+        delegacion_municipio: str,
+        colonia: str,
         direccion: str,
         num_exterior: str,
         codigo_postal: str,
@@ -45,6 +48,9 @@ class FormularioConvocatoria:
         self.nombre = nombre
         self.apellido1 = apellido1
         self.apellido2 = apellido2
+        self.estado_republica = estado_republica
+        self.delegacion_municipio = delegacion_municipio
+        self.colonia = colonia
         self.direccion = direccion
         self.num_exterior = num_exterior
         self.num_interior = num_interior

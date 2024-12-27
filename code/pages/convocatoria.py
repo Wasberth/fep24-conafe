@@ -16,7 +16,7 @@ def register_page():
 def register_form():
     """Envía los datos del formulario al microservicio y guarda la ID en las cookies."""
 
-    file = request.files['documentos-necesarios']
+    file = request.files['documentos_necesarios']
     pdf_content = file.read()
 
     # Codificar el archivo en Base64
@@ -25,7 +25,7 @@ def register_form():
     # Obtener los datos del formulario enviados por el cliente
     form_data = request.form.to_dict()
 
-    form_data["documentos-necesarios"] = encoded_pdf
+    form_data["documentos_necesarios"] = encoded_pdf
     
     
     # Enviar los datos al microservicio
