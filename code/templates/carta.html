@@ -1,0 +1,25 @@
+<div class="col-md-6 mb-4">
+    <div class="card">
+        <div class="card-body">
+            {% block card_title %}
+            <h5 class="card-title">{{ card.title }}</h5>
+            {% endblock %}
+            {% block card_content %}
+            {% for section in card.content %}
+                <h6 class="section-title">{{ section.title }}</h6>
+                {% for row in section.content %}
+                    <div class="row">
+                        {% for col in row %}
+                            <div class="col-sm">
+                                {% for field in col %}
+                                <p class="card-text"><strong>{{ field.label }}:</strong> {{ field.value }}</p>
+                                {% endfor %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            {% endfor %}
+            {% endblock %}
+        </div>
+    </div>
+</div>

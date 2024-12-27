@@ -12,9 +12,11 @@
         crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="{{ url_for('static',filename='css/nav.css') }}">
+    {% block styles %}
     {% for css in stylesheets %}
         <link rel="stylesheet" href="{{ url_for('static', filename='css/' + css + '.css') }}">
     {% endfor %}
+    {% endblock %}
 </head>
 
 <body>
@@ -63,9 +65,11 @@
 
     {% block content %}{% endblock %}
 
+    {% block scripts %}
     {% for js in scripts %}
         <script src="{{ url_for('static', filename='js/' + js + '.js') }}"></script>
     {% endfor %}
+    {% endblock %}
 </body>
 
 </html>
