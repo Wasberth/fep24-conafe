@@ -204,6 +204,8 @@
   },
   "active": "77f91208e29b14d1",
   "lastOpenFiles": [
+    "code/templates/mapa_cct.html",
+    "code/templates/ruta_interactiva.html",
     "Visión del proyecto.md",
     "Matriz de Habilidades.md",
     "Patrones de diseño.md",
@@ -217,7 +219,6 @@
     "code/mongo_objects/formulario_convocatoria.py",
     "code/mongo_objects/formularios_capacitacion.py",
     "code/mongo_objects/cct.py",
-    "code/mongo_objects",
     "Formato de JSON.md",
     "Relación entre servicios y base de datos.md",
     "Arquitectura.canvas",
