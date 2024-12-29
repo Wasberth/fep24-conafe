@@ -3,16 +3,25 @@
 {% block content %}
 <main class="hero">
     <div class="container">
-        <h1>Mapa de CCT</h1>
-        <p class="lead mb-4">El Consejo Nacional de Fomento Educativo (Conafe) es un organismo público
-            descentralizado de la Secretaría de Educación Pública (SEP), que brinda servicios de educación
-            comunitaria para el bienestar desde la primera infancia a niñas, niños y adolescentes que habitan en
-            localidades de alta y muy alta marginación de nuestro país, en donde no es posible contar con un
-            servicio educativo regular.</p>
-        <div class="ratio ratio-21x9">
-            <iframe src="mapa_visualizado" title="Mapa de CCT" allowfullscreen></iframe>
+        <div class="row align-items-center">
+            <h1>Mapa de CCT</h1>
+            <div class="col-md-4">
+                <p class="lead mb-4">
+                    Este mapa permite visualizar la distribución geográfica de estos centros a lo largo del país. 
+                    Cada punto en el mapa representa la ubicación de un CCT, y al hacer clic sobre ellos se accede 
+                    a información detallada sobre cada centro, como el nombre del CCT, su dirección, región, municipio,
+                    comunidad, entre otros.  
+                    Esta visualización es útil para conocer la cobertura y el impacto de los CCT en diversas regiones, 
+                    permitiendo encontrar centros cercanos.
+                </p>
+            </div>
+            <div class="col-md-8">
+                <div class="ratio ratio-16x9">
+                    <iframe src="mapa_visualizado" title="Mapa de CCT" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
-        
     </div>
 </main>
+
 {% endblock %}

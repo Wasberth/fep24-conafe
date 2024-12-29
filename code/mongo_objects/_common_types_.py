@@ -1,6 +1,6 @@
 from typing import Literal
 
-Estado_republica = Literal['Aguascalientes','Baja California','Baja California Sur',
+Estado_republica = ['Aguascalientes','Baja California','Baja California Sur',
                            'Campeche','Chiapas','Chihuahua','Ciudad de México','Coahuila',
                            'Colima','Durango','Estado de México','Guanajuato','Guerrero',
                            'Hidalgo','Jalisco','Michoacán','Morelos','Nayarit','Nuevo León',

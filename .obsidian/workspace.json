@@ -204,6 +204,8 @@
   },
   "active": "77f91208e29b14d1",
   "lastOpenFiles": [
+    "code/mongo_objects/__pycache__/_common_types_.cpython-310.pyc",
+    "code/mongo_objects/__pycache__",
     "code/templates/mapa_cct.html",
     "code/templates/ruta_interactiva.html",
     "Visión del proyecto.md",
@@ -217,8 +219,6 @@
     "code/mongo_objects/_common_types_.py",
     "code/mongo_objects/login.py",
     "code/mongo_objects/formulario_convocatoria.py",
-    "code/mongo_objects/formularios_capacitacion.py",
-    "code/mongo_objects/cct.py",
     "Formato de JSON.md",
     "Relación entre servicios y base de datos.md",
     "Arquitectura.canvas",
