@@ -5,7 +5,7 @@ import json
 
 from mode_handler import get_url
 from pages._check_level_ import restricted
-from pages._card_ import Card, CONVOCATORIA_TEMPLATE
+from pages._card_ import Card, CONVOCATORIA_TEMPLATE, mapear_datos_convocatoria
 
 CAPTACION_URL = get_url('captacion')
 AUTENTICACION_URL = get_url('autenticacion')
@@ -26,30 +26,9 @@ def dashboard():
         
     microservice_data = microservice_data["result"]
 
-    for i in range(len(microservice_data)):
-        convocatoria = microservice_data[i]
+    convocatorias = mapear_datos_convocatoria(microservice_data)
 
-        apellido = convocatoria['apellido1']
-        if 'apellido2' in convocatoria and convocatoria['apellido2']:
-            apellido += ' ' + convocatoria['apellido2']
-        microservice_data[i]['apellido'] = apellido
-
-        cuenta_bancaria = convocatoria['cuenta_bancaria']
-        if 'clabe' in convocatoria and convocatoria['clabe']:
-            cuenta_bancaria = convocatoria['clabe']
-        microservice_data[i]['cuenta_bancaria'] = cuenta_bancaria
-
-        direccion = convocatoria['direccion']
-        if 'num_exterior' in convocatoria and convocatoria['num_exterior']:
-            direccion += ' No. ' + convocatoria['num_exterior']
-        else:
-            direccion += ' S/N'
-
-        if 'num_interior' in convocatoria and convocatoria['num_interior']:
-            direccion += ' Interior ' + convocatoria['num_interior']
-        microservice_data[i]['direccion'] = direccion
-
-    cards = [Card.card_from_dict(CONVOCATORIA_TEMPLATE, **convocatoria) for convocatoria in microservice_data]
+    cards = [Card.card_from_dict(CONVOCATORIA_TEMPLATE, **convocatoria) for convocatoria in convocatorias]
     return render_template('cartas.html', cards=cards, tipo_carta='carta_convocatoria', stylesheets=['button'])
 
 @route('/convocatoria/<id>/<curp>/aceptar', methods=['POST'])

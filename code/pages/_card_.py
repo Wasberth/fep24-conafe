@@ -6,11 +6,46 @@ DIRECCION_SECCION = '#Dirección:{estado_republica}|Estado>{delegacion_municipio
 TALLAS_SECCION = '#Tallas:{playera}>{pantalon}>{calzado}'
 BANCO_SECCION = '#Cuenta de Banco:{banco}>{cuenta_bancaria}|Cuenta'
 CONTACTO_SECCION = '#Datos de Contacto:{email};{telefono_fijo};{telefono_movil}'
-EVALUACION_EC1_SECCION = '#Evaluación del Evento {evento}:{fecha}>{tipoEvaluacion}|Tipo de Evaluación>>{claridad};{comprension_lectora};{comprension_contenidos}|Comprensión de los contenidos>{eficiencia};{trabajo_equipo}|Trabajo en Equipo;{asistencia}>>{observaciones}'
+EVALUACION_EC1_SECCION = '#Evaluación del Evento "{evento}":{fecha}>{tipoEvaluacion}|Tipo de Evaluación>>{claridad};{comprension_lectora};{comprension_contenidos}|Comprensión de los contenidos>{eficiencia};{trabajo_equipo}|Trabajo en Equipo;{asistencia}>>{observaciones}'
 EVALUACION_EC2_SECCION = '#Evaluación:{fecha}>{tipoEvaluacion}|Tipo de Evaluación>>{asistencia}>{relacion_comunidad}|Relación con la comunidad>{actitud}>>{observaciones}'
 
 CONVOCATORIA_TEMPLATE = '{nombre} {apellido}'+ DATOS_PERSONALES_SECCION + DIRECCION_SECCION \
     + TALLAS_SECCION + BANCO_SECCION + CONTACTO_SECCION
+
+EVALUACION_TEMPLATE = '{nombre} {apellido}' + DATOS_PERSONALES_SECCION + CONTACTO_SECCION
+
+def mapear_datos_convocatoria(data):
+    """
+    Mapea los datos de las convocatorias para que puedan ser usados en las cartas.
+    :param list data: Lista de diccionarios con los datos de las convocatorias.
+    :return: list
+        Lista de diccionarios con los datos de las convocatorias mapeados.
+    """
+
+    for i in range(len(data)):
+        convocatoria = data[i]
+
+        apellido = convocatoria['apellido1']
+        if 'apellido2' in convocatoria and convocatoria['apellido2']:
+            apellido += ' ' + convocatoria['apellido2']
+        data[i]['apellido'] = apellido
+
+        cuenta_bancaria = convocatoria['cuenta_bancaria']
+        if 'clabe' in convocatoria and convocatoria['clabe']:
+            cuenta_bancaria = convocatoria['clabe']
+        data[i]['cuenta_bancaria'] = cuenta_bancaria
+
+        direccion = convocatoria['direccion']
+        if 'num_exterior' in convocatoria and convocatoria['num_exterior']:
+            direccion += ' No. ' + convocatoria['num_exterior']
+        else:
+            direccion += ' S/N'
+
+        if 'num_interior' in convocatoria and convocatoria['num_interior']:
+            direccion += ' Interior ' + convocatoria['num_interior']
+        data[i]['direccion'] = direccion
+
+    return data
 
 class Field:
     def __init__(self, label: str, value: str):

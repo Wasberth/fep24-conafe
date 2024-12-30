@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}Bienvenida{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body text-center">
+                    {% if nombre_bienvenida %}
+                        <h1 class="card-title mb-4">¡Bienvenido {{ nombre_bienvenida }}!</h1>
+                    {% else %}
+                        <h1 class="card-title mb-4">¡Bienvenido!</h1>
+                    {% endif %}
+                    <p class="card-text">Selecciona una página en la barra de navegación para continuar</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

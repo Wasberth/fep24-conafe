@@ -1,0 +1,12 @@
+{% extends "carta.html" %}
+
+{% block card_footer %}
+    <div class="card-footer px-0">
+        <!--- Este se descomentará cuando se implemente la funcionalidad de mandar el convenio
+        <form action=" url_for('aceptar_convenio', id=carta.raw._id, curp=carta.raw.curp) " method="post" style="display:inline;">
+        -->
+        <form style="display:inline;">
+            <button type="submit" class="btn btn-primary">Mandar convenio</button>
+        </form>
+    </div>
+{% endblock %}

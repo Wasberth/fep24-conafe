@@ -10,7 +10,7 @@ CAPACITACION_URL = get_url('capacitacion')
 
 @route('/evaluacion/capacitacion')
 @nav('Evaluación/Capacitación')
-@restricted('COT')
+@restricted('ECA')
 def evaluacion_capacitacion():
     """Renderiza la página de evaluación al educador comunitario en capacitacion (EC1)"""
     return render_template(
@@ -65,7 +65,7 @@ def evaluacion_servicio_bd():
 
 @route('/evaluacion/servicio')
 @nav('Evaluación/Servicio')
-@restricted('COT')
+@restricted('ECA')
 def evaluacion_capacitacion_servicio():
     """Renderiza la página de evaluación al educador comunitario en servicio (EC1)"""
     return render_template(

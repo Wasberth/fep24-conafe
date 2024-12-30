@@ -15,7 +15,7 @@ MAPA_URL = get_url('ubicacion')
 @nav('Mapa de CCT')
 def mapa():
     """Renderiza la página donde se muestra el mapa."""
-    return render_template('mapa.html', stylesheets=['index'])
+    return render_template('mapa.html', stylesheets=['index', 'loading'], scripts=['map_loader'])
 
 @route('/mapa_visualizado')
 def mapa_visualizado():
