@@ -1,8 +1,8 @@
-from flask import render_template, request, redirect, url_for, session, jsonify, make_response
+from flask import render_template, request, redirect, url_for, session, jsonify, make_response, Response
 from decos import route, nav
 import requests
 import json
-
+import base64
 from mode_handler import get_url
 from pages._check_level_ import restricted
 from pages._card_ import Card, CONVOCATORIA_TEMPLATE, mapear_datos_convocatoria
@@ -80,3 +80,25 @@ def rechazar_convocatoria(id):
                            extra_info=f'La convocatoria ha sido rechazada con éxito. id del aspirante rechazado: {id}'))
     
     return resp
+
+@route('/convocatoria/documentos/<id>', methods=['GET'])
+def mostrar_documentos(id):
+    """Muestra los documentos del aspirante."""
+    
+    datos = {'_id': id}
+    # Obtener los datos del microservicio
+    try:
+        response = requests.get(ACEPTACION_URL + '/convocatoria/documentos_necesarios', json=datos)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+    
+    try:
+        contenido_pdf = base64.b64decode(microservice_data["doc"]) if isinstance(microservice_data["doc"], str) else microservice_data["doc"]
+
+        # Retornar el PDF con el encabezado adecuado
+        return Response(contenido_pdf, mimetype='application/pdf')
+
+    except Exception as e:
+        return jsonify({"error": "Error al procesar el PDF", "details": str(e)}), 500

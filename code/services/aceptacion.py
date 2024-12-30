@@ -58,7 +58,13 @@ def rechazar_convocatoria_bd():
     
     return jsonify({"_id": _id})
 
-    
+@app.route('/convocatoria/documentos_necesarios', methods=['GET'])
+def documentos_necesarios():
+    """Obtiene la lista de la convocatoria."""
+    data = request.get_json()
+    documento = convocatorias.find_one({"_id": ObjectId(data['_id'])})
+    return jsonify({"doc":documento["documentos_necesarios"]})
+
 
 if __name__ == '__main__':
     from __args__ import parse_args
