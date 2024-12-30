@@ -1,7 +1,16 @@
 import re
 from typing import List, Dict
 
-CONVOCATORIA_TEMPLATE = '{nombre} {apellido}#Datos personales:{curp}|CURP;{fecha_nacimiento}|Fecha de Nacimiento>{genero}|Género;{nacionalidad}>>{lengua}|Habla lengua indígena>>{nivel_educativo} ({situacion_educativa})|Nivel Educativo#Dirección:{estado_republica}|Estado>{delegacion_municipio}|Delegacion/Municipio>>{colonia};{codigo_postal}>{direccion}#Tallas:{playera}>{pantalon}>{calzado}#Cuenta de Banco:{banco}>{cuenta_bancaria}|Cuenta#Datos de Contacto:{email};{telefono_fijo};{telefono_movil}'
+DATOS_PERSONALES_SECCION = '#Datos personales:{curp}|CURP;{fecha_nacimiento}|Fecha de Nacimiento>{genero}|Género;{nacionalidad}>>{lengua}|Habla lengua indígena>>{nivel_educativo} ({situacion_educativa})|Nivel Educativo'
+DIRECCION_SECCION = '#Dirección:{estado_republica}|Estado>{delegacion_municipio}|Delegación/Municipio>>{colonia};{codigo_postal}>{direccion}|Dirección'
+TALLAS_SECCION = '#Tallas:{playera}>{pantalon}>{calzado}'
+BANCO_SECCION = '#Cuenta de Banco:{banco}>{cuenta_bancaria}|Cuenta'
+CONTACTO_SECCION = '#Datos de Contacto:{email};{telefono_fijo};{telefono_movil}'
+EVALUACION_EC1_SECCION = '#Evaluación del Evento {evento}:{fecha}>{tipoEvaluacion}|Tipo de Evaluación>>{claridad};{comprension_lectora};{comprension_contenidos}|Comprensión de los contenidos>{eficiencia};{trabajo_equipo}|Trabajo en Equipo;{asistencia}>>{observaciones}'
+EVALUACION_EC2_SECCION = '#Evaluación:{fecha}>{tipoEvaluacion}|Tipo de Evaluación>>{asistencia}>{relacion_comunidad}|Relación con la comunidad>{actitud}>>{observaciones}'
+
+CONVOCATORIA_TEMPLATE = '{nombre} {apellido}'+ DATOS_PERSONALES_SECCION + DIRECCION_SECCION \
+    + TALLAS_SECCION + BANCO_SECCION + CONTACTO_SECCION
 
 class Field:
     def __init__(self, label: str, value: str):
@@ -32,6 +41,22 @@ class Card:
         self.title = title
         self.content = sections
         self.raw = raw_data
+
+    def extend(self, extender: 'Card' | List['Card'] | Section | List[Section]):
+        if isinstance(extender, Card):
+            self.content.extend(extender.content)
+        elif isinstance(extender, list):
+            for item in extender:
+                if isinstance(item, Card):
+                    self.extend(item)
+                elif isinstance(item, Section):
+                    self.content.append(item)
+                else:
+                    raise ValueError('Invalid type for extender')
+        elif isinstance(extender, Section):
+            self.content.append(extender)
+        else:
+            raise ValueError('Invalid type for extender')
 
     @staticmethod
     def card_from_dict(template: str, *args, **kwargs):
@@ -95,7 +120,6 @@ class Card:
                 for col in row.split('>'):
                     fields = []
                     for field in col.split(';'):
-                        print(field)
                         if '|' in field:
                             value, label = field.split('|', 1)
                         else:

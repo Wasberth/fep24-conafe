@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, url_for, session, jsonify, make_response
+from flask import render_template, request, redirect, url_for, session, jsonify, Response
 from decos import route, nav
 from mongo_objects._common_types_ import Estado_republica
 import requests
@@ -15,7 +15,7 @@ MAPA_URL = get_url('ubicacion')
 @nav('Mapa de CCT')
 def mapa():
     """Renderiza la página donde se muestra el mapa."""
-    return render_template('mapa.html')
+    return render_template('mapa.html', stylesheets=['index'])
 
 @route('/mapa_visualizado')
 def mapa_visualizado():
@@ -47,6 +47,6 @@ def mapa_visualizado():
                 location=[float(dict["latitud"]),float(dict["longitud"])],
             popup=folium.Popup(f"Nombre: {dict['nombre']}\nEstado: {dict['estado']}\nMunicipio: {dict['municipio']}\nComunidad: {dict['comunidad']}\nSede: {dict['sede']}\nRegión: {dict['region']}", parse_html=True, max_width=100, lazy=True)).add_to(grupo)
     
-    folium.LayerControl(collapsed=False).add_to(mapa)    
-    mapa.save('templates/mapa_cct.html')
-    return render_template('mapa_cct.html')
+    folium.LayerControl(collapsed=False).add_to(mapa)
+    
+    return Response(mapa._repr_html_(), content_type='text/html')
