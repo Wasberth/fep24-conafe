@@ -47,6 +47,6 @@ def mapa_visualizado():
                 location=[float(dict["latitud"]),float(dict["longitud"])],
             popup=folium.Popup(f"Nombre: {dict['nombre']}\nEstado: {dict['estado']}\nMunicipio: {dict['municipio']}\nComunidad: {dict['comunidad']}\nSede: {dict['sede']}\nRegión: {dict['region']}", parse_html=True, max_width=100, lazy=True)).add_to(grupo)
     
-    folium.LayerControl(collapsed=False).add_to(mapa)
+    folium.LayerControl(collapsed=True).add_to(mapa)
     
     return Response(mapa._repr_html_(), content_type='text/html')
