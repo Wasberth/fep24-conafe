@@ -33,20 +33,50 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Página principal</a>
                     </li>
+                
+                    <!-- Render public pages -->
                     {% for item in nav_items['public'] %}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ item.url }}">{{ item.text }}</a>
                     </li>
                     {% endfor %}
-    
+                
+                    <!-- Render private pages if user is logged in -->
                     {% if 'user_id' in session %}
-                    {% for item in nav_items[session['nivel']] %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ item.url }}">{{ item.text }}</a>
-                    </li>
-                    {% endfor %}
+                        {% set private_items = nav_items[session['nivel']] | sort(attribute='text') %}
+                        {% set dropdowns = {} %}
+                
+                        <!-- Organize private items into dropdowns -->
+                        {% for item in private_items %}
+                            {% if '/' in item.text %}
+                                {% set main, sub = item.text.split('/', 1) %}
+                                {% if main not in dropdowns %}
+                                    {% set _ = dropdowns.update({main: []}) %}
+                                {% endif %}
+                                {% set _ = dropdowns[main].append({"text": sub, "url": item.url}) %}
+                            {% else %}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ item.url }}">{{ item.text }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                
+                        <!-- Render dropdown menus -->
+                        {% for main, sub_items in dropdowns.items() | sort %}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="{{ main }}Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ main }}
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="{{ main }}Dropdown">
+                                {% for sub_item in sub_items | sort(attribute='text') %}
+                                <li><a class="dropdown-item" href="{{ sub_item.url }}">{{ sub_item.text }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        {% endfor %}
                     {% endif %}
                 </ul>
+                
     
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                     {% if 'user_id' in session %}

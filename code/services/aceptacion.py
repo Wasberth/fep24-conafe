@@ -30,8 +30,7 @@ estados = db3.estados_republica
 def get_convocatoria_list():
     """Obtiene la lista de la convocatoria."""
     data = request.get_json()
-    estado = estados.find_one({"COT": ObjectId(data['cot_id'])})
-    print(estado)
+    estado = estados.find_one({"cot": data['cot_id']})
     convocatorias_list = convocatorias.find({"estado":{"$exists": False}, "estado_republica": estado['estado']})
     return jsonify(objectid_to_str({"result":list(convocatorias_list)}))
 

@@ -21,8 +21,8 @@ def validacion_login():
     if request.method == 'POST':
         # TODO: Los nombres de los campos de JSON no se deben quedar así jaja
         data = request.get_json()
-        user = data.get('registro_id')
-        password = data.get('curp')
+        user = data.get('user')
+        password = data.get('password')
 
         #Verificar si el usuario existe
         try:

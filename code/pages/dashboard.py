@@ -18,7 +18,7 @@ def dashboard():
     """Renderiza el panel de control y las convocatorias."""
     # Obtener los datos del microservicio
     try:
-        response = requests.get(ACEPTACION_URL + '/lista_convocatoria', json={'cot_id': session['real_id']})
+        response = requests.get(ACEPTACION_URL + '/lista_convocatoria', json={'cot_id': session['user_id']})
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
