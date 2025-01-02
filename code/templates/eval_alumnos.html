@@ -1,0 +1,86 @@
+{% extends 'form.html' %}
+{% block formtitle %} Evaluar alumnos {% endblock %}
+{% block form %}
+<div class="container-fluid p-4">
+    <h1 class="text-center mb-4">EVALUACIÓN FINAL DE ALUMNOS</h1>
+    
+    <form id="downloadableForm" action="/evaluacion/alumnos_bd" method="post">
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label for="estado" class="form-label">Delegación en el estado de:</label>
+                <input type="text" name="estado" id="estado" class="form-control" readonly value="{{ estado }}">
+            </div>
+            <div class="col-md-4">
+                <label for="cct" class="form-label">Clave del centro de trabajo</label>
+                <input type="text" name="cct" id="cct" class="form-control" readonly value="{{ cct }}">
+            </div>
+            <div class="col-md-4">
+                <label for="eval" class="form-label">Tipo de evaluación</label>
+                <input type="text" name="eval" id="eval" class="form-control" readonly value="{{ eval }}">
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered bg-white text-dark">
+                <thead>
+                    <tr>
+                        <th rowspan="2">No.</th>
+                        <th rowspan="2">Nombre</th>
+                        <th class="text-center" colspan="5">Primer parcial</th>
+                        <th class="text-center" colspan="5">Segundo parcial</th>
+                        <th class="text-center" colspan="5">Tercer parcial</th>
+                        <th class="text-center" colspan="5">Cuarto parcial</th>
+                        <th class="text-center" colspan="5">Evaluación Final</th>
+                        <th class="text-center" colspan="5">Calificación Final</th>
+                        <th rowspan="2">Promedio general anual</th>
+                        <th rowspan="2">Presentó el examen final</th>
+                        <th rowspan="2">Situación final</th>
+                        <th rowspan="2">Acciones</th>
+                    </tr>
+                    <tr>
+                        <th class="vertical-text">Lengua</th>
+                        <th class="vertical-text">Español</th>
+                        <th class="vertical-text">Matemáticas</th>
+                        <th class="vertical-text">Ciencias<br>Naturales</th>
+                        <th class="vertical-text">Cienc. Socles.<br>o Hist. y Geog.</th>
+                        <th class="vertical-text">Lengua</th>
+                        <th class="vertical-text">Español</th>
+                        <th class="vertical-text">Matemáticas</th>
+                        <th class="vertical-text">Ciencias<br>Naturales</th>
+                        <th class="vertical-text">Cienc. Socles.<br>o Hist. y Geog.</th>
+                        <th class="vertical-text">Lengua</th>
+                        <th class="vertical-text">Español</th>
+                        <th class="vertical-text">Matemáticas</th>
+                        <th class="vertical-text">Ciencias<br>Naturales</th>
+                        <th class="vertical-text">Cienc. Socles.<br>o Hist. y Geog.</th>
+                        <th class="vertical-text">Lengua</th>
+                        <th class="vertical-text">Español</th>
+                        <th class="vertical-text">Matemáticas</th>
+                        <th class="vertical-text">Ciencias<br>Naturales</th>
+                        <th class="vertical-text">Cienc. Socles.<br>o Hist. y Geog.</th>
+                        <th class="vertical-text">Lengua</th>
+                        <th class="vertical-text">Español</th>
+                        <th class="vertical-text">Matemáticas</th>
+                        <th class="vertical-text">Ciencias<br>Naturales</th>
+                        <th class="vertical-text">Cienc. Socles.<br>o Hist. y Geog.</th>
+                        <th class="vertical-text">Lengua</th>
+                        <th class="vertical-text">Español</th>
+                        <th class="vertical-text">Matemáticas</th>
+                        <th class="vertical-text">Ciencias<br>Naturales</th>
+                        <th class="vertical-text">Cienc. Socles.<br>o Hist. y Geog.</th>
+                    </tr>
+                </thead>
+                <tbody id="evaluationTableBody">
+                    <!-- Las filas de evaluación se agregarán aquí dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="button" class="btn btn-primary" id="addEvaluationBtn">Agregar Evaluación</button>
+            <button type="submit" class="btn btn-success" id="submitBtn">Aceptar</button>
+            <button type="button" class="btn btn-secondary" id="downloadBtn">Descargar</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
