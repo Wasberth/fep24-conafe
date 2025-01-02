@@ -5,6 +5,7 @@ import json
 
 from mode_handler import get_url
 from pages._check_level_ import restricted
+from pages._decompose_form_ import decompose_form
 
 CAPACITACION_URL = get_url('capacitacion')
 
@@ -24,6 +25,7 @@ def evaluacion_capacitacion_bd():
     """Envía los datos del form al microservicio."""
     # Obtener los datos del formulario enviados por el cliente
     form_data = request.form.to_dict()
+    form_data = {"registros":decompose_form(form_data)}
     
     # Enviar los datos al microservicio
     try:
@@ -46,6 +48,7 @@ def evaluacion_servicio_bd():
     """Envía los datos del form al microservicio."""
     # Obtener los datos del formulario enviados por el cliente
     form_data = request.form.to_dict()
+    form_data = {"registros":decompose_form(form_data)}
     
     # Enviar los datos al microservicio
     try:

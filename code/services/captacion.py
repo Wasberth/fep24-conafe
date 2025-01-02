@@ -13,6 +13,8 @@ client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['captacion']
 
 formulario = db['formulario']
+alumnos = db['alumnos']
+
 @app.route('/registrar', methods=['POST'])
 def get_list():
     """Registra un formulario en la base de datos y retorna la ID del registro."""
@@ -24,6 +26,14 @@ def get_list():
 
     insert_result = formulario.insert_one(data)
     return jsonify({"id": str(insert_result.inserted_id)})
+
+@app.route('/registrar_alumno', methods=['POST'])
+def registrar_alumno():
+    """Registra un formulario en la base de datos y retorna la ID del registro."""
+    data = request.get_json()['registros']
+
+    insert_result = alumnos.insert_many(data)
+    return jsonify({"ids": str(insert_result.inserted_ids)})
 
 @app.route('/estado', methods=['POST']) 
 def get_estado():

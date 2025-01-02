@@ -18,16 +18,16 @@ formulario_servicio = db['ec2']
 @app.route('/registrar_capacitacion', methods=['POST'])
 def registrar_capacitacion():
     """Registra un formulario en la base de datos."""
-    data = request.get_json()
-    insert_result = formulario.insert_one(data)
-    return jsonify({"id": str(insert_result.inserted_id)})
+    data = request.get_json()['registros']
+    insert_result = formulario.insert_many(data)
+    return jsonify({"ids": str(insert_result.inserted_ids)})
 
 @app.route('/registrar_servicio', methods=['POST'])
 def registrar_servicio():
     """Registra un formulario en la base de datos."""
-    data = request.get_json()
-    insert_result = formulario_servicio.insert_one(data)
-    return jsonify({"id": str(insert_result.inserted_id)})
+    data = request.get_json()['registros']
+    insert_result = formulario_servicio.insert_many(data)
+    return jsonify({"ids": str(insert_result.inserted_ids)})
 
 if __name__ == '__main__':
     from __args__ import parse_args

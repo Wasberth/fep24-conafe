@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <td><input type="text" name="apellido1_${evaluationCount}" class="form-control" placeholder="Apellido Materno" required></td>
             <td><input type="text" name="apellido2_${evaluationCount}" class="form-control" placeholder="Apellido Paterno" required></td>
             <td><input type="text" name="nombre${evaluationCount}" class="form-control" placeholder="Nombre (s)" required></td>
-            <td><input type="date" name="fecha_nacimiento${evaluationCount} class="form-control" required></td>
+            <td><input type="date" name="fecha_nacimiento${evaluationCount}" class="form-control" required></td>
             <td><input type="text" name="curp${evaluationCount}" class="form-control" placeholder="CURP" required></td>
             <td><select name="sexo${evaluationCount}" class="form-control" placeholder="Sexo"><option value="M">Masculino</option><option value="F">Femenino</option></select></td>
             <td><select name="acta_nacimiento${evaluationCount}" class="form-control" placeholder="Acta de nacimiento"><option value="true">Sí</option><option value="false">No</option></select></td>
