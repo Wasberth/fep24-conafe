@@ -1,0 +1,100 @@
+{% extends "form.html" %}
+
+{% block formtitle %} Registro de inscripción-reinscripción de alumnos {% endblock %}
+
+{% block form %}
+
+<div class="container-fluid p-4">
+    <h2 class="text-center mb-4">REGISTRO DE INSCRIPCIÓN-REINSCRIPCIÓN DE ALUMNOS</h2>
+    
+    <form id="downloadableForm" action="/alta_alumno_bd" method="post">
+        <div class="row mb-3">
+            <div class="col-md">
+                <label for="estado" class="form-label">Delegación en el estado de:</label>
+                {% if not estado %}
+                    <select id="estado" name="estado" class="form-select" required>
+                        <option value="">Seleccione un estado</option>
+                        <option value="Aguascalientes">Aguascalientes</option>
+                        <option value="Baja California">Baja California</option>
+                        <option value="Baja California Sur">Baja California Sur</option>
+                        <option value="Campeche">Campeche</option>
+                        <option value="Chiapas">Chiapas</option>
+                        <option value="Chihuahua">Chihuahua</option>
+                        <option value="Ciudad de México">Ciudad de México</option>
+                        <option value="Coahuila">Coahuila</option>
+                        <option value="Colima">Colima</option>
+                        <option value="Durango">Durango</option>
+                        <option value="Estado de México">Estado de México</option>
+                        <option value="Guanajuato">Guanajuato</option>
+                        <option value="Guerrero">Guerrero</option>
+                        <option value="Hidalgo">Hidalgo</option>
+                        <option value="Jalisco">Jalisco</option>
+                        <option value="Michoacán">Michoacán</option>
+                        <option value="Morelos">Morelos</option>
+                        <option value="Nayarit">Nayarit</option>
+                        <option value="Nuevo León">Nuevo León</option>
+                        <option value="Oaxaca">Oaxaca</option>
+                        <option value="Puebla">Puebla</option>
+                        <option value="Querétaro">Querétaro</option>
+                        <option value="Quintana Roo">Quintana Roo</option>
+                        <option value="San Luis Potosí">San Luis Potosí</option>
+                        <option value="Sinaloa">Sinaloa</option>
+                        <option value="Sonora">Sonora</option>
+                        <option value="Tabasco">Tabasco</option>
+                        <option value="Tamaulipas">Tamaulipas</option>
+                        <option value="Tlaxcala">Tlaxcala</option>
+                        <option value="Veracruz">Veracruz</option>
+                        <option value="Yucatán ">Yucatán </option>
+                        <option value="Zacatecas">Zacatecas</option>
+                    </select>
+                {% else %}
+                    <input type="text" name="estado" id="estado" class="form-control" value="{{ estado }}" disabled>
+                {% endif %}
+            </div>
+            <div class="col-md">
+                <label for="claveCentroTrabajo" class="form-label">Clave del Centro de Trabajo (CCT):</label>
+                {% if not cct %}
+                    <input type="text" name="claveCentroTrabajo" id="claveCentroTrabajo" class="form-control" required>
+                {% else %}
+                    <input type="text" name="claveCentroTrabajo" id="claveCentroTrabajo" class="form-control" value="{{ cct }}" disabled>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered bg-white text-dark">
+                <thead>
+                    <tr>
+                        <th rowspan="2">No.</th>
+                        <th colspan="3">Nombre del alumno</th>
+                        <th rowspan="2">Fecha de nacimiento</th>
+                        <th rowspan="2">Clave Única de Registro Poblacional (CURP)</th>
+                        <th rowspan="2">Sexo</th>
+                        <th colspan="3">Documentos que entrega el alumno</th>
+                        <th>Acciones</th>
+                    </tr>
+                    <tr>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Nombre (s)</th>
+                        <th>Acta de Nacimiento</th>
+                        <th>Fotos</th>
+                        <th>Otros</th>
+                        
+                    </tr>
+                </thead>
+                <tbody id="evaluationTableBody">
+                    <!-- Las filas de evaluación se agregarán aquí dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="button" class="btn btn-primary" id="addEvaluationBtn">Agregar Alumno</button>
+            <button type="submit" class="btn btn-success" id="submitBtn">Aceptar</button>
+            <button type="button" class="btn btn-secondary" id="downloadBtn">Descargar</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
