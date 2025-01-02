@@ -1,0 +1,33 @@
+{% extends "form.html" %}
+
+{% block formtitle %} apoyo a figuras educativas {% endblock %}
+
+{% block form %}
+
+<div class="container py-5">
+    <!-- Alert -->
+    <div class="alert alert-info mb-4">
+        <strong>Atención:</strong> Toma en consideración que, una vez solicitado el apoyo,
+        no podrás modificar los documentos proporcionados. Y en caso de no cumplir los
+        requisitos, no podrás solicitar el apoyo hasta la siguiente convocatoria.
+    </div>
+
+    <!-- Main Form -->
+    <form>
+        <h2 class="mb-4">Solicitud de apoyo para la continuación de estudios</h2>
+
+        <div class="row g-3">
+            
+            <div class="mb-3">
+                <label for="documentos-necesarios" class="form-label">Documentos necesarios: Comprobante de pago y constancia de estudios (Ingresar todos los documentos en un solo archivo .pdf)</label>
+                <input class="form-control" type="file" id="documentos_necesarios" name="documentos_necesarios" accept=".pdf" required>
+            </div>
+            
+            <div class="mt-4 text-end">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
