@@ -7,51 +7,16 @@ import string
 from docx import Document
 import secrets
 from mongo_objects.cct import CCT
+from fpdf import FPDF
 
 load_dotenv()
 uri = os.environ['uri']
 client = MongoClient(uri)
 db = client['captacion']
 formulario_collection = db['formulario']
-
-
 db = client['CCT']
 cct_collection = db['cct']
 
-
-COTs = {
-    "AGUASCALIENTES": "Álvaro de Ávila Aguilar",
-    "BAJA CALIFORNIA": "Juan Gálvez Lugo",
-    "BAJA CALIFORNIA SUR": "José Jesús Flores Castro",
-    "CAMPECHE": "María Guadalupe Sarlat Ancona",
-    "CHIAPAS": "Ernesto Pérez Bautista",
-    "CHIHUAHUA": "Lorenza Botello Montañez",
-    "COAHUILA": "Alcira de Jesús Vásquez Corral",
-    "COLIMA": "Luis Alberto Araoz Ubaldo",
-    "DURANGO": "María del Pilar Espino",
-    "ESTADO DE MEXICO": "Berenice Olmos Sánchez",
-    "GUANAJUATO": "Giovana Battaglia Velazquez",
-    "GUERRERO": "José Enrique Pérez Franco",
-    "HIDALGO": "Joel Guerrero Juárez",
-    "JALISCO": "Lilia Dalila López Salmorán",
-    "MICHOACAN": "Genoveva Pérez Vieyra",
-    "MORELOS": "Araceli Castillo Macías",
-    "NAYARIT": "Adán Rivera Ramos",
-    "NUEVO LEON": "Martha Idalia Garza González",
-    "OAXACA": "Alejandra Brito Rodríguez",
-    "PUEBLA": "Cutberto Cantoran Espinosa",
-    "QUERETARO": "Alejandra Torres Martínez",
-    "QUINTANA ROO": "Nancy Paola Chávez Arias",
-    "SAN LUIS POTOSI": "César Vázquez Jiménez",
-    "SINALOA": "Anatolio Lugo Félix",
-    "SONORA": "Elena Ramírez Madueña",
-    "TABASCO": "Gabino de la Torre Ochoa",
-    "TAMAULIPAS": "Roberto Villarreal Danwing",
-    "TLAXCALA": "Rocío Reyes Sánchez",
-    "VERACRUZ": "Antonio Rubén Viveros Álvarez",
-    "YUCATAN": "Daniel Flores Albornoz",
-    "ZACATECAS": "Rito Longoria Castrejón"
-}
 
 def generar_cadena_aleatoria(longitud=255):
     caracteres = string.ascii_letters + string.digits  # Letras y números
@@ -97,58 +62,108 @@ def generar_cadena_aleatoria(longitud=15):
     return ''.join(secrets.choice(caracteres) for _ in range(longitud))
 
 
+# Definición de datos (COTs)
+COTs = {
+    "AGUASCALIENTES": "Álvaro de Ávila Aguilar",
+    "BAJA CALIFORNIA": "Juan Gálvez Lugo",
+    "BAJA CALIFORNIA SUR": "José Jesús Flores Castro",
+    "CAMPECHE": "María Guadalupe Sarlat Ancona",
+    "CHIAPAS": "Ernesto Pérez Bautista",
+    "CHIHUAHUA": "Lorenza Botello Montañez",
+    "COAHUILA": "Alcira de Jesús Vásquez Corral",
+    "COLIMA": "Luis Alberto Araoz Ubaldo",
+    "DURANGO": "María del Pilar Espino",
+    "ESTADO DE MEXICO": "Berenice Olmos Sánchez",
+    "GUANAJUATO": "Giovana Battaglia Velazquez",
+    "GUERRERO": "José Enrique Pérez Franco",
+    "HIDALGO": "Joel Guerrero Juárez",
+    "JALISCO": "Lilia Dalila López Salmorán",
+    "MICHOACAN": "Genoveva Pérez Vieyra",
+    "MORELOS": "Araceli Castillo Macías",
+    "NAYARIT": "Adán Rivera Ramos",
+    "NUEVO LEON": "Martha Idalia Garza González",
+    "OAXACA": "Alejandra Brito Rodríguez",
+    "PUEBLA": "Cutberto Cantoran Espinosa",
+    "QUERETARO": "Alejandra Torres Martínez",
+    "QUINTANA ROO": "Nancy Paola Chávez Arias",
+    "SAN LUIS POTOSI": "César Vázquez Jiménez",
+    "SINALOA": "Anatolio Lugo Félix",
+    "SONORA": "Elena Ramírez Madueña",
+    "TABASCO": "Gabino de la Torre Ochoa",
+    "TAMAULIPAS": "Roberto Villarreal Danwing",
+    "TLAXCALA": "Rocío Reyes Sánchez",
+    "VERACRUZ": "Antonio Rubén Viveros Álvarez",
+    "YUCATAN": "Daniel Flores Albornoz",
+    "ZACATECAS": "Rito Longoria Castrejón"
+}
 cct_list = obtener_todos_los_cct()
 
+def calcular_edad(fecha_nacimiento):
+    try:
+        fecha_nacimiento = datetime.strptime(fecha_nacimiento, "%Y-%m-%d")
+    except ValueError:
+        try:
+            fecha_nacimiento = datetime.strptime(fecha_nacimiento, "%d/%m/%Y")
+        except ValueError:
+            raise ValueError(f"Formato de fecha no reconocido: {fecha_nacimiento}")
+    fecha_actual = datetime.now()
+    edad = fecha_actual.year - fecha_nacimiento.year
+    if (fecha_actual.month, fecha_actual.day) < (fecha_nacimiento.month, fecha_nacimiento.day):
+        edad -= 1
+    return edad
 
 
-def generar_contrato(datos):
+from fpdf import FPDF
+from datetime import datetime
 
+def generar_pdf_contrato(datos):
     dia = datetime.now().day
     mes = datetime.now().month
     ano = datetime.now().year
-   
-    for i in datos:
-        nombre = i["nombre"]
-        apellido1 = i["apellido1"]
-        apellido2 = i.get("apellido2", "")
 
-        genero = i["genero"]
+    for i, persona in enumerate(datos, start=1):  # Itera por cada persona y genera un PDF separado
+        pdf = FPDF()
+        pdf.add_page()
+        pdf.set_auto_page_break(auto=True, margin=15)
+        pdf.add_font('LiberationSans', '', 'fuente/LiberationSans-Regular.ttf', uni=True)
+        pdf.set_font('LiberationSans', size=12)
+        pdf.set_left_margin(10)
+        pdf.set_right_margin(10)
+        pdf.set_top_margin(10)
 
+        # Asignación de variables de la persona
+        cadena1 = generar_cadena_aleatoria()
+        cadena2 = generar_cadena_aleatoria()
+
+        nombre = persona["nombre"]
+        apellido1 = persona["apellido1"]
+        apellido2 = persona.get("apellido2", "")
+        genero = persona["genero"]
         if genero == "Male":
             genero = "EL"
         elif genero == "Female":
             genero = "LA"
         elif genero == "Other":
             genero = "EL/LA"
-       
-        direccion = i["direccion"]
-        situacion_educativa = i["situacion_educativa"]
-        fecha_nacimiento = i.get("fecha_nacimiento")
-        estado_republica = i.get("estado_republica")
+        direccion = persona["direccion"]
+        situacion_educativa = persona["situacion_educativa"]
+        fecha_nacimiento = persona.get("fecha_nacimiento")
+        estado_republica = persona.get("estado_republica")
+
         if not fecha_nacimiento:
-            print(f"Documento sin fecha_nacimiento: {i}")
+            print(f"Documento sin fecha_nacimiento: {persona}")
             continue
+
         edad = calcular_edad(fecha_nacimiento)
-        cadena = generar_cadena_aleatoria()
-        doc = Document()
-
         registro = next((cct for cct in cct_list if cct.estado.upper() == estado_republica.upper()), None)
-        if registro:
-            persona = COTs.get(registro.estado.upper(), "No se encontró información")
-            sede = registro.sede
-      
-        else:
-            print(f"No se encontró información para el estado {estado_republica}")
 
-        
-        cadena1 = generar_cadena_aleatoria()
-        cadena2 = generar_cadena_aleatoria()
+        estado_republica = estado_republica.upper()
+        nombre1 = COTs.get(estado_republica, "No se encontró información")
+        sede = registro.sede if registro else "No asignada"
 
-    
-
-        
+        # Generación del texto para el contrato
         texto = f'''CONVENIO DE CONCERTACIÓN VOLUNTARIA PARA FORMALIZAR LA PARTICIPACIÓN DEL ASPIRANTE A EDUCADOR 
-                COMUNITARIO EN LA ETAPA DE FORMACIÓN Y/O COMO DENTRO DEL SISTEMA DE FORMACIÓN EN LA PRÁCTICA EDUCATIVA COMUNITARIA Y EL  OTORGAMIENTO DE APOYOS ECONÓMICOS, QUE CELEBRAN POR UNA PARTE EL CONSEJO NACIONAL DE FOMENTO EDUCATIVO “EL CONAFE”, REPRESENTADO EN ESTE ACTO POR EL DIRECTOR DE OPERACIÓN TERRITORIAL, EL MTRO. JUAN MARTÍN MARTÍNEZ BECERRA, AUXILIADO PARA EL CUMPLIMIENTO DEL PRESENTE INSTRUMENTO POR EL (LA) COORDINADOR (A) TERRITORIAL PARA EL SERVICIO EDUCATIVO DEL CONAFE, EL (LA) C. {persona}, EN EL ESTADO DE {estado_republica} Y POR LA OTRA EL (LA) C.{nombre} {apellido1} {apellido2}, A QUIEN SE DENOMINARÁ EN LO SUBSECUENTE {genero} ASPIRANTE, A QUIENES DE FORMA CONJUNTA SE LES DENOMINARÁ “LAS PARTES”, AL TENOR DE LAS DECLARACIONES Y CLÁUSULAS SIGUIENTES: 
+                COMUNITARIO EN LA ETAPA DE FORMACIÓN Y/O COMO DENTRO DEL SISTEMA DE FORMACIÓN EN LA PRÁCTICA EDUCATIVA COMUNITARIA Y EL  OTORGAMIENTO DE APOYOS ECONÓMICOS, QUE CELEBRAN POR UNA PARTE EL CONSEJO NACIONAL DE FOMENTO EDUCATIVO “EL CONAFE”, REPRESENTADO EN ESTE ACTO POR EL DIRECTOR DE OPERACIÓN TERRITORIAL, EL MTRO. JUAN MARTÍN MARTÍNEZ BECERRA, AUXILIADO PARA EL CUMPLIMIENTO DEL PRESENTE INSTRUMENTO POR EL (LA) COORDINADOR (A) TERRITORIAL PARA EL SERVICIO EDUCATIVO DEL CONAFE, EL (LA) C. {nombre1}, EN EL ESTADO DE {estado_republica} Y POR LA OTRA EL (LA) C.{nombre} {apellido1} {apellido2}, A QUIEN SE DENOMINARÁ EN LO SUBSECUENTE {genero} ASPIRANTE, A QUIENES DE FORMA CONJUNTA SE LES DENOMINARÁ “LAS PARTES”, AL TENOR DE LAS DECLARACIONES Y CLÁUSULAS SIGUIENTES: 
                 D E C L A R A C I O N E S I. DE “EL CONAFE”: 
                 I.1.- Que es un Organismo Descentralizado creado por el Ejecutivo Federal, que tiene por objeto el fomento educativo a través de la prestación de servicios de educación inicial y básica con Equidad Educativa e Inclusión Social a la población infantil de cero a tres años once meses y niñas, niños y adolescentes hasta los 16 años de edad, que habitan en localidades preferentemente rurales e indígenas que registran altos y muy altos niveles de marginación y/o rezago social, bajo el modelo de Educación Comunitaria, de conformidad con el Decreto que lo rige publicado en el Diario Oficial de la Federación el 18 de marzo de 2016.  
                 
@@ -253,13 +268,20 @@ def generar_contrato(datos):
                 {genero} ASPIRANTE
 
                 FIRMA ELECTRÓNICA 
+                {cadena1}	
                 '''
- # Tu texto completo aquí
-        doc.add_paragraph(texto)
-        doc.save(f"contrato_{nombre}_{cadena}.docx")
+        
+        # Dividir texto largo en líneas según ancho del PDF
+        lineas = pdf.multi_cell(0, 10, texto, align='L')
+        
+        # Guardar archivo PDF con un nombre único
+        nombre_archivo = f"Contrato_{nombre}_{apellido1}_{i}.pdf"
+        pdf.output(nombre_archivo)
+        print(f"PDF generado: {nombre_archivo}")
 
 
 
-# Ejecución principal
-datos = obtener_todos_los_datos()
-generar_contrato(datos)
+# Obtener datos y generar contratos
+datos = formulario_collection.find({}, {"_id": 0, "nombre": 1, "apellido1": 1, "apellido2": 1, "estado_republica": 1, "genero": 1, "direccion": 1, "situacion_educativa": 1, "fecha_nacimiento": 1})
+print(datos)
+generar_pdf_contrato(datos)
