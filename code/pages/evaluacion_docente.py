@@ -18,7 +18,8 @@ def evaluacion_capacitacion():
     return render_template(
         f'eval_capacitacion.html',
         stylesheets=['success', 'button'],
-        scripts=['addEvaluationEC1']
+        scripts=['addEvaluationEC1'],
+        estado = session['estado']
     )
 
 @route('/evaluacion/capacitacion_bd', methods=['POST'])
@@ -34,7 +35,7 @@ def evaluacion_capacitacion_bd():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        raise ConafeException(500, "Error comunicándose con el microservicio", details=str(e))
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
 
      # Crear la respuesta con la cookie
     resp = make_response(render_template(f'success.html',
@@ -57,7 +58,7 @@ def evaluacion_servicio_bd():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        raise ConafeException(500, "Error comunicándose con el microservicio", details=str(e))
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
 
      # Crear la respuesta
     resp = make_response(render_template(f'success.html',
@@ -75,6 +76,7 @@ def evaluacion_capacitacion_servicio():
     return render_template(
         f'eval_servicio.html',
         stylesheets=['success', 'button'],
-        scripts=['addEvaluationEC2']
+        scripts=['addEvaluationEC2'],
+        estado = session['estado']
     )
 

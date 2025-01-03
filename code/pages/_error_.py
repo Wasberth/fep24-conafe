@@ -1,8 +1,8 @@
 from flask import render_template
 
 class ConafeException(Exception):
-    def __init__(self, code, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+    def __init__(self, code, *args):
+        super().__init__(*args)
         self.code = code
 
     def response(self):

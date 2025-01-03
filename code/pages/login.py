@@ -6,6 +6,7 @@ from mode_handler import get_url
 from pages._error_ import ConafeException
 
 AUTENTICACION_URL = get_url('autenticacion')
+CAPTACION_URL = get_url('captacion')
 
 @route('/login', methods=['GET'])
 def login():
@@ -26,23 +27,38 @@ def auth():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        raise ConafeException(500, "Error de conexión con el microservicio de autenticación.")
+        raise ConafeException(500, "Error de conexión con el microservicio de autenticación.", str(e))
     
     usuario = microservice_data.get("user_id")
-    nivel = str(microservice_data.get("nivel"))
+    nivel = microservice_data.get("nivel")
     user_id = microservice_data.get("real_id")
 
     #Validar si existe usuario
-    if usuario:
-        session['user_id'] = str(usuario)
-        session['nivel'] = nivel
-        session['real_id'] = str(user_id)
-        # TODO: Buscar el nombre del usuario
-        nombre = nivel
-        return redirect(url_for('wellcome'))
-    else:
+    if not usuario:
         raise ConafeException(401, "Usuario o contraseña incorrectos.")
 
+    session['user_id'] = usuario
+    session['nivel'] = nivel
+    #session['real_id'] = str(user_id)
+    
+    try:
+        sede_response = requests.post(CAPTACION_URL + '/sede', json={"nivel": nivel, "folio": usuario})
+        sede_response.raise_for_status()
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error de conexión con el microservicio de captación.", str(e))
+
+    sede_response = sede_response.json()
+
+    sede = sede_response.get('sede')
+    if sede:
+        session['sede'] = sede
+
+    estado = sede_response.get('estado')
+    if estado:
+        session['estado'] = estado
+
+    return redirect(url_for('wellcome'))
+    
 @route('/bienvenida')
 def wellcome():
     """Renderiza la página de bienvenida"""

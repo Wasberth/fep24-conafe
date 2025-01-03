@@ -18,7 +18,13 @@ lugares = db['cct']
 @app.route('/lista_lugares', methods=['GET']) 
 def get_lugares():
     """Obtiene la lista de CCT."""
-    lugares_list = lugares.find()
+    # Checar si se envió un estado
+    data = request.get_json(silent=True)
+    query = {}
+    if data is not None and 'estado' in data:
+        query = {"estado": data['estado']}
+
+    lugares_list = lugares.find(query)
     return jsonify(objectid_to_str({"result":list(lugares_list)}))
 
 if __name__ == '__main__':

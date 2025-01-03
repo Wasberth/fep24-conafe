@@ -1,4 +1,4 @@
-from flask import render_template, request, jsonify, make_response
+from flask import render_template, request, session, make_response
 from decos import route, nav
 import requests
 
@@ -8,15 +8,35 @@ from pages._decompose_form_ import decompose_form
 from pages._error_ import ConafeException
 
 CAPTACION_URL = get_url('captacion')
+UBICACION_URL = get_url('ubicacion')
 
 @route('/alumno/alta')
 @nav('Control Escolar/Altas')
 @restricted(['EC2', 'ECA'])
 def alta_alumno():
+    datos = {}
+    if estado := session.get('estado'):
+        datos['estado'] = estado
+
+    print(session)
+
+    if sede := session.get('sede'):
+        datos['cct'] = [{'nombre':sede, 'sede':sede}]
+    else:
+        try:
+            response = requests.get(UBICACION_URL + '/lista_lugares', json={'estado':estado.upper()})
+            response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+            microservice_data = response.json()  # Obtiene el JSON del microservicio
+            print(microservice_data)
+            datos['cct'] = microservice_data['result']
+        except requests.RequestException as e:
+            raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+
     return render_template(
         f'alta_alumno.html',
         stylesheets=['button'],
-        scripts=['addStudent']
+        scripts=['addStudent'],
+        **datos
     )
 
 @route('/alta_alumno_bd', methods=['POST'])
@@ -29,7 +49,7 @@ def alta_alumno_bd():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        raise ConafeException(500, "Error comunicándose con el microservicio", details=str(e))
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
     
     return make_response(render_template(f'success.html',
                 stylesheets=['success', 'button'],

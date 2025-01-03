@@ -6,8 +6,9 @@
     
     <form id="downloadableForm" action="/evaluacion/servicio_bd" method="post">
         <div class="row mb-3">
-            <div class="col-md-4">
+            <div class="col-md">
                 <label for="estado" class="form-label">Delegación en el estado de:</label>
+                {% if not estado %}
                 <select id="estado" name="estado" class="form-select" required>
                     <option value="">Seleccione un estado</option>
                     <option value="Aguascalientes">Aguascalientes</option>
@@ -43,12 +44,11 @@
                     <option value="Yucatán ">Yucatán </option>
                     <option value="Zacatecas">Zacatecas</option>
                 </select>
+                {% else %}
+                <input type="text" name="estado" id="estado" class="form-control" value="{{ estado }}" required readonly>
+                {% endif %}
             </div>
-            <!--<div class="col-md-4">
-                <label for="evento" class="form-label">Evento:</label>
-                <input type="text" name="evento" id="evento" class="form-control" required>
-            </div>-->
-            <div class="col-md-4">
+            <div class="col-md">
                 <label for="fecha" class="form-label">Fecha de la evaluación:</label>
                 <input type="date" name="fecha" id="fecha" class="form-control" required>
             </div>

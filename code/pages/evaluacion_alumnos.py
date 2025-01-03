@@ -8,11 +8,13 @@ from pages._check_level_ import restricted
 
 @route('/evaluacion/alumnos')
 @nav('Control Escolar/Calificar')
-@restricted('ECA')
+@restricted('EC2')
 def evaluacion_alumnos():
     """Renderiza la página de evaluación de los alumnos"""
     return render_template(
         f'eval_alumnos.html',
         stylesheets=['success', 'button', 'verticalText'],
-        scripts=['addEvaluationStudent']
+        scripts=['addEvaluationStudent'],
+        estado=session['estado'],
+        cct=session['sede']
     )

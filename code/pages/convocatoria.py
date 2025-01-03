@@ -35,7 +35,7 @@ def register_form():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        raise ConafeException(500, "Error comunicándose con el microservicio", details=str(e))
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
 
     # Obtener la ID del registro desde el microservicio
     registro_id = microservice_data.get("id")
@@ -66,7 +66,7 @@ def check_status():
         microservice_data = response.json()  # Obtiene el JSON del microservicio
         print(microservice_data)
     except requests.RequestException as e:
-        raise ConafeException(500, "Error comunicándose con el microservicio", details=str(e))
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
 
     estado = microservice_data.get("estado")
 

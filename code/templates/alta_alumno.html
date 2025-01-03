@@ -54,9 +54,13 @@
             <div class="col-md">
                 <label for="claveCentroTrabajo" class="form-label">Clave del Centro de Trabajo (CCT):</label>
                 {% if not cct %}
-                    <input type="text" name="claveCentroTrabajo" id="claveCentroTrabajo" class="form-control" required>
+                    <input type="text" name="cct" id="claveCentroTrabajo" class="form-control" required>
                 {% else %}
-                    <input type="text" name="claveCentroTrabajo" id="claveCentroTrabajo" class="form-control" value="{{ cct }}" disabled>
+                    <select id="cct" name="cct" class="form-select" required>
+                        {% for centro in cct %}
+                            <option value="{{ centro.clave }}">{{ centro.nombre }} ({{ centro.sede }})</option>
+                        {% endfor %}
+                    </select>
                 {% endif %}
             </div>
         </div>

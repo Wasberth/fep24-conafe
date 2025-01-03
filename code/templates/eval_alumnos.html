@@ -6,17 +6,13 @@
     
     <form id="downloadableForm" action="/evaluacion/alumnos_bd" method="post">
         <div class="row mb-3">
-            <div class="col-md-4">
+            <div class="col-md">
                 <label for="estado" class="form-label">Delegación en el estado de:</label>
                 <input type="text" name="estado" id="estado" class="form-control" readonly value="{{ estado }}">
             </div>
-            <div class="col-md-4">
+            <div class="col-md">
                 <label for="cct" class="form-label">Clave del centro de trabajo</label>
                 <input type="text" name="cct" id="cct" class="form-control" readonly value="{{ cct }}">
-            </div>
-            <div class="col-md-4">
-                <label for="eval" class="form-label">Tipo de evaluación</label>
-                <input type="text" name="eval" id="eval" class="form-control" readonly value="{{ eval }}">
             </div>
         </div>
 

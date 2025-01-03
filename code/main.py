@@ -48,6 +48,10 @@ def load_pages_and_register_routes(app: Flask, pages_folder: str = "pages"):
                             nav_items[person] = []
                         nav_items[person].append({'text': attr.nav, 'url': attr.route})
 
+@app.route('/error')
+def error():
+    raise ConafeException(500, m="Error de prueba")
+
 @app.context_processor
 def inject_nav_items():
     """Inyecta los items de navegación en el contexto de Jinja."""
