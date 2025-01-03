@@ -13,7 +13,7 @@ def check_level(levels):
         return redirect(url_for('login'))
     if session['nivel'] not in levels:
         # TODO: Diseñar una página que tenga los vínculos únicos de cada usuario
-        return redirect(url_for('test_page'))
+        return redirect(url_for('wellcome'))
     
     return None
 

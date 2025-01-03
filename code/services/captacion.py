@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+from __mongo_operations__ import objectid_to_str
 import bson
 import os
 from dotenv import load_dotenv
@@ -68,6 +69,14 @@ def get_sede():
         return jsonify({'estado': sede["estado"].title(), 'sede': sede["clave"]})
     
     return jsonify({})
+
+@app.route('/tallas', methods=['POST'])
+def get_tallas():
+    """Obtiene el registro de tallas de un año en específico"""	
+    data = request.get_json()
+    year = data['year']
+    result = formulario.find({"convocatoria": year}, {'playera': 1, 'pantalon': 1, 'calzado':1})
+    return jsonify(objectid_to_str({'result':list(result)}))
 
 if __name__ == '__main__':
     from __args__ import parse_args
