@@ -5,6 +5,7 @@ import requests
 from mode_handler import get_url
 from pages._check_level_ import restricted
 from pages._decompose_form_ import decompose_form
+from pages._error_ import ConafeException
 
 CAPTACION_URL = get_url('captacion')
 
@@ -28,7 +29,7 @@ def alta_alumno_bd():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error comunicándose con el microservicio", details=str(e))
     
     return make_response(render_template(f'success.html',
                 stylesheets=['success', 'button'],

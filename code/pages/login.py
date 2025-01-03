@@ -3,6 +3,7 @@ from decos import route
 import requests
 
 from mode_handler import get_url
+from pages._error_ import ConafeException
 
 AUTENTICACION_URL = get_url('autenticacion')
 
@@ -25,8 +26,7 @@ def auth():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        # TODO: Corregir la forma de mandar el error, matar el servicio no es viable xD
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error de conexión con el microservicio de autenticación.")
     
     usuario = microservice_data.get("user_id")
     nivel = str(microservice_data.get("nivel"))
@@ -41,7 +41,7 @@ def auth():
         nombre = nivel
         return redirect(url_for('wellcome'))
     else:
-        return jsonify({"error": "Error obteniendo respuesta de microservicio."}), 400
+        raise ConafeException(401, "Usuario o contraseña incorrectos.")
 
 @route('/bienvenida')
 def wellcome():

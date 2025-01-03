@@ -3,9 +3,11 @@ from decos import route, nav
 import requests
 import json
 import base64
+
 from mode_handler import get_url
 from pages._check_level_ import restricted
 from pages._card_ import Card, CONVOCATORIA_TEMPLATE, mapear_datos_convocatoria
+from pages._error_ import ConafeException
 
 CAPTACION_URL = get_url('captacion')
 AUTENTICACION_URL = get_url('autenticacion')
@@ -22,7 +24,7 @@ def dashboard():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
         
     microservice_data = microservice_data["result"]
 
@@ -43,12 +45,12 @@ def aceptar_convocatoria(id, curp):
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
 
     # Obtener la ID del registro desde el microservicio
     nuevo_usuario = microservice_data.get('id')
     if not nuevo_usuario:
-        return jsonify({"error": "El microservicio no retornó una ID válida"}), 500
+        raise ConafeException(500, "Error obteniendo respuesta del microservicio")
     
     #Respuesta del servidor
     resp = make_response(render_template(f'success.html',
@@ -70,7 +72,7 @@ def rechazar_convocatoria(id):
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
 
     #Respuesta del servidor
     resp = make_response(render_template(f'success.html',
@@ -92,7 +94,7 @@ def mostrar_documentos(id):
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
     
     try:
         contenido_pdf = base64.b64decode(microservice_data["doc"]) if isinstance(microservice_data["doc"], str) else microservice_data["doc"]
@@ -101,4 +103,4 @@ def mostrar_documentos(id):
         return Response(contenido_pdf, mimetype='application/pdf')
 
     except Exception as e:
-        return jsonify({"error": "Error al procesar el PDF", "details": str(e)}), 500
+        raise ConafeException(422, "Error al procesar el PDF, porfavor intente subir otro archivo", str(e))

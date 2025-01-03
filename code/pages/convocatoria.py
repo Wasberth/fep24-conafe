@@ -4,6 +4,7 @@ import requests
 import base64
 
 from mode_handler import get_url
+from pages._error_ import ConafeException
 
 CAPTACION_URL = get_url('captacion')
 
@@ -34,12 +35,12 @@ def register_form():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error comunicándose con el microservicio", details=str(e))
 
     # Obtener la ID del registro desde el microservicio
     registro_id = microservice_data.get("id")
     if not registro_id:
-        return jsonify({"error": "El microservicio no retornó una ID válida"}), 500
+        raise ConafeException(500, "Error obteniendo respuesta del microservicio")
 
     # Crear la respuesta con la cookie
     resp = make_response(render_template(f'success.html',
@@ -56,7 +57,7 @@ def check_status():
     id = request.form.get('id')
     curp = request.form.get('curp')
     if not curp:
-        return jsonify({"error": "No se proporcionó la CURP"}), 400
+        raise ConafeException(400, "No se proporcionó la CURP, por favor inténtalo de nuevo.")
 
     # Enviar la petición al microservicio
     try:
@@ -65,7 +66,7 @@ def check_status():
         microservice_data = response.json()  # Obtiene el JSON del microservicio
         print(microservice_data)
     except requests.RequestException as e:
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error comunicándose con el microservicio", details=str(e))
 
     estado = microservice_data.get("estado")
 

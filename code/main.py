@@ -1,8 +1,10 @@
 import os
 import importlib.util
-from flask import Flask
+from flask import Flask, render_template
 import inspect
 from dotenv import load_dotenv
+from pages._error_ import ConafeException
+from werkzeug.exceptions import HTTPException
 load_dotenv()
 
 app = Flask(__name__)
@@ -50,6 +52,16 @@ def load_pages_and_register_routes(app: Flask, pages_folder: str = "pages"):
 def inject_nav_items():
     """Inyecta los items de navegación en el contexto de Jinja."""
     return dict(nav_items=nav_items)
+
+@app.errorhandler(Exception)
+def page_not_found(e):
+    if isinstance(e, ConafeException):
+        return e.response()
+    
+    if isinstance(e, HTTPException):
+        return render_template('error.html', description=str(e), code=e.code), e.code
+    
+    return render_template('error.html', description=str(e), code=500), 500
 
 # Load modules and register routes
 load_pages_and_register_routes(app)
