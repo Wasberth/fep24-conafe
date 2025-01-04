@@ -100,7 +100,7 @@ def evaluacion_capacitacion_servicio():
 
     datos_ec = [
         {
-            "text":f'{ec['nombre']} {ec['apellido1']} {ec.get('apellido2', '')}',
+            "text":f"{ec['nombre']} {ec['apellido1']} {ec.get('apellido2', '')}",
             "value":ec['folio']
         }
         for ec in captacion['result']
