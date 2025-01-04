@@ -349,9 +349,8 @@ def generar_convenio_COT():
     
     
     persona = persona['result']
-    lista_persona = []
-    lista_persona.append(persona)
-    convocatorias = mapear_datos_convocatoria(lista_persona)
+    
+    convocatorias = mapear_datos_convocatoria(persona)
 
      # Enviar los datos al microservicio (obtención de CCTs por estado)
     try:
@@ -383,7 +382,7 @@ def generar_convenio():
     
     
     persona = microservice_data.get('result')
-    return generar_pdf_contrato(persona)
+    return generar_pdf_contrato(persona[0])
 
 
 @route('/aceptar_convenio/<id>', methods=['POST'])

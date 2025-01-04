@@ -99,6 +99,15 @@ def get_capacitacion():
     result = formulario.find({"estado_republica": estado})
     return jsonify(objectid_to_str({'result':list(result)}))
 
+
+@app.route('/buscar_integrante', methods=['POST'])
+def get_integrante():
+    """Obtiene los datos de una persona de la convocatoria usando folio"""
+    data = request.get_json()
+    query = data
+    result = formulario.find(query)
+    return jsonify(objectid_to_str({'result':list(result)}))
+
 if __name__ == '__main__':
     from __args__ import parse_args
     args = parse_args()
