@@ -2,11 +2,39 @@
 
 {% block card_footer %}
     <div class="card-footer px-0">
-        <!--- Este se descomentará cuando se implemente la funcionalidad de mandar el convenio
-        <form action=" url_for('aceptar_convenio', id=carta.raw._id, curp=carta.raw.curp) " method="post" style="display:inline;">
-        -->
-        <form style="display:inline;">
-            <button type="submit" class="btn btn-primary">Mandar convenio</button>
-        </form>
+        <!--- Este se descomentará cuando se implemente la funcionalidad de mandar el convenio -->
+        <form action="{{ url_for('aceptar_convenio', id=carta.raw._id) }}" method="post" style="display:inline;">
+        
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">Firmar convenio</button>
+        
+        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresa los datos necesarios</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-field col-lg-4 ">
+                        <label class="etiqueta-formulario" for="beneficiario">Nombre beneficiario:*</label>
+                        <input name="beneficiario" id="beneficiario" class="input-text js-input" type="text" required>
+                    </div>
+                    <div class="form-field col-lg-4">
+                      <select name="clave" id="clave" class="js-input" required>
+                        {% for clave in claves %}
+                        <option value="{{ clave }}">{{ clave }}</option>
+                        {% endfor %}  
+                      </select>
+                      <label class="label" for="clave">Clave CCT*:</label>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="submit" class="btn btn-primary">Guardar convenio</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
     </div>
 {% endblock %}

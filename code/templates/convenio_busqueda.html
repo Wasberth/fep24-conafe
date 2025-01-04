@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}Convenio búsqueda{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h1 class="card-title mb-4">Ingresa el folio del Educador Comunitario</h1>
+                    <form class="d-flex" role="search" action="convenioCOT" method="post">
+                        <input class="form-control me-2" type="search" placeholder="Folio" aria-label="Search" name="folio" id="folio">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -47,6 +47,19 @@ def aceptar_convocatoria_bd():
     
     return jsonify({"id": str(insert_result.inserted_id)})
 
+@app.route('/convenio/aceptar_bd', methods=['POST'])
+def aceptar_convenio_bd():
+    resultado = request.get_json()
+    usuario = resultado.get('usuario')
+    beneficiario = resultado.get('beneficiario')
+    clave = resultado.get('clave')
+    #Actualizar estado de convocatoria
+    convocatorias.update_one({'_id': ObjectId(usuario)}, {'$set': {'beneficiario': beneficiario, 'sede': clave}})
+
+    
+    return jsonify({"msg": "Se ha actualizado con éxito!"})
+
+
 @app.route('/convocatoria/rechazar_bd', methods=['POST'])
 def rechazar_convocatoria_bd():
     resultado_convocatoria = request.get_json()

@@ -14,6 +14,7 @@ client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['CCT']
 
 lugares = db['cct']
+estados = db['estados_republica']
 
 @app.route('/lista_lugares', methods=['GET']) 
 def get_lugares():
@@ -26,6 +27,20 @@ def get_lugares():
 
     lugares_list = lugares.find(query)
     return jsonify(objectid_to_str({"result":list(lugares_list)}))
+
+@app.route('/lista_lugares_estado', methods=['GET']) 
+def get_lugares_estado():
+    """Obtiene la lista de CCT por estado."""
+    data = request.get_json()['estado']
+    lugares_list = lugares.find({"estado": data})
+    return jsonify(objectid_to_str({"result":list(lugares_list)}))
+
+@app.route('/cot_estado', methods=['GET']) 
+def get_estado_por_folio():
+    """Obtiene el estado del COT"""
+    data = request.get_json()['cot']
+    estado = estados.find({"cot": data})
+    return jsonify(objectid_to_str({"result":list(estado)}))
 
 if __name__ == '__main__':
     from __args__ import parse_args
