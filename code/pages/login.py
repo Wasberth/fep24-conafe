@@ -37,6 +37,7 @@ def auth():
         session['user_id'] = str(usuario)
         session['nivel'] = nivel
         session['real_id'] = str(user_id)
+        session['estado'] = str(microservice_data.get('estado_republica'))
         # TODO: Buscar el nombre del usuario
         nombre = nivel
         return redirect(url_for('wellcome'))

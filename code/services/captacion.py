@@ -4,6 +4,8 @@ from pymongo.server_api import ServerApi
 import bson
 import os
 from dotenv import load_dotenv
+from __mongo_operations__ import objectid_to_str
+
 load_dotenv()
 
 app = Flask(__name__)
@@ -42,6 +44,14 @@ def get_estado():
     query = {"_id": bson.ObjectId(data['id']), "curp": data['curp']}
     result = formulario.find_one(query)
     return jsonify({"estado": result.get('estado')}) if result else jsonify({"error": "No se encontró el registro"})
+
+@app.route('/buscar_integrante', methods=['POST']) 
+def get_integrante():
+    """Regresa los datos de una persona de la convocatoria usando folio"""
+    data = request.get_json()
+    query = data
+    result = formulario.find_one(query)
+    return jsonify(objectid_to_str({"result": result})) if result else jsonify({"error": "No se encontró el registro"})
 
 if __name__ == '__main__':
     from __args__ import parse_args

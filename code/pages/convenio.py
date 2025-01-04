@@ -8,6 +8,14 @@ from docx import Document
 import secrets
 from mongo_objects.cct import CCT
 from fpdf import FPDF
+from flask import render_template, session, request, jsonify, send_file, Response, make_response, url_for
+from decos import route, nav
+from pages._card_ import Card, CONVOCATORIA_TEMPLATE, mapear_datos_convocatoria
+from mode_handler import get_url
+import requests
+from pages._check_level_ import restricted
+import tempfile
+
 
 load_dotenv()
 uri = os.environ['uri']
@@ -16,7 +24,17 @@ db = client['captacion']
 formulario_collection = db['formulario']
 db = client['CCT']
 cct_collection = db['cct']
+estados = db['estados_republica']
 
+
+
+
+
+
+
+CAPTACION_URL = get_url('captacion')
+UBICACION_URL = get_url('ubicacion')
+ACEPTACION_URL= get_url('aceptacion')
 
 def generar_cadena_aleatoria(longitud=255):
     caracteres = string.ascii_letters + string.digits  # Letras y números
@@ -116,53 +134,65 @@ def calcular_edad(fecha_nacimiento):
 from fpdf import FPDF
 from datetime import datetime
 
-def generar_pdf_contrato(datos):
+def borrar_pdf(pdf_path):
+        try:
+            os.remove(pdf_path)
+        except Exception as e:
+            print(f"Error al borrar el archivo temporal: {e}")
+
+def generar_pdf_contrato(persona):
+
+    # Crear el archivo temporal
+    temp = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
+    pdf_path = temp.name
+    temp.close()
+
     dia = datetime.now().day
     mes = datetime.now().month
     ano = datetime.now().year
 
-    for i, persona in enumerate(datos, start=1):  # Itera por cada persona y genera un PDF separado
-        pdf = FPDF()
-        pdf.add_page()
-        pdf.set_auto_page_break(auto=True, margin=15)
-        pdf.add_font('LiberationSans', '', 'fuente/LiberationSans-Regular.ttf', uni=True)
-        pdf.set_font('LiberationSans', size=12)
-        pdf.set_left_margin(10)
-        pdf.set_right_margin(10)
-        pdf.set_top_margin(10)
+    #for i, persona in enumerate(datos, start=1):  # Itera por cada persona y genera un PDF separado
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.add_font('LiberationSans', '', 'fuente/LiberationSans-Regular.ttf', uni=True)
+    pdf.set_font('LiberationSans', size=12)
+    pdf.set_left_margin(10)
+    pdf.set_right_margin(10)
+    pdf.set_top_margin(10)
 
-        # Asignación de variables de la persona
-        cadena1 = generar_cadena_aleatoria()
-        cadena2 = generar_cadena_aleatoria()
+    # Asignación de variables de la persona
+    cadena1 = generar_cadena_aleatoria()
+    cadena2 = generar_cadena_aleatoria()
 
-        nombre = persona["nombre"]
-        apellido1 = persona["apellido1"]
-        apellido2 = persona.get("apellido2", "")
-        genero = persona["genero"]
-        if genero == "Male":
-            genero = "EL"
-        elif genero == "Female":
-            genero = "LA"
-        elif genero == "Other":
-            genero = "EL/LA"
-        direccion = persona["direccion"]
-        situacion_educativa = persona["situacion_educativa"]
-        fecha_nacimiento = persona.get("fecha_nacimiento")
-        estado_republica = persona.get("estado_republica")
+    nombre = persona["nombre"]
+    apellido1 = persona["apellido1"]
+    apellido2 = persona.get("apellido2", "")
+    genero = persona["genero"]
+    if genero == "Male":
+        genero = "EL"
+    elif genero == "Female":
+        genero = "LA"
+    elif genero == "Other":
+        genero = "EL/LA"
+    direccion = persona["direccion"]
+    situacion_educativa = persona["situacion_educativa"]
+    fecha_nacimiento = persona.get("fecha_nacimiento")
+    estado_republica = persona.get("estado_republica")
 
-        if not fecha_nacimiento:
-            print(f"Documento sin fecha_nacimiento: {persona}")
-            continue
+    if not fecha_nacimiento:
+        print(f"Documento sin fecha_nacimiento: {persona}")
+        
 
-        edad = calcular_edad(fecha_nacimiento)
-        registro = next((cct for cct in cct_list if cct.estado.upper() == estado_republica.upper()), None)
+    edad = calcular_edad(fecha_nacimiento)
+    registro = next((cct for cct in cct_list if cct.estado.upper() == estado_republica.upper()), None)
 
-        estado_republica = estado_republica.upper()
-        nombre1 = COTs.get(estado_republica, "No se encontró información")
-        sede = registro.sede if registro else "No asignada"
+    estado_republica = estado_republica.upper()
+    nombre1 = COTs.get(estado_republica, "No se encontró información")
+    sede = registro.sede if registro else "No asignada"
 
         # Generación del texto para el contrato
-        texto = f'''CONVENIO DE CONCERTACIÓN VOLUNTARIA PARA FORMALIZAR LA PARTICIPACIÓN DEL ASPIRANTE A EDUCADOR 
+    texto = f'''CONVENIO DE CONCERTACIÓN VOLUNTARIA PARA FORMALIZAR LA PARTICIPACIÓN DEL ASPIRANTE A EDUCADOR 
                 COMUNITARIO EN LA ETAPA DE FORMACIÓN Y/O COMO DENTRO DEL SISTEMA DE FORMACIÓN EN LA PRÁCTICA EDUCATIVA COMUNITARIA Y EL  OTORGAMIENTO DE APOYOS ECONÓMICOS, QUE CELEBRAN POR UNA PARTE EL CONSEJO NACIONAL DE FOMENTO EDUCATIVO “EL CONAFE”, REPRESENTADO EN ESTE ACTO POR EL DIRECTOR DE OPERACIÓN TERRITORIAL, EL MTRO. JUAN MARTÍN MARTÍNEZ BECERRA, AUXILIADO PARA EL CUMPLIMIENTO DEL PRESENTE INSTRUMENTO POR EL (LA) COORDINADOR (A) TERRITORIAL PARA EL SERVICIO EDUCATIVO DEL CONAFE, EL (LA) C. {nombre1}, EN EL ESTADO DE {estado_republica} Y POR LA OTRA EL (LA) C.{nombre} {apellido1} {apellido2}, A QUIEN SE DENOMINARÁ EN LO SUBSECUENTE {genero} ASPIRANTE, A QUIENES DE FORMA CONJUNTA SE LES DENOMINARÁ “LAS PARTES”, AL TENOR DE LAS DECLARACIONES Y CLÁUSULAS SIGUIENTES: 
                 D E C L A R A C I O N E S I. DE “EL CONAFE”: 
                 I.1.- Que es un Organismo Descentralizado creado por el Ejecutivo Federal, que tiene por objeto el fomento educativo a través de la prestación de servicios de educación inicial y básica con Equidad Educativa e Inclusión Social a la población infantil de cero a tres años once meses y niñas, niños y adolescentes hasta los 16 años de edad, que habitan en localidades preferentemente rurales e indígenas que registran altos y muy altos niveles de marginación y/o rezago social, bajo el modelo de Educación Comunitaria, de conformidad con el Decreto que lo rige publicado en el Diario Oficial de la Federación el 18 de marzo de 2016.  
@@ -182,7 +212,7 @@ def generar_pdf_contrato(datos):
                 II.1.- Que es de nacionalidad mexicana, con estudios de {situacion_educativa}, que cuenta con {edad} años de edad y señala como domicilio para oír y recibir todo tipo de notificaciones y documentos el ubicado en {direccion}. 
                 II.2.- Que es su deseo y voluntad colaborar temporalmente con “EL CONAFE”, incorporándose al Sistema de Formación en la Práctica Educativa Comunitaria y brindar atención educativa en la comunidad que “EL CONAFE” le asigne.  
                 Conforme a las declaraciones que anteceden, se establecen las siguientes cláusulas:  
-                C	L Á U S U L A S 
+                C L Á U S U L A S 
                 PRIMERA. - DEL OBJETO. Formalizar la participación de concertación voluntaria de {genero} ASPIRANTE en su etapa de formación dentro del Sistema de Formación en la Práctica Educativa Comunitaria que brinda “EL CONAFE” durante el ciclo escolar 2022-2023 para desarrollar la práctica educativa basada en la pedagogía de la relación tutora y la metodología para la reflexión sobre las prácticas de crianza, así como  normar el otorgamiento de apoyos económicos. 
                 
                 SEGUNDA. - DEL PROCESO DE FORMACIÓN. Las partes convienen que este proceso formativo se regirá de conformidad con las siguientes obligaciones: 
@@ -271,17 +301,116 @@ def generar_pdf_contrato(datos):
                 {cadena1}	
                 '''
         
-        # Dividir texto largo en líneas según ancho del PDF
-        lineas = pdf.multi_cell(0, 10, texto, align='L')
-        
-        # Guardar archivo PDF con un nombre único
-        nombre_archivo = f"Contrato_{nombre}_{apellido1}_{i}.pdf"
-        pdf.output(nombre_archivo)
-        print(f"PDF generado: {nombre_archivo}")
+    # Dividir texto largo en líneas según ancho del PDF
+    lineas = pdf.multi_cell(0, 10, texto, align='L')
+
+    # Guardar archivo PDF y asignarlo al archivo temporal
+    nombre_archivo = f"Contrato_{nombre}_{apellido1}.pdf"
+    pdf.output(pdf_path)
+    print(f"PDF generado: {nombre_archivo}")
+
+    return send_file(pdf_path, mimetype='application/pdf')
 
 
 
-# Obtener datos y generar contratos
-datos = formulario_collection.find({}, {"_id": 0, "nombre": 1, "apellido1": 1, "apellido2": 1, "estado_republica": 1, "genero": 1, "direccion": 1, "situacion_educativa": 1, "fecha_nacimiento": 1})
-print(datos)
-generar_pdf_contrato(datos)
+@route('/convenio_busqueda')
+@nav('Convenio')
+@restricted('COT')
+def convenio_busqueda():
+    """Renderiza la página donde se mostrará el convenio del COT"""
+    return render_template(f'convenio_busqueda.html', stylesheets=['button'])
+
+@route('/convenioCOT', methods=['POST'])
+def generar_convenio_COT():
+
+    """Renderiza las cartas y obtiene los datos del folio ingresado"""    
+    form_data = request.form.to_dict()
+
+    # Enviar los datos al microservicio (obtención de estado de COT)
+    try:
+        response = requests.get(UBICACION_URL + '/cot_estado', json={"cot": session['user_id']})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        estado = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+    
+    estado = estado['result'][0]['estado']
+    if estado is None: 
+        return jsonify({"error": "No se encontró el estado indicado."}), 500
+
+
+     # Enviar los datos al microservicio (obtención de integrante)
+    try:
+        response = requests.post(CAPTACION_URL + '/buscar_integrante', json={'folio': form_data["folio"], 'estado_republica': estado})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        persona = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+    
+    
+    persona = persona['result']
+    lista_persona = []
+    lista_persona.append(persona)
+    convocatorias = mapear_datos_convocatoria(lista_persona)
+
+     # Enviar los datos al microservicio (obtención de CCTs por estado)
+    try:
+        response = requests.get(UBICACION_URL + '/lista_lugares_estado', json={"estado": estado.upper()})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        claves = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+    
+    #Convirtiendo a lista porque la función solo acepta listas de dicc
+    lista_claves = [dict["_id"] for dict in claves['result']]
+
+
+    cards = [Card.card_from_dict(CONVOCATORIA_TEMPLATE, **convocatoria) for convocatoria in convocatorias]
+    return render_template('cartas.html', cards=cards, tipo_carta='carta_convenio', claves=lista_claves, stylesheets=['button'])
+
+
+@route('/visualizar_convenio')
+def generar_convenio():
+
+    """Llama a la función encaragada de generar el convenio y lo visualiza en un iframe"""
+    # Enviar los datos al microservicio
+    try:
+        response = requests.post(CAPTACION_URL + '/buscar_integrante', json={"folio": session['user_id']})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+    
+    
+    persona = microservice_data.get('result')
+    return generar_pdf_contrato(persona)
+
+
+@route('/aceptar_convenio/<id>', methods=['POST'])
+def aceptar_convenio(id):
+    """Acepta el convenio y actualiza su estado"""
+    #Declarar json con datos del usuario
+    form_data = request.form.to_dict()
+    form_data['usuario'] = id
+ # Obtener los datos del microservicio
+    try:
+        response = requests.post(ACEPTACION_URL + '/convenio/aceptar_bd', json=form_data)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+    
+    #Respuesta del servidor
+    resp = make_response(render_template(f'success.html',
+                           stylesheets=['success', 'button'],
+                           title='Convocatoria Aceptada',
+                           redirect=url_for('convenio_busqueda'),
+                           extra_info=f'El convenio se ha firmado con éxito!'))
+    return resp
+
+@route('/convenio')
+@nav('Convenio')
+@restricted(['EC1', 'EC2', 'ECA'])
+def visualizar_convenio():
+    """Renderiza la página donde se mostrará el convenio de los EC1, EC2 y ECA"""
+    return render_template(f'convenio_visualizacion.html')
