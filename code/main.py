@@ -57,6 +57,8 @@ def inject_nav_items():
     """Inyecta los items de navegación en el contexto de Jinja."""
     return dict(nav_items=nav_items)
 
+#Descomentar cuando ya quede todo por que no sé en qué parte del código estoy mal jajaja
+"""
 @app.errorhandler(Exception)
 def page_not_found(e):
     if isinstance(e, ConafeException):
@@ -66,7 +68,7 @@ def page_not_found(e):
         return render_template('error.html', description=str(e), code=e.code), e.code
     
     return render_template('error.html', description=str(e), code=500), 500
-
+"""
 # Load modules and register routes
 load_pages_and_register_routes(app)
 
