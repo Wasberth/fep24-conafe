@@ -1,7 +1,7 @@
 /**
  * Populate form fields from GET/POST data in the document
  */
-(function () {
+window.addEventListener('load', function () {
     /**
      * Function to get query parameters from the URL
      * @returns {Object} Key-value pairs of query parameters
@@ -45,4 +45,4 @@
 
     // Populate the form fields
     populateFormFields(formData);
-})();
+});

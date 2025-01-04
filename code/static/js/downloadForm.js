@@ -24,6 +24,9 @@ document.getElementById('downloadBtn').addEventListener('click', function () {
         }
     }
 
+    const currentUrl = window.location.href;
+    formData['url'] = currentUrl;
+
     // Convierte el objeto a JSON
     const jsonData = JSON.stringify(formData, null, 4);
 

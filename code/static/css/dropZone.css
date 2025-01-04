@@ -1,0 +1,7 @@
+#drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}

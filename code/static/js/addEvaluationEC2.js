@@ -49,9 +49,22 @@ function updateEvaluationNumbers() {
 
 addEvaluationBtn.addEventListener('click', addEvaluation);
 
-// Agregar 3 evaluaciones iniciales
-for (let i = 0; i < 3; i++) {
-    addEvaluation();
+prepareForm = function() {
+    // Agregar 3 evaluaciones iniciales
+    url = window.location.href;
+
+    if (!url.includes('?')) {
+        for (let i = 0; i < 3; i++) {
+            addEvaluation();
+        }
+        return;
+    }
+
+    i = 1
+    while (url.includes(`nombre${i}`)) {
+        addEvaluation();
+        i++;
+    }
 }
 
 // Establecer la fecha actual por defecto
