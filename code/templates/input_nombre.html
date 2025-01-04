@@ -1,0 +1,12 @@
+<script>
+    inputNombre = (i) => `
+    <select class="form-select" name="{{sel.name}}${i}" id="{{sel.name}}${i}" required>
+        {% for option in sel.options %}
+            <option value="{{ option.value }}">{{ option.text }}</option>
+        {% endfor %}
+    </select>
+    `;
+
+    lenOptions = {{ sel.options | length }};
+    selName = "{{ sel.name }}";
+</script>

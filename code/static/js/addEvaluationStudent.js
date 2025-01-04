@@ -16,7 +16,7 @@ function addEvaluation() {
     
     newRow.innerHTML = `        
         <td>${evaluationCount}</td>
-        <td><input type="text" name="nombre${evaluationCount}" class="form-control" placeholder="Nombre completo" required></td>
+        <td>${typeof inputNombre === 'function'? inputNombre(evaluationCount): `<input type="text" name="nombre${evaluationCount}" class="form-control" placeholder="Nombre completo" required>`}</td>
         ${[...Array(parciales + 2).keys()].map((i)=>(evalTopics.map((x)=>`<td><input type="number" name="${x}${i+1}_${evaluationCount}" class="form-control" min="0" max="10" required></td>`).join(''))).join('')}
         <td><input type="number" name="promedio${evaluationCount}" class="form-control" placeholder="Promedio"></td>
         <td><select name="examen${evaluationCount}" class="form-control" placeholder="Examen"><option value="true">Sí</option><option value="false">No</option></select></td>
@@ -68,14 +68,22 @@ prepareForm = function() {
     url = window.location.href;
 
     if (!url.includes('?')) {
-        for (let i = 0; i < 3; i++) {
+        cant = typeof lenOptions !== 'undefined'? lenOptions: 3;
+        for (let i = 0; i < cant; i++) {
             addEvaluation();
+
+            if (typeof selName !== 'undefined') {
+                console.log(`${selName}${i+1}`)
+                document.getElementById(`${selName}${i+1}`).selectedIndex=i;
+            }
         }
         return;
     }
 
     i = 1
-    while (url.includes(`nombre${i}`)) {
+    nam = typeof selName !== 'undefined'? selName: 'nombre';
+    console.log(nam)
+    while (url.includes(`${nam}${i}`)) {
         addEvaluation();
         i++;
     }

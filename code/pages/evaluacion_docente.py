@@ -9,17 +9,38 @@ from pages._decompose_form_ import decompose_form
 from pages._error_ import ConafeException
 
 CAPACITACION_URL = get_url('capacitacion')
+CAPTACION_URL = get_url('captacion')
 
 @route('/evaluacion/capacitacion')
 @nav('Evaluación/Capacitación')
 @restricted('ECA')
 def evaluacion_capacitacion():
     """Renderiza la página de evaluación al educador comunitario en capacitacion (EC1)"""
+    try:
+        response = requests.post(CAPTACION_URL + '/get_capacitacion', json={'estado':session['estado']})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        captacion = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+    
+    if len(captacion['result']) == 0:
+        raise ConafeException(404, f"No se encontraron educadores comunitarios en capacitación en el estado de {session['estado']}")
+
+    datos_ec = [
+        {
+            "text":f'{ec['nombre']} {ec['apellido1']} {ec.get('apellido2', '')}',
+            "value":ec['folio']
+        }
+        for ec in captacion['result']
+    ]
+    print(datos_ec)
+
     return render_template(
         f'eval_capacitacion.html',
         stylesheets=['success', 'button'],
         scripts=['addEvaluationEC1'],
-        estado = session['estado']
+        estado = session['estado'],
+        names = {'name':'folio', 'options':datos_ec}
     )
 
 @route('/evaluacion/capacitacion_bd', methods=['POST'])
@@ -72,11 +93,31 @@ def evaluacion_servicio_bd():
 @nav('Evaluación/Servicio')
 @restricted('ECA')
 def evaluacion_capacitacion_servicio():
+    """Renderiza la página de evaluación al educador comunitario en servicio (EC2)"""
+    try:
+        response = requests.post(CAPTACION_URL + '/get_educadores', json={'estado':session['estado']})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        captacion = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+    
+    if len(captacion['result']) == 0:
+        raise ConafeException(404, f"No se encontraron educadores comunitarios en servicio en el estado de {session['estado']}")
+
+    datos_ec = [
+        {
+            "text":f'{ec['nombre']} {ec['apellido1']} {ec.get('apellido2', '')}',
+            "value":ec['folio']
+        }
+        for ec in captacion['result']
+    ]
+
     """Renderiza la página de evaluación al educador comunitario en servicio (EC1)"""
     return render_template(
         f'eval_servicio.html',
         stylesheets=['success', 'button'],
         scripts=['addEvaluationEC2'],
-        estado = session['estado']
+        estado = session['estado'],
+        names = {'name':'folio', 'options':datos_ec}
     )
 

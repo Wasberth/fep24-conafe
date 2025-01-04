@@ -71,13 +71,11 @@ document.addEventListener('DOMContentLoaded', function() {
     addEvaluationBtn.addEventListener('click', addEvaluation);
     
     prepareForm = function() {
-        // Agregar 3 evaluaciones iniciales
+        // Agregar 1 registro de alta por defecto
         url = window.location.href;
     
         if (!url.includes('?')) {
-            for (let i = 0; i < 3; i++) {
-                addEvaluation();
-            }
+            addEvaluation();
             return;
         }
     

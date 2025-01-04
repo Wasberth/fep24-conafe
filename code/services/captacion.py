@@ -78,6 +78,27 @@ def get_tallas():
     result = formulario.find({"convocatoria": year}, {'playera': 1, 'pantalon': 1, 'calzado':1})
     return jsonify(objectid_to_str({'result':list(result)}))
 
+@app.route('/get_educadores', methods=['POST'])
+def get_educadores():
+    """Obtiene los educadores comunitarios en servicio (EC2) de un estado en específico"""
+    data = request.get_json()
+    estado = data['estado'].upper()
+    ccts = cct.find({"estado": estado}, {'_id': 1})
+    ccts = [str(c['_id']) for c in ccts]
+    print(ccts)
+
+    result = formulario.find({"sede": {'$in': ccts}})
+    return jsonify(objectid_to_str({'result':list(result)}))
+
+@app.route('/get_capacitacion', methods=['POST'])
+def get_capacitacion():
+    """Obtiene los educadores comunitarios en capacitacion (EC1) de un estado en específico"""
+    data = request.get_json()
+    estado = data['estado']
+
+    result = formulario.find({"estado_republica": estado})
+    return jsonify(objectid_to_str({'result':list(result)}))
+
 if __name__ == '__main__':
     from __args__ import parse_args
     args = parse_args()

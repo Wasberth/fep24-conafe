@@ -99,4 +99,6 @@
         </div>
     </form>
 </div>
+
+{% if names %}{% with sel=names %}{% include 'input_nombre.html' %}{% endwith %}{% endif %}
 {% endblock %}
