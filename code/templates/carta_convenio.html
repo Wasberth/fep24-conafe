@@ -19,6 +19,10 @@
                         <label class="etiqueta-formulario" for="beneficiario">Nombre beneficiario:*</label>
                         <input name="beneficiario" id="beneficiario" class="input-text js-input" type="text" required>
                     </div>
+                    <div class="form-field col-lg-4 ">
+                      <label class="etiqueta-formulario" for="monto_apoyo_convenio">Monto apoyo:</label>
+                      <input name="monto_apoyo_convenio" id="monto_apoyo_convenio" class="input-text js-input" type="text" value="0">
+                    </div>
                     <div class="form-field col-lg-4">
                       <select name="clave" id="clave" class="js-input" required>
                         {% for clave in claves %}
