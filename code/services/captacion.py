@@ -105,8 +105,25 @@ def get_integrante():
     """Obtiene los datos de una persona de la convocatoria usando folio"""
     data = request.get_json()
     query = data
-    result = formulario.find(query)
-    return jsonify(objectid_to_str({'result':list(result)}))
+    result = formulario.find_one(query)
+    lista = []
+    lista.append(result)
+    return jsonify(objectid_to_str({'result': lista}))
+
+@app.route('/registrar_apoyo', methods=['POST'])
+def registrar_apoyo():
+    """Registra un apoyo en la base de datos."""
+    data = request.get_json()
+    formulario.update_one({'folio': data['folio']}, {'$set': {'documentos_apoyo': data['documentos_apoyo'], 'estado_apoyo': 'revisando'}})
+    return jsonify({"msg": "Éxito!"})
+
+@app.route('/estado_apoyo', methods=['POST']) 
+def get_estado_apoyo():
+    """Regresa el estado del apoyo con base al folio del usuario"""
+    data = request.get_json()
+    query = {"folio": data['folio']}
+    result = formulario.find_one(query)
+    return jsonify({"estado_apoyo": result.get('estado_apoyo')}) if result else jsonify({"error": "No se encontró el registro"})
 
 if __name__ == '__main__':
     from __args__ import parse_args

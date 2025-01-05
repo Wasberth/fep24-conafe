@@ -31,7 +31,6 @@ def auth():
     
     usuario = microservice_data.get("user_id")
     nivel = microservice_data.get("nivel")
-    user_id = microservice_data.get("real_id")
 
     #Validar si existe usuario
     if not usuario:
@@ -39,7 +38,7 @@ def auth():
 
     session['user_id'] = usuario
     session['nivel'] = nivel
-    #session['real_id'] = str(user_id)
+    session['folio'] = form_data['user']
     
     try:
         sede_response = requests.post(CAPTACION_URL + '/sede', json={"nivel": nivel, "folio": usuario})

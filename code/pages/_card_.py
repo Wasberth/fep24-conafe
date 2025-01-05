@@ -37,12 +37,12 @@ def mapear_datos_convocatoria(data):
 
         direccion = convocatoria['direccion']
         if 'num_exterior' in convocatoria and convocatoria['num_exterior']:
-            direccion += ' No. ' + convocatoria['num_exterior']
+            direccion += ' No. ' + str(convocatoria['num_exterior'])
         else:
             direccion += ' S/N'
 
         if 'num_interior' in convocatoria and convocatoria['num_interior']:
-            direccion += ' Interior ' + convocatoria['num_interior']
+            direccion += ' Interior ' + str(convocatoria['num_interior'])
         data[i]['direccion'] = direccion
 
     return data
