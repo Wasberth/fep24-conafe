@@ -12,7 +12,7 @@
             <div class="col-md">
                 <label for="estado" class="form-label">Delegación en el estado de:</label>
                 {% if not estado %}
-                    <select id="estado" name="estado" class="form-select" required>
+                    <select id="estado" name="estado_republica" class="form-select" required>
                         <option value="">Seleccione un estado</option>
                         <option value="Aguascalientes">Aguascalientes</option>
                         <option value="Baja California">Baja California</option>
@@ -48,7 +48,7 @@
                         <option value="Zacatecas">Zacatecas</option>
                     </select>
                 {% else %}
-                    <input type="text" name="estado" id="estado" class="form-control" value="{{ estado }}" disabled>
+                    <input type="text" name="estado_republica" id="estado" class="form-control" value="{{ estado }}" disabled>
                 {% endif %}
             </div>
             <div class="col-md">

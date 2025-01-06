@@ -82,12 +82,10 @@ def get_tallas():
 def get_educadores():
     """Obtiene los educadores comunitarios en servicio (EC2) de un estado en específico"""
     data = request.get_json()
-    estado = data['estado'].upper()
-    ccts = cct.find({"estado": estado}, {'_id': 1})
-    ccts = [str(c['_id']) for c in ccts]
-    print(ccts)
+    estado = data['estado']
 
-    result = formulario.find({"sede": {'$in': ccts}})
+    result = formulario.find({"estado_republica": estado, "estado": "convenio"})
+    print("resukt de get educadores: ", result)
     return jsonify(objectid_to_str({'result':list(result)}))
 
 @app.route('/get_capacitacion', methods=['POST'])
