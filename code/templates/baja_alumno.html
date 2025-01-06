@@ -1,0 +1,163 @@
+{% extends 'form.html' %}
+{% block formtitle %} Evaluar docentes en capacitación {% endblock %}
+{% block form %}
+<div class="container-fluid p-4">
+    <h1 class="text-center mb-4">BAJA DE ALUMNO</h1>
+    
+    <form id="downloadableForm" action="/baja_alumno_bd" method="post">
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label for="estado" class="form-label">Delegación en el estado de:</label>
+                {% if not estado %}
+                <select id="estado" name="estado" class="form-select" required>
+                    <option value="">Seleccione un estado</option>
+                    <option value="Aguascalientes">Aguascalientes</option>
+                    <option value="Baja California">Baja California</option>
+                    <option value="Baja California Sur">Baja California Sur</option>
+                    <option value="Campeche">Campeche</option>
+                    <option value="Chiapas">Chiapas</option>
+                    <option value="Chihuahua">Chihuahua</option>
+                    <option value="Ciudad de México">Ciudad de México</option>
+                    <option value="Coahuila">Coahuila</option>
+                    <option value="Colima">Colima</option>
+                    <option value="Durango">Durango</option>
+                    <option value="Estado de México">Estado de México</option>
+                    <option value="Guanajuato">Guanajuato</option>
+                    <option value="Guerrero">Guerrero</option>
+                    <option value="Hidalgo">Hidalgo</option>
+                    <option value="Jalisco">Jalisco</option>
+                    <option value="Michoacán">Michoacán</option>
+                    <option value="Morelos">Morelos</option>
+                    <option value="Nayarit">Nayarit</option>
+                    <option value="Nuevo León">Nuevo León</option>
+                    <option value="Oaxaca">Oaxaca</option>
+                    <option value="Puebla">Puebla</option>
+                    <option value="Querétaro">Querétaro</option>
+                    <option value="Quintana Roo">Quintana Roo</option>
+                    <option value="San Luis Potosí">San Luis Potosí</option>
+                    <option value="Sinaloa">Sinaloa</option>
+                    <option value="Sonora">Sonora</option>
+                    <option value="Tabasco">Tabasco</option>
+                    <option value="Tamaulipas">Tamaulipas</option>
+                    <option value="Tlaxcala">Tlaxcala</option>
+                    <option value="Veracruz">Veracruz</option>
+                    <option value="Yucatán ">Yucatán </option>
+                    <option value="Zacatecas">Zacatecas</option>
+                </select>
+                {% else %}
+                <input type="text" name="estado" id="estado" class="form-control" value="{{ estado }}" required readonly>
+                {% endif %}
+            </div>
+            <div class="col-md-4">
+                <label class="form-label" for="alumno">Alumno:*</label>
+                <select name="alumno" id="alumno" class="form-select" required>
+                    <option value="">Seleccione un alumno</option>
+                    {% for alumno in alumnos %}
+                    <option value="{{ alumno }}">{{ alumno }}</option>
+                    {% endfor %}  
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="fecha" class="form-label">Fecha:</label>
+                <input type="date" name="fecha" id="fecha" class="form-control" required>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
+                <label for="causa_baja" class="form-label">Causa de baja:*</label>
+                <select id="causa_baja" name="causa_baja" class="form-select" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="Se instaló el servicio formal de SEP">Se instaló el servicio formal de SEP</option>
+                    <option value="Escasez de niños en la comunidad">Escasez de niños en la comunidad</option>
+                    <option value="Rechazó la comunidad al instructor comunitario">Rechazó la comunidad al instructor comunitario</option>
+                    <option value="Migro la población de la comunidad">Migro la población de la comunidad</option>
+                    <option value="Desertó el I. C. por no haberse adaptado a la comunidad">Desertó el I. C. por no haberse adaptado a la comunidad</option>
+                    <option value="El P.C. o PRIM. del CONAFE está en el área de influencia SEP">El P.C. o PRIM. del CONAFE está en el área de influencia SEP</option>
+                    <option value="Conflictos entre los miembros de la comunidad">Conflictos entre los miembros de la comunidad</option>
+                    <option value="Se transfirió a fiducar por no aceptarse el servicio">Se transfirió a fiducar por no aceptarse el servicio</option>
+                    <option value="El alumno no cubre el perfil (EDAD) o no entregó documentos">El alumno no cubre el perfil (EDAD) o no entregó documentos</option>
+                    <option value="El alumno desertó por trabajar con los padres">El alumno desertó por trabajar con los padres</option>
+                    <option value="Los padres no perciben avances académicos en sus hijos">Los padres no perciben avances académicos en sus hijos</option>
+                    <option value="Consideró el I.C. insuficiente el apoyo">Consideró el I.C. insuficiente el apoyo</option>
+                    <option value="Tiene problemas familiares">Tiene problemas familiares</option>
+                    <option value="Cambio de EDO civil el docente lo cual el impide seguir">Cambio de EDO civil el docente lo cual el impide seguir</option>
+                    <option value="Conducta impropia">Conducta impropia</option>
+                    <option value="Falta de apoyo de los padres del I.C. para realizar servicio">Falta de apoyo de los padres del I.C. para realizar servicio</option>
+                    <option value="Asistencia irregular del I.C. a la comunidad">Asistencia irregular del I.C. a la comunidad</option>
+                    <option value="Incumplimiento en la entrega de DOCTOS. (Recisión de convenio)">Incumplimiento en la entrega de DOCTOS. (Recisión de convenio)</option>
+                    <option value="No apoyó la APEC al I.C.">No apoyó la APEC al I.C.</option>
+                    <option value="Se transfirió a otra entidad federativa">Se transfirió a otra entidad federativa</option>
+                    <option value="Reprobación de materias del docente">Reprobación de materias del docente</option>
+                    <option value="Alumno irregular (Adeudo de doctos, problema de conducta)">Alumno irregular (Adeudo de doctos, problema de conducta)</option>
+                    <option value="Insuficiencia en el monto de beca para autosustentarse">Insuficiencia en el monto de beca para autosustentarse</option>
+                    <option value="Carencia de opción educativa en el lugar de residencia">Carencia de opción educativa en el lugar de residencia</option>
+                    <option value="Incorporación al sector productivo">Incorporación al sector productivo</option>
+                    <option value="Renucnia del Deposit. por considerar monto de beca insuficiente">Renucnia del Deposit. por considerar monto de beca insuficiente</option>
+                    <option value="Renucnia del Deposit. por tener problemas con beneficiario">Renucnia del Deposit. por tener problemas con beneficiario</option>
+                    <option value="Renucnia de padres al financ. por considerar insuficiente">Renucnia de padres al financ. por considerar insuficiente</option>
+                    <option value="Renucnia de padres al financ. por tener problemas con beneficiario">Renucnia de padres al financ. por tener problemas con beneficiario</option>
+                    <option value="Cambio de lugar de residencia">Cambio de lugar de residencia</option>
+                    <option value="Enfermedad">Enfermedad</option>
+                    <option value="Por duplicidad de registro">Por duplicidad de registro</option>
+                    <option value="Otras">Otras</option>
+                    <option value="No se reinscribió el alumno">No se reinscribió el alumno</option>
+                    <option value="Baja de centro">Baja de centro</option>
+                    <option value="Cambio de escuela">Cambio de escuela</option>
+                    <option value="Inasistencia del alumno">Inasistencia del alumno</option>
+                    <option value="Los padres no quieren enviarlo 3 años al preescolar">Los padres no quieren enviarlo 3 años al preescolar</option>
+                    <option value="Ya certificó el alumno">Ya certificó el alumno</option>
+                    <option value="Defunción">Defunción</option>
+                </select>
+            </div>
+        </div>
+
+        <!--
+        <div class="table-responsive">
+            <table class="table table-bordered bg-white text-dark">
+                <thead>
+                    <tr>
+                        <th>Num</th>
+                        <th>Nombre</th>
+                        <th>Expone temas con claridad</th>
+                        <th>Comprende lo que lee</th>
+                        <th>Comprende el enfoque o contenidos del programa</th>
+                        <th>Otorga eficientemente su trabajo</th>
+                        <th>Participa adecuadamente en actividades de equipo</th>
+                        <th>Asiste con regularidad a la capacitación</th>
+                        <th>Observaciones</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="evaluationTableBody">
+                     Las filas de evaluación se agregarán aquí dinámicamente 
+                </tbody>
+            </table>
+        </div> -->
+
+        <div class="text-center mt-3">
+            <button type="submit" class="btn btn-success" id="submitBtn">Aceptar</button>
+            <button type="button" class="btn btn-secondary" id="downloadBtn" data-bs-toggle="modal" data-bs-target="#Modal">Descargar</button>
+        </div>
+    </form>
+    <!--Modal-->
+    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Descarga exitosa!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>Se ha realizado la descarga del formualario!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+{% if names %}{% with sel=names %}{% include 'input_nombre.html' %}{% endwith %}{% endif %}
+{% endblock %}

@@ -1,4 +1,4 @@
-from flask import render_template, request, session, make_response
+from flask import render_template, request, session, make_response, url_for
 from decos import route, nav
 import requests
 
@@ -57,14 +57,47 @@ def alta_alumno_bd():
                 extra_info=f'Los alumnos han sido dados de alta correctamente!'
             ))
 
-"""
+
+
 @route('/alumno/baja')
-@nav('Control Escolar/Bajas y Reinscripciones')
+@nav('Control Escolar/Baja')
 @restricted(['EC2', 'ECA'])
 def baja_alumno():
-    return render_template(
-        f'baja_alumno.html',
-        stylesheets=['button'],
-        scripts=['removeStudent']
-    )
-"""
+    """Renderiza la página de baja de alumno y obtiene los alumnos dependiendo del estado"""
+
+    query = {"estado": session["estado"]}
+    try:
+        response = requests.post(CAPTACION_URL + '/get_alumnos_estado', json=query)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+
+    alumnos = microservice_data['result']
+    lista_nombres_alumnos = [f"{alumno['nombre']} {alumno['apellido1']} {alumno['apellido2']}" for alumno in alumnos if 'estado' not in alumno.keys() ]
+    return render_template('baja_alumno.html', estado=session['estado'], alumnos=lista_nombres_alumnos)
+
+@route('/baja_alumno_bd', methods=['POST'])
+def baja_alumno_bd():
+
+
+    form_data = request.form.to_dict()
+    nombre_completo = form_data['alumno']
+    nombre_lista = nombre_completo.split()
+    form_data["nombre"] = nombre_lista[0]
+    form_data["apellido1"] = nombre_lista[1]
+    form_data["apellido2"] = nombre_lista[2]
+
+    try:
+        response = requests.post(CAPTACION_URL + '/bajar_alumno', json=form_data)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+    
+    return make_response(render_template(f'success.html',
+                stylesheets=['success', 'button'],
+                title='Baja Concluida',
+                redirect=url_for('baja_alumno'),
+                extra_info=f'El alumno ha sido dado de baja exitosamente!'
+            ))
