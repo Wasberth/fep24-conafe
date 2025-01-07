@@ -1,0 +1,152 @@
+{% extends 'base.html' %}
+
+{% block title %}Generación de rutas{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <h1 class="text-center mb-5">Tallas por distribuir</h1>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="card-title h5 mb-0">Playeras</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+						{% for reg in playera_list %}
+							<li class="list-group-item d-flex justify-content-between align-items-center">
+								Talla {{ reg[0] }}
+								<span class="badge bg-primary rounded-pill">{{ reg[1] }}</span>
+							</li>
+						{% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h2 class="card-title h5 mb-0">Pantalones</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <ul class="list-group list-group-flush">
+							{% for reg in pantalon_list %}
+								<li class="list-group-item d-flex justify-content-between align-items-center">
+									Talla {{ reg[0] }}
+									<span class="badge bg-primary rounded-pill">{{ reg[1] }}</span>
+								</li>
+							{% endfor %}
+						</ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <h2 class="card-title h5 mb-0">Calzado</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        {% for reg in calzado_list %}
+							<li class="list-group-item d-flex justify-content-between align-items-center">
+								Talla {{ reg[0] }}
+								<span class="badge bg-primary rounded-pill">{{ reg[1] }}</span>
+							</li>
+						{% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form class="w-100" id="formulario_inventario">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="card-title h5 mb-0">Playeras</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            {% for reg in playera_list %}
+                                <label for="pl_{{reg[0]}}" class="col-sm-8 col-form-label">
+                                    Talla {{ reg[0] }}
+                                </label>
+                                <div class="col-sm-4">
+                                    <input id="pl-{{reg[0]}}" type="number" value="{{reg[1]}}" name="pl-{{reg[0]}}" class="form-control">
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h2 class="card-title h5 mb-0">Pantalones</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            {% for reg in pantalon_list %}
+                                <label for="pa_{{reg[0]}}" class="col-sm-8 col-form-label">
+                                    Talla {{ reg[0] }}
+                                </label>
+                                <div class="col-sm-4">
+                                    <input id="pa-{{reg[0]}}" type="number" value="{{reg[1]}}" name="pa-{{reg[0]}}" class="form-control">
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h2 class="card-title h5 mb-0">Calzado</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            {% for reg in calzado_list %}
+                                <label for="ca_{{reg[0]}}" class="col-sm-8 col-form-label">
+                                    Talla {{ reg[0] }}
+                                </label>
+                                <div class="col-sm-4">
+                                    <input id="c-{{reg[0]}}" type="number" value="{{reg[1]}}" name="c-{{reg[0]}}" class="form-control">
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<main class="hero my-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <h1 class="text-center mb-5">Mapa de rutas</h1>
+            <div class="text-center">
+                <button onclick="procesar_mapa()" class="btn btn-primary col-2" id="boton_generador">Generar rutas</button>
+            </div>
+            <div class="col-md-12" id="mapa">
+                <div id="loader" class="loading-spinner">
+                    <div class="spinner"></div>
+                </div>
+                <div class="ratio ratio-16x9" id="map-container" style="display: block;">
+                    <iframe id="map-frame" title="Mapa de rutas" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+
+{% block scripts %}
+	{{ super() }}
+	<script type='text/javascript'>
+        let urlUser = "{{url_for("mapa_ruta")}}"
+	</script>
+{% endblock %}
