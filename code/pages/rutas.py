@@ -130,19 +130,22 @@ def mapa_ruta():
                 "Accept-Encoding": "*",
                 "Connection": "keep-alive"
             }
-            response = requests.get(osrm_url, headers=headers).json()
-            # Extraer las coordenadas de la ruta
-            if 'routes' in response.keys():
-                route_coords = response['routes'][0]['geometry']['coordinates']
-
-                # Agregar ruta al mapa
-                folium.PolyLine(
+            route_coords = [start, end]
+            ruta_exacta = 1
+            try:
+                response = requests.get(osrm_url, headers=headers).json()
+                # Extraer las coordenadas de la ruta
+                if 'routes' in response.keys():
+                    route_coords = response['routes'][0]['geometry']['coordinates']
+            except requests.RequestException as e:
+                ruta_exacta = 0
+            # Agregar ruta al mapa
+            folium.PolyLine(
                     locations=[coord[::-1] for coord in route_coords],  # Invertimos [lon, lat] a [lat, lon]
                     color=colors[i],
                     weight=5,
                     opacity=0.8
                 ).add_to(mapa)
-
             start = end
 
     # Guardar el mapa en HTML
