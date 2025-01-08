@@ -8,8 +8,8 @@ function procesar_mapa(){
     boton.remove();
     loader.style.display = "flex";
     let rutaiframe = urlUser.concat('?data={');
-    // for(let i = 0; i < inputs.length; i++){
-    for(let i = 0; i < 5; i++){
+    for(let i = 0; i < inputs.length; i++){
+    // for(let i = 0; i < 5; i++){
         if(inputs[i].nodeName == 'INPUT'){
             rutaiframe = rutaiframe.concat('"', inputs[i].name, '":', inputs[i].value, ",");
         }

@@ -79,9 +79,9 @@ def mapa_ruta():
         return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
 
     # Central de abastos (?)
-    start = (23.108028, -101.639617)
+    start = (-101.639617, 23.108028)
     # Crear un mapa centrado en el punto inicial
-    mapa = folium.Map(location=start, zoom_start=5)
+    mapa = folium.Map(location=start[::-1], zoom_start=5)
     folium.Marker(location=start[::-1], popup="Ciudad de México", icon=folium.Icon(color="green")).add_to(mapa)
 
     #Se itera a través de cada CCT y pone las coordenadas de cada uno en una lista para procesar
@@ -95,7 +95,6 @@ def mapa_ruta():
     colors = [
         'red',
         'blue',
-        'green',
         'orange',
         'purple',
         'pink',
@@ -118,7 +117,7 @@ def mapa_ruta():
             start = [float(escala[0][0]), float(escala[0][1])]
             end = [float(escala[1][0]), float(escala[1][1])]
             for dict in microservice_data["result"]:
-                if end[0] == float(dict["longitud"]) and float(dict["latitud"]):
+                if end[0] == float(dict["longitud"]) and end[1] == float(dict["latitud"]):
                     folium.Marker(location=end[::-1], 
                             popup=f"Nombre: {dict['nombre']}\nEstado: {dict['estado']}\nMunicipio: {dict['municipio']}\nComunidad: {dict['comunidad']}\nSede: {dict['sede']}\nRegión: {dict['region']}", 
                             icon=folium.Icon(color=colors[i])).add_to(mapa)
