@@ -8,5 +8,5 @@ from main import app
 
 #     return ['Hola gente de códigofacilito'.encode('utf-8')]
 
-server = make_server('192.168.0.100', 5000, app)
+server = make_server('0.0.0.0', 5000, app)
 server.serve_forever()

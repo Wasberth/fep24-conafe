@@ -53,6 +53,7 @@ def get_estado():
 def get_sede():
     """Obtiene la sede de un Educador Comunitario según su nivel"""
     data = request.json
+    print(data)
     nivel = data["nivel"]
     folio = data["folio"]
 
@@ -65,7 +66,7 @@ def get_sede():
         return jsonify({'estado': sede["estado"]})
     elif nivel == "EC2":
         sede_id = formulario.find_one({"folio":folio})["sede"]
-        sede = cct.find_one({"_id":ObjectId(sede_id)})
+        sede = cct.find_one({"clave":sede_id})
         return jsonify({'estado': sede["estado"].title(), 'sede': sede["clave"]})
     
     return jsonify({})
