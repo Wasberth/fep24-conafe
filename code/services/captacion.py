@@ -145,6 +145,33 @@ def tallas_repartibles():
     result = formulario.find({"convocatoria": year, 'sede': {'$ne': None}}, {'playera': 1, 'pantalon': 1, 'calzado':1})
     return jsonify(objectid_to_str({'result':list(result)}))
 
+@app.route('/buscar_integrante', methods=['POST'])
+def get_integrante():
+    """Obtiene los datos de una persona de la convocatoria usando folio"""
+    data = request.get_json()
+    query = data
+    result = formulario.find_one(query)
+    lista = []
+    lista.append(result)
+    return jsonify(objectid_to_str({'result': lista}))
+
+@app.route('/bajar_alumno', methods=['POST'])
+def bajar_alumno():
+    """Registra el estado del alumno como baja y su causa."""
+    data = request.get_json()
+    alumnos.update_one({'nombre': data['nombre'], 'apellido1': data['apellido1'], 'apellido2': data['apellido2'], "estado_republica": data['estado']}, {'$set': {'estado': "baja", 'causa_baja': data['causa_baja']}})
+    return jsonify({"msg": "Éxito!"})
+
+@app.route('/estado_apoyo', methods=['POST']) 
+def get_estado_apoyo():
+    """Regresa el estado del apoyo con base al folio del usuario"""
+    data = request.get_json()
+    query = {"folio": data['folio']}
+    result = formulario.find_one(query)
+    return jsonify({"estado_apoyo": result.get('estado_apoyo')}) if result else jsonify({"error": "No se encontró el registro"})
+   
+
+
 
 if __name__ == '__main__':
     from __args__ import parse_args

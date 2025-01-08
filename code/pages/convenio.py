@@ -361,7 +361,7 @@ def generar_convenio_COT():
         return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
     
     #Convirtiendo a lista porque la función solo acepta listas de dicc
-    lista_claves = [dict["_id"] for dict in claves['result']]
+    lista_claves = [dict["clave"] for dict in claves['result']]
 
 
     cards = [Card.card_from_dict(CONVOCATORIA_TEMPLATE, **convocatoria) for convocatoria in convocatorias]
