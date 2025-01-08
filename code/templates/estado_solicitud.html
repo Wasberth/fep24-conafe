@@ -4,7 +4,7 @@
 {% block content %}
 <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
     <div class="card text-center">
-        {% if estado == 'aceptada' %}
+        {% if estado == 'aceptada' or estado == 'convenio' or estado == 'apoyo' %}
             <div class="card-body bg-success-subtle" id="messageCard">
                 <h4 class="card-title text-success">¡Felicidades!</h4>
                 <p class="card-text">Has sido aceptado para participar como Figura Educativa.</p>

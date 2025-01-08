@@ -30,8 +30,10 @@ def get_list():
     if 'lengua' not in data:
         data['lengua'] = 'false'
 
-    insert_result = formulario.insert_one(data)
-    return jsonify({"id": str(insert_result.inserted_id)})
+    insert = formulario.insert_one(data).inserted_id
+    respuesta = formulario.find_one({"_id": insert}, {"folio": 1})
+    print("respuesta de captación: ", respuesta)
+    return jsonify({"folio": respuesta["folio"]})
 
 @app.route('/registrar_alumno', methods=['POST'])
 def registrar_alumno():
@@ -45,7 +47,7 @@ def registrar_alumno():
 def get_estado():
     """Regresa el estado de un formulario en base a su ID y su curp"""
     data = request.get_json()
-    query = {"_id": bson.ObjectId(data['id']), "curp": data['curp']}
+    query = {"folio": data['folio'], "curp": data['curp']}
     result = formulario.find_one(query)
     return jsonify({"estado": result.get('estado')}) if result else jsonify({"error": "No se encontró el registro"})
 

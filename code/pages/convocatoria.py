@@ -38,7 +38,7 @@ def register_form():
         raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
 
     # Obtener la ID del registro desde el microservicio
-    registro_id = microservice_data.get("id")
+    registro_id = microservice_data.get("folio")
     if not registro_id:
         raise ConafeException(500, "Error obteniendo respuesta del microservicio")
 
@@ -54,14 +54,14 @@ def register_form():
 def check_status():
     """Verifica el estado de un registro en el microservicio."""
     # Obtener la CURP del formulario
-    id = request.form.get('id')
+    folio = request.form.get('folio')
     curp = request.form.get('curp')
     if not curp:
         raise ConafeException(400, "No se proporcionó la CURP, por favor inténtalo de nuevo.")
 
     # Enviar la petición al microservicio
     try:
-        response = requests.post(CAPTACION_URL + '/estado', json={"id": id, "curp": curp})
+        response = requests.post(CAPTACION_URL + '/estado', json={"folio": folio, "curp": curp})
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
         print(microservice_data)
