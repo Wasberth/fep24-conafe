@@ -1,0 +1,15 @@
+{% extends "carta.html" %}
+
+{% block card_footer %}
+    <div class="card-footer px-0">
+        <form action="{{ url_for('aceptar_apoyo', folio=carta.raw.folio, curp=carta.raw.curp) }}" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+        </form>
+        <form action="{{ url_for('rechazar_apoyo', folio=carta.raw.folio) }}" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-primary">Rechazar</button>
+        </form>
+        <form action="{{ url_for('mostrar_documentos_apoyo', folio=carta.raw.folio) }}" method="get" style="display:inline;" target="_blank">
+            <button type="submit" class="btn btn-primary">Mostrar documentos</button>
+        </form>
+    </div>
+{% endblock %}

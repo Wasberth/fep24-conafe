@@ -201,6 +201,14 @@ def get_alumnos_estado():
     result = alumnos.find({"estado_republica": estado})
     return jsonify(objectid_to_str({'result':list(result)}))
 
+@app.route('/get_solicitudes_apoyo', methods=['POST'])
+def get_solicitudes_apoyo():
+    """Obtiene a los alumnos por estado"""
+    data = request.get_json()
+    estado_apoyo = data['estado_apoyo']
+    result = formulario.find({"estado_apoyo": estado_apoyo})
+    return jsonify(objectid_to_str({'result':list(result)}))
+
 if __name__ == '__main__':
     from __args__ import parse_args
     args = parse_args()

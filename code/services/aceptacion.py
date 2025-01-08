@@ -78,6 +78,33 @@ def documentos_necesarios():
     documento = convocatorias.find_one({"_id": ObjectId(data['_id'])})
     return jsonify({"doc":documento["documentos_necesarios"]})
 
+@app.route('/aceptar_apoyo_bd', methods=['POST'])
+def aceptar_apoyo_bd():
+    data = request.get_json()
+    folio = data["folio"]
+
+    #Actualizar estado de apoyo
+    convocatorias.update_one({'folio': folio}, {'$set': {'estado_apoyo': "aceptada"}})
+
+    return jsonify({"msg": "Se ha actualizado con éxito!"})
+
+@app.route('/rechazar_apoyo_bd', methods=['POST'])
+def rechazar_apoyo_bd():
+    data = request.get_json()
+    folio = data["folio"]
+
+    #Actualizar estado de apoyo
+    convocatorias.update_one({'folio': folio}, {'$set': {'estado_apoyo': "rechazada"}})
+
+    return jsonify({"msg": "Se ha actualizado con éxito!"})
+
+@app.route('/apoyo/documentos_necesarios', methods=['GET'])
+def apoyo_documentos_necesarios():
+    """Obtiene los documento del apoyo."""
+    data = request.get_json()
+    documento = convocatorias.find_one({"folio": data["folio"]})
+    return jsonify({"doc":documento["documentos_apoyo"]})
+
 
 if __name__ == '__main__':
     from __args__ import parse_args

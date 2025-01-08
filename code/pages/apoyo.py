@@ -1,4 +1,4 @@
-from flask import render_template, request, make_response, session, url_for, jsonify
+from flask import render_template, request, make_response, session, url_for, jsonify, Response
 from decos import route, nav
 import requests
 import base64
@@ -6,7 +6,9 @@ from mode_handler import get_url
 
 from pages._check_level_ import restricted
 from pages._error_ import ConafeException
+from pages._card_ import Card, APOYO_TEMPLATE, mapear_datos_convocatoria
 
+ACEPTACION_URL= get_url('aceptacion')
 CAPTACION_URL = get_url('captacion')
 
 @route('/apoyo')
@@ -80,3 +82,91 @@ def iniciando_apoyo():
                            extra_info=f'La solicitud de apoyo se ha enviado con éxito!'))
     
     return resp
+
+
+@route('/ApoyoCIDAP')
+@nav('Apoyos')
+@restricted('CIDAP')
+def apoyo_cidap():
+    # Enviar los datos al microservicio (obtención de integrante)
+    try:
+        response = requests.post(CAPTACION_URL + '/get_solicitudes_apoyo', json={'estado_apoyo': "revisando"})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        personas = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+    
+    
+    apoyos = personas['result']
+    
+    apoyos_mapeados = mapear_datos_convocatoria(apoyos)
+
+
+    cards = [Card.card_from_dict(APOYO_TEMPLATE, **apoyo, fecha_solicitud="10-12-2000") for apoyo in apoyos_mapeados]
+    return render_template('cartas.html', cards=cards, tipo_carta='carta_apoyo', stylesheets=['button'])
+
+@route('/aceptar_apoyo/<folio>', methods=['POST'])
+def aceptar_apoyo(folio):
+    """Acepta el apoyo y actualiza su estado"""
+    #Declarar json con datos del usuario
+    form_data = request.form.to_dict()
+    form_data['folio'] = folio
+ # Obtener los datos del microservicio
+    try:
+        response = requests.post(ACEPTACION_URL + '/aceptar_apoyo_bd', json=form_data)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+    
+    #Respuesta del servidor
+    resp = make_response(render_template(f'success.html',
+                           stylesheets=['success', 'button'],
+                           title='Apoyo Aceptado',
+                           redirect=url_for('apoyo_cidap'),
+                           extra_info=f'El apoyo se ha aceptado con éxito!'))
+    return resp
+
+@route('/rechazar_apoyo/<folio>', methods=['POST'])
+def rechazar_apoyo(folio):
+    """Rechaza el apoyo y actualiza su estado"""
+    #Declarar json con datos del usuario
+    form_data = request.form.to_dict()
+    form_data['folio'] = folio
+ # Obtener los datos del microservicio
+    try:
+        response = requests.post(ACEPTACION_URL + '/rechazar_apoyo_bd', json=form_data)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+    
+    #Respuesta del servidor
+    resp = make_response(render_template(f'success.html',
+                           stylesheets=['success', 'button'],
+                           title='Apoyo Rechazado',
+                           redirect=url_for('apoyo_cidap'),
+                           extra_info=f'El apoyo se ha rechazado con éxito!'))
+    return resp
+
+@route('/apoyo/documentos/<folio>', methods=['GET'])
+def mostrar_documentos_apoyo(folio):
+    """Muestra los documentos del aspirante."""
+    
+    datos = {'folio': folio}
+    # Obtener los datos del microservicio
+    try:
+        response = requests.get(ACEPTACION_URL + '/apoyo/documentos_necesarios', json=datos)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+    
+    try:
+        contenido_pdf = base64.b64decode(microservice_data["doc"]) if isinstance(microservice_data["doc"], str) else microservice_data["doc"]
+
+        # Retornar el PDF con el encabezado adecuado
+        return Response(contenido_pdf, mimetype='application/pdf')
+
+    except Exception as e:
+        raise ConafeException(422, "Error al procesar el PDF, porfavor intente subir otro archivo", str(e))

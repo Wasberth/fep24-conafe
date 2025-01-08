@@ -5,12 +5,16 @@ DATOS_PERSONALES_SECCION = '#Datos personales:{curp}|CURP;{fecha_nacimiento}|Fec
 DIRECCION_SECCION = '#Dirección:{estado_republica}|Estado>{delegacion_municipio}|Delegación/Municipio>>{colonia};{codigo_postal}>{direccion}|Dirección'
 TALLAS_SECCION = '#Tallas:{playera}>{pantalon}>{calzado}'
 BANCO_SECCION = '#Cuenta de Banco:{banco}>{cuenta_bancaria}|Cuenta'
+APOYO_SECCION = '#Informarción apoyo:{beneficiario}>{monto_apoyo_convenio}|Monto de convenio'
 CONTACTO_SECCION = '#Datos de Contacto:{email};{telefono_fijo};{telefono_movil}'
 EVALUACION_EC1_SECCION = '#Evaluación del Evento "{evento}":{fecha}>{tipoEvaluacion}|Tipo de Evaluación>>{claridad};{comprension_lectora};{comprension_contenidos}|Comprensión de los contenidos>{eficiencia};{trabajo_equipo}|Trabajo en Equipo;{asistencia}>>{observaciones}'
 EVALUACION_EC2_SECCION = '#Evaluación:{fecha}>{tipoEvaluacion}|Tipo de Evaluación>>{asistencia}>{relacion_comunidad}|Relación con la comunidad>{actitud}>>{observaciones}'
 
 CONVOCATORIA_TEMPLATE = '{nombre} {apellido}'+ DATOS_PERSONALES_SECCION + DIRECCION_SECCION \
     + TALLAS_SECCION + BANCO_SECCION + CONTACTO_SECCION
+
+APOYO_TEMPLATE = '{nombre} {apellido} solicitada el {fecha_solicitud}' + DATOS_PERSONALES_SECCION + BANCO_SECCION + CONTACTO_SECCION \
+    + APOYO_SECCION
 
 EVALUACION_TEMPLATE = '{nombre} {apellido}' + DATOS_PERSONALES_SECCION + CONTACTO_SECCION
 
