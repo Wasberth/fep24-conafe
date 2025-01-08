@@ -171,7 +171,20 @@ def get_estado_apoyo():
     return jsonify({"estado_apoyo": result.get('estado_apoyo')}) if result else jsonify({"error": "No se encontró el registro"})
    
 
+@app.route('/registrar_apoyo', methods=['POST'])
+def registrar_apoyo():
+    """Registra un apoyo en la base de datos."""
+    data = request.get_json()
+    formulario.update_one({'folio': data['folio']}, {'$set': {'documentos_apoyo': data['documentos_apoyo'], 'estado_apoyo': 'revisando'}})
+    return jsonify({"msg": "Éxito!"})
 
+@app.route('/get_alumnos_estado', methods=['POST'])
+def get_alumnos_estado():
+    """Obtiene a los alumnos por estado"""
+    data = request.get_json()
+    estado = data['estado']
+    result = alumnos.find({"estado_republica": estado})
+    return jsonify(objectid_to_str({'result':list(result)}))
 
 if __name__ == '__main__':
     from __args__ import parse_args
