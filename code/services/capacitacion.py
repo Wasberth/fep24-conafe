@@ -24,6 +24,13 @@ def registrar_capacitacion():
     insert_result = formulario.insert_many(data)
     return jsonify({"ids": str(insert_result.inserted_ids)})
 
+@app.route('/registrar_calif_alumno', methods=['POST'])
+def registrar_calif_alumno():
+    """Registra el formulario de calificacion de alumnos en la base de datos."""
+    data = request.get_json()['registros']
+    insert_result = formulario.insert_many(data)
+    return jsonify({"ids": str(insert_result.inserted_ids)})
+
 @app.route('/registrar_servicio', methods=['POST'])
 def registrar_servicio():
     """Registra un formulario en la base de datos."""

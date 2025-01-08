@@ -102,6 +102,18 @@ def get_capacitacion():
     result = formulario.find({"estado_republica": estado})
     return jsonify(objectid_to_str({'result':list(result)}))
 
+@app.route('/get_alumnos_calif', methods=['POST'])
+def get_alumnos_calif():
+    """Obtiene los alumnos de un estado en especifico"""
+    data = request.get_json()
+    # estado = data['estado']
+    # query = { "estado_republica": estado }
+    cct  = data['cct']
+    query = {'cct': cct}
+
+    result = alumnos.find(query)
+    return jsonify(objectid_to_str({'result': list(result)}))
+
 @app.route('/get_distribucion', methods=['POST'])
 def get_distribucion():
     available = request.get_json()
