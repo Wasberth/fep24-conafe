@@ -16,6 +16,7 @@ db = client['capacitacion']
 
 formulario = db['ec1']
 formulario_servicio = db['ec2']
+formulario_alumno = db['evaluacion_alumnos']
 
 @app.route('/registrar_capacitacion', methods=['POST'])
 def registrar_capacitacion():
@@ -28,7 +29,8 @@ def registrar_capacitacion():
 def registrar_calif_alumno():
     """Registra el formulario de calificacion de alumnos en la base de datos."""
     data = request.get_json()['registros']
-    insert_result = formulario.insert_many(data)
+    insert_result = formulario_alumno.insert_many(data)
+    print(insert_result)
     return jsonify({"ids": str(insert_result.inserted_ids)})
 
 @app.route('/registrar_servicio', methods=['POST'])

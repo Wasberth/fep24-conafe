@@ -38,11 +38,12 @@ def evaluacion_alumnos():
         names={'name':'folio', 'options':datos_ec}
     )
 
-@route('/evaluacion/alumnos_bd')
+@route('/evaluacion/alumnos_bd', methods=['POST'])
 def evalucaion_alumnos_bd():
     """Envía los datos del form al microservicio."""
     # Obtener los datos del formulario enviados por el cliente
     form_data = request.form.to_dict()
+    print(form_data)
     form_data = {"registros":decompose_form(form_data)}
     
     # Enviar los datos al microservicio
