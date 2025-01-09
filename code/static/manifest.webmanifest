@@ -2,5 +2,17 @@
     "name": "Sistema de Información para Guía y Evaluacion del Educador Comunitario",
     "short_name": "SIGUEEC",
     "start_url": "/bienvenida",
-    "display": "standalone"
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/static/img/iconBig.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/img/iconSmall.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
 }

@@ -7,6 +7,8 @@ const hardCodedurlsToCache = [
   'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js',
   '//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js',
   '{{url_for("static", filename="manifest.webmanifest")}}',
+  '{{url_for("static", filename="img/iconBig.png")}}',
+  '{{url_for("static", filename="img/iconSmall.png")}}',
   '{{url_for("static", filename="js/addEvaluationEC1.js")}}',
   '{{url_for("static", filename="js/addEvaluationEC2.js")}}',
   '{{url_for("static", filename="js/addEvaluationStudent.js")}}',
@@ -39,7 +41,7 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
-        console.log('Archivos cacheados');
+        alert('Archivos cacheados');
         return cache.addAll(urlsToCache);
       })
   );
@@ -47,12 +49,17 @@ self.addEventListener('install', event => {
 
 // Interceptar las solicitudes de red
 self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request)
-      .then(response => {
-        return response || fetch(event.request);
-      })
-  );
+  event.respondWith(async function() {
+    try{
+      var res = await fetch(event.request);
+      var cache = await caches.open('cache');
+      cache.put(event.request.url, res.clone());
+      return res;
+    }
+    catch(error){
+      return caches.match(event.request);
+     }
+   }());
 });
 
 // Actualizar el caché cuando cambien los archivos
