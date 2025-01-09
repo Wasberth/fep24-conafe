@@ -6,4 +6,4 @@ class ConafeException(Exception):
         self.code = code
 
     def response(self):
-        return render_template('error.html', description=str(self), code=self.code), self.code
+        return render_template('error.html', description=str(self), code=self.code), 200

@@ -1,6 +1,6 @@
 import os
 import importlib.util
-from flask import Flask, render_template
+from flask import Flask, render_template, Response, session
 import inspect
 from dotenv import load_dotenv
 from pages._error_ import ConafeException
@@ -46,11 +46,37 @@ def load_pages_and_register_routes(app: Flask, pages_folder: str = "pages"):
                     for person in access:
                         if person not in nav_items:
                             nav_items[person] = []
-                        nav_items[person].append({'text': attr.nav, 'url': attr.route})
+
+                        offline = hasattr(attr, "offline")
+                        nav_items[person].append({
+                            'text': attr.nav,
+                            'url': attr.route,
+                            'offline': offline
+                        })
+
+                        print(f"Registrado {attr.nav} como offline:{offline}.")
 
 @app.route('/error')
 def error():
     raise ConafeException(500, m="Error de prueba")
+
+@app.route('/sw.js')
+def service_worker():
+    # Obtener los links del usuario que se van a cachear
+    print(nav_items)
+    navs =  ",".join([f"'{nav['url']}'" for nav in nav_items[session['nivel']] if nav['offline']])
+
+    return Response(
+        render_template('js/sw.js', urls_to_cache=navs),
+        mimetype='application/javascript'
+    )
+
+@app.route('/serviceWorkerHandler.js')
+def service_worker_handler():
+    return Response(
+        render_template('js/serviceWorkerHandler.js'),
+        mimetype='application/javascript'
+    )
 
 @app.context_processor
 def inject_nav_items():
@@ -58,7 +84,6 @@ def inject_nav_items():
     return dict(nav_items=nav_items)
 
 #Descomentar cuando ya quede todo por que no sé en qué parte del código estoy mal jajaja
-
 @app.errorhandler(Exception)
 def page_not_found(e):
     if isinstance(e, ConafeException):

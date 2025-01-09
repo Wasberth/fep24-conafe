@@ -1,5 +1,5 @@
 from flask import render_template, request, redirect, url_for, session, jsonify, make_response
-from decos import route, nav
+from decos import route, nav, offline
 import requests
 import json
 
@@ -13,6 +13,7 @@ CAPACITACION_URL = get_url('capacitacion')
 
 @route('/evaluacion/alumnos')
 @nav('Control Escolar/Calificar')
+@offline()
 @restricted('EC2')
 def evaluacion_alumnos():
     """Renderiza la página de evaluación de los alumnos"""

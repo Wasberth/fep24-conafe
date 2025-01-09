@@ -1,5 +1,5 @@
 from flask import render_template, request, session, make_response, url_for
-from decos import route, nav
+from decos import route, nav, offline
 import requests
 
 from mode_handler import get_url
@@ -12,6 +12,7 @@ UBICACION_URL = get_url('ubicacion')
 
 @route('/alumno/alta')
 @nav('Control Escolar/Altas')
+@offline()
 @restricted(['EC2', 'ECA'])
 def alta_alumno():
     datos = {}

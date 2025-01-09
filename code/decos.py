@@ -12,3 +12,10 @@ def nav(text):
         func.nav = text
         return func
     return decorator
+
+def offline():
+    """Decorador para marcar una página como offline."""
+    def decorator(func):
+        func.offline = True
+        return func
+    return decorator

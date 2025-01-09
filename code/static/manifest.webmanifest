@@ -1,0 +1,6 @@
+{
+    "name": "Sistema de Información para Guía y Evaluacion del Educador Comunitario",
+    "short_name": "SIGUEEC",
+    "start_url": "/bienvenida",
+    "display": "standalone"
+}
