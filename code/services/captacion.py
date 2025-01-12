@@ -7,6 +7,7 @@ import os
 from dotenv import load_dotenv
 from bson.objectid import ObjectId
 load_dotenv()
+import re
 
 app = Flask(__name__)
 
@@ -113,40 +114,33 @@ def get_alumnos_calif():
 
 @app.route('/get_distribucion', methods=['POST'])
 def get_distribucion():
-    available = request.get_json()
+    """Obtiene los CCT's en los que se puede entregar con respecto a un inventario"""
+    # available = request.get_json()
     
     # Arreglen el anio pofavo
     result = formulario.find({'estado':{'$in': ['aceptada', 'convenio']},'convocatoria':"2024",'sede':{'$ne':None}})
-    response = []
-    for document in result:
-        adding = 0
-        key = "pl-"+str(document['playera'])
-        if key in available:
-            if available[key] > 0:
-                available[key] = available[key] - 1
-                adding = 1
-        key = "pa-"+str(document['pantalon'])
-        if key in available:
-            if available[key] > 0:
-                available[key] = available[key] - 1
-                adding = 1
-        key = "ca-"+str(document['calzado'])
-        if key in available:
-            if available[key] > 0:
-                available[key] = available[key] - 1
-                adding = 1
-        if adding == 1:
-            response.append(document['sede'])
-    response = {'claves': response}
-    return jsonify(response)
-
-@app.route('/get_coordenadas', methods=['POST'])
-def get_coordenadas():
-    data = request.get_json()
-    keys = data['claves']
-    query = {'clave':{'$in':keys}}
-
-    result = cct.find(query)
+    # response = []
+    # for document in result:
+    #     adding = 0
+    #     key = "pl-"+str(document['playera'])
+    #     if key in available:
+    #         if available[key] > 0:
+    #             available[key] = available[key] - 1
+    #             adding = 1
+    #     key = "pa-"+str(document['pantalon'])
+    #     if key in available:
+    #         if available[key] > 0:
+    #             available[key] = available[key] - 1
+    #             adding = 1
+    #     key = "ca-"+str(document['calzado'])
+    #     if key in available:
+    #         if available[key] > 0:
+    #             available[key] = available[key] - 1
+    #             adding = 1
+    #     if adding == 1:
+    #         response.append(document['sede'])
+    # response = {'claves': response}
+    # return jsonify(response)
     return jsonify(objectid_to_str({'result':list(result)}))
 
 @app.route('/tallas_repartibles', methods=['POST'])
@@ -154,7 +148,8 @@ def tallas_repartibles():
     """Obtiene el registro de tallas de un año en específico si tienen una sede asociada"""	
     data = request.get_json()
     year = data['year']
-    result = formulario.find({"convocatoria": year, 'sede': {'$ne': None}}, {'playera': 1, 'pantalon': 1, 'calzado':1})
+    estado = re.compile(data['estado'], re.IGNORECASE)
+    result = formulario.find({"convocatoria": year, 'estado':'convenio', 'estado_republica': estado, 'sede': {'$ne': None}}, {'playera': 1, 'pantalon': 1, 'calzado':1})
     return jsonify(objectid_to_str({'result':list(result)}))
 
 @app.route('/buscar_integrante', methods=['POST'])

@@ -17,17 +17,24 @@ import json
 
 MAPA_URL = get_url('ubicacion')
 CAPTACION_URL = get_url('captacion')
+polilineas = []
 
 @route("/generador_ruta")
 @restricted('AA')
 @nav('Generador de rutas')
 def generacion_ruta():
     """Renderiza la pagina y formulario para generar rutas de distribucion."""
+    return render_template('ruta.html', stylesheets=['index', 'route_loader'], scripts=['route_loader'])
+
+@route('/actualizar_formulario', methods=["POST"])
+def actualizar_formulario():
+    """Entrega el inventario necesario para un estado"""
     # Quiero asumir que los faltantes son los del siguiente año, hay que poner mas registros cuando se pueda
     # Arreglen si es un entero o string pofavo
     current_year = "2024"
+    estado = request.get_data().decode()
     try:
-        response = requests.post(CAPTACION_URL + '/tallas_repartibles', json={'year': current_year})
+        response = requests.post(CAPTACION_URL + '/tallas_repartibles', json={'year': current_year, 'estado': estado})
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
@@ -39,29 +46,29 @@ def generacion_ruta():
     # Validar que las columnas necesarias existan
     required_columns = {'playera', 'pantalon', 'calzado'}
     if not required_columns.issubset(df.columns):
-        raise ConafeException(500, "Faltan columnas necesarias en los datos del microservicio")
+        return json.dumps({"error": "No hay registros para ese estado"})
     
+    retorno = {}
+
     # Contar las repeticiones de cada talla por tipo de prenda
     tallas_playera = df['playera'].value_counts().reset_index()
     tallas_playera.columns = ['talla', 'cantidad']
     tallas_playera['tipo'] = 'Playera'
 
-    playera_list = tallas_playera.values.tolist()
+    retorno['playera'] = tallas_playera.values.tolist()
 
     tallas_pantalon = df['pantalon'].value_counts().reset_index()
     tallas_pantalon.columns = ['talla', 'cantidad']
     tallas_pantalon['tipo'] = 'Pantalón'
 
-    pantalon_list = tallas_pantalon.values.tolist()
+    retorno['pantalon'] = tallas_pantalon.values.tolist()
 
     tallas_calzado = df['calzado'].value_counts().reset_index()
     tallas_calzado.columns = ['talla', 'cantidad']
     tallas_calzado['tipo'] = 'Calzado'
 
-    calzado_list = tallas_calzado.values.tolist()
-
-    # Renderizar la plantilla HTML
-    return render_template('ruta.html', playera_list=playera_list, pantalon_list=pantalon_list, calzado_list=calzado_list, stylesheets=['index', 'route_loader'], scripts=['route_loader'])
+    retorno['calzado'] = tallas_calzado.values.tolist()
+    return json.dumps(retorno)
 
 @route('/mapa_ruta')
 def mapa_ruta():
@@ -72,7 +79,7 @@ def mapa_ruta():
         response = requests.post(CAPTACION_URL + '/get_distribucion', json=formulario)
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
-        response = requests.post(CAPTACION_URL + '/get_coordenadas', json=microservice_data)
+        response = requests.post(MAPA_URL + '/get_coordenadas', json=microservice_data)
         response.raise_for_status() # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json() # Obtiene el JSON del microservicio
     except requests.RequestException as e:

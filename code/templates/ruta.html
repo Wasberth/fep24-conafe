@@ -5,63 +5,46 @@
 {% block content %}
 <div class="container my-5">
     <h1 class="text-center mb-5">Tallas por distribuir</h1>
-    <div class="row">
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <div class="card-header bg-primary text-white">
-                    <h2 class="card-title h5 mb-0">Playeras</h2>
-                </div>
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-						{% for reg in playera_list %}
-							<li class="list-group-item d-flex justify-content-between align-items-center">
-								Talla {{ reg[0] }}
-								<span class="badge bg-primary rounded-pill">{{ reg[1] }}</span>
-							</li>
-						{% endfor %}
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <div class="card-header bg-success text-white">
-                    <h2 class="card-title h5 mb-0">Pantalones</h2>
-                </div>
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                        <ul class="list-group list-group-flush">
-							{% for reg in pantalon_list %}
-								<li class="list-group-item d-flex justify-content-between align-items-center">
-									Talla {{ reg[0] }}
-									<span class="badge bg-primary rounded-pill">{{ reg[1] }}</span>
-								</li>
-							{% endfor %}
-						</ul>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <div class="card-header bg-info text-white">
-                    <h2 class="card-title h5 mb-0">Calzado</h2>
-                </div>
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                        {% for reg in calzado_list %}
-							<li class="list-group-item d-flex justify-content-between align-items-center">
-								Talla {{ reg[0] }}
-								<span class="badge bg-primary rounded-pill">{{ reg[1] }}</span>
-							</li>
-						{% endfor %}
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <select class="form-select form-select-lg" id="estado_visible">
+        <option value="AGUASCALIENTES">AGUASCALIENTES</option>
+        <option value="BAJA CALIFORNIA">BAJA CALIFORNIA</option>
+        <option value="BAJA CALIFORNIA SUR">BAJA CALIFORNIA SUR</option>
+        <option value="CAMPECHE">CAMPECHE</option>
+        <option value="COAHUILA">COAHUILA</option>
+        <option value="COLIMA">COLIMA</option>
+        <option value="CHIAPAS">CHIAPAS</option>
+        <option value="CHIHUAHUA">CHIHUAHUA</option>
+        <option value="DURANGO">DURANGO</option>
+        <option value="GUANAJUATO">GUANAJUATO</option>
+        <option value="GUERRERO">GUERRERO</option>
+        <option value="HIDALGO">HIDALGO</option>
+        <option value="JALISCO">JALISCO</option>
+        <option value="ESTADO DE MEXICO">ESTADO DE MEXICO</option>
+        <option value="MICHOACAN">MICHOACAN</option>
+        <option value="MORELOS">MORELOS</option>
+        <option value="NAYARIT">NAYARIT</option>
+        <option value="NUEVO LEON">NUEVO LEON</option>
+        <option value="OAXACA">OAXACA</option>
+        <option value="PUEBLA">PUEBLA</option>
+        <option value="QUERETARO">QUERETARO</option>
+        <option value="QUINTANA ROO">QUINTANA ROO</option>
+        <option value="SAN LUIS POTOSI">SAN LUIS POTOSI</option>
+        <option value="SINALOA">SINALOA</option>
+        <option value="SONORA">SONORA</option>
+        <option value="TABASCO">TABASCO</option>
+        <option value="TAMAULIPAS">TAMAULIPAS</option>
+        <option value="TLAXCALA">TLAXCALA</option>
+        <option value="VERACRUZ">VERACRUZ</option>
+        <option value="YUCATAN">YUCATAN</option>
+        <option value="ZACATECAS">ZACATECAS</option>
+    </select>
+    <br>
+    <div id="cargar_general" class="loading-spinner" style="display: flex;">
+        <div class="spinner"></div>
     </div>
+    <br>
+    <h1><span class="badge bg-warning text-black" id="alerta_existencia">No hay que entregar algo en ESTADO</span></h1>
+    <br>
     <form class="w-100" id="formulario_inventario">
         <div class="row">
             <div class="col-md-4 mb-4">
@@ -70,15 +53,7 @@
                         <h2 class="card-title h5 mb-0">Playeras</h2>
                     </div>
                     <div class="card-body">
-                        <div class="form-group row">
-                            {% for reg in playera_list %}
-                                <label for="pl_{{reg[0]}}" class="col-sm-8 col-form-label">
-                                    Talla {{ reg[0] }}
-                                </label>
-                                <div class="col-sm-4">
-                                    <input id="pl-{{reg[0]}}" type="number" value="{{reg[1]}}" name="pl-{{reg[0]}}" class="form-control">
-                                </div>
-                            {% endfor %}
+                        <div class="form-group row" id="campos_playera">
                         </div>
                     </div>
                 </div>
@@ -89,15 +64,7 @@
                         <h2 class="card-title h5 mb-0">Pantalones</h2>
                     </div>
                     <div class="card-body">
-                        <div class="form-group row">
-                            {% for reg in pantalon_list %}
-                                <label for="pa_{{reg[0]}}" class="col-sm-8 col-form-label">
-                                    Talla {{ reg[0] }}
-                                </label>
-                                <div class="col-sm-4">
-                                    <input id="pa-{{reg[0]}}" type="number" value="{{reg[1]}}" name="pa-{{reg[0]}}" class="form-control">
-                                </div>
-                            {% endfor %}
+                        <div class="form-group row" id="campos_pantalon">
                         </div>
                     </div>
                 </div>
@@ -108,15 +75,7 @@
                         <h2 class="card-title h5 mb-0">Calzado</h2>
                     </div>
                     <div class="card-body">
-                        <div class="form-group row">
-                            {% for reg in calzado_list %}
-                                <label for="ca_{{reg[0]}}" class="col-sm-8 col-form-label">
-                                    Talla {{ reg[0] }}
-                                </label>
-                                <div class="col-sm-4">
-                                    <input id="c-{{reg[0]}}" type="number" value="{{reg[1]}}" name="c-{{reg[0]}}" class="form-control">
-                                </div>
-                            {% endfor %}
+                        <div class="form-group row" id="campos_calzado">
                         </div>
                     </div>
                 </div>
@@ -125,7 +84,7 @@
     </form>
 </div>
 <main class="hero my-5">
-    <div class="container">
+    <div class="container" id="visibiilidad_rutas">
         <div class="row align-items-center">
             <h1 class="text-center mb-5">Mapa de rutas</h1>
             <div class="text-center">
@@ -148,5 +107,6 @@
 	{{ super() }}
 	<script type='text/javascript'>
         let urlUser = "{{url_for("mapa_ruta")}}"
+        let urlUser_form = "{{url_for("actualizar_formulario")}}"
 	</script>
 {% endblock %}
