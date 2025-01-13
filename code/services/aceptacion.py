@@ -55,7 +55,7 @@ def aceptar_convenio_bd():
     clave = resultado.get('clave')
     monto_apoyo_convenio = resultado.get('monto_apoyo_convenio')
     #Actualizar estado de convocatoria
-    convocatorias.update_one({'_id': ObjectId(usuario)}, {'$set': {'beneficiario': beneficiario, 'sede': clave, 'monto_apoyo_convenio': float(monto_apoyo_convenio)}})
+    convocatorias.update_one({'_id': ObjectId(usuario)}, {'$set': {'beneficiario': beneficiario, 'sede': clave, 'monto_apoyo_convenio': float(monto_apoyo_convenio), 'estado': 'convenio'}})
 
     
     return jsonify({"msg": "Se ha actualizado con éxito!"})
