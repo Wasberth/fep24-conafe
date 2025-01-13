@@ -60,21 +60,25 @@ def obtener_todos_los_datos():
         "fecha_nacimiento": 1
     }
     return formulario_collection.find({}, projection)
-
+"""
 def calcular_edad(fecha_nacimiento):
     try:
         fecha_nacimiento = datetime.strptime(fecha_nacimiento, "%Y-%m-%d")
     except ValueError:
         try:
-            fecha_nacimiento = datetime.strptime(fecha_nacimiento, "%d/%m/%Y")
+            
+            fecha_nacimiento = datetime.strptime(fecha_nacimiento, "%a, %d %b %Y %H:%M:%S GMT")
         except ValueError:
-            raise ValueError(f"Formato de fecha no reconocido: {fecha_nacimiento}")
+            try:
+                fecha_nacimiento = datetime.strptime(fecha_nacimiento, "%d/%m/%Y")
+            except ValueError:
+                raise ValueError(f"Formato de fecha no reconocido: {fecha_nacimiento}")
     fecha_actual = datetime.now()
     edad = fecha_actual.year - fecha_nacimiento.year
     if (fecha_actual.month, fecha_actual.day) < (fecha_nacimiento.month, fecha_nacimiento.day):
         edad -= 1
     return edad
-
+"""
 def generar_cadena_aleatoria(longitud=15):
     caracteres = string.ascii_letters + string.digits
     return ''.join(secrets.choice(caracteres) for _ in range(longitud))
@@ -123,7 +127,10 @@ def calcular_edad(fecha_nacimiento):
         try:
             fecha_nacimiento = datetime.strptime(fecha_nacimiento, "%d/%m/%Y")
         except ValueError:
-            raise ValueError(f"Formato de fecha no reconocido: {fecha_nacimiento}")
+            try:
+                fecha_nacimiento = datetime.strptime(fecha_nacimiento, "%a, %d %b %Y %H:%M:%S GMT")
+            except ValueError:
+                raise ValueError(f"Formato de fecha no reconocido: {fecha_nacimiento}")
     fecha_actual = datetime.now()
     edad = fecha_actual.year - fecha_nacimiento.year
     if (fecha_actual.month, fecha_actual.day) < (fecha_nacimiento.month, fecha_nacimiento.day):
@@ -168,6 +175,7 @@ def generar_pdf_contrato(persona):
     nombre = persona["nombre"]
     apellido1 = persona["apellido1"]
     apellido2 = persona.get("apellido2", "")
+    beneficiario = persona.get("beneficiario")
     genero = persona["genero"]
     if genero == "Male":
         genero = "EL"
@@ -254,7 +262,7 @@ def generar_pdf_contrato(persona):
                 e)	Apoyo económico de fin de año sujeto a la disposición presupuestal. 
                 f)	Otorgar un apoyo económico para la atención médico-quirúrgica, farmacéutica y hospitalaria en caso de accidente, enfermedad o incapacidad total permanente hasta por la cantidad que determine “EL CONAFE”, durante la etapa de formación inicial, la práctica educativa comunitaria y como beneficiario para la continuación de estudios. 
                 g)	En caso de fallecimiento, para la entrega del apoyo autorizado para esta situación, {genero} ASPIRANTE designa como su(s) beneficiario(s) a: 
-                ____________________________________________________________________________________, quien(es) es (son) mayor(es) de edad, mismo(s) que será(n) reconocido(s) con ese carácter por “EL CONAFE” hasta en tanto aquél/aquélla no realice nueva designación. Este apoyo se otorgará también durante la práctica educativa comunitaria y como beneficiario para la continuidad de estudios. 
+                {beneficiario}, quien(es) es (son) mayor(es) de edad, mismo(s) que será(n) reconocido(s) con ese carácter por “EL CONAFE” hasta en tanto aquél/aquélla no realice nueva designación. Este apoyo se otorgará también durante la práctica educativa comunitaria y como beneficiario para la continuidad de estudios. 
                 h)	Otorgamiento de vestuario de identificación institucional. 
                 i)	Acompañamiento académico y técnico pedagógico por parte de la Coordinación Territorial para el Servicio Educativo del CONAFE en la Entidad Federativa.  
                 
@@ -409,7 +417,7 @@ def aceptar_convenio(id):
 
 @route('/convenio')
 @nav('Convenio')
-@restricted(['EC1', 'EC2', 'ECA'])
+@restricted(['EC2', 'ECA'])
 def visualizar_convenio():
     """Renderiza la página donde se mostrará el convenio de los EC1, EC2 y ECA"""
     return render_template(f'convenio_visualizacion.html')
