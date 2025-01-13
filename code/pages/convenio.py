@@ -10,11 +10,12 @@ from mongo_objects.cct import CCT
 from fpdf import FPDF
 from flask import render_template, session, request, jsonify, send_file, Response, make_response, url_for
 from decos import route, nav
-from pages._card_ import Card, CONVOCATORIA_TEMPLATE, mapear_datos_convocatoria
+from pages._card_ import *
 from mode_handler import get_url
 import requests
 from pages._check_level_ import restricted
 import tempfile
+from pages._error_ import ConafeException
 
 
 load_dotenv()
@@ -33,6 +34,7 @@ estados = db['estados_republica']
 
 
 CAPTACION_URL = get_url('captacion')
+CAPACITACION_URL = get_url('capacitacion')
 UBICACION_URL = get_url('ubicacion')
 ACEPTACION_URL= get_url('aceptacion')
 
@@ -334,6 +336,7 @@ def generar_convenio_COT():
     """Renderiza las cartas y obtiene los datos del folio ingresado"""    
     form_data = request.form.to_dict()
 
+    """
     # Enviar los datos al microservicio (obtención de estado de COT)
     try:
         response = requests.get(UBICACION_URL + '/cot_estado', json={"cot": session['user_id']})
@@ -341,8 +344,8 @@ def generar_convenio_COT():
         estado = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
         return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
-    
-    estado = estado['result'][0]['estado']
+    """
+    estado = session["estado"]#estado['result'][0]['estado']
     if estado is None: 
         return jsonify({"error": "No se encontró el estado indicado."}), 500
 
@@ -353,26 +356,53 @@ def generar_convenio_COT():
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         persona = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
     
-    
-    persona = persona['result']
-    
-    convocatorias = mapear_datos_convocatoria(persona)
-
-     # Enviar los datos al microservicio (obtención de CCTs por estado)
+    # Enviar los datos al microservicio (obtención de CCTs por estado)
     try:
         response = requests.get(UBICACION_URL + '/lista_lugares_estado', json={"estado": estado.upper()})
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         claves = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
-        return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
     
     #Convirtiendo a lista porque la función solo acepta listas de dicc
     lista_claves = [dict["clave"] for dict in claves['result']]
+    
+    persona = persona['result']
+
+    try:
+        convocatorias = mapear_datos_convocatoria(persona)
+    except TypeError as e:
+        raise ConafeException(500, "error", str(e))
+
+    cards = []
+    for educador in convocatorias:
+        folio = educador["folio"]
+
+        try:
+            response = requests.post(CAPACITACION_URL + '/get_evaluaciones', json={'folio':folio})
+            response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+            microservice_data = response.json()  # Obtiene el JSON del microservicio
+        except requests.RequestException as e:
+            raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+        
+        evaluaciones = microservice_data["result"]
+        card = Card.card_from_dict(EVALUACION_TEMPLATE, **educador)
+
+        eval_cards = []
+        for evaluacion in evaluaciones:
+            template = EVALUACION_EC1_SECCION if evaluacion['tipo'] == 'ec1' \
+                else EVALUACION_EC2_SECCION
+            
+            carta = Card.card_from_dict(template, **evaluacion)
+            eval_cards.append(carta)
+
+        card.extend(eval_cards)
+        cards.append(card)
 
 
-    cards = [Card.card_from_dict(CONVOCATORIA_TEMPLATE, **convocatoria) for convocatoria in convocatorias]
+    #cards = [Card.card_from_dict(CONVOCATORIA_TEMPLATE, **convocatoria) for convocatoria in convocatorias]
     return render_template('cartas.html', cards=cards, tipo_carta='carta_convenio', claves=lista_claves, stylesheets=['button'])
 
 

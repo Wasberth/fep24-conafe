@@ -10,7 +10,7 @@ CONTACTO_SECCION = '#Datos de Contacto:{email};{telefono_fijo};{telefono_movil}'
 EVALUACION_EC1_SECCION = '#Evaluación del Evento "{evento}":{fecha}>{tipoEvaluacion}|Tipo de Evaluación>>{claridad};{comprension_lectora};{comprension_contenidos}|Comprensión de los contenidos>{eficiencia};{trabajo_equipo}|Trabajo en Equipo;{asistencia}>>{observaciones}'
 EVALUACION_EC2_SECCION = '#Evaluación:{fecha}>{tipoEvaluacion}|Tipo de Evaluación>>{asistencia}>{relacion_comunidad}|Relación con la comunidad>{actitud}>>{observaciones}'
 
-CONVOCATORIA_TEMPLATE = '{nombre} {apellido}'+ DATOS_PERSONALES_SECCION + DIRECCION_SECCION \
+CONVOCATORIA_TEMPLATE = '{nombre} {apellido} {folio}'+ DATOS_PERSONALES_SECCION + DIRECCION_SECCION \
     + TALLAS_SECCION + BANCO_SECCION + CONTACTO_SECCION
 
 APOYO_TEMPLATE = '{nombre} {apellido} solicitada el {fecha_solicitud}' + DATOS_PERSONALES_SECCION + BANCO_SECCION + CONTACTO_SECCION \
