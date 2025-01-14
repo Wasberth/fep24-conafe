@@ -5,10 +5,11 @@
 <section class="get-in-touch container">
     <h1 class="title">Solicitud de incorporación de Figuras Educativas</h1>
     <p>El proceso de captación de aspirantes a Líder para la Educación Comunitaria es un trámite gratuito</p>
-    <form class="contact-form row" action="llenar_convocatoria" method="post" enctype="multipart/form-data">
+    <form class="contact-form row" onsubmit="return validar();" action="llenar_convocatoria" method="post" enctype="multipart/form-data" id="fomulario_convocatoria">
         <div class="form-field col-lg-12">
             <label for="curp" class="etiqueta-formulario">CURP*:</label>
             <input name="curp" id="curp" class="input-text js-input" type="text" required>
+            <div class="alert alert-danger my-2" role="alert" id="alerta_curp">CURP inválido</div>              
         </div>
         <div class="form-field col-lg-12 ">
             <label class="etiqueta-formulario" for="nombre">Nombre(s)*:</label>
@@ -259,10 +260,9 @@
             <label for="documentos-necesarios" class="form-label">Documentos necesarios: Acta de nacimiento, certificado de último grado de estudios (Ingresar todos los documentos en un solo archivo .pdf)</label>
             <input class="form-control" type="file" id="documentos_necesarios" name="documentos_necesarios" accept=".pdf" required>
           </div>
-
-        <div class="form-field col-lg-12">
-            <input class="submit-btn" type="submit" value="Subir">
-        </div>
-    </form>
+          <div class="form-field col-lg-12">
+                <input type="submit" class="submit-btn" value="Subir">
+          </div>
+        </form>
 </section>
 {% endblock %}

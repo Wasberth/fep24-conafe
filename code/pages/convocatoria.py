@@ -11,7 +11,7 @@ CAPTACION_URL = get_url('captacion')
 @route('/convocatoria')
 def register_page():
     """Renderiza el formulario de la convocatoria para la captación de datos"""
-    return render_template(f'convocatoria.html', stylesheets = ['capta'])
+    return render_template(f'convocatoria.html', stylesheets = ['capta'], scripts=['curp'])
 
 @route('/llenar_convocatoria', methods=['POST'])
 def register_form():
