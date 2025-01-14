@@ -64,6 +64,29 @@ def get_coordenadas():
 
     return jsonify(objectid_to_str({'result':list(result), 'delegacion':resulta2, 'central': resulta3, 'rutas': list(resulta4)}))
 
+@app.route('/apoyo_renderizacion', methods=['POST'])
+def apoyo_renderizacion():
+    data = request.get_json()
+    estado = data['estado']
+
+    query = {'clave':{'$in': data['claves']}, 'estado': estado}
+    result = list(lugares.find(query))
+    ccts = {}
+    for cct in result:
+        temp = {'longitud': cct['longitud'], 'latitud':cct['latitud'], 'nombre':cct['nombre'], 'direccion':cct['sede']}
+        ccts[cct['clave']] = temp
+
+    query = {'estado': estado}
+    delegacion = delegaciones_estatales.find_one(query)
+    result = rutas.find(query)
+    poli = {}
+    for p in result:
+        poli[p['puntos']] = p['polilinea']
+
+    query = {'estado': "CIUDAD DE MEXICO"}
+    cdmx = delegaciones_estatales.find_one(query)
+    return jsonify(objectid_to_str({'ccts':ccts, 'delegacion': delegacion, 'central':cdmx, 'poli': poli}))
+
 @app.route('/generar_rutas', methods=['POST'])
 def generar_rutas():
     """Genear las polilineas que representan las rutas entre todos los CCT's de un estado"""
@@ -71,6 +94,7 @@ def generar_rutas():
     estado = str(data['estado']).upper()
     query = {'estado': estado}
 
+    print(data)
     result = lugares.find(query)
     algoiterable = []
     for doc in result:
@@ -84,9 +108,11 @@ def generar_rutas():
     poli = []
     revisados = []
     for inicio in algoiterable:
+        print("Probando " + inicio['clave'])
         for final in algoiterable:
             if inicio['clave'] == final['clave'] or final['clave'] in revisados:
                 continue
+            print("con " + str(final['clave']))
             route_coords = [[inicio['longitud'], inicio['latitud']], [final['longitud'], final['latitud']]]
             ruta_exacta = 1
             try:
@@ -104,10 +130,10 @@ def generar_rutas():
             temp['estado'] = estado
             poli.append(temp)
         revisados.append(inicio['clave'])
+    query = {'estado': estado, 'central': None}
     borrar = len(list(rutas.find(query))) > 0
     insert_result = ""
     if borrar:
-        query = {'estado': estado}
         delete_result = rutas.delete_many(query)
     insert_result = rutas.insert_many(poli)
     return jsonify({"state":str(insert_result)})
@@ -117,6 +143,8 @@ def script_dev():
     """Genear las polilineas que representan las rutas entre todos los CCT's de un estado"""
     data = request.get_json()
     estado = str(data['estado']).upper()
+    print("Gracias por intentar " + estado)
+
     algoiterable = []
     result = delegaciones_estatales.find()
     centro = {}
@@ -129,6 +157,7 @@ def script_dev():
         return jsonify({"error": "No hay ccts en ese estado"})
     poli = []
     for inicio in algoiterable:
+        print("Probando " + inicio['estado'])
         route_coords = [[inicio['longitud'], inicio['latitud']], [centro['longitud'], centro['latitud']]]
         ruta_exacta = 1
         try:
@@ -150,7 +179,7 @@ def script_dev():
     borrar = len(list(rutas.find(query))) > 0
     insert_result = ""
     if borrar:
-        query = {'estado': estado}
+        query = {'central': True}
         delete_result = rutas.delete_many(query)
     insert_result = rutas.insert_many(poli)
     return jsonify({"state":str(insert_result)})

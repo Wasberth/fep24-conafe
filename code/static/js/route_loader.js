@@ -11,6 +11,7 @@ let chiste_control;
 let exito_chiste;
 let iframe;
 let boton_mostrar_mapa;
+let lista_destinos;
 
 document.addEventListener("DOMContentLoaded", function () {
     iframe = document.getElementById("map-frame");
@@ -25,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     cargando_general = document.getElementById('cargar_general');
     chiste_control = document.getElementById('chistolongo');
     exito_chiste = document.getElementById('exito_chiste');
+    lista_destinos = document.getElementById('lista_rutas');
     chiste_control.style.display = "none";
     exito_chiste.style.display = "none";
     chiste_control.addEventListener("click", (event) =>{
@@ -66,6 +68,7 @@ async function manejar_chiste(estado_valor){
 async function cargar_inventario(estado_valor){
     formulario.style.display = "none";
     iframe.style.display = "none";
+    lista_destinos.innerHTML = "";
     boton_mostrar_mapa.style.display = "inline-block";
     rutas.style.display =  "none";
     alerta.style.display =  "none";
@@ -85,17 +88,17 @@ async function cargar_inventario(estado_valor){
         }else{
             temp = "";
             for(i=0;i<data['playera'].length;i++){
-                temp = temp.concat('<label for="pa_', data['playera'][i][0], '" class="col-sm-8 col-form-label">Talla ', data['playera'][i][0], '</label><div class="col-sm-4"><input id="pa-', data['playera'][i][0], '" type="number" value="', data['playera'][i][1], '" name="pa-', data['playera'][i][0], '" class="form-control"></div>');
+                temp = temp.concat('<label for="pl-', data['playera'][i][0], '" class="col-sm-8 col-form-label">Talla ', data['playera'][i][0], '</label><div class="col-sm-4"><input id="pl-', data['playera'][i][0], '" type="number" value="', data['playera'][i][1], '" name="pl-', data['playera'][i][0], '" class="form-control"></div>');
             }
             campo_playera.innerHTML = temp;
             temp = "";
-            for(i=0;i<data['playera'].length;i++){
-                temp = temp.concat('<label for="pa_', data['pantalon'][i][0], '" class="col-sm-8 col-form-label">Talla ', data['pantalon'][i][0], '</label><div class="col-sm-4"><input id="pa-', data['pantalon'][i][0], '" type="number" value="', data['pantalon'][i][1], '" name="pa-', data['pantalon'][i][0], '" class="form-control"></div>');
+            for(i=0;i<data['pantalon'].length;i++){
+                temp = temp.concat('<label for="pa-', data['pantalon'][i][0], '" class="col-sm-8 col-form-label">Talla ', data['pantalon'][i][0], '</label><div class="col-sm-4"><input id="pa-', data['pantalon'][i][0], '" type="number" value="', data['pantalon'][i][1], '" name="pa-', data['pantalon'][i][0], '" class="form-control"></div>');
             }
             campo_pantalon.innerHTML = temp;
             temp = "";
-            for(i=0;i<data['playera'].length;i++){
-                temp = temp.concat('<label for="pa_', data['calzado'][i][0], '" class="col-sm-8 col-form-label">Talla ', data['calzado'][i][0], '</label><div class="col-sm-4"><input id="pa-', data['calzado'][i][0], '" type="number" value="', data['calzado'][i][1], '" name="pa-', data['calzado'][i][0], '" class="form-control"></div>');
+            for(i=0;i<data['calzado'].length;i++){
+                temp = temp.concat('<label for="ca-', data['calzado'][i][0], '" class="col-sm-8 col-form-label">Talla ', data['calzado'][i][0], '</label><div class="col-sm-4"><input id="ca-', data['calzado'][i][0], '" type="number" value="', data['calzado'][i][1], '" name="ca-', data['calzado'][i][0], '" class="form-control"></div>');
             }
             campo_calzado.innerHTML = temp;
             formulario.style.display = "block";
@@ -104,9 +107,49 @@ async function cargar_inventario(estado_valor){
     });
 }
 
+function generar_destino(nombre, direccion, cantidad){
+    elemento_lista = '<div class="list-group-item list-group-item-action"><div class="d-flex w-100 justify-content-between"><h4 class="mb-3">Destino: ';
+    if(cantidad == 0){
+        nombre = "Delegación ".concat(nombre);
+    }
+    elemento_lista = elemento_lista.concat(nombre, '</h4>');
+    if(cantidad > 0){
+        elemento_lista = elemento_lista.concat('<h4>Entregar <b>', cantidad, '</b> uniformes</h4>');
+    }
+    elemento_lista = elemento_lista.concat('</div><p class="mb-1">Direccion: ', direccion, '</p></div>');
+    return elemento_lista;
+}
+
+async function renderizar_mapa(url) {
+    const mapContainer = document.getElementById("map-container");
+    let respuesta = await fetch(url, {method: "GET"}).then(response => response.json()).then(data => {
+        mapContainer.style.display = "block";
+        for (let i = 0; i < data['lista'].length; i++) {
+            const ruta_datos = data['lista'][i];
+            
+            lista_general = '<h2 class="text-center fw-bold">Ruta '.concat((i+1), '</h3><div class="list-group p-1">');
+            for (let j = 0; j < ruta_datos.length; j++) {
+                const parada = ruta_datos[j];
+                lista_general = lista_general.concat(generar_destino(parada['nombre'], parada['direccion'], parada['cantidad']));
+            }
+            lista_general = lista_general.concat('<div class="d-flex justify-content-center p-3"><button class="btn btn-primary btn-lg">Marcar completadas todas las entregas de la ruta ', i,'</button></div></div>');
+        }
+        lista_destinos.innerHTML = lista_general;
+
+        rutaiframe = urlUser_render.concat('?ruta=', JSON.stringify(data['mapa']), '&estado=', estado.value);
+        console.log(rutaiframe)
+        iframe.setAttribute('src',rutaiframe);
+
+        // Mostrar el loader mientras el iframe se carga
+        iframe.onload = function () {
+            loader.style.display = "none";
+            iframe.style.display = "inline-block";
+        };
+    });
+}
+
 function procesar_mapa(){
     const loader = document.getElementById("loader");
-    const mapContainer = document.getElementById("map-container");
 
     boton_mostrar_mapa.style.display = "none";
     loader.style.display = "flex";
@@ -118,14 +161,7 @@ function procesar_mapa(){
     }
     rutaiframe = rutaiframe.slice(0, -1);
     rutaiframe = rutaiframe.concat("}");
-    iframe.setAttribute('src',rutaiframe);
-
-    // Mostrar el loader mientras el iframe se carga
-    iframe.onload = function () {
-        loader.style.display = "none";
-        mapContainer.style.display = "block";
-        iframe.style.display = "inline-block";
-    };
+    renderizar_mapa(rutaiframe);
 }
 
 function konami(event){

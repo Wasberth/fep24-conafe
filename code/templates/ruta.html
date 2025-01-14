@@ -87,12 +87,12 @@
         </div>
     </form>
 </div>
-<main class="hero my-5">
-    <div class="container" id="visibiilidad_rutas">
+<div class="my-5">
+    <div class="container p-5" id="visibiilidad_rutas">
         <div class="row align-items-center">
-            <h1 class="text-center mb-5">Mapa de rutas</h1>
+            <h1 class="text-center mb-5 fw-bold">Mapa de rutas</h1>
             <div class="text-center">
-                <button onclick="procesar_mapa()" class="btn btn-primary col-2" id="boton_generador">Generar rutas</button>
+                <button onclick="procesar_mapa()" class="btn btn-primary col-2 btn-lg" id="boton_generador">Generar rutas</button>
             </div>
             <div class="col-md-12" id="mapa">
                 <div id="loader" class="loading-spinner">
@@ -103,8 +103,9 @@
                 </div>
             </div>
         </div>
+        <div id="lista_rutas" class="p-5"></div>
     </div>
-</main>
+</div>
 {% endblock %}
 
 {% block scripts %}
@@ -113,5 +114,6 @@
         let urlUser = "{{url_for("mapa_ruta")}}"
         let urlUser_form = "{{url_for("actualizar_formulario")}}"
         let urlUser_chiste = "{{url_for("reobtener_polilineas")}}"
+        let urlUser_render = "{{url_for("renderizar_mapa")}}"
 	</script>
 {% endblock %}

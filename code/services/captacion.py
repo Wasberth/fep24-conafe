@@ -124,27 +124,33 @@ def get_distribucion():
     year = "2024"
     query = {'uniforme':False,'convocatoria':year,'sede':{'$in':claves}}
     result = formulario.find(query)
-    response = []
+    print(available)
+    response = {}
     for document in result:
         adding = 0
         key = "pl-"+str(document['playera'])
         if key in available:
             if available[key] > 0:
-                available[key] = available[key] - 1
-                adding = 1
+                adding = adding + 1
         key = "pa-"+str(document['pantalon'])
         if key in available:
             if available[key] > 0:
-                available[key] = available[key] - 1
-                adding = 1
+                adding = adding + 1
         key = "ca-"+str(document['calzado'])
         if key in available:
             if available[key] > 0:
-                available[key] = available[key] - 1
-                adding = 1
-        if adding == 1:
-            response.append(document['sede'])
-    response = {'claves': response}
+                adding = adding + 1
+        if adding == 3:
+            key = "pl-"+str(document['playera'])
+            available[key] = available[key] - 1
+            key = "pa-"+str(document['pantalon'])
+            available[key] = available[key] - 1
+            key = "ca-"+str(document['calzado'])
+            available[key] = available[key] - 1
+            if document['sede'] in response.keys():
+                response[document['sede']] = response[document['sede']] + 1
+            else:
+                response[document['sede']] = 1
     return jsonify(response)
 
 @app.route('/tallas_repartibles', methods=['POST'])
