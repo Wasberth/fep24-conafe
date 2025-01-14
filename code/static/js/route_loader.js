@@ -62,6 +62,10 @@ async function manejar_chiste(estado_valor){
             exito_chiste.style.display = "block";
             rutas.style.display = "block";
         }
+    }).catch(error => {
+        cargando_general.style.display = "none";
+        alerta.innerHTML = "Ups, intentelo mas tarde";
+        alerta.style.display = "block";
     });
 }
 
@@ -104,6 +108,10 @@ async function cargar_inventario(estado_valor){
             formulario.style.display = "block";
             rutas.style.display = "block";
         }
+    }).catch(error => {
+        cargando_general.style.display = "none";
+        alerta.innerHTML = "Ups, intentelo mas tarde";
+        alerta.style.display = "block";
     });
 }
 
@@ -129,6 +137,8 @@ async function marcar_completada(claves, i) {
         body: enviar
     }).then(response => response.json()).then(data => {
         anuncio.innerHTML = '<h1 class="text-center"><span class="badge text-bg-success">Operacion exitosa</span></h1>'
+    }).catch(error => {
+        anuncio.innerHTML = '<h1 class="text-center"><span class="badge text-bg-warning">Ups, intentelo más tarde</span></h1>'
     });
 }
 
@@ -164,6 +174,10 @@ async function renderizar_mapa(url) {
             loader.style.display = "none";
             iframe.style.display = "inline-block";
         };
+    }).catch(error => {
+        loader.style.display = "none";
+        alerta.innerHTML = "Ups, intentelo mas tarde";
+        alerta.style.display = "block";
     });
 }
 
