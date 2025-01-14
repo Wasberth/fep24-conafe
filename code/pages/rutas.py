@@ -36,7 +36,13 @@ def actualizar_formulario():
     current_year = "2024"
     estado = request.get_data().decode()
     try:
-        response = requests.post(CAPTACION_URL + '/tallas_repartibles', json={'year': current_year, 'estado': estado})
+        response = requests.get(MAPA_URL + '/lista_lugares_estado', json={'estado': estado})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+        claves = []
+        for i in microservice_data['result']:
+            claves.append(i['clave'])
+        response = requests.post(CAPTACION_URL + '/tallas_repartibles', json={'year': current_year, 'claves': claves})
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
@@ -74,6 +80,7 @@ def actualizar_formulario():
 
 @route('/reobtener_polilineas', methods=['POST'])
 def reobtener_polilineas():
+    """Vuelve a calcular las polilineas entre CCT's de un estado"""
     estado = request.get_data().decode()
     try:
         response = requests.post(MAPA_URL + '/generar_rutas', json={'estado': estado})
@@ -84,6 +91,24 @@ def reobtener_polilineas():
     if "error" in microservice_data.keys():
         return json.dumps({'error': microservice_data['error']})
     return json.dumps({'resultado': "Correcto"})
+
+@route('/marcar_compleatdo', methods=['POST'])
+def marcar_compleatdo():
+    """Maneja los CCT's que recibe del cliente"""
+    claves = json.loads(request.get_data().decode())
+    current_year = "2024"
+    try:
+        response = requests.post(CAPTACION_URL + '/marcar_entregados', json={'year': current_year, 'claves': claves})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+    result = ""
+    if "exito" in microservice_data.keys():
+        result = json.dumps({"exito": "Operacion exitosa"})
+    else:
+        result = json.dumps({"error", "Ocurrió un error inesperado"})
+    return result
 
 @route('/renderizar_mapa')
 def renderizar_mapa():

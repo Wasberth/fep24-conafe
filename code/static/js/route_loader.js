@@ -120,6 +120,18 @@ function generar_destino(nombre, direccion, cantidad){
     return elemento_lista;
 }
 
+async function marcar_completada(claves, i) {
+    let anuncio = document.getElementById('marcar_exito_'.concat(i))
+    vaciar(anuncio)
+    enviar = JSON.stringify(claves)
+    let respuesta = await fetch(urlUser_completar, {
+        method: "POST",
+        body: enviar
+    }).then(response => response.json()).then(data => {
+        anuncio.innerHTML = '<h1 class="text-center"><span class="badge text-bg-success">Operacion exitosa</span></h1>'
+    });
+}
+
 async function renderizar_mapa(url) {
     const mapContainer = document.getElementById("map-container");
     let respuesta = await fetch(url, {method: "GET"}).then(response => response.json()).then(data => {
@@ -127,14 +139,21 @@ async function renderizar_mapa(url) {
         for (let i = 0; i < data['lista'].length; i++) {
             const ruta_datos = data['lista'][i];
             
-            lista_general = '<h2 class="text-center fw-bold">Ruta '.concat((i+1), '</h3><div class="list-group p-1">');
+            lista_general = '<h2 class="text-center fw-bold">Ruta '.concat((i+1), '</h2><div class="list-group p-1">');
             for (let j = 0; j < ruta_datos.length; j++) {
                 const parada = ruta_datos[j];
                 lista_general = lista_general.concat(generar_destino(parada['nombre'], parada['direccion'], parada['cantidad']));
             }
-            lista_general = lista_general.concat('<div class="d-flex justify-content-center p-3"><button class="btn btn-primary btn-lg">Marcar completadas todas las entregas de la ruta ', i,'</button></div></div>');
+            lista_general = lista_general.concat('<div class="d-flex justify-content-center p-3" id="marcar_exito_',i,'"><button class="btn btn-primary btn-lg" id="marcar_',i,'">Marcar completadas todas las entregas de la ruta ', (i+1),'</button></div></div>');
         }
         lista_destinos.innerHTML = lista_general;
+
+        for (let i = 0; i < data['mapa'].length; i++) {
+            let boton = document.getElementById('marcar_'.concat(i));
+            boton.addEventListener("click", (event) => {
+                marcar_completada(data['mapa'][i], i);
+            });
+        }
 
         rutaiframe = urlUser_render.concat('?ruta=', JSON.stringify(data['mapa']), '&estado=', estado.value);
         console.log(rutaiframe)

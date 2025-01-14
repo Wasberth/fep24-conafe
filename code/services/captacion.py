@@ -158,9 +158,20 @@ def tallas_repartibles():
     """Obtiene el registro de tallas de un año en específico si tienen una sede asociada"""	
     data = request.get_json()
     year = data['year']
-    estado = re.compile(data['estado'], re.IGNORECASE)
-    result = formulario.find({"convocatoria": year, 'estado_republica': estado, 'sede': {'$ne': None}, 'uniforme': False}, {'playera': 1, 'pantalon': 1, 'calzado':1})
+    claves = data['claves']
+    result = formulario.find({"convocatoria": year, 'sede': {'$in': claves}, 'uniforme': False}, {'playera': 1, 'pantalon': 1, 'calzado':1})
     return jsonify(objectid_to_str({'result':list(result)}))
+
+@app.route('/marcar_entregados', methods=['POST'])
+def marcar_entregados():
+    """Marca como completados todos aquellos quienes pertenezcan a unos CCT's en especifico"""
+    data = request.get_json()
+    year = data['year']
+    claves = data['claves']
+    query = {"convocatoria": year, 'sede': {'$in': claves}, 'uniforme': False}
+    operacion = {"$set": {"uniforme": True}}
+    result = formulario.update_many(query, operacion)
+    return jsonify(objectid_to_str({'result': str(result), 'exito':'Operacion exitosa'}))
 
 @app.route('/buscar_integrante', methods=['POST'])
 def get_integrante():
