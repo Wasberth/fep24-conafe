@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, url_for, session, jsonify
+from flask import render_template, request, redirect, url_for, session, jsonify, make_response
 from decos import route
 import requests
 
@@ -32,6 +32,15 @@ def auth():
     usuario = microservice_data.get("user_id")
     nivel = microservice_data.get("nivel")
 
+    if nivel == 'ECA' or nivel == 'EC2':
+        firma = microservice_data.get("firma")
+        if firma == False:
+            #Respuesta del servidor
+            resp = make_response(render_template(f'firma_false.html',
+                           title='Error login firma',
+                           redirect=url_for('login')))
+            return resp
+    
     #Validar si existe usuario
     if not usuario:
         raise ConafeException(401, "Usuario o contraseña incorrectos.")

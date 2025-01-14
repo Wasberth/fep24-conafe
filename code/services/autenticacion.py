@@ -11,8 +11,10 @@ app = Flask(__name__)
 uri = os.environ['uri']
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['login']
+db2= client['captacion']
 
 usuarios = db.credenciales
+formulario= db2.formulario
 
 @app.route('/validacion_login', methods=['POST'])
 def validacion_login():
@@ -31,6 +33,11 @@ def validacion_login():
             #Validar si el curp coincide
             if user:
                 # TODO: Corregir el id
+                if user['nivel'] == 'ECA' or user['nivel'] == 'EC2': 
+                    
+                    firma = formulario.find_one({'folio': user['usuario']}, {'firma': 1})
+                    firma = firma['firma']
+                    return jsonify({"nivel": str(user['nivel']), "user_id": str(user['usuario']), "real_id": str(user['_id']), 'firma': firma})
                 return jsonify({"nivel": str(user['nivel']), "user_id": str(user['usuario']), "real_id": str(user['_id'])})
             else:
                 return jsonify({"error": "El usuario o la contraseña están incorrectas. Inténtelo de nuevo"}), 500

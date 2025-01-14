@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %} Sin ingresar {% endblock %}
+
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card text-center">
+            <div class="card-body bg-danger-subtle" id="messageCard">
+                <h4 class="card-title text-danger">Error al iniciar sesión.</h4>
+                <p class="card-text">No has podido iniciar sesión debido al no haber renovado convenio!.</p>
+            </div>
+    </div>
+</div>
+{% endblock %}
