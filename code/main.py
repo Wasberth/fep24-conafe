@@ -63,7 +63,7 @@ def error():
 @app.route('/sw.js')
 def service_worker():
     # Obtener los links del usuario que se van a cachear
-    navs =  ",".join([f"'{nav['url']}'" for nav in nav_items[session['nivel']] if nav['offline']])
+    navs =  ",".join([f"'{nav['url']}'" for nav in nav_items[session['nivel'] if 'nivel' in session else 'public'] if nav['offline']])
 
     return Response(
         render_template('js/sw.js', urls_to_cache=navs),

@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from bson.objectid import ObjectId
 load_dotenv()
 import re
+import time
 
 app = Flask(__name__)
 
@@ -32,6 +33,7 @@ def get_list():
         data['lengua'] = 'false'
 
     insert = formulario.insert_one(data).inserted_id
+    time.sleep(2)
     respuesta = formulario.find_one({"_id": insert}, {"folio": 1})
     return jsonify({"folio": respuesta["folio"]})
 
