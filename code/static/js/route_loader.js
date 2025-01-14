@@ -6,8 +6,15 @@ let formulario;
 let rutas;
 let alerta;
 let cargando_general;
+let chiste = 0;
+let chiste_control;
+let exito_chiste;
+let iframe;
+let boton_mostrar_mapa;
 
 document.addEventListener("DOMContentLoaded", function () {
+    iframe = document.getElementById("map-frame");
+    boton_mostrar_mapa = document.getElementById("boton_generador");
     estado = document.getElementById("estado_visible");
     formulario = document.getElementById("formulario_inventario");
     rutas = document.getElementById("visibiilidad_rutas");
@@ -16,10 +23,18 @@ document.addEventListener("DOMContentLoaded", function () {
     campo_calzado = document.getElementById("campos_calzado");
     alerta = document.getElementById('alerta_existencia');
     cargando_general = document.getElementById('cargar_general');
-    cargar_inventario(estado.value)
-    estado.addEventListener("change", (event) => {
-        cargar_inventario(estado.value)
+    chiste_control = document.getElementById('chistolongo');
+    exito_chiste = document.getElementById('exito_chiste');
+    chiste_control.style.display = "none";
+    exito_chiste.style.display = "none";
+    chiste_control.addEventListener("click", (event) =>{
+        manejar_chiste(estado.value);
     });
+    cargar_inventario(estado.value);
+    estado.addEventListener("change", (event) => {
+        cargar_inventario(estado.value);
+    });
+    window.addEventListener("keydown", konami);
 });
 
 function vaciar(elemento){
@@ -28,10 +43,33 @@ function vaciar(elemento){
     }
 }
 
-async function cargar_inventario(estado_valor){
-    formulario.style.display = "none";
+async function manejar_chiste(estado_valor){
+    chiste_control.style.display = "none";
     rutas.style.display =  "none";
     alerta.style.display =  "none";
+    cargando_general.style.display = "flex";
+    let repuesta = await fetch(urlUser_chiste, {
+        method: "POST",
+        body: estado_valor
+    }).then(response => response.json()).then(data => {
+        cargando_general.style.display = "none";
+        if('error' in data){
+            alerta.innerHTML = "No se pudieron generar rutas para ".concat(estado.value);
+            alerta.style.display = "block";
+        }else{
+            exito_chiste.style.display = "block";
+            rutas.style.display = "block";
+        }
+    });
+}
+
+async function cargar_inventario(estado_valor){
+    formulario.style.display = "none";
+    iframe.style.display = "none";
+    boton_mostrar_mapa.style.display = "inline-block";
+    rutas.style.display =  "none";
+    alerta.style.display =  "none";
+    exito_chiste.style.display = "none";
     cargando_general.style.display = "flex";
     let respuesta = await fetch(urlUser_form, {
         method: "POST",
@@ -42,10 +80,8 @@ async function cargar_inventario(estado_valor){
         vaciar(campo_calzado);
         cargando_general.style.display = "none"
         if('error' in data){
-            formulario.style.display = "none"
-            rutas.style.display = "none"
-            alerta.innerHTML = "No hay que entregar algo en ".concat(estado.value)
-            alerta.style.display = "block"
+            alerta.innerHTML = "No hay que entregar algo en ".concat(estado.value);
+            alerta.style.display = "block";
         }else{
             temp = "";
             for(i=0;i<data['playera'].length;i++){
@@ -62,35 +98,54 @@ async function cargar_inventario(estado_valor){
                 temp = temp.concat('<label for="pa_', data['calzado'][i][0], '" class="col-sm-8 col-form-label">Talla ', data['calzado'][i][0], '</label><div class="col-sm-4"><input id="pa-', data['calzado'][i][0], '" type="number" value="', data['calzado'][i][1], '" name="pa-', data['calzado'][i][0], '" class="form-control"></div>');
             }
             campo_calzado.innerHTML = temp;
-            formulario.style.display = "block"
-            rutas.style.display = "block"
+            formulario.style.display = "block";
+            rutas.style.display = "block";
         }
     });
 }
 
 function procesar_mapa(){
-    const iframe = document.getElementById("map-frame");
     const loader = document.getElementById("loader");
     const mapContainer = document.getElementById("map-container");
-    const boton = document.getElementById("boton_generador");
 
-    boton.remove();
+    boton_mostrar_mapa.style.display = "none";
     loader.style.display = "flex";
-    let rutaiframe = urlUser.concat('?data={');
+    let rutaiframe = urlUser.concat('?estado=', estado.value,'&data={');
     for(let i = 0; i < formulario.length; i++){
-    // for(let i = 0; i < 5; i++){
         if(formulario[i].nodeName == 'INPUT'){
             rutaiframe = rutaiframe.concat('"', formulario[i].name, '":', formulario[i].value, ",");
         }
     }
     rutaiframe = rutaiframe.slice(0, -1);
     rutaiframe = rutaiframe.concat("}");
-    console.log(rutaiframe)
     iframe.setAttribute('src',rutaiframe);
 
     // Mostrar el loader mientras el iframe se carga
     iframe.onload = function () {
         loader.style.display = "none";
         mapContainer.style.display = "block";
+        iframe.style.display = "inline-block";
     };
+}
+
+function konami(event){
+    if(event.key == "ArrowUp" && (chiste == 0 || chiste == 1)){
+        chiste++;
+    }else if(event.key == "ArrowDown" && (chiste == 2 || chiste == 3)){
+        chiste++;
+    }else if(event.key == "ArrowLeft" && (chiste == 4 || chiste == 6)){
+        chiste++;
+    }else if(event.key == "ArrowRight" && (chiste == 5 || chiste == 7)){
+        chiste++;
+    }else if(event.key == "b" && chiste == 8){
+        chiste++;
+    }else if(event.key == "a" && chiste == 9){
+        chiste++;
+    }else if(event.key == "Enter" && chiste == 10){
+        chiste_control.style.display = "flex";
+        alerta.style.display = "none";
+        exito_chiste.style.display = "none";
+    }else{
+        chiste == 0;
+    }
 }

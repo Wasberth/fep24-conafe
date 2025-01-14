@@ -38,12 +38,16 @@
         <option value="YUCATAN">YUCATAN</option>
         <option value="ZACATECAS">ZACATECAS</option>
     </select>
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-danger m-4" id="chistolongo">Obtener todas las rutas</button>
+    </div>
     <br>
     <div id="cargar_general" class="loading-spinner" style="display: flex;">
         <div class="spinner"></div>
     </div>
     <br>
     <h1><span class="badge bg-warning text-black" id="alerta_existencia">No hay que entregar algo en ESTADO</span></h1>
+    <h1 class="d-flex justify-content-center"><span class="badge bg-success" id="exito_chiste">Operacion exitosa</span></h1>
     <br>
     <form class="w-100" id="formulario_inventario">
         <div class="row">
@@ -108,5 +112,6 @@
 	<script type='text/javascript'>
         let urlUser = "{{url_for("mapa_ruta")}}"
         let urlUser_form = "{{url_for("actualizar_formulario")}}"
+        let urlUser_chiste = "{{url_for("reobtener_polilineas")}}"
 	</script>
 {% endblock %}

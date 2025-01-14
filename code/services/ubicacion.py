@@ -49,11 +49,20 @@ def get_estado_por_folio():
 def get_coordenadas():
     """Obtiene las coordenadas de los CCT's con respecto a su clave"""
     data = request.get_json()
-    keys = data['claves']
-    query = {'clave':{'$in':keys}}
+    estado = data['estado']
 
+    query = {'estado':estado}
     result = lugares.find(query)
-    return jsonify(objectid_to_str({'result':list(result)}))
+
+    query = {'estado': estado}
+    resulta2 = delegaciones_estatales.find_one(query)
+    
+    resulta4 = rutas.find(query)
+
+    query = {'estado': "CIUDAD DE MEXICO"}
+    resulta3 = delegaciones_estatales.find_one(query)
+
+    return jsonify(objectid_to_str({'result':list(result), 'delegacion':resulta2, 'central': resulta3, 'rutas': list(resulta4)}))
 
 @app.route('/generar_rutas', methods=['POST'])
 def generar_rutas():
@@ -62,6 +71,7 @@ def generar_rutas():
     estado = str(data['estado']).upper()
     query = {'estado': estado}
 
+    print(data)
     result = lugares.find(query)
     algoiterable = []
     for doc in result:
@@ -97,15 +107,61 @@ def generar_rutas():
             temp['estado'] = estado
             poli.append(temp)
         revisados.append(inicio['clave'])
-    actualizar = len(list(rutas.find(query))) > 0
+    borrar = len(list(rutas.find(query))) > 0
     insert_result = ""
-    if actualizar:
-        for i in poli:
-            query = {'estado': estado, 'puntos': i['puntos']}
-            operacion = {'$set':{'polilinea':i['polilinea']}}
-            insert_result = rutas.update_one(query, operacion)
-    else:
-        insert_result = rutas.insert_many(poli)
+    if borrar:
+        query = {'estado': estado}
+        delete_result = rutas.delete_many(query)
+        print(delete_result)
+    insert_result = rutas.insert_many(poli)
+    return jsonify({"state":str(insert_result)})
+
+@app.route('/script_dev', methods=['POST'])
+def script_dev():
+    """Genear las polilineas que representan las rutas entre todos los CCT's de un estado"""
+    data = request.get_json()
+    estado = str(data['estado']).upper()
+    print("Gracias por intentar " + estado)
+
+    print(data)
+    algoiterable = []
+    result = delegaciones_estatales.find()
+    centro = {}
+    for doc in result:
+        if doc['estado'] == "CIUDAD DE MEXICO":
+            centro = doc
+        else:
+            algoiterable.append(doc)
+    if len(algoiterable) == 0:
+        return jsonify({"error": "No hay ccts en ese estado"})
+    poli = []
+    for inicio in algoiterable:
+        print("Probando " + inicio['estado'])
+        route_coords = [[inicio['longitud'], inicio['latitud']], [centro['longitud'], centro['latitud']]]
+        ruta_exacta = 1
+        try:
+            osrm_url = "http://router.project-osrm.org/route/v1/driving/"+str(inicio['longitud'])+","+str(inicio['latitud'])+";"+str(centro['longitud'])+","+str(centro['latitud'])+"?geometries=geojson"
+            response = requests.get(osrm_url).json()
+            # Extraer las coordenadas de la ruta
+            if 'routes' in response.keys():
+                route_coords = response['routes'][0]['geometry']['coordinates']
+        except requests.RequestException as e:
+            ruta_exacta = 0
+        id = str(inicio['longitud'])+","+str(inicio['latitud'])+"/"+str(centro['longitud'])+","+str(centro['latitud'])
+        temp = {}
+        temp['puntos'] = id
+        temp['polilinea'] = route_coords
+        temp['estado'] = inicio['estado']
+        temp['central'] = True
+        poli.append(temp)
+    query = {'central': True}
+    borrar = len(list(rutas.find(query))) > 0
+    insert_result = ""
+    if borrar:
+        query = {'estado': estado}
+        delete_result = rutas.delete_many(query)
+        print(delete_result)
+    insert_result = rutas.insert_many(poli)
     return jsonify({"state":str(insert_result)})
 
 if __name__ == '__main__':

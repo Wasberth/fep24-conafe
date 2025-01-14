@@ -115,33 +115,36 @@ def get_alumnos_calif():
 @app.route('/get_distribucion', methods=['POST'])
 def get_distribucion():
     """Obtiene los CCT's en los que se puede entregar con respecto a un inventario"""
-    # available = request.get_json()
+    data = request.get_json()
+    available = data['tallas']
+    claves = data['claves']
     
     # Arreglen el anio pofavo
-    result = formulario.find({'estado':{'$in': ['aceptada', 'convenio']},'convocatoria':"2024",'sede':{'$ne':None}})
-    # response = []
-    # for document in result:
-    #     adding = 0
-    #     key = "pl-"+str(document['playera'])
-    #     if key in available:
-    #         if available[key] > 0:
-    #             available[key] = available[key] - 1
-    #             adding = 1
-    #     key = "pa-"+str(document['pantalon'])
-    #     if key in available:
-    #         if available[key] > 0:
-    #             available[key] = available[key] - 1
-    #             adding = 1
-    #     key = "ca-"+str(document['calzado'])
-    #     if key in available:
-    #         if available[key] > 0:
-    #             available[key] = available[key] - 1
-    #             adding = 1
-    #     if adding == 1:
-    #         response.append(document['sede'])
-    # response = {'claves': response}
-    # return jsonify(response)
-    return jsonify(objectid_to_str({'result':list(result)}))
+    year = "2024"
+    query = {'uniforme':False,'convocatoria':year,'sede':{'$in':claves}}
+    result = formulario.find(query)
+    response = []
+    for document in result:
+        adding = 0
+        key = "pl-"+str(document['playera'])
+        if key in available:
+            if available[key] > 0:
+                available[key] = available[key] - 1
+                adding = 1
+        key = "pa-"+str(document['pantalon'])
+        if key in available:
+            if available[key] > 0:
+                available[key] = available[key] - 1
+                adding = 1
+        key = "ca-"+str(document['calzado'])
+        if key in available:
+            if available[key] > 0:
+                available[key] = available[key] - 1
+                adding = 1
+        if adding == 1:
+            response.append(document['sede'])
+    response = {'claves': response}
+    return jsonify(response)
 
 @app.route('/tallas_repartibles', methods=['POST'])
 def tallas_repartibles():
@@ -149,7 +152,7 @@ def tallas_repartibles():
     data = request.get_json()
     year = data['year']
     estado = re.compile(data['estado'], re.IGNORECASE)
-    result = formulario.find({"convocatoria": year, 'estado':'convenio', 'estado_republica': estado, 'sede': {'$ne': None}}, {'playera': 1, 'pantalon': 1, 'calzado':1})
+    result = formulario.find({"convocatoria": year, 'estado_republica': estado, 'sede': {'$ne': None}, 'uniforme': False}, {'playera': 1, 'pantalon': 1, 'calzado':1})
     return jsonify(objectid_to_str({'result':list(result)}))
 
 @app.route('/buscar_integrante', methods=['POST'])

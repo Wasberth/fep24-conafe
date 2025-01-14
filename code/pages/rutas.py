@@ -4,16 +4,18 @@ from mongo_objects._common_types_ import Estado_republica
 import requests
 import folium
 import folium.plugins
-import math
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
-import pants
 from mode_handler import get_url
 from pages._check_level_ import restricted
 from datetime import datetime
 import pandas as pd
 from pages._error_ import ConafeException
 import json
+import math
+import pants
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
 
 MAPA_URL = get_url('ubicacion')
 CAPTACION_URL = get_url('captacion')
@@ -70,35 +72,74 @@ def actualizar_formulario():
     retorno['calzado'] = tallas_calzado.values.tolist()
     return json.dumps(retorno)
 
+@route('/reobtener_polilineas', methods=['POST'])
+def reobtener_polilineas():
+    estado = request.get_data().decode()
+    try:
+        response = requests.post(MAPA_URL + '/generar_rutas', json={'estado': estado})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+    if "error" in microservice_data.keys():
+        return json.dumps({'error': microservice_data['error']})
+    return json.dumps({'resultado': "Correcto"})
+
 @route('/mapa_ruta')
 def mapa_ruta():
     """Obtiene la lista de CCT's, los agrupa en rutas y genera una ruta optima para la distribucion."""
     # Obtener los datos del microservicio
     formulario = json.loads(request.args.get('data'))
+    estado = request.args.get('estado')
+    request_data = {'estado': estado}
     try:
-        response = requests.post(CAPTACION_URL + '/get_distribucion', json=formulario)
-        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
-        microservice_data = response.json()  # Obtiene el JSON del microservicio
-        response = requests.post(MAPA_URL + '/get_coordenadas', json=microservice_data)
+        response = requests.post(MAPA_URL + '/get_coordenadas', json=request_data)
         response.raise_for_status() # Lanza una excepción si ocurre un error HTTP
-        microservice_data = response.json() # Obtiene el JSON del microservicio
+        microservice_data_map = response.json() # Obtiene el JSON del microservicio
+        claves = []
+        for doc in microservice_data_map['result']:
+            claves.append(doc['clave'])
+        request_data = {'claves': claves, 'tallas': formulario}
+        response = requests.post(CAPTACION_URL + '/get_distribucion', json=request_data)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data_cap = response.json()  # Obtiene el JSON del microservicio
     except requests.RequestException as e:
         return jsonify({"error": "Error comunicándose con el microservicio", "details": str(e)}), 500
-
-    # Central de abastos (?)
-    start = (-101.639617, 23.108028)
-    # Crear un mapa centrado en el punto inicial
-    mapa = folium.Map(location=start[::-1], zoom_start=5)
-    folium.Marker(location=start[::-1], popup="Ciudad de México", icon=folium.Icon(color="green")).add_to(mapa)
+    
+    # Central de abastos
+    cdmx = (microservice_data_map['central']['longitud'], microservice_data_map['central']['latitud'])
+    central = (microservice_data_map['delegacion']['longitud'], microservice_data_map['delegacion']['latitud'])
+    # Crear un mapa centrado en el punto inicial y se agrega la central de abastos
+    mapa = folium.Map(location=cdmx[::-1], zoom_start=5)
+    folium.Marker(location=cdmx[::-1], popup="Ciudad de México\nDirección: "+str(microservice_data_map['central']['direccion']), icon=folium.Icon(color="green")).add_to(mapa)
+    folium.Marker(location=central[::-1], popup="Delegacion de "+str(microservice_data_map['delegacion']['estado'])+"\nDirección: "+str(microservice_data_map['delegacion']['direccion']), icon=folium.Icon(color="green")).add_to(mapa)
 
     #Se itera a través de cada CCT y pone las coordenadas de cada uno en una lista para procesar
     coordenadas = []
-    for dict in microservice_data["result"]:
-        end = (float(dict["longitud"]), float(dict["latitud"]))
-        coordenadas.append(end)
+    datos_ccts = []
+    for dict in microservice_data_map["result"]:
+        if dict['clave'] in microservice_data_cap['claves']:
+            end = (float(dict["longitud"]), float(dict["latitud"]))
+            coordenadas.append(end)
+            datos_ccts.append(dict)
     
+    #Se genera un diccionario con las rutas entre cada CCT
+    poli = {}
+    for dict in microservice_data_map['rutas']:
+        poli[dict['puntos']] = dict['polilinea']
+
+    #Poner la ruta de CDMX a la central de abastos
+    llave = str(central[0])+","+str(central[1])+"/"+str(cdmx[0])+","+str(cdmx[1])
+    route_coords = poli[llave]
+    folium.PolyLine(
+            locations=[coord[::-1] for coord in route_coords],  # Invertimos [lon, lat] a [lat, lon]
+            color="green",
+            weight=5,
+            opacity=0.8
+        ).add_to(mapa)
+
     #Se obtienen las listas de cada ruta
-    rutas_optimas = optimizar_ruta(coordenadas, start)
+    rutas_optimas = optimizar_ruta(coordenadas, central, poli)
     colors = [
         'red',
         'blue',
@@ -123,29 +164,16 @@ def mapa_ruta():
             # Puntos de inicio y fin (lat, lon)
             start = [float(escala[0][0]), float(escala[0][1])]
             end = [float(escala[1][0]), float(escala[1][1])]
-            for dict in microservice_data["result"]:
+            for dict in datos_ccts:
                 if end[0] == float(dict["longitud"]) and end[1] == float(dict["latitud"]):
                     folium.Marker(location=end[::-1], 
                             popup=f"Nombre: {dict['nombre']}\nEstado: {dict['estado']}\nMunicipio: {dict['municipio']}\nComunidad: {dict['comunidad']}\nSede: {dict['sede']}\nRegión: {dict['region']}", 
                             icon=folium.Icon(color=colors[i])).add_to(mapa)
 
-            # Llamar a la API de OSRM para calcular la ruta
-            osrm_url = "http://router.project-osrm.org/route/v1/driving/"+str(start[0])+","+str(start[1])+";"+str(end[0])+","+str(end[1])+"?geometries=geojson"
-            headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
-                "Accept-Encoding": "*",
-                "Connection": "keep-alive"
-            }
-            route_coords = [start, end]
-            ruta_exacta = 1
-            try:
-                response = requests.get(osrm_url, headers=headers).json()
-                # Extraer las coordenadas de la ruta
-                if 'routes' in response.keys():
-                    route_coords = response['routes'][0]['geometry']['coordinates']
-            except requests.RequestException as e:
-                ruta_exacta = 0
-            # Agregar ruta al mapa
+            llave = str(start[0])+","+str(start[1])+"/"+str(end[0])+","+str(end[1])
+            if llave not in poli.keys():
+                llave = str(end[0])+","+str(end[1])+"/"+str(start[0])+","+str(start[1])
+            route_coords = poli[llave]
             folium.PolyLine(
                     locations=[coord[::-1] for coord in route_coords],  # Invertimos [lon, lat] a [lat, lon]
                     color=colors[i],
@@ -161,41 +189,61 @@ def dist_euclidiana(a, b):
     """Una funcion para definir la distancia entre cada nodo, el cual es necesario para la optimizacion."""
     return math.sqrt(pow(a[1] - b[1], 2) + pow(a[0] - b[0], 2))
 
-def optimizar_ruta(ccts, centro):
+def sum_dists(a, b, poli):
+    llave = str(a[0])+","+str(a[1])+"/"+str(b[0])+","+str(b[1])
+    if llave not in poli.keys():
+        llave = str(b[0])+","+str(b[1])+"/"+str(a[0])+","+str(a[1])
+    sum = 0
+    usando = poli[llave]
+    for i in range(len(usando)-1):
+        sum = sum + dist_euclidiana(usando[i], usando[i+1])
+    return sum
+
+def optimizar_ruta(ccts, centro, poli):
     """
     Obtiene una serie de coordenadas por las que se tiene que pasar, un centro donde debe originar y terminar cada ruta.
     Primero crea grupos de cercania de cada punto y genera una ruta por cada uno, de ahi optimiza cada ruta y devuelve una lista conteniendo listas ordenadas de los puntos de cada ruta.
     """
     # Obtener la mejor cantidad de grupos.
-    rutas_maximas = 10
-    mejor = 0
-    mejor_grupos = 1
-    for i in range(2, min(len(ccts), rutas_maximas)):
-        clustering = KMeans(n_clusters=i)
-        clustering.fit(ccts)
-        actual = silhouette_score(ccts, clustering.labels_, metric="euclidean")
-        if actual > mejor:
-            mejor = actual
-            mejor_grupos = i
-
-    # Obtener cada grupo y ponerlos en una lista.
-    clustering = KMeans(n_clusters=mejor_grupos)
-    clustering.fit(ccts)
-    etiquetas = clustering.labels_
     coordenadas = []
-    for i in range(mejor_grupos):
-        temp = []
-        temp.append(centro)
-        for j in range(len(etiquetas)):
-            if i == etiquetas[j]:
-                temp.append(ccts[j])
-        coordenadas.append(temp)
+    ccts_minimos = 20
+    if ccts_minimos > len(ccts):
+        ccts.append(centro)
+        coordenadas.append(ccts)
+    else:
+        rutas_maximas = 10
+        mejor = 0
+        mejor_grupos = 1
+        for i in range(2, min(len(ccts), rutas_maximas)):
+            clustering = KMeans(n_clusters=i)
+            clustering.fit(ccts)
+            actual = silhouette_score(ccts, clustering.labels_, metric="euclidean")
+            if actual > mejor:
+                mejor = actual
+                mejor_grupos = i
+
+        # Obtener cada grupo y ponerlos en una lista.
+        clustering = KMeans(n_clusters=mejor_grupos)
+        clustering.fit(ccts)
+        etiquetas = clustering.labels_
+        for i in range(mejor_grupos):
+            temp = []
+            temp.append(centro)
+            for j in range(len(etiquetas)):
+                if i == etiquetas[j]:
+                    temp.append(ccts[j])
+            coordenadas.append(temp)
     
     # Optimizar una ruta por cada grupo.
     nodos_optimos = []
     for i in coordenadas:
         if len(i) > 2:
             grafo = pants.World(i, dist_euclidiana)
+            for m in grafo.nodes:
+                for n in grafo.nodes:
+                    a, b = grafo.data(m), grafo.data(n)
+                    if a != b:
+                        grafo.edges[m, n].length = sum_dists(a,b, poli)
             solucionador = pants.Solver()
             solucion = solucionador.solve(grafo)
             camino = solucion.path
