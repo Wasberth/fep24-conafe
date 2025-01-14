@@ -38,27 +38,56 @@ def educadores():
 
     cards = []
     for educador in educadores:
-        folio = educador["folio"]
-
-        try:
-            response = requests.post(CAPACITACION_URL + '/get_evaluaciones', json={'folio':folio})
-            response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
-            microservice_data = response.json()  # Obtiene el JSON del microservicio
-        except requests.RequestException as e:
-            raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
-        
-        evaluaciones = microservice_data["result"]
         card = Card.card_from_dict(EVALUACION_TEMPLATE, **educador)
-
-        eval_cards = []
-        for evaluacion in evaluaciones:
-            template = EVALUACION_EC1_SECCION if evaluacion['tipo'] == 'ec1' \
-                else EVALUACION_EC2_SECCION
-            
-            carta = Card.card_from_dict(template, **evaluacion)
-            eval_cards.append(carta)
-
-        card.extend(eval_cards)
         cards.append(card)
 
-    return render_template('cartas.html', cards=cards, tipo_carta='carta', stylesheets=['button'])
+    return render_template(
+        'cartas.html',
+        cards=cards,
+        tipo_carta='carta_extendible',
+        stylesheets=['button', 'loading'],
+        scripts=['expandCard']
+    )
+
+@route('/detalles_educador/<id>')
+@restricted('ECA')
+def detalles_educador(id):
+    """Manda los detalles completos de un educador como carta"""
+    try:
+        response = requests.post(CAPTACION_URL + '/buscar_integrante', json={'folio':id})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        educador = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+    
+    if len(educador['result']) == 0:
+        raise ConafeException(404, f"No se encontraron educadores comunitarios en capacitación en el estado de {session['estado']}")
+
+    educador : List = educador['result']
+    educador = mapear_datos_convocatoria(educador)[0]
+    
+    card = Card.card_from_dict(CONVOCATORIA_TEMPLATE, **educador)
+
+    # Obtener las evaluaciones del educador
+    folio = educador["folio"]
+
+    try:
+        response = requests.post(CAPACITACION_URL + '/get_evaluaciones', json={'folio':folio})
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+    
+    evaluaciones = microservice_data["result"]
+
+    eval_cards = []
+    for evaluacion in evaluaciones:
+        template = EVALUACION_EC1_SECCION if evaluacion['tipo'] == 'ec1' \
+            else EVALUACION_EC2_SECCION
+        
+        carta = Card.card_from_dict(template, **evaluacion)
+        eval_cards.append(carta)
+
+    card.extend(eval_cards)
+
+    return render_template('carta.html', card = card)

@@ -1,0 +1,8 @@
+{% extends 'carta.html' %}
+
+{% block card_content %}
+    {{ super() }}
+    <div class="expand-section" onclick="expandCard('{{card.title}}', '{{url_for('detalles_educador', id=card.raw.folio)}}')">
+        <h6 class="section-title">Mostrar más &#9662;</h6>
+    </div>
+{% endblock %}

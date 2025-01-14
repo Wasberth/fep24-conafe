@@ -19,8 +19,6 @@ def alta_alumno():
     if estado := session.get('estado'):
         datos['estado'] = estado
 
-    print(session)
-
     if sede := session.get('sede'):
         datos['cct'] = [{'nombre':sede, 'sede':sede}]
     else:
@@ -28,7 +26,6 @@ def alta_alumno():
             response = requests.get(UBICACION_URL + '/lista_lugares', json={'estado':estado.upper()})
             response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
             microservice_data = response.json()  # Obtiene el JSON del microservicio
-            print(microservice_data)
             datos['cct'] = microservice_data['result']
         except requests.RequestException as e:
             raise ConafeException(500, "Error comunicándose con el microservicio", str(e))

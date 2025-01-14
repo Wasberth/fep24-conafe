@@ -28,7 +28,6 @@ def evaluacion_alumnos():
         raise ConafeException(404, f"No se encontraron educadores comunitarios en capacitación en el estado de {session['estado']}")
 
     datos_ec = [{"text":f"{ec['nombre']} {ec['apellido1']} {ec.get('apellido2', '')}", "value":ec['folio']} for ec in captacion['result']]
-    print(datos_ec)
 
     return render_template(
         f'eval_alumnos.html',
@@ -44,7 +43,6 @@ def evalucaion_alumnos_bd():
     """Envía los datos del form al microservicio."""
     # Obtener los datos del formulario enviados por el cliente
     form_data = request.form.to_dict()
-    print(form_data)
     form_data = {"registros":decompose_form(form_data)}
     
     # Enviar los datos al microservicio

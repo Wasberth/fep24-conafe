@@ -65,7 +65,6 @@ def iniciando_apoyo():
     form_data["documentos_apoyo"] = encoded_pdf
     form_data["folio"] = session['folio']
     
-    print("folio", session['folio'])
     # Enviar los datos al microservicio (actualizar convocatoria)
     try:
         response = requests.post(CAPTACION_URL + '/registrar_apoyo', json=form_data)

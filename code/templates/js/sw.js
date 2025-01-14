@@ -48,18 +48,22 @@ self.addEventListener('install', event => {
 });
 
 // Interceptar las solicitudes de red
-self.addEventListener('fetch', event => {
-  event.respondWith(async function() {
-    try{
-      var res = await fetch(event.request);
-      var cache = await caches.open('cache');
-      cache.put(event.request.url, res.clone());
-      return res;
-    }
-    catch(error){
-      return caches.match(event.request);
-     }
-   }());
+// Estrategia Network First
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+      fetch(event.request)
+          .then((response) => {
+              // Si la respuesta es válida, actualiza el cache.
+              return caches.open(CACHE_NAME).then((cache) => {
+                  cache.put(event.request, response.clone());
+                  return response;
+              });
+          })
+          .catch(() => {
+              // Si la red falla, usa el cache.
+              return caches.match(event.request);
+          })
+  );
 });
 
 // Actualizar el caché cuando cambien los archivos

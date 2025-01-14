@@ -64,7 +64,6 @@ def check_status():
         response = requests.post(CAPTACION_URL + '/estado', json={"folio": folio, "curp": curp})
         response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
         microservice_data = response.json()  # Obtiene el JSON del microservicio
-        print(microservice_data)
     except requests.RequestException as e:
         raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
 

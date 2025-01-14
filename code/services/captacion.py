@@ -33,7 +33,6 @@ def get_list():
 
     insert = formulario.insert_one(data).inserted_id
     respuesta = formulario.find_one({"_id": insert}, {"folio": 1})
-    print("respuesta de captación: ", respuesta)
     return jsonify({"folio": respuesta["folio"]})
 
 @app.route('/registrar_alumno', methods=['POST'])
@@ -56,7 +55,6 @@ def get_estado():
 def get_sede():
     """Obtiene la sede de un Educador Comunitario según su nivel"""
     data = request.json
-    print(data)
     nivel = data["nivel"]
     folio = data["folio"]
 
@@ -87,7 +85,10 @@ def get_educadores():
     """Obtiene los educadores comunitarios en servicio (EC2) de un estado en específico"""
     data = request.get_json()
     estado = data['estado']
-    result = formulario.find({"estado_republica": estado, "estado": "convenio"})
+    ccts = cct.find({"estado": estado.upper()})
+    ccts = [cct['clave'] for cct in ccts]
+
+    result = formulario.find({"sede": {'$in':ccts}, "firma": True}) 
 
     return jsonify(objectid_to_str({'result':list(result)}))
 
@@ -97,7 +98,7 @@ def get_capacitacion():
     data = request.get_json()
     estado = data['estado']
 
-    result = formulario.find({"estado_republica": estado})
+    result = formulario.find({"estado_republica": estado, 'estado':'aceptada'})
     return jsonify(objectid_to_str({'result':list(result)}))
 
 @app.route('/get_alumnos_calif', methods=['POST'])

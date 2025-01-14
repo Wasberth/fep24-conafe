@@ -28,7 +28,6 @@ def evaluacion_capacitacion():
         raise ConafeException(404, f"No se encontraron educadores comunitarios en capacitación en el estado de {session['estado']}")
 
     datos_ec = [{"text":f"{ec['nombre']} {ec['apellido1']} {ec.get('apellido2', '')}", "value":ec['folio']} for ec in captacion['result']]
-    print(datos_ec)
 
     return render_template(
         f'eval_capacitacion.html',
