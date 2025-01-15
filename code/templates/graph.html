@@ -64,10 +64,10 @@
     </div>
 
     <div class="row mt-5">
-        <div class="col-md-6 mb-4 chart" id="prendas">
-        </div>
-        <div class="col-md-6 mb-4 chart" id="calzado">
-        </div>
+        {% for i in range(graphs | length) %}
+            <div class="col-md-6 mb-4 chart" id="graph{{i}}">
+            </div>
+        {% endfor %}
     </div>
 </div>
 {% endblock %}
@@ -77,10 +77,9 @@
 	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 	<script type='text/javascript'>
 		// Ignora el error, es para insertar los valores de las gráficas
-		var graph1 = {{graph1_json | safe}};
-		Plotly.plot('prendas', graph1, {});
-
-		var graph2 = {{graph2_json | safe}};
-		Plotly.plot('calzado', graph2, {});
+        {% for i in range(graphs | length) %}
+            var graph{{i}} = {{graphs[i] | safe}};
+            Plotly.plot('graph{{i}}', graph{{i}}, {});
+        {% endfor %}
 	</script>
 {% endblock %}

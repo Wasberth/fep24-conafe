@@ -82,6 +82,14 @@ def get_tallas():
     result = formulario.find({"convocatoria": year}, {'playera': 1, 'pantalon': 1, 'calzado':1})
     return jsonify(objectid_to_str({'result':list(result)}))
 
+@app.route('/historico_tallas', methods=['POST'])
+def get_historico_tallas():
+    """Obtiene el registro de tallas de varios años en específico"""	
+    data = request.get_json()
+    years = data['years']
+    result = formulario.find({"convocatoria": {'$in': years}}, {'playera': 1, 'pantalon': 1, 'calzado':1, 'convocatoria': 1})
+    return jsonify(objectid_to_str({'result':list(result)}))
+
 @app.route('/get_educadores', methods=['POST'])
 def get_educadores():
     """Obtiene los educadores comunitarios en servicio (EC2) de un estado en específico"""
