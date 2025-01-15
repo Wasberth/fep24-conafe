@@ -5,7 +5,7 @@
 {% block form %}
 
 <div class="container-fluid p-4">
-    <h2 class="text-center mb-4">REGISTRO DE INSCRIPCIÓN-REINSCRIPCIÓN DE ALUMNOS</h2>
+    <h2 class="text-center mb-4">REGISTRO DE INSCRIPCIÓN DE ALUMNOS</h2>
     
     <form id="downloadableForm" action="/alta_alumno_bd" method="post">
         <div class="row mb-3">
@@ -57,6 +57,7 @@
                     <input type="text" name="cct" id="claveCentroTrabajo" class="form-control" required>
                 {% else %}
                     <select id="cct" name="cct" class="form-select" required>
+                        <option value="">Selecciona un centro</option>
                         {% for centro in cct %}
                             <option value="{{ centro.clave }}">{{ centro.nombre }} ({{ centro.sede }})</option>
                         {% endfor %}
