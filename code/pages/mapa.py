@@ -36,7 +36,8 @@ def mapa_visualizado():
     mapa.add_child(mcg)
 
     #Se itera a través de cada estado y se agregan los puntos a su estado
-    for estado in Estado_republica:
+    for est in Estado_republica:
+        estado = est.title()
         grupo = estado
         grupo = folium.plugins.FeatureGroupSubGroup(mcg, estado)
         mapa.add_child(grupo)
