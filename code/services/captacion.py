@@ -232,6 +232,22 @@ def get_solicitudes_apoyo():
     result = formulario.find({"estado_apoyo": estado_apoyo})
     return jsonify(objectid_to_str({'result':list(result)}))
 
+@app.route('/get_alumno_baja', methods=['GET'])
+def get_alumno_baja():
+    """Obtiene el alumno dado de baja del estado de la república y curp recibido."""
+    data = request.get_json()
+    result = alumnos.find_one({'estado_republica': data['estado'], 'curp': data['curp'] , 'estado': 'baja'})
+    lista = []
+    lista.append(result)
+    return jsonify(objectid_to_str({'result':lista}))
+
+@app.route('/reinscribir_alumno', methods=['POST'])
+def reinscribir_alumno():
+    """Reinscribe a un alumno (quita los campos causa_baja y estado del alumno)."""
+    data = request.get_json()
+    alumnos.update_one({'curp': data['curp']}, {'$unset': {'causa_baja': "", 'estado': ""}})
+    return jsonify({"msg": "Éxito!"})
+
 if __name__ == '__main__':
     from __args__ import parse_args
     args = parse_args()
