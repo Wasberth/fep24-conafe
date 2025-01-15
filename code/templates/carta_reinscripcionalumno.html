@@ -1,0 +1,9 @@
+{% extends "carta.html" %}
+
+{% block card_footer %}
+    <div class="card-footer px-0">
+        <form action="{{ url_for('reinscripcion_alumno_bd', curp=carta.raw.curp) }}" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-primary">Reinscribir</button>
+        </form>
+    </div>
+{% endblock %}

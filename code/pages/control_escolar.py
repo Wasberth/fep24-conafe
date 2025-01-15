@@ -1,6 +1,7 @@
 from flask import render_template, request, session, make_response, url_for
 from decos import route, nav, offline
 import requests
+from pages._card_ import *
 
 from mode_handler import get_url
 from pages._check_level_ import restricted
@@ -55,6 +56,51 @@ def alta_alumno_bd():
                 extra_info=f'Los alumnos han sido dados de alta correctamente!'
             ))
 
+@route('/alumno/reinscripcion_busqueda')
+@nav('Control Escolar/Reinscripción')
+@restricted(['EC2', 'ECA'])
+def reinscripcion_alumno_busqueda():
+    """Renderiza la página donde se buscará el alumno dependiendo del curp"""
+    return render_template(f'reinscribir_alumno_busqueda.html', stylesheets=['button'])
+
+@route('/alumno/reinscripcion', methods=['POST'])
+@restricted(['EC2', 'ECA'])
+def reinscripcion_alumno():
+    form_data = request.form.to_dict()
+
+    query = {"estado": session["estado"], "curp": form_data["curp"]}
+    try:
+        response = requests.get(CAPTACION_URL + '/get_alumno_baja', json=query)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+
+    alumnos = microservice_data['result'] 
+    try:
+        cards = [Card.card_from_dict(ALUMNO_TEMPLATE, **alumno) for alumno in alumnos]
+    except Exception as e:
+        raise ConafeException(500,"No se encontró el CURP.")
+    return render_template('cartas.html', cards=cards, tipo_carta='carta_reinscripcionalumno', stylesheets=['button'])
+
+@route('/reinscripcion_alumno_bd/<curp>', methods=['POST'])
+def reinscripcion_alumno_bd(curp):
+
+    query = {'curp': curp}
+
+    try:
+        response = requests.post(CAPTACION_URL + '/reinscribir_alumno', json=query)
+        response.raise_for_status()  # Lanza una excepción si ocurre un error HTTP
+        microservice_data = response.json()  # Obtiene el JSON del microservicio
+    except requests.RequestException as e:
+        raise ConafeException(500, "Error comunicándose con el microservicio", str(e))
+    
+    return make_response(render_template(f'success.html',
+                stylesheets=['success', 'button'],
+                title='Alumno reinscrito correctamente!',
+                redirect=url_for('reinscripcion_alumno_busqueda'),
+                extra_info=f'El alumno ha sido reinscrito correctamente!'
+            ))
 
 
 @route('/alumno/baja')
