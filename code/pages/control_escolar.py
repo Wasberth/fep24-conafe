@@ -20,7 +20,7 @@ def alta_alumno():
         datos['estado'] = estado
 
     if sede := session.get('sede'):
-        datos['cct'] = [{'nombre':sede, 'sede':sede}]
+        datos['cct'] = [{'nombre':sede, 'clave':sede}]
     else:
         try:
             response = requests.get(UBICACION_URL + '/lista_lugares', json={'estado':estado.upper()})

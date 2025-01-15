@@ -48,7 +48,7 @@
                         <option value="Zacatecas">Zacatecas</option>
                     </select>
                 {% else %}
-                    <input type="text" name="estado_republica" id="estado" class="form-control" value="{{ estado }}" disabled>
+                    <input type="text" name="estado_republica" id="estado" class="form-control" value="{{ estado }}" readonly>
                 {% endif %}
             </div>
             <div class="col-md">
@@ -58,7 +58,7 @@
                 {% else %}
                     <select id="cct" name="cct" class="form-select" required>
                         {% for centro in cct %}
-                            <option value="{{ centro.clave }}">{{ centro.nombre }} ({{ centro.sede }})</option>
+                            <option value="{{ centro.clave }}">{{ centro.nombre }} {% if centro.sede %}({{ centro.sede }}){% endif %}</option>
                         {% endfor %}
                     </select>
                 {% endif %}
