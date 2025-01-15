@@ -171,7 +171,7 @@ def registro_tallas_historico():
             if prenda not in prediccion.keys():
                 prediccion[prenda] = []
 
-            prediccion[prenda].append((talla_text, next_year[0]))
+            prediccion[prenda].append((talla_text, round(next_year[0])))
 
             # Agregar la línea de regresión
             fig.add_trace(go.Scatter(
