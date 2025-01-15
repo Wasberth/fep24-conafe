@@ -423,12 +423,12 @@ def generar_convenio():
     return generar_pdf_contrato(persona[0])
 
 
-@route('/aceptar_convenio/<id>', methods=['POST'])
-def aceptar_convenio(id):
+@route('/aceptar_convenio/<folio>', methods=['POST'])
+def aceptar_convenio(folio):
     """Acepta el convenio y actualiza su estado"""
     #Declarar json con datos del usuario
     form_data = request.form.to_dict()
-    form_data['usuario'] = id
+    form_data['folio'] = folio
  # Obtener los datos del microservicio
     try:
         response = requests.post(ACEPTACION_URL + '/convenio/aceptar_bd', json=form_data)

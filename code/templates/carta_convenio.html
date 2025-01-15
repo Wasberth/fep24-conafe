@@ -3,7 +3,7 @@
 {% block card_footer %}
     <div class="card-footer px-0">
         <!--- Este se descomentará cuando se implemente la funcionalidad de mandar el convenio -->
-        <form action="{{ url_for('aceptar_convenio', id=carta.raw._id) }}" method="post" style="display:inline;">
+        <form action="{{ url_for('aceptar_convenio', folio=carta.raw.folio) }}" method="post" style="display:inline;">
         
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">Firmar convenio</button>
         
@@ -25,11 +25,31 @@
                     </div>
                     <div class="form-field col-lg-4">
                       <select name="clave" id="clave" class="js-input" required>
+                        <option value="">Selecciona una opción </option>
                         {% for clave in claves %}
                         <option value="{{ clave }}">{{ clave }}</option>
                         {% endfor %}  
                       </select>
                       <label class="label" for="clave">Clave CCT*:</label>
+                    </div>
+                    <div class="form-field col-lg-4">
+                      <select name="grado" id="grado" class="js-input" required>
+                        <option value="">Selecciona una opción </option>
+                        <option value="preescolar1">Preescolar 1</option>
+                        <option value="preescolar2">Preescolar 2</option>
+                        <option value="preescolar3">Preescolar 3</option>
+                        <option value="primaria">Primaria</option>
+                        <option value="secundaria">Secundaria</option>
+                      </select>
+                      <label class="label" for="grado">Grado a impartir:*</label>
+                    </div>
+                    <div class="form-field col-lg-4">
+                      <select name="estado" id="estado" class="js-input" required>
+                        <option value="">Selecciona una opción </option>
+                        <option value="convenio">Educador comunitario en servicio</option>
+                        <option value="apoyo">Educador comunitario en apoyo</option>
+                      </select>
+                      <label class="label" for="estado">Nivel de Educador*</label>
                     </div>
                 </div>
                 <div class="modal-footer">
