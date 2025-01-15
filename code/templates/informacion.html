@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %} Información {% endblock %}
+
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="d-grid gap-2">
+            <button class="btn btn-primary btn-lg" type="button" onclick="window.location.href='/descargar_informacion'">Descargar Información</button>
+            <button class="btn btn-primary btn-lg" type="button" onclick="window.location.href='/descargar_evaluaciones'">Descargar Evaluaciones</button>
+      </div>
+</div>
+{% endblock %}
