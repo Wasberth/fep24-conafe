@@ -1,0 +1,4282 @@
+[{
+  "_id": {
+    "$oid": "677cb96ea1377daa0349fcdd"
+  },
+  "estado": "Aguascalientes",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024010001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96ea1377daa0349fcec"
+  },
+  "estado": "Aguascalientes",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024010002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96ea1377daa0349fd01"
+  },
+  "estado": "Aguascalientes",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024010003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96ea1377daa0349fd15"
+  },
+  "estado": "Aguascalientes",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024010004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96ea1377daa0349fd26"
+  },
+  "estado": "Jalisco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024140001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96ea1377daa0349fd37"
+  },
+  "estado": "Aguascalientes",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024010005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96fa1377daa034a0086"
+  },
+  "estado": "Aguascalientes",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024010006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96fa1377daa034a0091"
+  },
+  "estado": "Baja California",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024020001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96fa1377daa034a00a9"
+  },
+  "estado": "Baja California",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024020002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96fa1377daa034a00c0"
+  },
+  "estado": "Baja California",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024020003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb96fa1377daa034a00d4"
+  },
+  "estado": "Baja California",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024020004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb970a1377daa034a0356"
+  },
+  "estado": "Baja California",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024020005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb970a1377daa034a0367"
+  },
+  "estado": "Baja California Sur",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024030001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb970a1377daa034a0375"
+  },
+  "estado": "Baja California Sur",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024030002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb970a1377daa034a0381"
+  },
+  "estado": "Baja California Sur",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024030003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb970a1377daa034a0391"
+  },
+  "estado": "Baja California Sur",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024030004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb971a1377daa034a0684"
+  },
+  "estado": "Baja California Sur",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024030005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb971a1377daa034a0694"
+  },
+  "estado": "Campeche",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024040001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb971a1377daa034a06a3"
+  },
+  "estado": "Campeche",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024040002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb971a1377daa034a06af"
+  },
+  "estado": "Campeche",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024040003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb971a1377daa034a06c3"
+  },
+  "estado": "Campeche",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024040004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb972a1377daa034a09cc"
+  },
+  "estado": "Campeche",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024040005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb972a1377daa034a09dd"
+  },
+  "estado": "Coahuila",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024050001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb972a1377daa034a09ec"
+  },
+  "estado": "Coahuila",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024050002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb972a1377daa034a09f9"
+  },
+  "estado": "Coahuila",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024050003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb972a1377daa034a0a08"
+  },
+  "estado": "Coahuila",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024050004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb973a1377daa034a0e65"
+  },
+  "estado": "Coahuila",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024050005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb973a1377daa034a0e7d"
+  },
+  "estado": "Coahuila",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024050006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb973a1377daa034a0e93"
+  },
+  "estado": "Coahuila",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024050007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb973a1377daa034a0ea0"
+  },
+  "estado": "Colima",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024060001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb973a1377daa034a0eac"
+  },
+  "estado": "Colima",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024060002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb974a1377daa034a1258"
+  },
+  "estado": "Colima",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024060003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb974a1377daa034a126d"
+  },
+  "estado": "Colima",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024060004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb974a1377daa034a1285"
+  },
+  "estado": "Colima",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024060005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb974a1377daa034a1295"
+  },
+  "estado": "Colima",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024060006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb974a1377daa034a12a7"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb975a1377daa034a1665"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb975a1377daa034a1682"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb975a1377daa034a16a7"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb975a1377daa034a16c1"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb975a1377daa034a16ed"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb976a1377daa034a1c70"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb976a1377daa034a1c8d"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb976a1377daa034a1c9b"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb976a1377daa034a1cb5"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100010",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb977a1377daa034a20e3"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100011",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb977a1377daa034a20f8"
+  },
+  "estado": "Durango",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100012",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb977a1377daa034a2106"
+  },
+  "estado": "Jalisco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024140002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb977a1377daa034a2120"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb977a1377daa034a212e"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb978a1377daa034a2694"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb978a1377daa034a26b8"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb978a1377daa034a26de"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb978a1377daa034a26f9"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb978a1377daa034a271f"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb979a1377daa034a2c52"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb979a1377daa034a2c6b"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb979a1377daa034a2c77"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130010",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb979a1377daa034a2c87"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130011",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb979a1377daa034a2c96"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130012",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97aa1377daa034a38f1"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130013",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97aa1377daa034a38fe"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130014",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97aa1377daa034a3913"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130015",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97aa1377daa034a3923"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130016",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97aa1377daa034a3935"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130017",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ba1377daa034a3c69"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130018",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ba1377daa034a3c79"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130019",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ba1377daa034a3c90"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130020",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ba1377daa034a3ca3"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130021",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ba1377daa034a3cb9"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130022",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ca1377daa034a40d3"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130023",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ca1377daa034a40e5"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130024",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ca1377daa034a40f2"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130025",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ca1377daa034a40fc"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130026",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ca1377daa034a4109"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130027",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ca1377daa034a411c"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130028",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97da1377daa034a459c"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130029",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97da1377daa034a45ac"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130030",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97da1377daa034a45c0"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130031",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ea1377daa034a4956"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130032",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ea1377daa034a4961"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130033",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ea1377daa034a496b"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130034",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ea1377daa034a497f"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130035",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97ea1377daa034a498a"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130036",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97fa1377daa034a4c58"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130037",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97fa1377daa034a4c68"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130038",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97fa1377daa034a4c76"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130039",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97fa1377daa034a4c97"
+  },
+  "estado": "Jalisco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024140003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb97fa1377daa034a4cb4"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb980a1377daa034a55f4"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb980a1377daa034a561d"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb980a1377daa034a563a"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb981a1377daa034a598e"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb981a1377daa034a59aa"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb981a1377daa034a59dc"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb981a1377daa034a5a22"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb982a1377daa034a62e9"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb982a1377daa034a630f"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170010",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb982a1377daa034a632e"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170011",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb982a1377daa034a634a"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170012",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb982a1377daa034a635e"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170013",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb982a1377daa034a637e"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170014",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb982a1377daa034a63a0"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170015",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb983a1377daa034a6890"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170016",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb983a1377daa034a68a3"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170017",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb983a1377daa034a68b2"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170018",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb983a1377daa034a68c2"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170019",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb983a1377daa034a68d9"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170020",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb983a1377daa034a68f0"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170021",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb983a1377daa034a68ff"
+  },
+  "estado": "Morelos",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170022",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb984a1377daa034a6c8d"
+  },
+  "estado": "Nayarit",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb984a1377daa034a6cb8"
+  },
+  "estado": "Nayarit",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb984a1377daa034a6ce3"
+  },
+  "estado": "Nayarit",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb984a1377daa034a6d12"
+  },
+  "estado": "Nayarit",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb984a1377daa034a6d58"
+  },
+  "estado": "Nayarit",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb984a1377daa034a6d7e"
+  },
+  "estado": "Nayarit",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb985a1377daa034a70d6"
+  },
+  "estado": "Nayarit",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb985a1377daa034a70ea"
+  },
+  "estado": "Nayarit",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb985a1377daa034a7100"
+  },
+  "estado": "Nayarit",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb985a1377daa034a7117"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb985a1377daa034a7130"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb985a1377daa034a7140"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb986a1377daa034a74d0"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb986a1377daa034a74e1"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb986a1377daa034a74f3"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb986a1377daa034a7505"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb986a1377daa034a751c"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb986a1377daa034a752a"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb986a1377daa034a753a"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210010",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb987a1377daa034a7a38"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210011",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb987a1377daa034a7a4d"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210012",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb987a1377daa034a7a5b"
+  },
+  "estado": "Hidalgo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130040",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb987a1377daa034a7a6d"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210013",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb987a1377daa034a7a86"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210014",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb987a1377daa034a7a93"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210015",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb987a1377daa034a7aa5"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210016",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb988a1377daa034a7e58"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210017",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb988a1377daa034a7e68"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb988a1377daa034a7e77"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210018",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb988a1377daa034a7e87"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210019",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb988a1377daa034a7e91"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210020",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb988a1377daa034a7e9a"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210021",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb989a1377daa034a810b"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210022",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb989a1377daa034a8117"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210023",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb989a1377daa034a8120"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210024",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb989a1377daa034a8126"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210025",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb989a1377daa034a8140"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210026",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb989a1377daa034a8150"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210027",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98aa1377daa034a83c7"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210028",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98aa1377daa034a83d6"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210029",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98aa1377daa034a83df"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210030",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98aa1377daa034a83e3"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210031",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98aa1377daa034a83ea"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210032",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98aa1377daa034a83f2"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210033",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98aa1377daa034a83fa"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210034",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98aa1377daa034a8407"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210035",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ba1377daa034a8711"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210036",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ba1377daa034a8718"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210037",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ba1377daa034a8724"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210038",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ba1377daa034a872c"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210039",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ba1377daa034a8741"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210040",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ba1377daa034a874f"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210041",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ba1377daa034a8759"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210042",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ba1377daa034a8768"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210043",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ca1377daa034a8ccf"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210044",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ca1377daa034a8cdc"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210045",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ca1377daa034a8ce9"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210046",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ca1377daa034a8cef"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210047",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ca1377daa034a8cfd"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210048",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ca1377daa034a8d09"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210049",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ca1377daa034a8d15"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210050",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a92e9"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210051",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a92fc"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210052",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a930b"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210053",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a9322"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210054",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a933e"
+  },
+  "estado": "Chiapas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024070001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a934e"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210055",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a935f"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210056",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a9374"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210057",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a9388"
+  },
+  "estado": "Quintana Roo",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024230001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a939e"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a93b5"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a93c5"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a93d5"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a93e4"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a93fa"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a9416"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a942b"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98da1377daa034a943b"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a986f"
+  },
+  "estado": "Sinaloa",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250010",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a9877"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a9883"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a988f"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a9898"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a98a7"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a98b7"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a98c4"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a98d2"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a98da"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a98df"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270010",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a98e7"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270011",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a98f0"
+  },
+  "estado": "Tabasco",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270012",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a98fc"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a9905"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a990d"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a991c"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a9928"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a9936"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a9945"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a994f"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a9955"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280010",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a9963"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280011",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98ea1377daa034a996a"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280012",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9be2"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280013",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9bed"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9bf4"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9bfc"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c04"
+  },
+  "estado": "Puebla",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210058",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c10"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c1d"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c24"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c31"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c3a"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c46"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c4f"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290010",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c54"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290011",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c6b"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290012",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c77"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290013",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c81"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290014",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c8b"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320001",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c96"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320002",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9c9a"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320003",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9ca7"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320004",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9cb3"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320005",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9cc1"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320006",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9cd2"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb98fa1377daa034a9cdc"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320008",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034a9fcb"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320009",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034a9fd9"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320010",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034a9fe3"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320011",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034a9feb"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320012",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034a9ff7"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320013",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa004"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320014",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa009"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320015",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa01a"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320016",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa02a"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320017",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa040"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320018",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa04e"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320019",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa05b"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320020",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa062"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320021",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa06b"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320022",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa071"
+  },
+  "estado": "Zacatecas",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320023",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cb990a1377daa034aa07a"
+  },
+  "estado": "Aguascalientes",
+  "evento": "Primera Evaluación - Etapa Permanente",
+  "fecha": "2025-12-18",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024010007",
+  "observaciones": "Excelente trabajo con la comunidad y alumnos.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50aa1377daa0391cab1"
+  },
+  "estado": "Aguascalientes",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024010008",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50aa1377daa0391cacd"
+  },
+  "estado": "Baja California",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024020006",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50aa1377daa0391caed"
+  },
+  "estado": "Baja California Sur",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024030006",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50aa1377daa0391caf8"
+  },
+  "estado": "Campeche",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024040006",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ba1377daa0391d168"
+  },
+  "estado": "Chiapas",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024070002",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ba1377daa0391d181"
+  },
+  "estado": "Chihuahua",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024080001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ba1377daa0391d199"
+  },
+  "estado": "Ciudad de México",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024090001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ba1377daa0391d1b5"
+  },
+  "estado": "Coahuila",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024050008",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ba1377daa0391d3e8"
+  },
+  "estado": "Colima",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024060007",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ba1377daa0391d3f0"
+  },
+  "estado": "Aguascalientes",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024010008",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ca1377daa0391d9b0"
+  },
+  "estado": "Durango",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100013",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ca1377daa0391d9bb"
+  },
+  "estado": "Baja California",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024020006",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ca1377daa0391d9c9"
+  },
+  "estado": "Estado de México",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024150001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ca1377daa0391d9d8"
+  },
+  "estado": "Baja California Sur",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024030006",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ca1377daa0391d9e1"
+  },
+  "estado": "Campeche",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024040006",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ca1377daa0391d9f2"
+  },
+  "estado": "Guanajuato",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024110001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50da1377daa0391e46c"
+  },
+  "estado": "Chiapas",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024070002",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50da1377daa0391e48b"
+  },
+  "estado": "Chihuahua",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024080001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50da1377daa0391e4a1"
+  },
+  "estado": "Guerrero",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024120001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50da1377daa0391e4ad"
+  },
+  "estado": "Ciudad de México",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024090001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50da1377daa0391e4bf"
+  },
+  "estado": "Coahuila",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024050008",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50da1377daa0391e4d0"
+  },
+  "estado": "Hidalgo",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130041",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50da1377daa0391e4da"
+  },
+  "estado": "Colima",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024060007",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50da1377daa0391e4e8"
+  },
+  "estado": "Durango",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024100013",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391edeb"
+  },
+  "estado": "Jalisco",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024140004",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee03"
+  },
+  "estado": "Estado de México",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024150001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee19"
+  },
+  "estado": "Guanajuato",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024110001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee31"
+  },
+  "estado": "Michoacán",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024160001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee39"
+  },
+  "estado": "Guerrero",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024120001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee46"
+  },
+  "estado": "Hidalgo",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024130041",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee4e"
+  },
+  "estado": "Morelos",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170023",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee58"
+  },
+  "estado": "Jalisco",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024140004",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee61"
+  },
+  "estado": "Michoacán",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024160001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee6b"
+  },
+  "estado": "Nayarit",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180010",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee7e"
+  },
+  "estado": "Morelos",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024170023",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391ee91"
+  },
+  "estado": "Nuevo León",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024190001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50ea1377daa0391eeab"
+  },
+  "estado": "Nayarit",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024180010",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391eecb"
+  },
+  "estado": "Nuevo León",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024190001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391eee1"
+  },
+  "estado": "Oaxaca",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024200001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391eef3"
+  },
+  "estado": "Oaxaca",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024200001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391ef10"
+  },
+  "estado": "Puebla",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024210059",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f727"
+  },
+  "estado": "Querétaro",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024220001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f747"
+  },
+  "estado": "Quintana Roo",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024230002",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f76d"
+  },
+  "estado": "San Luis Potosí",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024240001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f78d"
+  },
+  "estado": "Sinaloa",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024250011",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f7ab"
+  },
+  "estado": "Sonora",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024260001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f7c1"
+  },
+  "estado": "Tabasco",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024270013",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f7d4"
+  },
+  "estado": "Tamaulipas",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024280014",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f7dc"
+  },
+  "estado": "Tlaxcala",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024290015",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f7ea"
+  },
+  "estado": "Yucatán",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024310001",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "677cc50fa1377daa0391f7fa"
+  },
+  "estado": "Zacatecas",
+  "evento": "Ultima Evaluación - Etapa Permanente",
+  "fecha": "2024-12-17",
+  "tipo_evaluacion": "capacitadores",
+  "folio": "2024320024",
+  "observaciones": "Gran desempeño con los estudiantes y al impartir clase.",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A"
+},
+{
+  "_id": {
+    "$oid": "67806b248e90843576b17a44"
+  },
+  "estado": "Hidalgo",
+  "fecha": "2025-01-10",
+  "tipoEvaluacion": "capacitadores",
+  "folio": "2025130001",
+  "asistencia": "A",
+  "relacion_comunidad": "I",
+  "actitud": "A",
+  "observaciones": "Primera evaluacion pemanente"
+},
+{
+  "_id": {
+    "$oid": "67806ba18e90843576b17a45"
+  },
+  "estado": "Hidalgo",
+  "fecha": "2025-01-10",
+  "tipoEvaluacion": "capacitadores",
+  "folio": "2025130001",
+  "asistencia": "A",
+  "relacion_comunidad": "A",
+  "actitud": "A",
+  "observaciones": "Segunda"
+}]

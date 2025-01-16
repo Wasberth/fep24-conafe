@@ -1,0 +1,2520 @@
+[{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381da"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "06DJN0021N",
+  "ec": "2024010002"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381db"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "29DJN0026T",
+  "ec": "2024010003"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381dc"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "27EJN1776B",
+  "ec": "2024010004"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381dd"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DCC0412E",
+  "ec": "2024140001"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381de"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "01DML0001D",
+  "ec": "2024010005"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381df"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "01FUA0016G",
+  "ec": "2024010006"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381e0"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "02DCC0016Q",
+  "ec": "2024020001"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381e1"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "02DCC0023Z",
+  "ec": "2024020002"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381e2"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "02DJN0002C",
+  "ec": "2024020003"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381e3"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "02DJN0257D",
+  "ec": "2024020004"
+},
+{
+  "_id": {
+    "$oid": "6785d932ea4d1de6ef9381e4"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "02DJN0415C",
+  "ec": "2024020005"
+},
+{
+  "_id": {
+    "$oid": "6785d933ea4d1de6ef9381e5"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "03DJN0082D",
+  "ec": "2024030001"
+},
+{
+  "_id": {
+    "$oid": "6785d933ea4d1de6ef9381e6"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "03DJN0161Q",
+  "ec": "2024030002"
+},
+{
+  "_id": {
+    "$oid": "6785d933ea4d1de6ef9381e7"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "03DML0003Z",
+  "ec": "2024030003"
+},
+{
+  "_id": {
+    "$oid": "6785d933ea4d1de6ef9381e8"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "03FUA0033V",
+  "ec": "2024030004"
+},
+{
+  "_id": {
+    "$oid": "6785d933ea4d1de6ef9381e9"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "03FUA0037R",
+  "ec": "2024030005"
+},
+{
+  "_id": {
+    "$oid": "6785d933ea4d1de6ef9381ea"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "04DCC0003K",
+  "ec": "2024040001"
+},
+{
+  "_id": {
+    "$oid": "6785d933ea4d1de6ef9381eb"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "04DCC0016O",
+  "ec": "2024040002"
+},
+{
+  "_id": {
+    "$oid": "6785d934ea4d1de6ef9381ec"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "25DJN0306G",
+  "ec": "2024040003"
+},
+{
+  "_id": {
+    "$oid": "6785d934ea4d1de6ef9381ed"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "04DCC0081O",
+  "ec": "2024040004"
+},
+{
+  "_id": {
+    "$oid": "6785d934ea4d1de6ef9381ee"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "04DJN0015E",
+  "ec": "2024040005"
+},
+{
+  "_id": {
+    "$oid": "6785d934ea4d1de6ef9381ef"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "05DJN0002Z",
+  "ec": "2024050001"
+},
+{
+  "_id": {
+    "$oid": "6785d934ea4d1de6ef9381f0"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "05DJN0126I",
+  "ec": "2024050002"
+},
+{
+  "_id": {
+    "$oid": "6785d934ea4d1de6ef9381f1"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "05DJN0311E",
+  "ec": "2024050003"
+},
+{
+  "_id": {
+    "$oid": "6785d934ea4d1de6ef9381f2"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "05DJN0833L",
+  "ec": "2024050004"
+},
+{
+  "_id": {
+    "$oid": "6785d935ea4d1de6ef9381f3"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "05DJN1067Q",
+  "ec": "2024050005"
+},
+{
+  "_id": {
+    "$oid": "6785d935ea4d1de6ef9381f4"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "05EJN0013E",
+  "ec": "2024050006"
+},
+{
+  "_id": {
+    "$oid": "6785d935ea4d1de6ef9381f5"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "05FUA0178O",
+  "ec": "2024050007"
+},
+{
+  "_id": {
+    "$oid": "6785d935ea4d1de6ef9381f6"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "06DJN0005W",
+  "ec": "2024060001"
+},
+{
+  "_id": {
+    "$oid": "6785d935ea4d1de6ef9381f7"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "06DJN0017A",
+  "ec": "2024060002"
+},
+{
+  "_id": {
+    "$oid": "6785d935ea4d1de6ef9381f8"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "06DJN0049T",
+  "ec": "2024060003"
+},
+{
+  "_id": {
+    "$oid": "6785d935ea4d1de6ef9381f9"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "27EJN1776B",
+  "ec": "2024060004"
+},
+{
+  "_id": {
+    "$oid": "6785d935ea4d1de6ef9381fa"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "06DJN0119Y",
+  "ec": "2024060005"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef9381fb"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "27FUA0004J",
+  "ec": "2024060006"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef9381fc"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "10DDI0001Q",
+  "ec": "2024100001"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef9381fd"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "10DJN0071H",
+  "ec": "2024100002"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef9381fe"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "29DJN0038Y",
+  "ec": "2024100003"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef9381ff"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "10DJN0139Y",
+  "ec": "2024100004"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef938200"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "10DJN0141M",
+  "ec": "2024100005"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef938201"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "10DJN0203I",
+  "ec": "2024100006"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef938202"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "10DJN0322W",
+  "ec": "2024100007"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef938203"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "10DJN0326S",
+  "ec": "2024100008"
+},
+{
+  "_id": {
+    "$oid": "6785d936ea4d1de6ef938204"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "10DJN0477Y",
+  "ec": "2024100009"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef938205"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "10DJN0505D",
+  "ec": "2024100010"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef938206"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "10DML0003J",
+  "ec": "2024100011"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef938207"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "10DML0031F",
+  "ec": "2024100012"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef938208"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DJN0052Z",
+  "ec": "2024140002"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef938209"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "13DCC0801M",
+  "ec": "2024130001"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef93820a"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DJN0013O",
+  "ec": "2024130002"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef93820b"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "32DJN0170T",
+  "ec": "2024130003"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef93820c"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "13DJN0032C",
+  "ec": "2024130004"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef93820d"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "13DJN0033B",
+  "ec": "2024130005"
+},
+{
+  "_id": {
+    "$oid": "6785d937ea4d1de6ef93820e"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "28DJN0168S",
+  "ec": "2024130006"
+},
+{
+  "_id": {
+    "$oid": "6785d938ea4d1de6ef93820f"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "13DJN0048D",
+  "ec": "2024130007"
+},
+{
+  "_id": {
+    "$oid": "6785d938ea4d1de6ef938210"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "13DJN0054O",
+  "ec": "2024130008"
+},
+{
+  "_id": {
+    "$oid": "6785d938ea4d1de6ef938211"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DJN0057L",
+  "ec": "2024130009"
+},
+{
+  "_id": {
+    "$oid": "6785d938ea4d1de6ef938212"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "27DJN0137Z",
+  "ec": "2024130010"
+},
+{
+  "_id": {
+    "$oid": "6785d938ea4d1de6ef938213"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "13DJN0092R",
+  "ec": "2024130011"
+},
+{
+  "_id": {
+    "$oid": "6785d938ea4d1de6ef938214"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "13DJN0095O",
+  "ec": "2024130012"
+},
+{
+  "_id": {
+    "$oid": "6785d938ea4d1de6ef938215"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "13DJN0103G",
+  "ec": "2024130013"
+},
+{
+  "_id": {
+    "$oid": "6785d939ea4d1de6ef938216"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DJN0104F",
+  "ec": "2024130014"
+},
+{
+  "_id": {
+    "$oid": "6785d939ea4d1de6ef938217"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "13DJN0132B",
+  "ec": "2024130015"
+},
+{
+  "_id": {
+    "$oid": "6785d939ea4d1de6ef938218"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "13DJN0152P",
+  "ec": "2024130016"
+},
+{
+  "_id": {
+    "$oid": "6785d939ea4d1de6ef938219"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "13DJN0158J",
+  "ec": "2024130017"
+},
+{
+  "_id": {
+    "$oid": "6785d939ea4d1de6ef93821a"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "13DJN0162W",
+  "ec": "2024130018"
+},
+{
+  "_id": {
+    "$oid": "6785d939ea4d1de6ef93821b"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "13DJN0171D",
+  "ec": "2024130019"
+},
+{
+  "_id": {
+    "$oid": "6785d939ea4d1de6ef93821c"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DJN0186F",
+  "ec": "2024130020"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef93821d"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DJN0215K",
+  "ec": "2024130021"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef93821e"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DJN0285F",
+  "ec": "2024130022"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef93821f"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "13DJN0343F",
+  "ec": "2024130023"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef938220"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "13DJN0364S",
+  "ec": "2024130024"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef938221"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "13DJN0388B",
+  "ec": "2024130025"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef938222"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "13DJN0393N",
+  "ec": "2024130026"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef938223"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DJN0481H",
+  "ec": "2024130027"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef938224"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "13DJN0552L",
+  "ec": "2024130028"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef938225"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "13DJN0595J",
+  "ec": "2024130029"
+},
+{
+  "_id": {
+    "$oid": "6785d93aea4d1de6ef938226"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "13DJN0600E",
+  "ec": "2024130030"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef938227"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DJN0668L",
+  "ec": "2024130031"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef938228"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "13DJN0771Y",
+  "ec": "2024130032"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef938229"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "13DJN0865M",
+  "ec": "2024130033"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef93822a"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "13DJN1000R",
+  "ec": "2024130034"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef93822b"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "13DJN1028X",
+  "ec": "2024130035"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef93822c"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "13DJN1075H",
+  "ec": "2024130036"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef93822d"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DJN1126Y",
+  "ec": "2024130037"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef93822e"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "13DML0023U",
+  "ec": "2024130038"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef93822f"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "13FUA0035Z",
+  "ec": "2024130039"
+},
+{
+  "_id": {
+    "$oid": "6785d93bea4d1de6ef938230"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "16DGI0002G",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93cea4d1de6ef938231"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "16DJN0005C",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93cea4d1de6ef938232"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "16DJN0130A",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93cea4d1de6ef938233"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "16DJN0263R",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93cea4d1de6ef938234"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "16DJN0271Z",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93cea4d1de6ef938235"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DCC0165M",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93cea4d1de6ef938236"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "32DJN0087U",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93cea4d1de6ef938237"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "16DJN1059N",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93dea4d1de6ef938238"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "16DJN1102L",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93dea4d1de6ef938239"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "16DJN1159M",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93dea4d1de6ef93823a"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "16DJN1874Y",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93dea4d1de6ef93823b"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "16DJN2039G",
+  "ec": "2024140003"
+},
+{
+  "_id": {
+    "$oid": "6785d93dea4d1de6ef93823c"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "16DJN2547K",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93dea4d1de6ef93823d"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "16EJN0044D",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93eea4d1de6ef93823e"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "16EJN0050O",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93eea4d1de6ef93823f"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "16FUA0020V",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d93eea4d1de6ef938240"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "17DJN0001F",
+  "ec": "2024170001"
+},
+{
+  "_id": {
+    "$oid": "6785d93eea4d1de6ef938241"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "17DJN0010N",
+  "ec": "2024170002"
+},
+{
+  "_id": {
+    "$oid": "6785d93eea4d1de6ef938242"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "17DJN0060V",
+  "ec": "2024170003"
+},
+{
+  "_id": {
+    "$oid": "6785d93eea4d1de6ef938243"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "17DJN0062T",
+  "ec": "2024170004"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef938244"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "17DJN0064R",
+  "ec": "2024170005"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef938245"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "17DJN0101E",
+  "ec": "2024170006"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef938246"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "17DJN0102D",
+  "ec": "2024170007"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef938247"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "17DJN0104B",
+  "ec": "2024170008"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef938248"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "17DJN0166O",
+  "ec": "2024170009"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef938249"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "17DJN0220S",
+  "ec": "2024170010"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef93824a"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "17DJN0225N",
+  "ec": "2024170011"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef93824b"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "17DJN0243C",
+  "ec": "2024170012"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef93824c"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "17DJN0268L",
+  "ec": "2024170013"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef93824d"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "17DJN0278S",
+  "ec": "2024170014"
+},
+{
+  "_id": {
+    "$oid": "6785d93fea4d1de6ef93824e"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "17DJN0313H",
+  "ec": "2024170015"
+},
+{
+  "_id": {
+    "$oid": "6785d940ea4d1de6ef93824f"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "17DJN0464N",
+  "ec": "2024170016"
+},
+{
+  "_id": {
+    "$oid": "6785d940ea4d1de6ef938250"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "17DJN0503Z",
+  "ec": "2024170017"
+},
+{
+  "_id": {
+    "$oid": "6785d940ea4d1de6ef938251"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "17DJN0612F",
+  "ec": "2024170018"
+},
+{
+  "_id": {
+    "$oid": "6785d940ea4d1de6ef938252"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "17DJN0613E",
+  "ec": "2024170019"
+},
+{
+  "_id": {
+    "$oid": "6785d940ea4d1de6ef938253"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "17DJN0701Z",
+  "ec": "2024170020"
+},
+{
+  "_id": {
+    "$oid": "6785d940ea4d1de6ef938254"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "17FUA0024Q",
+  "ec": "2024170021"
+},
+{
+  "_id": {
+    "$oid": "6785d940ea4d1de6ef938255"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "29FUA0028R",
+  "ec": "2024170022"
+},
+{
+  "_id": {
+    "$oid": "6785d940ea4d1de6ef938256"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "18DBT0001G",
+  "ec": "2024180001"
+},
+{
+  "_id": {
+    "$oid": "6785d941ea4d1de6ef938257"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "18DCC0045M",
+  "ec": "2024180002"
+},
+{
+  "_id": {
+    "$oid": "6785d941ea4d1de6ef938258"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DJN0024C",
+  "ec": "2024180003"
+},
+{
+  "_id": {
+    "$oid": "6785d941ea4d1de6ef938259"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "18DJN0002D",
+  "ec": "2024180004"
+},
+{
+  "_id": {
+    "$oid": "6785d941ea4d1de6ef93825a"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "18DJN0019D",
+  "ec": "2024180005"
+},
+{
+  "_id": {
+    "$oid": "6785d941ea4d1de6ef93825b"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "18DJN0078T",
+  "ec": "2024180006"
+},
+{
+  "_id": {
+    "$oid": "6785d941ea4d1de6ef93825c"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "18DJN0091N",
+  "ec": "2024180007"
+},
+{
+  "_id": {
+    "$oid": "6785d941ea4d1de6ef93825d"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "18DJN1554L",
+  "ec": "2024180008"
+},
+{
+  "_id": {
+    "$oid": "6785d941ea4d1de6ef93825e"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "18EJN0021R",
+  "ec": "2024180009"
+},
+{
+  "_id": {
+    "$oid": "6785d942ea4d1de6ef93825f"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DCC0002B",
+  "ec": "2024210001"
+},
+{
+  "_id": {
+    "$oid": "6785d942ea4d1de6ef938260"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DCC0020R",
+  "ec": "2024210002"
+},
+{
+  "_id": {
+    "$oid": "6785d942ea4d1de6ef938261"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DCC0034U",
+  "ec": "2024210003"
+},
+{
+  "_id": {
+    "$oid": "6785d942ea4d1de6ef938262"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "21DCC0065N",
+  "ec": "2024210004"
+},
+{
+  "_id": {
+    "$oid": "6785d942ea4d1de6ef938263"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DCC0165M",
+  "ec": "2024210005"
+},
+{
+  "_id": {
+    "$oid": "6785d942ea4d1de6ef938264"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DCC0173V",
+  "ec": "2024210006"
+},
+{
+  "_id": {
+    "$oid": "6785d942ea4d1de6ef938265"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DCC0180E",
+  "ec": "2024210007"
+},
+{
+  "_id": {
+    "$oid": "6785d942ea4d1de6ef938266"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DCC0243Z",
+  "ec": "2024210008"
+},
+{
+  "_id": {
+    "$oid": "6785d942ea4d1de6ef938267"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DCC0248V",
+  "ec": "2024210009"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef938268"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "21DCC0279O",
+  "ec": "2024210010"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef938269"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DCC0365K",
+  "ec": "2024210011"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef93826a"
+  },
+  "nombre": "PB",
+  "grado": "primaria",
+  "cct": "21DCC0412E",
+  "ec": "2024210012"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef93826b"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "29DJN0038Y",
+  "ec": "2024130040"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef93826c"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DCC0732P",
+  "ec": "2024210013"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef93826d"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DCC0795A",
+  "ec": "2024210014"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef93826e"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DCC0809N",
+  "ec": "2024210015"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef93826f"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DJN0024C",
+  "ec": "2024210016"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef938270"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DJN0033K",
+  "ec": "2024210017"
+},
+{
+  "_id": {
+    "$oid": "6785d943ea4d1de6ef938271"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DJN0054X",
+  "ec": "2024280001"
+},
+{
+  "_id": {
+    "$oid": "6785d944ea4d1de6ef938272"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DJN0060H",
+  "ec": "2024210018"
+},
+{
+  "_id": {
+    "$oid": "6785d944ea4d1de6ef938273"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "21DJN0137F",
+  "ec": "2024210019"
+},
+{
+  "_id": {
+    "$oid": "6785d944ea4d1de6ef938274"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DJN0153X",
+  "ec": "2024210020"
+},
+{
+  "_id": {
+    "$oid": "6785d944ea4d1de6ef938275"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DJN0171M",
+  "ec": "2024210021"
+},
+{
+  "_id": {
+    "$oid": "6785d944ea4d1de6ef938276"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DJN0184Q",
+  "ec": "2024210022"
+},
+{
+  "_id": {
+    "$oid": "6785d944ea4d1de6ef938277"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DJN0196V",
+  "ec": "2024210023"
+},
+{
+  "_id": {
+    "$oid": "6785d944ea4d1de6ef938278"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DJN0213V",
+  "ec": "2024210024"
+},
+{
+  "_id": {
+    "$oid": "6785d944ea4d1de6ef938279"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21EJN1023J",
+  "ec": "2024210025"
+},
+{
+  "_id": {
+    "$oid": "6785d944ea4d1de6ef93827a"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DJN0294W",
+  "ec": "2024210026"
+},
+{
+  "_id": {
+    "$oid": "6785d945ea4d1de6ef93827b"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "21DJN0331J",
+  "ec": "2024210027"
+},
+{
+  "_id": {
+    "$oid": "6785d945ea4d1de6ef93827c"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "21DJN0344N",
+  "ec": "2024210028"
+},
+{
+  "_id": {
+    "$oid": "6785d945ea4d1de6ef93827d"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DJN0345M",
+  "ec": "2024210029"
+},
+{
+  "_id": {
+    "$oid": "6785d945ea4d1de6ef93827e"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DJN0369W",
+  "ec": "2024210030"
+},
+{
+  "_id": {
+    "$oid": "6785d945ea4d1de6ef93827f"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DJN0373I",
+  "ec": "2024210031"
+},
+{
+  "_id": {
+    "$oid": "6785d945ea4d1de6ef938280"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DJN0378D",
+  "ec": "2024210032"
+},
+{
+  "_id": {
+    "$oid": "6785d945ea4d1de6ef938281"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DJN0382Q",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d946ea4d1de6ef938282"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "21DJN0396T",
+  "ec": "2024210033"
+},
+{
+  "_id": {
+    "$oid": "6785d946ea4d1de6ef938283"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DJN0414S",
+  "ec": "2024210034"
+},
+{
+  "_id": {
+    "$oid": "6785d946ea4d1de6ef938284"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DJN0418O",
+  "ec": "2024210035"
+},
+{
+  "_id": {
+    "$oid": "6785d946ea4d1de6ef938285"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DJN0523Z",
+  "ec": "2024210036"
+},
+{
+  "_id": {
+    "$oid": "6785d946ea4d1de6ef938286"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21DJN0625W",
+  "ec": "2024210037"
+},
+{
+  "_id": {
+    "$oid": "6785d946ea4d1de6ef938287"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "21DJN0674E",
+  "ec": "2024210038"
+},
+{
+  "_id": {
+    "$oid": "6785d946ea4d1de6ef938288"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "21DJN0757N",
+  "ec": "2024210039"
+},
+{
+  "_id": {
+    "$oid": "6785d946ea4d1de6ef938289"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DJN0810S",
+  "ec": "2024210040"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef93828a"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21DJN0812Q",
+  "ec": "2024210041"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef93828b"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "21DJN0870G",
+  "ec": "2024210042"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef93828c"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "21DJN1076P",
+  "ec": "2024210043"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef93828d"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DJN1091H",
+  "ec": "2024210044"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef93828e"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "21DJN2090P",
+  "ec": "2024210045"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef93828f"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "21DJN2317D",
+  "ec": "2024210046"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef938290"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21DML0018R",
+  "ec": "2024210047"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef938291"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "21EJN0323Z",
+  "ec": "2024210048"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef938292"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "21EJN0867S",
+  "ec": "2024210049"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef938293"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21EJN1023J",
+  "ec": "2024210050"
+},
+{
+  "_id": {
+    "$oid": "6785d947ea4d1de6ef938294"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "27FUA0004J",
+  "ec": "2024210051"
+},
+{
+  "_id": {
+    "$oid": "6785d948ea4d1de6ef938295"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "21FUA0067A",
+  "ec": "2024210052"
+},
+{
+  "_id": {
+    "$oid": "6785d948ea4d1de6ef938296"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "21FUA0087O",
+  "ec": "2024210053"
+},
+{
+  "_id": {
+    "$oid": "6785d948ea4d1de6ef938297"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "21FUA0098U",
+  "ec": "2024210054"
+},
+{
+  "_id": {
+    "$oid": "6785d948ea4d1de6ef938298"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21FUA0102Q",
+  "ec": "2024070001"
+},
+{
+  "_id": {
+    "$oid": "6785d948ea4d1de6ef938299"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "21FUA0111Y",
+  "ec": "2024210055"
+},
+{
+  "_id": {
+    "$oid": "6785d948ea4d1de6ef93829a"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "21FUA0112X",
+  "ec": "2024210056"
+},
+{
+  "_id": {
+    "$oid": "6785d948ea4d1de6ef93829b"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "21FUA0114V",
+  "ec": "2024210057"
+},
+{
+  "_id": {
+    "$oid": "6785d948ea4d1de6ef93829c"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "22DCC0037Q",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d948ea4d1de6ef93829d"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "22DCC0073V",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d949ea4d1de6ef93829e"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "22DJN0027Z",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d949ea4d1de6ef93829f"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "22DJN0038E",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d949ea4d1de6ef9382a0"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "22DJN0184P",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d949ea4d1de6ef9382a1"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "22DJN0414R",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d949ea4d1de6ef9382a2"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "22DJN1370R",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d949ea4d1de6ef9382a3"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "22DJN1466D",
+  "ec": null
+},
+{
+  "_id": {
+    "$oid": "6785d949ea4d1de6ef9382a4"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "23DJN0152W",
+  "ec": "2024230001"
+},
+{
+  "_id": {
+    "$oid": "6785d94aea4d1de6ef9382a5"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "25DJN0001O",
+  "ec": "2024250001"
+},
+{
+  "_id": {
+    "$oid": "6785d94aea4d1de6ef9382a6"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "25DJN0025Y",
+  "ec": "2024250002"
+},
+{
+  "_id": {
+    "$oid": "6785d94aea4d1de6ef9382a7"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "25DJN0047J",
+  "ec": "2024250003"
+},
+{
+  "_id": {
+    "$oid": "6785d94aea4d1de6ef9382a8"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "25DJN0058P",
+  "ec": "2024250004"
+},
+{
+  "_id": {
+    "$oid": "6785d94aea4d1de6ef9382a9"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "25DJN0098Q",
+  "ec": "2024250005"
+},
+{
+  "_id": {
+    "$oid": "6785d94aea4d1de6ef9382aa"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "25DJN0118N",
+  "ec": "2024250006"
+},
+{
+  "_id": {
+    "$oid": "6785d94aea4d1de6ef9382ab"
+  },
+  "nombre": "3B",
+  "grado": "preescolar3",
+  "cct": "25DJN0306G",
+  "ec": "2024250007"
+},
+{
+  "_id": {
+    "$oid": "6785d94aea4d1de6ef9382ac"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "25DJN0387H",
+  "ec": "2024250008"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382ad"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "25DJN0428R",
+  "ec": "2024250009"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382ae"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "25DJN0723T",
+  "ec": "2024250010"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382af"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "27DJN0137Z",
+  "ec": "2024270001"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382b0"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "27DCC0063J",
+  "ec": "2024270002"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382b1"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "27DJN0049F",
+  "ec": "2024270003"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382b2"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "27DJN0056P",
+  "ec": "2024270004"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382b3"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "27DJN0093T",
+  "ec": "2024270005"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382b4"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "27DJN0120Z",
+  "ec": "2024270006"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382b5"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "27DJN0137Z",
+  "ec": "2024270007"
+},
+{
+  "_id": {
+    "$oid": "6785d94bea4d1de6ef9382b6"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "27DJN0279Y",
+  "ec": "2024270008"
+},
+{
+  "_id": {
+    "$oid": "6785d94cea4d1de6ef9382b7"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "32EJN0062K",
+  "ec": "2024270009"
+},
+{
+  "_id": {
+    "$oid": "6785d94cea4d1de6ef9382b8"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "27DJN1288M",
+  "ec": "2024270010"
+},
+{
+  "_id": {
+    "$oid": "6785d94cea4d1de6ef9382b9"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "27EJN1776B",
+  "ec": "2024270011"
+},
+{
+  "_id": {
+    "$oid": "6785d94cea4d1de6ef9382ba"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "27FUA0004J",
+  "ec": "2024270012"
+},
+{
+  "_id": {
+    "$oid": "6785d94cea4d1de6ef9382bb"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "28DDI0010X",
+  "ec": "2024280002"
+},
+{
+  "_id": {
+    "$oid": "6785d94cea4d1de6ef9382bc"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "28DJN0005H",
+  "ec": "2024280003"
+},
+{
+  "_id": {
+    "$oid": "6785d94cea4d1de6ef9382bd"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "28DJN0041M",
+  "ec": "2024280004"
+},
+{
+  "_id": {
+    "$oid": "6785d94cea4d1de6ef9382be"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "28DJN0063Y",
+  "ec": "2024280005"
+},
+{
+  "_id": {
+    "$oid": "6785d94cea4d1de6ef9382bf"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "28DJN0095Q",
+  "ec": "2024280006"
+},
+{
+  "_id": {
+    "$oid": "6785d94dea4d1de6ef9382c0"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "28DJN0110S",
+  "ec": "2024280007"
+},
+{
+  "_id": {
+    "$oid": "6785d94dea4d1de6ef9382c1"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "28DJN0168S",
+  "ec": "2024280008"
+},
+{
+  "_id": {
+    "$oid": "6785d94dea4d1de6ef9382c2"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "28DJN0298L",
+  "ec": "2024280009"
+},
+{
+  "_id": {
+    "$oid": "6785d94dea4d1de6ef9382c3"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "28DJN0360Y",
+  "ec": "2024280010"
+},
+{
+  "_id": {
+    "$oid": "6785d94dea4d1de6ef9382c4"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "28DJN0497K",
+  "ec": "2024280011"
+},
+{
+  "_id": {
+    "$oid": "6785d94dea4d1de6ef9382c5"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "28DJN0598I",
+  "ec": "2024280012"
+},
+{
+  "_id": {
+    "$oid": "6785d94dea4d1de6ef9382c6"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "28DJN0837S",
+  "ec": "2024280013"
+},
+{
+  "_id": {
+    "$oid": "6785d94eea4d1de6ef9382c7"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "29DJN0001K",
+  "ec": "2024290001"
+},
+{
+  "_id": {
+    "$oid": "6785d94eea4d1de6ef9382c8"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "29DJN0038Y",
+  "ec": "2024290002"
+},
+{
+  "_id": {
+    "$oid": "6785d94eea4d1de6ef9382c9"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "29DJN0065V",
+  "ec": "2024290003"
+},
+{
+  "_id": {
+    "$oid": "6785d94eea4d1de6ef9382ca"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "29DJN0092S",
+  "ec": "2024210058"
+},
+{
+  "_id": {
+    "$oid": "6785d94eea4d1de6ef9382cb"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "29DJN0109B",
+  "ec": "2024290004"
+},
+{
+  "_id": {
+    "$oid": "6785d94eea4d1de6ef9382cc"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "29DJN0123V",
+  "ec": "2024290005"
+},
+{
+  "_id": {
+    "$oid": "6785d94eea4d1de6ef9382cd"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "29DJN0204F",
+  "ec": "2024290006"
+},
+{
+  "_id": {
+    "$oid": "6785d94eea4d1de6ef9382ce"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "29DML0011Q",
+  "ec": "2024290007"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382cf"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "29EML0001I",
+  "ec": "2024290008"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382d0"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "29FUA0028R",
+  "ec": "2024290009"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382d1"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "29FUA0039X",
+  "ec": "2024290010"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382d2"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "29FUA0057M",
+  "ec": "2024290011"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382d3"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "29FUA0061Z",
+  "ec": "2024290012"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382d4"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "29FUA0062Y",
+  "ec": "2024290013"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382d5"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "29FUA1002Q",
+  "ec": "2024290014"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382d6"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "32DJN0036N",
+  "ec": "2024320001"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382d7"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "32DJN0012D",
+  "ec": "2024320002"
+},
+{
+  "_id": {
+    "$oid": "6785d94fea4d1de6ef9382d8"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "32DJN0030T",
+  "ec": "2024320003"
+},
+{
+  "_id": {
+    "$oid": "6785d950ea4d1de6ef9382d9"
+  },
+  "nombre": "1B",
+  "grado": "preescolar1",
+  "cct": "32DJN0036N",
+  "ec": "2024320004"
+},
+{
+  "_id": {
+    "$oid": "6785d950ea4d1de6ef9382da"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "32DJN0087U",
+  "ec": "2024320005"
+},
+{
+  "_id": {
+    "$oid": "6785d950ea4d1de6ef9382db"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "32DJN0090H",
+  "ec": "2024320006"
+},
+{
+  "_id": {
+    "$oid": "6785d950ea4d1de6ef9382dc"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "32DJN0098Z",
+  "ec": "2024320007"
+},
+{
+  "_id": {
+    "$oid": "6785d950ea4d1de6ef9382dd"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "32DJN0099Z",
+  "ec": "2024320008"
+},
+{
+  "_id": {
+    "$oid": "6785d950ea4d1de6ef9382de"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "32DJN0155A",
+  "ec": "2024320009"
+},
+{
+  "_id": {
+    "$oid": "6785d950ea4d1de6ef9382df"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "32DJN0170T",
+  "ec": "2024320010"
+},
+{
+  "_id": {
+    "$oid": "6785d950ea4d1de6ef9382e0"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "32DJN0179K",
+  "ec": "2024320011"
+},
+{
+  "_id": {
+    "$oid": "6785d950ea4d1de6ef9382e1"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "32DJN0231Q",
+  "ec": "2024320012"
+},
+{
+  "_id": {
+    "$oid": "6785d951ea4d1de6ef9382e2"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "32DJN0237K",
+  "ec": "2024320013"
+},
+{
+  "_id": {
+    "$oid": "6785d951ea4d1de6ef9382e3"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "32DJN0276M",
+  "ec": "2024320014"
+},
+{
+  "_id": {
+    "$oid": "6785d951ea4d1de6ef9382e4"
+  },
+  "nombre": "SA",
+  "grado": "secundaria",
+  "cct": "32DJN0302U",
+  "ec": "2024320015"
+},
+{
+  "_id": {
+    "$oid": "6785d951ea4d1de6ef9382e5"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "32DJN0333N",
+  "ec": "2024320016"
+},
+{
+  "_id": {
+    "$oid": "6785d951ea4d1de6ef9382e6"
+  },
+  "nombre": "PA",
+  "grado": "primaria",
+  "cct": "32DJN0591B",
+  "ec": "2024320017"
+},
+{
+  "_id": {
+    "$oid": "6785d951ea4d1de6ef9382e7"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "32DML0016Z",
+  "ec": "2024320018"
+},
+{
+  "_id": {
+    "$oid": "6785d951ea4d1de6ef9382e8"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "32DML0023I",
+  "ec": "2024320019"
+},
+{
+  "_id": {
+    "$oid": "6785d952ea4d1de6ef9382e9"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "32EJN0436I",
+  "ec": "2024320020"
+},
+{
+  "_id": {
+    "$oid": "6785d952ea4d1de6ef9382ea"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "32EJN0486Q",
+  "ec": "2024320021"
+},
+{
+  "_id": {
+    "$oid": "6785d952ea4d1de6ef9382eb"
+  },
+  "nombre": "1A",
+  "grado": "preescolar1",
+  "cct": "32EJN0508L",
+  "ec": "2024320022"
+},
+{
+  "_id": {
+    "$oid": "6785d952ea4d1de6ef9382ec"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "32FUA0027F",
+  "ec": "2024320023"
+},
+{
+  "_id": {
+    "$oid": "6785d952ea4d1de6ef9382ed"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "29DJN0026T",
+  "ec": "2024010007"
+},
+{
+  "_id": {
+    "$oid": "6785d952ea4d1de6ef9382ee"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "29DJN0026T",
+  "ec": "2024010009"
+},
+{
+  "_id": {
+    "$oid": "6785d952ea4d1de6ef9382ef"
+  },
+  "nombre": "3A",
+  "grado": "preescolar3",
+  "cct": "13DCC0801M",
+  "ec": "2025130001"
+},
+{
+  "_id": {
+    "$oid": "6785d931ea4d1de6ef9381d9"
+  },
+  "nombre": "2A",
+  "grado": "preescolar2",
+  "cct": "01dJN0028L",
+  "ec": "2024010001"
+},
+{
+  "_id": {
+    "$oid": "67880320a38c73e569399a69"
+  },
+  "nombre": "SA",
+  "cct": "21DJN0382Q",
+  "ec": "2025150001",
+  "grado": "secundaria"
+}]

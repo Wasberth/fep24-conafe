@@ -1,0 +1,1328 @@
+[{
+  "_id": {
+    "$oid": "6775fe0f08303df243391398"
+  },
+  "num_estado": "01",
+  "estado": "Aguascalientes",
+  "cot": "202401AS20"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df243391399"
+  },
+  "num_estado": "02",
+  "estado": "Baja California",
+  "cot": "202402BC32"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df24339139a"
+  },
+  "num_estado": "03",
+  "estado": "Baja California Sur",
+  "cot": "202403BS1"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df24339139b"
+  },
+  "num_estado": "04",
+  "estado": "Campeche",
+  "cot": "202404CC15"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df24339139c"
+  },
+  "num_estado": "05",
+  "estado": "Coahuila",
+  "cot": "202405CL6"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df24339139d"
+  },
+  "num_estado": "06",
+  "estado": "Colima",
+  "cot": "202406CM44"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df24339139e"
+  },
+  "num_estado": "07",
+  "estado": "Chiapas",
+  "cot": "202407CS57"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df24339139f"
+  },
+  "num_estado": "08",
+  "estado": "Chihuahua",
+  "cot": "202408CH83"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a0"
+  },
+  "num_estado": "09",
+  "estado": "Ciudad De México",
+  "cot": "202409DF91"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a1"
+  },
+  "num_estado": "10",
+  "estado": "Durango",
+  "cot": "202410DG63"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a2"
+  },
+  "num_estado": "11",
+  "estado": "Guanajuato",
+  "cot": "202411GT54"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a3"
+  },
+  "num_estado": "12",
+  "estado": "Guerrero",
+  "cot": "202412GR82"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a4"
+  },
+  "num_estado": "13",
+  "estado": "Hidalgo",
+  "cot": "202413HG10"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a5"
+  },
+  "num_estado": "14",
+  "estado": "Jalisco",
+  "cot": "202414JC3"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a6"
+  },
+  "num_estado": "15",
+  "estado": "Estado De México",
+  "cot": "202415MC18"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a7"
+  },
+  "num_estado": "16",
+  "estado": "Michoacán",
+  "cot": "202416MN9"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a8"
+  },
+  "num_estado": "17",
+  "estado": "Morelos",
+  "cot": "202417MS25"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913a9"
+  },
+  "num_estado": "18",
+  "estado": "Nayarit",
+  "cot": "202418NT33"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913aa"
+  },
+  "num_estado": "19",
+  "estado": "Nuevo León",
+  "cot": "202419NL77"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913ab"
+  },
+  "num_estado": "20",
+  "estado": "Oaxaca",
+  "cot": "202420OC14"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913ac"
+  },
+  "num_estado": "21",
+  "estado": "Puebla",
+  "cot": "202421PL45"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913ad"
+  },
+  "num_estado": "22",
+  "estado": "Querétaro",
+  "cot": "202422QT12"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913ae"
+  },
+  "num_estado": "23",
+  "estado": "Quintana Roo",
+  "cot": "202423QR5"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913af"
+  },
+  "num_estado": "24",
+  "estado": "San Luis Potosí",
+  "cot": "202424SP55"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913b0"
+  },
+  "num_estado": "25",
+  "estado": "Sinaloa",
+  "cot": "202425SL97"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913b1"
+  },
+  "num_estado": "26",
+  "estado": "Sonora",
+  "cot": "202426SR2"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913b2"
+  },
+  "num_estado": "27",
+  "estado": "Tabasco",
+  "cot": "202427TC21"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913b3"
+  },
+  "num_estado": "28",
+  "estado": "Tamaulipas",
+  "cot": "202428TS4"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913b4"
+  },
+  "num_estado": "29",
+  "estado": "Tlaxcala",
+  "cot": "202429TL73"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913b5"
+  },
+  "num_estado": "30",
+  "estado": "Veracruz",
+  "cot": "202430VZ16"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913b6"
+  },
+  "num_estado": "31",
+  "estado": "Yucatán",
+  "cot": "202431YN84"
+},
+{
+  "_id": {
+    "$oid": "6775fe0f08303df2433913b7"
+  },
+  "num_estado": "32",
+  "estado": "Zacatecas",
+  "cot": "202432ZS00"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339154e"
+  },
+  "curp": "UZHN064666OEPLMCLS",
+  "nombre": "Ebba",
+  "apellido1": "Bech",
+  "apellido2": "Roomes",
+  "estado_republica": "Aguascalientes",
+  "delegacion_municipio": "Badar",
+  "colonia": "Fasito‘outa",
+  "direccion": "8014 Gale Center",
+  "num_exterior": 0,
+  "num_interior": 5,
+  "codigo_postal": 665212,
+  "fecha_nacimiento": "12/05/1979",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "XL",
+  "pantalon": "S",
+  "calzado": 23.2,
+  "banco": "Banco Inbursa",
+  "cuenta_bancaria": {
+    "$numberLong": "32038799249"
+  },
+  "email": "eroomes0@disqus.com",
+  "telefono_fijo": 2023426818,
+  "telefono_movil": {
+    "$numberLong": "2247849092"
+  },
+  "nivel_educativo": "medio superior",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df243391398"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339154f"
+  },
+  "curp": "XFBG927641UPTIPK2V",
+  "nombre": "Leontyne",
+  "apellido1": "Perocci",
+  "apellido2": "Allright",
+  "estado_republica": "Baja California",
+  "delegacion_municipio": "Krasne",
+  "colonia": "Changzheng",
+  "direccion": "77148 Roth Plaza",
+  "num_exterior": 57552,
+  "num_interior": 7,
+  "codigo_postal": "36-007",
+  "fecha_nacimiento": "29/11/1989",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "L",
+  "pantalon": "S",
+  "calzado": 21,
+  "banco": "Banco Sabadell",
+  "cuenta_bancaria": 7110150000000,
+  "email": "lallright1@joomla.org",
+  "telefono_movil": {
+    "$numberLong": "2802058768"
+  },
+  "nivel_educativo": "primaria",
+  "situacion_educativa": "trunca",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df243391399"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391550"
+  },
+  "curp": "TPFY886769OXMOVHBD",
+  "nombre": "Erhard",
+  "apellido1": "Mitrikhin",
+  "apellido2": "Girkin",
+  "estado_republica": "Baja California Sur",
+  "delegacion_municipio": "Kimaam",
+  "colonia": "Jinfeng",
+  "direccion": "54 Weeping Birch Hill",
+  "num_exterior": 31494,
+  "num_interior": 46155,
+  "fecha_nacimiento": "10/09/1984",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "3XL",
+  "pantalon": "XL",
+  "calzado": 23.5,
+  "banco": "Bansí",
+  "cuenta_bancaria": 3399440000000,
+  "email": "egirkin2@state.tx.us",
+  "telefono_fijo": {
+    "$numberLong": "7369329322"
+  },
+  "telefono_movil": 1187448495,
+  "nivel_educativo": "medio superior",
+  "situacion_educativa": "cursando",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df24339139a"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391551"
+  },
+  "curp": "UBWI317019QEYFAD0Z",
+  "nombre": "Jerrine",
+  "apellido1": "Smeaton",
+  "estado_republica": "Campeche",
+  "delegacion_municipio": "Pakis",
+  "colonia": "Calilegua",
+  "direccion": "6279 Shasta Junction",
+  "num_exterior": 305,
+  "num_interior": 2,
+  "fecha_nacimiento": "13/11/1993",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "L",
+  "pantalon": "2XL",
+  "calzado": 25.6,
+  "banco": "Banco Invex",
+  "cuenta_bancaria": 5880900000000,
+  "email": "jdate3@globo.com",
+  "telefono_fijo": {
+    "$numberLong": "2243689464"
+  },
+  "telefono_movil": {
+    "$numberLong": "7732749189"
+  },
+  "nivel_educativo": "superior",
+  "situacion_educativa": "trunca",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df24339139b"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391552"
+  },
+  "curp": "HONA431453ATTDIWNI",
+  "nombre": "Rasia",
+  "apellido1": "Gainseford",
+  "apellido2": "Behagg",
+  "estado_republica": "Chiapas",
+  "delegacion_municipio": "Srinjine",
+  "colonia": "Kopen",
+  "direccion": "665 Linden Place",
+  "num_exterior": 6,
+  "num_interior": 51370,
+  "codigo_postal": 21292,
+  "fecha_nacimiento": "20/02/1990",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "XL",
+  "pantalon": "XS",
+  "calzado": 23,
+  "banco": "CBM Banco",
+  "cuenta_bancaria": 6296730000000,
+  "email": "rbehagg4@bbb.org",
+  "telefono_movil": {
+    "$numberLong": "9848189581"
+  },
+  "nivel_educativo": "medio superior",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df24339139c"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391553"
+  },
+  "curp": "SBVK135132PGBBXHW1",
+  "nombre": "Christina",
+  "apellido1": "Brickner",
+  "apellido2": "Perillo",
+  "estado_republica": "Chihuahua",
+  "delegacion_municipio": "Tambawel",
+  "colonia": "Armenia",
+  "direccion": "8054 Sutherland Point",
+  "num_exterior": 4,
+  "num_interior": 13,
+  "fecha_nacimiento": "01/01/1973",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "2XL",
+  "pantalon": "XS",
+  "calzado": 25,
+  "banco": "Bank of China Mexico",
+  "cuenta_bancaria": 1157930000000,
+  "email": "cperillo5@csmonitor.com",
+  "telefono_movil": 1381001343,
+  "nivel_educativo": "superior",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df24339139d"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391554"
+  },
+  "curp": "JWDG280979XIPPCY8I",
+  "nombre": "Marley",
+  "apellido1": "Lomen",
+  "apellido2": "Cartmail",
+  "estado_republica": "Ciudad de México",
+  "delegacion_municipio": "Teno",
+  "colonia": "Córdoba",
+  "direccion": "3 Johnson Drive",
+  "num_exterior": 420,
+  "num_interior": 6,
+  "fecha_nacimiento": "10/01/1979",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "L",
+  "pantalon": "L",
+  "calzado": 22.8,
+  "banco": "Banco JP Morgan",
+  "cuenta_bancaria": 2246190000000,
+  "email": "mcartmail6@hatena.ne.jp",
+  "telefono_movil": {
+    "$numberLong": "4584219749"
+  },
+  "nivel_educativo": "superior",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df24339139e"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391555"
+  },
+  "curp": "TXWI317052IWXLRYNN",
+  "nombre": "Ottilie",
+  "apellido1": "Wain",
+  "apellido2": "Adshede",
+  "estado_republica": "Coahuila",
+  "delegacion_municipio": "Kulutan",
+  "colonia": "Muyaka",
+  "direccion": "896 Katie Parkway",
+  "num_exterior": 241,
+  "num_interior": 779,
+  "fecha_nacimiento": "20/08/1972",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "XL",
+  "pantalon": "M",
+  "calzado": 20.2,
+  "banco": "Banco Invex",
+  "cuenta_bancaria": 7127920000000,
+  "email": "oadshede7@fastcompany.com",
+  "telefono_fijo": {
+    "$numberLong": "4704346578"
+  },
+  "telefono_movil": {
+    "$numberLong": "8951176944"
+  },
+  "nivel_educativo": "secundaria",
+  "situacion_educativa": "concluida",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df24339139f"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391556"
+  },
+  "curp": "QEFS096544PYNIRQ4D",
+  "nombre": "Emmalynn",
+  "apellido1": "Duddy",
+  "apellido2": "Mulkerrins",
+  "estado_republica": "Colima",
+  "delegacion_municipio": "Carianos",
+  "colonia": "Akebielidou",
+  "direccion": "54 Sauthoff Road",
+  "num_exterior": 90,
+  "num_interior": 99,
+  "codigo_postal": "37460-000",
+  "fecha_nacimiento": "15/12/1982",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "XL",
+  "pantalon": "S",
+  "calzado": 25.2,
+  "banco": "Fundación Dondé Banco",
+  "cuenta_bancaria": 9793870000000,
+  "email": "emulkerrins8@latimes.com",
+  "telefono_movil": {
+    "$numberLong": "5957680690"
+  },
+  "nivel_educativo": "secundaria",
+  "situacion_educativa": "cursando",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a0"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391557"
+  },
+  "curp": "YRSE218976ISXAYLR5",
+  "nombre": "Cristy",
+  "apellido1": "Filkov",
+  "apellido2": "Geekie",
+  "estado_republica": "Durango",
+  "delegacion_municipio": "Chuandao",
+  "colonia": "Heshang",
+  "direccion": "68 Elka Drive",
+  "num_exterior": 4744,
+  "num_interior": 63476,
+  "fecha_nacimiento": "07/10/1972",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "2XL",
+  "pantalon": "S",
+  "calzado": 29,
+  "banco": "Bansí",
+  "cuenta_bancaria": 7176340000000,
+  "email": "cgeekie9@bravesites.com",
+  "telefono_fijo": {
+    "$numberLong": "2211385245"
+  },
+  "telefono_movil": {
+    "$numberLong": "5023589616"
+  },
+  "nivel_educativo": "primaria",
+  "situacion_educativa": "concluida",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a1"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391558"
+  },
+  "curp": "CPOV836929MHMOZN1K",
+  "nombre": "Joachim",
+  "apellido1": "Hanrahan",
+  "apellido2": "Saltmarsh",
+  "estado_republica": "Estado de México",
+  "delegacion_municipio": "Kosów Lacki",
+  "colonia": "La Oroya",
+  "direccion": "1871 Schiller Junction",
+  "num_exterior": 8601,
+  "num_interior": 365,
+  "codigo_postal": "08-330",
+  "fecha_nacimiento": "11/10/1989",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "2XL",
+  "pantalon": "L",
+  "calzado": 20.5,
+  "banco": "Intercam Banco",
+  "cuenta_bancaria": 1961830000000,
+  "email": "jsaltmarsha@zdnet.com",
+  "telefono_fijo": 1047868434,
+  "telefono_movil": {
+    "$numberLong": "7618722383"
+  },
+  "nivel_educativo": "secundaria",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a2"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391559"
+  },
+  "curp": "RWTK053866NHPARLIO",
+  "nombre": "Mallory",
+  "apellido1": "Wennam",
+  "apellido2": "Kobpal",
+  "estado_republica": "Guanajuato",
+  "delegacion_municipio": "Gangba",
+  "colonia": "Goroka",
+  "direccion": "96270 Dixon Circle",
+  "num_exterior": 21762,
+  "num_interior": 8,
+  "fecha_nacimiento": "17/01/1988",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "S",
+  "pantalon": "3XL",
+  "calzado": 26.3,
+  "banco": "Banco Bancrea",
+  "cuenta_bancaria": 3987740000000,
+  "email": "mkobpalb@fema.gov",
+  "telefono_fijo": {
+    "$numberLong": "6022862052"
+  },
+  "telefono_movil": {
+    "$numberLong": "6763545588"
+  },
+  "nivel_educativo": "medio superior",
+  "situacion_educativa": "trunca",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a3"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339155a"
+  },
+  "curp": "CNZP072368PLWRHQPJ",
+  "nombre": "Hazlett",
+  "apellido1": "Barthrup",
+  "apellido2": "Mallett",
+  "estado_republica": "Guerrero",
+  "delegacion_municipio": "Maltahöhe",
+  "colonia": "Xishanzui",
+  "direccion": "021 Graceland Drive",
+  "num_exterior": 24235,
+  "num_interior": 2265,
+  "fecha_nacimiento": "13/12/1993",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "M",
+  "pantalon": "3XL",
+  "calzado": 25.2,
+  "banco": "Banco Inbursa",
+  "cuenta_bancaria": 1191120000000,
+  "email": "hmallettc@ning.com",
+  "telefono_fijo": {
+    "$numberLong": "5216602464"
+  },
+  "telefono_movil": {
+    "$numberLong": "3295332579"
+  },
+  "nivel_educativo": "superior",
+  "situacion_educativa": "trunca",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a4"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339155b"
+  },
+  "curp": "NPOP464441JIKHSOLO",
+  "nombre": "Jasen",
+  "apellido1": "Denness",
+  "apellido2": "Ygou",
+  "estado_republica": "Hidalgo",
+  "delegacion_municipio": "Néa Magnisía",
+  "colonia": "Zheyuan",
+  "direccion": "30 Helena Court",
+  "num_exterior": 32,
+  "num_interior": 96634,
+  "fecha_nacimiento": "23/11/1999",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "M",
+  "pantalon": "3XL",
+  "calzado": 21.6,
+  "banco": "Banco Ve por Más",
+  "cuenta_bancaria": 7882460000000,
+  "email": "jygoud@github.io",
+  "telefono_fijo": {
+    "$numberLong": "3005030886"
+  },
+  "telefono_movil": 1612423048,
+  "nivel_educativo": "primaria",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a5"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339155c"
+  },
+  "curp": "UABL948590PAZUAY8J",
+  "nombre": "Marshal",
+  "apellido1": "Brattan",
+  "estado_republica": "Jalisco",
+  "delegacion_municipio": "Zishan",
+  "colonia": "Fredrikstad",
+  "direccion": "71 Hollow Ridge Trail",
+  "num_exterior": 3,
+  "num_interior": 5029,
+  "fecha_nacimiento": "06/12/1992",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "M",
+  "pantalon": "S",
+  "calzado": 24.4,
+  "banco": "Banco Regional de Monterrey",
+  "cuenta_bancaria": 2050110000000,
+  "email": "mstraine@sfgate.com",
+  "telefono_fijo": {
+    "$numberLong": "7519478945"
+  },
+  "telefono_movil": {
+    "$numberLong": "5501809801"
+  },
+  "nivel_educativo": "superior",
+  "situacion_educativa": "trunca",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a6"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339155d"
+  },
+  "curp": "RBKB623502AARVTJ6T",
+  "nombre": "Cordelie",
+  "apellido1": "Greatbach",
+  "apellido2": "Bullcock",
+  "estado_republica": "Michoacán",
+  "delegacion_municipio": "Kotlas",
+  "colonia": "Tagnanan",
+  "direccion": "89012 Grayhawk Road",
+  "num_exterior": 930,
+  "num_interior": 240,
+  "codigo_postal": 443543,
+  "fecha_nacimiento": "19/09/1994",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "3XL",
+  "pantalon": "XS",
+  "calzado": 23.5,
+  "banco": "Banco Regional de Monterrey",
+  "cuenta_bancaria": 8191040000000,
+  "email": "cbullcockf@vistaprint.com",
+  "telefono_movil": {
+    "$numberLong": "2899585596"
+  },
+  "nivel_educativo": "primaria",
+  "situacion_educativa": "trunca",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a7"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339155e"
+  },
+  "curp": "TZEE438821DLZCJWKT",
+  "nombre": "Klement",
+  "apellido1": "Whiston",
+  "apellido2": "Burchmore",
+  "estado_republica": "Morelos",
+  "delegacion_municipio": "Karanggeneng",
+  "colonia": "Nansheng",
+  "direccion": "487 Grim Plaza",
+  "num_exterior": 71,
+  "num_interior": 9719,
+  "fecha_nacimiento": "21/04/1972",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "S",
+  "pantalon": "3XL",
+  "calzado": 26,
+  "banco": "Banco Actinver",
+  "cuenta_bancaria": 3693270000000,
+  "email": "kburchmoreg@google.co.jp",
+  "telefono_fijo": 1029356178,
+  "telefono_movil": {
+    "$numberLong": "5083955230"
+  },
+  "nivel_educativo": "secundaria",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a8"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339155f"
+  },
+  "curp": "EIPK787677QXGDQW9Q",
+  "nombre": "Hazel",
+  "apellido1": "Fyers",
+  "estado_republica": "Nayarit",
+  "delegacion_municipio": "Kawambwa",
+  "colonia": "Araçoiaba da Serra",
+  "direccion": "82 Farwell Junction",
+  "num_exterior": 738,
+  "num_interior": 0,
+  "fecha_nacimiento": "16/08/1978",
+  "genero": "Non-binary",
+  "nacionalidad": "mexicano",
+  "playera": "L",
+  "pantalon": "XS",
+  "calzado": 24.9,
+  "banco": "Banco Compartamos",
+  "cuenta_bancaria": 5347340000000,
+  "email": "hloughanh@senate.gov",
+  "telefono_fijo": 1548262548,
+  "nivel_educativo": "secundaria",
+  "situacion_educativa": "cursando",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913a9"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391560"
+  },
+  "curp": "BSXH088951UDDXAJA2",
+  "nombre": "Shurwood",
+  "apellido1": "Yglesia",
+  "apellido2": "Watt",
+  "estado_republica": "Nuevo León",
+  "delegacion_municipio": "Tsiroanomandidy",
+  "colonia": "Khovaling",
+  "direccion": "21 Cardinal Trail",
+  "num_exterior": 89,
+  "num_interior": 9105,
+  "fecha_nacimiento": "15/02/1991",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "3XL",
+  "pantalon": "XS",
+  "calzado": 24.2,
+  "banco": "Revolut",
+  "cuenta_bancaria": 3523420000000,
+  "email": "swatti@uiuc.edu",
+  "telefono_fijo": {
+    "$numberLong": "5283720982"
+  },
+  "telefono_movil": {
+    "$numberLong": "3288086907"
+  },
+  "nivel_educativo": "superior",
+  "situacion_educativa": "concluida",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913aa"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391561"
+  },
+  "curp": "MZLB684814IXZATUZU",
+  "nombre": "Rosemarie",
+  "apellido1": "Pawsey",
+  "apellido2": "Kennealy",
+  "estado_republica": "Oaxaca",
+  "delegacion_municipio": "Toride",
+  "colonia": "Butha-Buthe",
+  "direccion": "8 Summit Crossing",
+  "num_exterior": 32,
+  "num_interior": 67442,
+  "codigo_postal": "302-0004",
+  "fecha_nacimiento": "08/12/1990",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "S",
+  "pantalon": "L",
+  "calzado": 22.6,
+  "banco": "Fundación Dondé Banco",
+  "cuenta_bancaria": 4408350000000,
+  "email": "rkennealyj@sphinn.com",
+  "telefono_fijo": {
+    "$numberLong": "3236566668"
+  },
+  "telefono_movil": {
+    "$numberLong": "6281858314"
+  },
+  "nivel_educativo": "medio superior",
+  "situacion_educativa": "concluida",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913ab"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391562"
+  },
+  "curp": "UKBK108754KRXOHG23",
+  "nombre": "Eada",
+  "apellido1": "Vicarey",
+  "apellido2": "Murden",
+  "estado_republica": "Puebla",
+  "delegacion_municipio": "Krasnokholmskiy",
+  "colonia": "Czerniewice",
+  "direccion": "5 Eagle Crest Plaza",
+  "num_exterior": 914,
+  "num_interior": 3,
+  "codigo_postal": 452857,
+  "fecha_nacimiento": "18/07/1972",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "XL",
+  "pantalon": "XL",
+  "calzado": 26.6,
+  "banco": "Banco S3 Caceis México",
+  "cuenta_bancaria": 504582000000,
+  "email": "emurdenk@histats.com",
+  "nivel_educativo": "primaria",
+  "situacion_educativa": "concluida",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913ac"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391563"
+  },
+  "curp": "PHWX440233YRDXHHAO",
+  "nombre": "Blane",
+  "apellido1": "Pristnor",
+  "apellido2": "Trewin",
+  "estado_republica": "Querétaro",
+  "delegacion_municipio": "Vaiņode",
+  "colonia": "Nueva Imperial",
+  "direccion": "31732 Graceland Road",
+  "num_exterior": 34872,
+  "num_interior": 29933,
+  "fecha_nacimiento": "25/03/1970",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "L",
+  "pantalon": "M",
+  "calzado": 25.5,
+  "banco": "Bank of China Mexico",
+  "cuenta_bancaria": 5893450000000,
+  "email": "btrewinl@google.pl",
+  "telefono_movil": {
+    "$numberLong": "4114754706"
+  },
+  "nivel_educativo": "primaria",
+  "situacion_educativa": "trunca",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913ad"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391564"
+  },
+  "curp": "ORBK546036YOTTDWL3",
+  "nombre": "Oby",
+  "apellido1": "Palfrey",
+  "apellido2": "Tremble",
+  "estado_republica": "Quintana Roo",
+  "delegacion_municipio": "Thị Trấn Sìn Hồ",
+  "colonia": "Fulu",
+  "direccion": "7482 Havey Street",
+  "num_exterior": 4,
+  "num_interior": 79049,
+  "fecha_nacimiento": "11/04/1970",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "3XL",
+  "pantalon": "XL",
+  "calzado": 25.1,
+  "banco": "Banca Mifel",
+  "cuenta_bancaria": 3647560000000,
+  "email": "otremblem@java.com",
+  "telefono_fijo": {
+    "$numberLong": "6507479464"
+  },
+  "telefono_movil": {
+    "$numberLong": "5781915947"
+  },
+  "nivel_educativo": "superior",
+  "situacion_educativa": "concluida",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913ae"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391565"
+  },
+  "curp": "ZDCZ714258JWARUEVV",
+  "nombre": "Clemmy",
+  "apellido1": "Colombier",
+  "apellido2": "Simison",
+  "estado_republica": "San Luis Potosí",
+  "delegacion_municipio": "São João do Campo",
+  "colonia": "Matinha",
+  "direccion": "4552 Ludington Park",
+  "num_exterior": 3069,
+  "num_interior": 744,
+  "codigo_postal": "3025-419",
+  "fecha_nacimiento": "01/12/1989",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "S",
+  "pantalon": "M",
+  "calzado": 27.5,
+  "banco": "Scotiabank",
+  "cuenta_bancaria": 6190980000000,
+  "email": "csimisonn@wordpress.com",
+  "telefono_movil": {
+    "$numberLong": "9979611407"
+  },
+  "nivel_educativo": "secundaria",
+  "situacion_educativa": "concluida",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913af"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391566"
+  },
+  "curp": "ZMFQ215463QPLDDH0A",
+  "nombre": "Niki",
+  "apellido1": "Reddie",
+  "apellido2": "Timmes",
+  "estado_republica": "Sinaloa",
+  "delegacion_municipio": "Skovorodino",
+  "colonia": "Ilovlya",
+  "direccion": "194 Ohio Hill",
+  "num_exterior": 71115,
+  "num_interior": 3496,
+  "codigo_postal": 676015,
+  "fecha_nacimiento": "28/03/1992",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "2XL",
+  "pantalon": "M",
+  "calzado": 25.1,
+  "banco": "Consubanco",
+  "cuenta_bancaria": 9178750000000,
+  "email": "ntimmeso@epa.gov",
+  "telefono_fijo": {
+    "$numberLong": "8484457685"
+  },
+  "telefono_movil": {
+    "$numberLong": "8825754161"
+  },
+  "nivel_educativo": "superior",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913b0"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391567"
+  },
+  "curp": "TOGE119914MKHILIFM",
+  "nombre": "Sabrina",
+  "apellido1": "Klisch",
+  "apellido2": "Ducker",
+  "estado_republica": "Sonora",
+  "delegacion_municipio": "Soritor",
+  "colonia": "Krásná Lípa",
+  "direccion": "41293 International Parkway",
+  "num_exterior": 3,
+  "num_interior": 25,
+  "fecha_nacimiento": "28/01/1976",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "S",
+  "pantalon": "M",
+  "calzado": 23.4,
+  "banco": "Banco Covalto",
+  "cuenta_bancaria": 5818110000000,
+  "email": "sduckerp@chicagotribune.com",
+  "telefono_movil": {
+    "$numberLong": "5256009212"
+  },
+  "nivel_educativo": "medio superior",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913b1"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391568"
+  },
+  "curp": "AIJI285612NZNWRHXW",
+  "nombre": "Bendicty",
+  "apellido1": "Broader",
+  "apellido2": "Cornborough",
+  "estado_republica": "Tabasco",
+  "delegacion_municipio": "Svetogorsk",
+  "colonia": "Maogou",
+  "direccion": "622 Spenser Road",
+  "num_exterior": 39009,
+  "num_interior": 10,
+  "codigo_postal": 188992,
+  "fecha_nacimiento": "06/03/1978",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "L",
+  "pantalon": "M",
+  "calzado": 20.4,
+  "banco": "Openbank",
+  "cuenta_bancaria": 3664160000000,
+  "email": "bcornboroughq@xrea.com",
+  "telefono_fijo": {
+    "$numberLong": "3781537038"
+  },
+  "telefono_movil": {
+    "$numberLong": "3456614984"
+  },
+  "nivel_educativo": "primaria",
+  "situacion_educativa": "trunca",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913b2"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df243391569"
+  },
+  "curp": "DEYY300194QMNDJRPK",
+  "nombre": "Feliza",
+  "apellido1": "Bramer",
+  "apellido2": "Heam",
+  "estado_republica": "Tamaulipas",
+  "delegacion_municipio": "Nambalan",
+  "colonia": "Changpo",
+  "direccion": "79 Kipling Park",
+  "num_exterior": 542,
+  "num_interior": 2,
+  "codigo_postal": 2600,
+  "fecha_nacimiento": "27/08/1977",
+  "genero": "Female",
+  "nacionalidad": "mexicano",
+  "playera": "2XL",
+  "pantalon": "2XL",
+  "calzado": 24.4,
+  "banco": "Barclays Bank México",
+  "cuenta_bancaria": 6793020000000,
+  "email": "fheamr@amazon.co.uk",
+  "telefono_fijo": {
+    "$numberLong": "6759178468"
+  },
+  "telefono_movil": {
+    "$numberLong": "3732069338"
+  },
+  "nivel_educativo": "superior",
+  "situacion_educativa": "concluida",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913b3"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339156a"
+  },
+  "curp": "SFRL906957HEGZKFLZ",
+  "nombre": "Spence",
+  "apellido1": "Halbard",
+  "apellido2": "Noad",
+  "estado_republica": "Tlaxcala",
+  "delegacion_municipio": "Saynshand",
+  "colonia": "Néos Mylótopos",
+  "direccion": "9 Dayton Street",
+  "num_exterior": 1963,
+  "num_interior": 31,
+  "fecha_nacimiento": "16/01/1986",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "M",
+  "pantalon": "3XL",
+  "calzado": 27.3,
+  "banco": "Bansí",
+  "cuenta_bancaria": 9820580000000,
+  "email": "snoads@shinystat.com",
+  "telefono_fijo": {
+    "$numberLong": "3267312314"
+  },
+  "telefono_movil": {
+    "$numberLong": "2504396652"
+  },
+  "nivel_educativo": "secundaria",
+  "situacion_educativa": "cursando",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913b4"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339156b"
+  },
+  "curp": "LSIE172228JFZWXMV9",
+  "nombre": "Donnie",
+  "apellido1": "Dy",
+  "apellido2": "Wiggett",
+  "estado_republica": "Veracruz",
+  "delegacion_municipio": "Zhangxiang",
+  "colonia": "Loštice",
+  "direccion": "91 Portage Plaza",
+  "num_exterior": 6,
+  "num_interior": 17255,
+  "fecha_nacimiento": "29/09/1989",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "2XL",
+  "pantalon": "L",
+  "calzado": 23.5,
+  "banco": "Banco Covalto",
+  "cuenta_bancaria": 1167750000000,
+  "email": "dwiggettt@wsj.com",
+  "telefono_fijo": {
+    "$numberLong": "6757793054"
+  },
+  "telefono_movil": 1082145998,
+  "nivel_educativo": "secundaria",
+  "situacion_educativa": "concluida",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913b5"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339156c"
+  },
+  "curp": "YUZX134131KIVIGYSY",
+  "nombre": "Luigi",
+  "apellido1": "Alenin",
+  "apellido2": "Westmarland",
+  "estado_republica": "Yucatán",
+  "delegacion_municipio": "Qukuhu",
+  "colonia": "Putang",
+  "direccion": "84 Dennis Court",
+  "num_exterior": 8817,
+  "num_interior": 25,
+  "fecha_nacimiento": "28/03/1995",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "2XL",
+  "pantalon": "M",
+  "calzado": 22.5,
+  "banco": "Banca Afirme",
+  "cuenta_bancaria": 4191600000000,
+  "email": "lwestmarlandu@abc.net.au",
+  "telefono_fijo": {
+    "$numberLong": "4212134801"
+  },
+  "telefono_movil": 1441946530,
+  "nivel_educativo": "medio superior",
+  "situacion_educativa": "trunca",
+  "lengua": true,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913b6"
+},
+{
+  "_id": {
+    "$oid": "67765e9b08303df24339156d"
+  },
+  "curp": "ERSM668245LMGVYNXU",
+  "nombre": "Rolf",
+  "apellido1": "Kaspar",
+  "apellido2": "Madgwich",
+  "estado_republica": "Zacatecas",
+  "delegacion_municipio": "Shishang",
+  "colonia": "Opechenskiy Posad",
+  "direccion": "709 3rd Center",
+  "num_exterior": 7655,
+  "num_interior": 9,
+  "fecha_nacimiento": "01/08/1984",
+  "genero": "Male",
+  "nacionalidad": "mexicano",
+  "playera": "3XL",
+  "pantalon": "XS",
+  "calzado": 27.6,
+  "banco": "BBVA México",
+  "cuenta_bancaria": 3327060000000,
+  "email": "rmadgwichv@nasa.gov",
+  "telefono_fijo": 2069446474,
+  "nivel_educativo": "primaria",
+  "situacion_educativa": "concluida",
+  "lengua": false,
+  "estado": "apoyo",
+  "sede": "6775fe0f08303df2433913b7"
+}]

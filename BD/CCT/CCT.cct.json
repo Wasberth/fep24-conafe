@@ -1,0 +1,3894 @@
+[{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22be"
+  },
+  "clave": "29DJN0026T",
+  "nombre": "AGUSTIN MELGAR",
+  "estado": "AGUASCALIENTES",
+  "municipio": "TEPEZALA",
+  "comunidad": "Tepezala",
+  "latitud": "22.2241419",
+  "longitud": "-102.1738022",
+  "sede": "Calle Valentin Gomez Farias No. 714, Barrio de Guadalupe, C.P. 20050, Aguascalientes, Aguascalientes",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22bf"
+  },
+  "clave": "06DJN0021N",
+  "nombre": "ROSAURA ZAPATA",
+  "estado": "AGUASCALIENTES",
+  "municipio": "RINCON DE ROMOS",
+  "comunidad": "Rincon de Romos",
+  "latitud": "22.2337754",
+  "longitud": "-102.3256015",
+  "sede": "Calle Valentin Gomez Farias No. 714, Barrio de Guadalupe, C.P. 20050, Aguascalientes, Aguascalientes",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c0"
+  },
+  "clave": "01DJN0028L",
+  "nombre": "JARDÍN DE NIÑIS BENITO JUAREZ",
+  "estado": "AGUASCALIENTES",
+  "municipio": "JESUS MARIA",
+  "comunidad": "Jesus Maria",
+  "latitud": "21.9671957",
+  "longitud": "-102.3432684",
+  "sede": "Calle Valentin Gomez Farias No. 714, Barrio de Guadalupe, C.P. 20050, Aguascalientes, Aguascalientes",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c1"
+  },
+  "clave": "27EJN1776B",
+  "nombre": "JUAN ESCUTIA",
+  "estado": "AGUASCALIENTES",
+  "municipio": "AGUASCALIENTES",
+  "comunidad": "Aguascalientes",
+  "latitud": "21.8822368",
+  "longitud": "-102.2737528",
+  "sede": "Calle Valentin Gomez Farias No. 714, Barrio de Guadalupe, C.P. 20050, Aguascalientes, Aguascalientes",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c2"
+  },
+  "clave": "21DCC0412E",
+  "nombre": "JUAN DE LA BARRERA",
+  "estado": "JALISCO",
+  "municipio": "SAN JOSE DE GRACIA",
+  "comunidad": "San Jose de Gracia",
+  "latitud": "20.6744968",
+  "longitud": "-102.5674324",
+  "sede": "Av. Federalismo Norte #1990, Col. Guadalupana, C.P. 44220, Guadalajara, Jalisco",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c3"
+  },
+  "clave": "01DML0001D",
+  "nombre": "CENTRO DE ATENCION MULTIPLE VIII",
+  "estado": "AGUASCALIENTES",
+  "municipio": "PABELLON DE ARTEAGA",
+  "comunidad": "Pabellon de Arteaga",
+  "latitud": "22.144474",
+  "longitud": "-102.274822",
+  "sede": "Calle Valentin Gomez Farias No. 714, Barrio de Guadalupe, C.P. 20050, Aguascalientes, Aguascalientes",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c4"
+  },
+  "clave": "01FUA0016G",
+  "nombre": "USAER16",
+  "estado": "AGUASCALIENTES",
+  "municipio": "CALVILLO",
+  "comunidad": "Calvillo",
+  "latitud": "21.8468345",
+  "longitud": "-102.7186454",
+  "sede": "Calle Valentin Gomez Farias No. 714, Barrio de Guadalupe, C.P. 20050, Aguascalientes, Aguascalientes",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c5"
+  },
+  "clave": "02DCC0016Q",
+  "nombre": "XOCHIKALLI",
+  "estado": "BAJA CALIFORNIA",
+  "municipio": "ENSENADA",
+  "comunidad": "Ensenada",
+  "latitud": "31.8667427",
+  "longitud": "-116.5963713",
+  "sede": "Pioneros y Calafia #1100, 22do piso, Centro Civico Comercial, C.P. 2100, Mexicali, Baja California",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c6"
+  },
+  "clave": "02DCC0023Z",
+  "nombre": "COYOLXAUHQUI",
+  "estado": "BAJA CALIFORNIA",
+  "municipio": "TIJUANA",
+  "comunidad": "Tijuana",
+  "latitud": "32.4973042",
+  "longitud": "-116.8672685",
+  "sede": "Pioneros y Calafia #1100, 22do piso, Centro Civico Comercial, C.P. 2100, Mexicali, Baja California",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c7"
+  },
+  "clave": "02DJN0002C",
+  "nombre": "J.N.CIRIA COTA",
+  "estado": "BAJA CALIFORNIA",
+  "municipio": "MEXICALI",
+  "comunidad": "Mexicali",
+  "latitud": "32.6576557",
+  "longitud": "-115.5328049",
+  "sede": "Pioneros y Calafia #1100, 22do piso, Centro Civico Comercial, C.P. 2100, Mexicali, Baja California",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c8"
+  },
+  "clave": "02DJN0257D",
+  "nombre": "ROSARIO ROLDAN",
+  "estado": "BAJA CALIFORNIA",
+  "municipio": "TECATE",
+  "comunidad": "Tecate",
+  "latitud": "32.563609",
+  "longitud": "-116.6256752",
+  "sede": "Pioneros y Calafia #1100, 22do piso, Centro Civico Comercial, C.P. 2100, Mexicali, Baja California",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22c9"
+  },
+  "clave": "02DJN0415C",
+  "nombre": "RAQUEL GOMEZ MARQUEZ",
+  "estado": "BAJA CALIFORNIA",
+  "municipio": "PLAYAS DE ROSARITO",
+  "comunidad": "Rosarito",
+  "latitud": "32.3661011",
+  "longitud": "-117.0617553",
+  "sede": "Pioneros y Calafia #1100, 22do piso, Centro Civico Comercial, C.P. 2100, Mexicali, Baja California",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22ca"
+  },
+  "clave": "03DJN0082D",
+  "nombre": "JARDIN DE NIÑOS PABLO L. MARTÍNEZ",
+  "estado": "BAJA CALIFORNIA SUR",
+  "municipio": "LORETO",
+  "comunidad": "Loreto",
+  "latitud": "26.0008744",
+  "longitud": "-111.3438604",
+  "sede": "Calle Erizo de Mar #4796, Col. Esperanza III, C.P. 23090, La Paz, Baja California Sur",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22cb"
+  },
+  "clave": "03DJN0161Q",
+  "nombre": "JARDIN DE NIÑOS GABRIELA MISTRAL",
+  "estado": "BAJA CALIFORNIA SUR",
+  "municipio": "LA PAZ",
+  "comunidad": "La Paz",
+  "latitud": "24.1521074",
+  "longitud": "-110.2638463",
+  "sede": "Calle Erizo de Mar #4796, Col. Esperanza III, C.P. 23090, La Paz, Baja California Sur",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22cc"
+  },
+  "clave": "03DML0003Z",
+  "nombre": "C.A.M. JUAN PEDRIN CASTILLO",
+  "estado": "BAJA CALIFORNIA SUR",
+  "municipio": "LOS CABOS",
+  "comunidad": "San Jose del Cabo",
+  "latitud": "23.0998184",
+  "longitud": "-109.7188674",
+  "sede": "Calle Erizo de Mar #4796, Col. Esperanza III, C.P. 23090, La Paz, Baja California Sur",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22cd"
+  },
+  "clave": "03FUA0033V",
+  "nombre": "UNIDAD DE SERVICIOS DE APOYO A LA EDUCACION REGULAR 33V",
+  "estado": "BAJA CALIFORNIA SUR",
+  "municipio": "COMONDU",
+  "comunidad": "Comondu",
+  "latitud": "26.0707889",
+  "longitud": "-111.8442001",
+  "sede": "Calle Erizo de Mar #4796, Col. Esperanza III, C.P. 23090, La Paz, Baja California Sur",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22ce"
+  },
+  "clave": "03FUA0037R",
+  "nombre": "USAER 37R",
+  "estado": "BAJA CALIFORNIA SUR",
+  "municipio": "MULEGE",
+  "comunidad": "Mulege",
+  "latitud": "26.8922164",
+  "longitud": "-111.9835831",
+  "sede": "Calle Erizo de Mar #4796, Col. Esperanza III, C.P. 23090, La Paz, Baja California Sur",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22cf"
+  },
+  "clave": "04DCC0003K",
+  "nombre": "PREESCOLAR INDÍGENA \"CUAUHTEMOC\"",
+  "estado": "CAMPECHE",
+  "municipio": "CALKINI",
+  "comunidad": "Dzitbalche",
+  "latitud": "20.3284365",
+  "longitud": "-90.0537776",
+  "sede": "Av. 16 de septiembre, S/N 1er piso Palacio Federal, Zona Centro San Francisco de Campeche, Campeche, Camp. C.P. 24000",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22d0"
+  },
+  "clave": "04DCC0016O",
+  "nombre": "CECILIO CHI",
+  "estado": "CAMPECHE",
+  "municipio": "HOPELCHEN",
+  "comunidad": "Hopelchen",
+  "latitud": "19.7472419",
+  "longitud": "-89.8424644",
+  "sede": "Av. 16 de septiembre, S/N 1er piso Palacio Federal, Zona Centro San Francisco de Campeche, Campeche, Camp. C.P. 24000",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22d1"
+  },
+  "clave": "25DJN0306G",
+  "nombre": "MIGUEL HIDALGO",
+  "estado": "CAMPECHE",
+  "municipio": "CAMPECHE",
+  "comunidad": "San Francisco de Campeche",
+  "latitud": "19.8141678",
+  "longitud": "-90.5393721",
+  "sede": "Av. 16 de septiembre, S/N 1er piso Palacio Federal, Zona Centro San Francisco de Campeche, Campeche, Camp. C.P. 24000",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22d2"
+  },
+  "clave": "04DCC0081O",
+  "nombre": "NARCISO MENDOSA",
+  "estado": "CAMPECHE",
+  "municipio": "HECELCHAKAN",
+  "comunidad": "Hecelchakan Municipality",
+  "latitud": "20.1819021",
+  "longitud": "-90.1354586",
+  "sede": "Av. 16 de septiembre, S/N 1er piso Palacio Federal, Zona Centro San Francisco de Campeche, Campeche, Camp. C.P. 24000",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22d3"
+  },
+  "clave": "04DJN0015E",
+  "nombre": "ALMA INFANTIL",
+  "estado": "CAMPECHE",
+  "municipio": "ESCARCEGA",
+  "comunidad": "Escarcega",
+  "latitud": "18.6101834",
+  "longitud": "-90.7390245",
+  "sede": "Av. 16 de septiembre, S/N 1er piso Palacio Federal, Zona Centro San Francisco de Campeche, Campeche, Camp. C.P. 24000",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22d5"
+  },
+  "clave": "05DJN0002Z",
+  "nombre": "SINFONIA",
+  "estado": "COAHUILA",
+  "municipio": "TORREON",
+  "comunidad": "Torreon",
+  "latitud": "25.5428443",
+  "longitud": "-103.4067861",
+  "sede": "Paseo Reforma #1500, Col. Provivienda, C.P. 25020, Saltillo, Coahuila",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22d6"
+  },
+  "clave": "05DJN0126I",
+  "nombre": "JARDIN DE NIÑOS OTILA BOONE",
+  "estado": "COAHUILA",
+  "municipio": "SALTILLO",
+  "comunidad": "Saltillo",
+  "latitud": "25.4383234",
+  "longitud": "-100.973678",
+  "sede": "Paseo Reforma #1500, Col. Provivienda, C.P. 25020, Saltillo, Coahuila",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22d7"
+  },
+  "clave": "05DJN0311E",
+  "nombre": "ADOLFO LOPEZ MATEO",
+  "estado": "COAHUILA",
+  "municipio": "VIESCA",
+  "comunidad": "Viesca Municipality",
+  "latitud": "25.3453848",
+  "longitud": "-102.8083503",
+  "sede": "Paseo Reforma #1500, Col. Provivienda, C.P. 25020, Saltillo, Coahuila",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22d8"
+  },
+  "clave": "05DJN0833L",
+  "nombre": "J. DE N. INDEPENDENCIA",
+  "estado": "COAHUILA",
+  "municipio": "PARRAS",
+  "comunidad": "Parras de la Fuente",
+  "latitud": "25.4492883",
+  "longitud": "-102.1747077",
+  "sede": "Paseo Reforma #1500, Col. Provivienda, C.P. 25020, Saltillo, Coahuila",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22d9"
+  },
+  "clave": "05DJN1067Q",
+  "nombre": "DIANA LAURA RIOJAS DE COLOSIO",
+  "estado": "COAHUILA",
+  "municipio": "SAN JUAN DE SABINAS",
+  "comunidad": "San Juan de Sabinas Municipality",
+  "latitud": "27.9270787",
+  "longitud": "-101.3023954",
+  "sede": "Paseo Reforma #1500, Col. Provivienda, C.P. 25020, Saltillo, Coahuila",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22da"
+  },
+  "clave": "05EJN0013E",
+  "nombre": "JARDIN DE NIÑOS PROFR. FEDERICO BERRUETO RAMÓN",
+  "estado": "COAHUILA",
+  "municipio": "MUZQUIZ",
+  "comunidad": "Melchor Muzquiz",
+  "latitud": "27.8788152",
+  "longitud": "-101.5161615",
+  "sede": "Paseo Reforma #1500, Col. Provivienda, C.P. 25020, Saltillo, Coahuila",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22db"
+  },
+  "clave": "05FUA0178O",
+  "nombre": "USAER 149",
+  "estado": "COAHUILA",
+  "municipio": "RAMOS ARIZPE",
+  "comunidad": "Ramos Arizpe",
+  "latitud": "25.5411499",
+  "longitud": "-100.9483074",
+  "sede": "Paseo Reforma #1500, Col. Provivienda, C.P. 25020, Saltillo, Coahuila",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22dc"
+  },
+  "clave": "06DJN0005W",
+  "nombre": "JOSE JUAN ORTEGA",
+  "estado": "COLIMA",
+  "municipio": "COMALA",
+  "comunidad": "Comala",
+  "latitud": "19.3190634",
+  "longitud": "-103.7549847",
+  "sede": "Centro de Maestros Regional Carretera Comala Villa de Alvarez Km. 5, C.P. 28450, Comala, Colima",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22dd"
+  },
+  "clave": "06DJN0017A",
+  "nombre": "MA. GUADALUPOE VIZCARRA",
+  "estado": "COLIMA",
+  "municipio": "TECOMAN",
+  "comunidad": "Tecoman",
+  "latitud": "18.9173829",
+  "longitud": "-103.8738031",
+  "sede": "Centro de Maestros Regional Carretera Comala Villa de Alvarez Km. 5, C.P. 28450, Comala, Colima",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22de"
+  },
+  "clave": "06DJN0049T",
+  "nombre": "J/N \"GABRIELA MISTRAL\"",
+  "estado": "COLIMA",
+  "municipio": "COQUIMATLAN",
+  "comunidad": "Coquimatlan",
+  "latitud": "19.203787",
+  "longitud": "-103.8086163",
+  "sede": "Centro de Maestros Regional Carretera Comala Villa de Alvarez Km. 5, C.P. 28450, Comala, Colima",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22df"
+  },
+  "clave": "27EJN1776B",
+  "nombre": "JUAN ESCUTIA",
+  "estado": "COLIMA",
+  "municipio": "MANZANILLO",
+  "comunidad": "Manzanillo",
+  "latitud": "19.067286",
+  "longitud": "-104.2813135",
+  "sede": "Centro de Maestros Regional Carretera Comala Villa de Alvarez Km. 5, C.P. 28450, Comala, Colima",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e0"
+  },
+  "clave": "06DJN0119Y",
+  "nombre": "PORFIRIO GAYTAN NUÑEZ",
+  "estado": "COLIMA",
+  "municipio": "VILLA DE ALVAREZ",
+  "comunidad": "Ciudad de Villa de Alvarez",
+  "latitud": "19.2571272",
+  "longitud": "-103.7492383",
+  "sede": "Centro de Maestros Regional Carretera Comala Villa de Alvarez Km. 5, C.P. 28450, Comala, Colima",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e1"
+  },
+  "clave": "27FUA0004J",
+  "nombre": "USAER 38",
+  "estado": "COLIMA",
+  "municipio": "IXTLAHUACAN",
+  "comunidad": "Ixtlahuacan",
+  "latitud": "18.9995683",
+  "longitud": "-103.7364169",
+  "sede": "Centro de Maestros Regional Carretera Comala Villa de Alvarez Km. 5, C.P. 28450, Comala, Colima",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e2"
+  },
+  "clave": "10DDI0001Q",
+  "nombre": "CENDI 3",
+  "estado": "DURANGO",
+  "municipio": "DURANGO",
+  "comunidad": "Durango",
+  "latitud": "24.0248409",
+  "longitud": "-104.6608131",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e3"
+  },
+  "clave": "10DJN0071H",
+  "nombre": "J.DE N. PIPILA",
+  "estado": "DURANGO",
+  "municipio": "GOMEZ PALACIO",
+  "comunidad": "Gomez Palacio",
+  "latitud": "25.5781849",
+  "longitud": "-103.4965219",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e4"
+  },
+  "clave": "29DJN0038Y",
+  "nombre": "FERNANDO MONTES DE OCA",
+  "estado": "DURANGO",
+  "municipio": "CUENCAME",
+  "comunidad": "Cuencame",
+  "latitud": "24.8684207",
+  "longitud": "-103.6972217",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e5"
+  },
+  "clave": "10DJN0139Y",
+  "nombre": "GUADALUPE PATONI DE RUEDA",
+  "estado": "DURANGO",
+  "municipio": "NUEVO IDEAL",
+  "comunidad": "Nuevo Ideal",
+  "latitud": "24.8851705",
+  "longitud": "-105.0761999",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e6"
+  },
+  "clave": "10DJN0141M",
+  "nombre": "VASCO DE QUIROGA",
+  "estado": "DURANGO",
+  "municipio": "CANATLAN",
+  "comunidad": "Ciudad Canatlan",
+  "latitud": "24.5218774",
+  "longitud": "-104.7725134",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e7"
+  },
+  "clave": "10DJN0203I",
+  "nombre": "JOAQUIN FERNANDEZ DE LIZARDI",
+  "estado": "DURANGO",
+  "municipio": "GUADALUPE VICTORIA",
+  "comunidad": "Ciudad Guadalupe Victoria",
+  "latitud": "24.4275428",
+  "longitud": "-104.0454193",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e8"
+  },
+  "clave": "10DJN0322W",
+  "nombre": "HERMENEGILDO GALEANA",
+  "estado": "DURANGO",
+  "municipio": "MAPIMI",
+  "comunidad": "Mapimi",
+  "latitud": "25.833708",
+  "longitud": "-103.8487392",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22e9"
+  },
+  "clave": "10DJN0326S",
+  "nombre": "PABLO NERUDA",
+  "estado": "DURANGO",
+  "municipio": "GENERAL SIMON BOLIVAR",
+  "comunidad": "General Simon Bolivar",
+  "latitud": "24.6879934",
+  "longitud": "-103.2238096",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22ea"
+  },
+  "clave": "10DJN0477Y",
+  "nombre": "ALFONSO REYES",
+  "estado": "DURANGO",
+  "municipio": "TLAHUALILO",
+  "comunidad": "Tlahualilo de Zaragoza",
+  "latitud": "26.1050969",
+  "longitud": "-103.4417126",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22eb"
+  },
+  "clave": "10DJN0505D",
+  "nombre": "JUVENTINO ROSAS",
+  "estado": "DURANGO",
+  "municipio": "SANTIAGO PAPASQUIARO",
+  "comunidad": "Santiago Papasquiaro",
+  "latitud": "25.0426222",
+  "longitud": "-105.4243804",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22ec"
+  },
+  "clave": "10DML0003J",
+  "nombre": "CENTRO DE ATENCIÓN MÚLTIPLES RODEO DGO.",
+  "estado": "DURANGO",
+  "municipio": "RODEO",
+  "comunidad": "Rodeo",
+  "latitud": "25.1809719",
+  "longitud": "-104.5557836",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22ed"
+  },
+  "clave": "10DML0031F",
+  "nombre": "CENTRO DE ATENCIÓN MÚLTIPLE SAN JUAN DEL RÍO",
+  "estado": "DURANGO",
+  "municipio": "SAN JUAN DEL RIO",
+  "comunidad": "San Juan del Rio Municipality",
+  "latitud": "24.7825839",
+  "longitud": "-104.4575171",
+  "sede": "20 de Noviembre Ote. #1011-B, zona centro (S13), C.P. 34000, Durango, Durango",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22ee"
+  },
+  "clave": "21DJN0052Z",
+  "nombre": "JAIME TORRES BODET",
+  "estado": "JALISCO",
+  "municipio": "YAHUALICA",
+  "comunidad": "Yahualica de Gonzalez Gallo",
+  "latitud": "21.1782822",
+  "longitud": "-102.8831247",
+  "sede": "Av. Federalismo Norte #1990, Col. Guadalupana, C.P. 44220, Guadalajara, Jalisco",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22ef"
+  },
+  "clave": "13DCC0801M",
+  "nombre": "JOSE LOPEZ PORTILLO",
+  "estado": "HIDALGO",
+  "municipio": "HUAZALINGO",
+  "comunidad": "Huazalingo",
+  "latitud": "20.9785884",
+  "longitud": "-98.5068869",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f0"
+  },
+  "clave": "13DJN0013O",
+  "nombre": "JULIO VERNE",
+  "estado": "HIDALGO",
+  "municipio": "ZEMPOALA",
+  "comunidad": "Zempoala",
+  "latitud": "19.913647",
+  "longitud": "-98.6683097",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f1"
+  },
+  "clave": "32DJN0170T",
+  "nombre": "IGNACIO MANUEL ALTAMIRANO",
+  "estado": "HIDALGO",
+  "municipio": "SAN AGUSTIN TLAXIACA",
+  "comunidad": "San Agustin Tlaxiaca",
+  "latitud": "20.1155111",
+  "longitud": "-98.8831506",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f2"
+  },
+  "clave": "13DJN0032C",
+  "nombre": "SEVERA TOLEDO RENDON",
+  "estado": "HIDALGO",
+  "municipio": "HUEJUTLA DE REYES",
+  "comunidad": "Huejutla de Reyes",
+  "latitud": "21.1411168",
+  "longitud": "-98.4219626",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f3"
+  },
+  "clave": "13DJN0033B",
+  "nombre": "JARDIN DE NIÑOS PRO PATRIA",
+  "estado": "HIDALGO",
+  "municipio": "MINERAL DEL MONTE",
+  "comunidad": "Mineral del Monte",
+  "latitud": "20.1409809",
+  "longitud": "-98.6730543",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f4"
+  },
+  "clave": "28DJN0168S",
+  "nombre": "CLUB DE LEONES",
+  "estado": "HIDALGO",
+  "municipio": "PROGRESO DE OBREGON",
+  "comunidad": "Progreso de Obregon",
+  "latitud": "20.2446838",
+  "longitud": "-99.18929",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f5"
+  },
+  "clave": "13DJN0048D",
+  "nombre": "JARDIN DE NIÑOS LEOPOLDO RUIZ",
+  "estado": "HIDALGO",
+  "municipio": "PACHUCA DE SOTO",
+  "comunidad": "Pachuca",
+  "latitud": "20.1010608",
+  "longitud": "-98.7591311",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f6"
+  },
+  "clave": "13DJN0054O",
+  "nombre": "JARDIN DE NIÑOS NARCISO MENDOZA",
+  "estado": "HIDALGO",
+  "municipio": "TLAXCOAPAN",
+  "comunidad": "Tlaxcoapan",
+  "latitud": "20.0952778",
+  "longitud": "-99.22",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f7"
+  },
+  "clave": "13DJN0057L",
+  "nombre": "GRAL. LAZARO CARDENAS",
+  "estado": "HIDALGO",
+  "municipio": "ACTOPAN",
+  "comunidad": "Bothi Baji",
+  "latitud": "20.243049",
+  "longitud": "-98.9483634",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f8"
+  },
+  "clave": "27DJN0137Z",
+  "nombre": "SOR JUANA INES DE LA CRUZ",
+  "estado": "HIDALGO",
+  "municipio": "TLANCHINOL",
+  "comunidad": "Tlanchinol",
+  "latitud": "20.989735",
+  "longitud": "-98.6579314",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22f9"
+  },
+  "clave": "13DJN0092R",
+  "nombre": "LEONARDO DOMINGUEZ",
+  "estado": "HIDALGO",
+  "municipio": "ZAPOTLAN DE JUAREZ",
+  "comunidad": "Zapotlan de Juarez",
+  "latitud": "19.9763386",
+  "longitud": "-98.8643059",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22fa"
+  },
+  "clave": "13DJN0095O",
+  "nombre": "JARDIN DE NIÑOS GRAL. MARIANO ESCOBEDO",
+  "estado": "HIDALGO",
+  "municipio": "ATOTONILCO DE TULA",
+  "comunidad": "Atotonilco de Tula",
+  "latitud": "20.0096889",
+  "longitud": "-99.2203687",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22fb"
+  },
+  "clave": "13DJN0103G",
+  "nombre": "JAIME NUNO",
+  "estado": "HIDALGO",
+  "municipio": "TEPETITLAN",
+  "comunidad": "Tepetitlan",
+  "latitud": "20.1849478",
+  "longitud": "-99.3801257",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22fc"
+  },
+  "clave": "13DJN0104F",
+  "nombre": "JARDIN DE NIÑOS MARIA MONTESSORI",
+  "estado": "HIDALGO",
+  "municipio": "TEZONTEPEC DE ALDAMA",
+  "comunidad": "Tezontepec de Aldama",
+  "latitud": "20.2327369",
+  "longitud": "-99.2846551",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22fd"
+  },
+  "clave": "13DJN0132B",
+  "nombre": "GUILLERMO FEDERICO FROEBEL",
+  "estado": "HIDALGO",
+  "municipio": "ATITALAQUIA",
+  "comunidad": "Atitalaquia",
+  "latitud": "20.0509779",
+  "longitud": "-99.2203687",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22fe"
+  },
+  "clave": "13DJN0152P",
+  "nombre": "EFREN OROZCO ROSALES",
+  "estado": "HIDALGO",
+  "municipio": "VILLA DE TEZONTEPEC",
+  "comunidad": "Del Calvario",
+  "latitud": "19.8765522",
+  "longitud": "-98.8211484",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af22ff"
+  },
+  "clave": "13DJN0158J",
+  "nombre": "LIC.ADOLFO LOPEZ MATEOS",
+  "estado": "HIDALGO",
+  "municipio": "TULA DE ALLENDE",
+  "comunidad": "Tula de Allende",
+  "latitud": "20.0539666",
+  "longitud": "-99.3414081",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2300"
+  },
+  "clave": "13DJN0162W",
+  "nombre": "\"ESTEFANIA CSTAÑEDA\"",
+  "estado": "HIDALGO",
+  "municipio": "TIZAYUCA",
+  "comunidad": "Tizayuca",
+  "latitud": "19.8430019",
+  "longitud": "-98.980673",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2301"
+  },
+  "clave": "13DJN0171D",
+  "nombre": "LIC. JOSE MARIA IGLESIAS",
+  "estado": "HIDALGO",
+  "municipio": "AJACUBA",
+  "comunidad": "Ajacuba",
+  "latitud": "20.0915602",
+  "longitud": "-99.1207129",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2302"
+  },
+  "clave": "13DJN0186F",
+  "nombre": "FRAY BERNARDINO DE SAHAGUN",
+  "estado": "HIDALGO",
+  "municipio": "EPAZOYUCAN",
+  "comunidad": "Epazoyucan",
+  "latitud": "20.0153681",
+  "longitud": "-98.6408093",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2303"
+  },
+  "clave": "13DJN0215K",
+  "nombre": "NTOJHI",
+  "estado": "HIDALGO",
+  "municipio": "SANTIAGO DE ANAYA",
+  "comunidad": "Santiago de Anaya",
+  "latitud": "20.3800556",
+  "longitud": "-98.9631789",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2304"
+  },
+  "clave": "13DJN0285F",
+  "nombre": "JARDÍN DE NIÑOS LEONA VICARIO",
+  "estado": "HIDALGO",
+  "municipio": "SAN FELIPE ORIZATLAN",
+  "comunidad": "San Felipe Orizatlan",
+  "latitud": "21.1702416",
+  "longitud": "-98.6080151",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2305"
+  },
+  "clave": "13DJN0343F",
+  "nombre": "CARLOS DARWIN",
+  "estado": "HIDALGO",
+  "municipio": "NOPALA DE VILLAGRAN",
+  "comunidad": "El Jaguey",
+  "latitud": "20.2412077",
+  "longitud": "-99.6071041",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2306"
+  },
+  "clave": "13DJN0364S",
+  "nombre": "JARDIN DE NIÑOS LOS PINOS",
+  "estado": "HIDALGO",
+  "municipio": "MINERAL DEL CHICO",
+  "comunidad": "Mineral del Chico",
+  "latitud": "20.2150472",
+  "longitud": "-98.7310435",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2307"
+  },
+  "clave": "13DJN0388B",
+  "nombre": "SIERRA MADRE ORIENTAL",
+  "estado": "HIDALGO",
+  "municipio": "TEPEHUACAN DE GUERRERO",
+  "comunidad": "Tepehuacan de Guerrero",
+  "latitud": "21.0140292",
+  "longitud": "-98.8404104",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2308"
+  },
+  "clave": "13DJN0393N",
+  "nombre": "\"DIEGO ALARCON DE OCAÑA\"",
+  "estado": "HIDALGO",
+  "municipio": "IXMIQUILPAN",
+  "comunidad": "Ixmiquilpan",
+  "latitud": "20.4852349",
+  "longitud": "-99.2300474",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2309"
+  },
+  "clave": "13DJN0481H",
+  "nombre": "ROBERTO SCHUMAN",
+  "estado": "HIDALGO",
+  "municipio": "CHILCUAUTLA",
+  "comunidad": "Chilcuautla",
+  "latitud": "20.3276807",
+  "longitud": "-99.2314492",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af230a"
+  },
+  "clave": "13DJN0552L",
+  "nombre": "LIC.JOSE VASCONCELOS",
+  "estado": "HIDALGO",
+  "municipio": "TULANCINGO DE BRAVO",
+  "comunidad": "Tulancingo",
+  "latitud": "20.0894346",
+  "longitud": "-98.3597155",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af230b"
+  },
+  "clave": "13DJN0595J",
+  "nombre": "LUCECITAS",
+  "estado": "HIDALGO",
+  "municipio": "ZIMAPAN",
+  "comunidad": "Zimapan",
+  "latitud": "20.7386043",
+  "longitud": "-99.3811844",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af230c"
+  },
+  "clave": "13DJN0600E",
+  "nombre": "NEBLINAS",
+  "estado": "HIDALGO",
+  "municipio": "CHAPULHUACAN",
+  "comunidad": "Neblinas",
+  "latitud": "21.1158333",
+  "longitud": "-98.9230555",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af230d"
+  },
+  "clave": "13DJN0668L",
+  "nombre": "JARDIN DE NIÑOS CARLOS OBREGON SANTACILIA",
+  "estado": "HIDALGO",
+  "municipio": "MIXQUIAHUALA DE JUAREZ",
+  "comunidad": "Mixquiahuala",
+  "latitud": "20.2304048",
+  "longitud": "-99.2106551",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af230e"
+  },
+  "clave": "13DJN0771Y",
+  "nombre": "MANUEL AVILA CAMACHO",
+  "estado": "HIDALGO",
+  "municipio": "SANTIAGO TULANTEPEC DE LUGO GUERRERO",
+  "comunidad": "Santiago Tulantepec",
+  "latitud": "20.0591474",
+  "longitud": "-98.3589325",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af230f"
+  },
+  "clave": "13DJN0865M",
+  "nombre": "POMPILIO ARTEAGA GOMEZ",
+  "estado": "HIDALGO",
+  "municipio": "ATLAPEXCO",
+  "comunidad": "Atlapexco",
+  "latitud": "21.016947",
+  "longitud": "-98.3444393",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2310"
+  },
+  "clave": "13DJN1000R",
+  "nombre": "JARDIN DE NIÑOS JEDZEELEX",
+  "estado": "HIDALGO",
+  "municipio": "ATOTONILCO EL GRANDE",
+  "comunidad": "Atotonilco El Grande",
+  "latitud": "20.2859721",
+  "longitud": "-98.6628089",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2311"
+  },
+  "clave": "13DJN1028X",
+  "nombre": "JARDIN DE NIÑOS NARCISO BASSOLS",
+  "estado": "HIDALGO",
+  "municipio": "TEPEJI DEL RIO DE OCAMPO",
+  "comunidad": "Tepeji",
+  "latitud": "19.9049725",
+  "longitud": "-99.3423037",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2312"
+  },
+  "clave": "13DJN1075H",
+  "nombre": "\"ELOY TREJO PÉREZ\"",
+  "estado": "HIDALGO",
+  "municipio": "METZTITLAN",
+  "comunidad": "Metztitlan",
+  "latitud": "20.5955194",
+  "longitud": "-98.7632619",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2313"
+  },
+  "clave": "13DJN1126Y",
+  "nombre": "LIBERTAD DE PENSAMIENTO",
+  "estado": "HIDALGO",
+  "municipio": "PISAFLORES",
+  "comunidad": "Pisaflores",
+  "latitud": "21.1943704",
+  "longitud": "-99.0059861",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2314"
+  },
+  "clave": "13DML0023U",
+  "nombre": "CENTRO DE ATENCIÓN MÚLTIPLE NÚMERO 23",
+  "estado": "HIDALGO",
+  "municipio": "APAN",
+  "comunidad": "Apan",
+  "latitud": "19.711382",
+  "longitud": "-98.45407",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2315"
+  },
+  "clave": "13FUA0035Z",
+  "nombre": "USAER 35",
+  "estado": "HIDALGO",
+  "municipio": "TIANGUISTENGO",
+  "comunidad": "Tianguistengo",
+  "latitud": "20.726284",
+  "longitud": "-98.6311865",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2316"
+  },
+  "clave": "16DGI0002G",
+  "nombre": "UNIDAD 2 DE GRUPOS INTEGRADOS",
+  "estado": "MICHOACÁN",
+  "municipio": "MORELIA",
+  "comunidad": "Morelia",
+  "latitud": "19.7059504",
+  "longitud": "-101.1949825",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2317"
+  },
+  "clave": "16DJN0005C",
+  "nombre": "CLISERIO VILLAFUERTE",
+  "estado": "MICHOACÁN",
+  "municipio": "CUITZEO",
+  "comunidad": "Cuitzeo del Porvenir",
+  "latitud": "19.9684403",
+  "longitud": "-101.1366847",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2318"
+  },
+  "clave": "16DJN0130A",
+  "nombre": "J/N\"MANUEL PEREZ CORONADO\"",
+  "estado": "MICHOACÁN",
+  "municipio": "URUAPAN",
+  "comunidad": "Uruapan",
+  "latitud": "19.3934928",
+  "longitud": "-102.0325594",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2319"
+  },
+  "clave": "16DJN0263R",
+  "nombre": "JARDIN DE NIÑOS \"SANDRO D MARIANO BOTICELLI",
+  "estado": "MICHOACÁN",
+  "municipio": "LAZARO CARDENAS",
+  "comunidad": "Lazaro Cardenas",
+  "latitud": "17.9567646",
+  "longitud": "-102.1943485",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af231a"
+  },
+  "clave": "16DJN0271Z",
+  "nombre": "ENRIQUE RAMIREZ",
+  "estado": "MICHOACÁN",
+  "municipio": "ECUANDUREO",
+  "comunidad": "Ecuandureo",
+  "latitud": "20.1615192",
+  "longitud": "-102.1945346",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af231b"
+  },
+  "clave": "21DCC0165M",
+  "nombre": "IGNACIO ZARAGOZA",
+  "estado": "MICHOACÁN",
+  "municipio": "ARTEAGA",
+  "comunidad": "Arteaga Municipality",
+  "latitud": "18.356253",
+  "longitud": "-102.2919936",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af231c"
+  },
+  "clave": "32DJN0087U",
+  "nombre": "MANUEL GUTIERREZ NAJERA",
+  "estado": "MICHOACÁN",
+  "municipio": "PURUANDIRO",
+  "comunidad": "Puruandiro",
+  "latitud": "20.0880149",
+  "longitud": "-101.5156981",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af231d"
+  },
+  "clave": "16DJN1059N",
+  "nombre": "JUANA INES DE LA CRUZ",
+  "estado": "MICHOACÁN",
+  "municipio": "CONTEPEC",
+  "comunidad": "Contepec",
+  "latitud": "19.9521591",
+  "longitud": "-100.1619222",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af231e"
+  },
+  "clave": "16DJN1102L",
+  "nombre": "MIGUEL ANGEL BUONARROTI",
+  "estado": "MICHOACÁN",
+  "municipio": "HUIRAMBA",
+  "comunidad": "Huiramba",
+  "latitud": "19.5448149",
+  "longitud": "-101.4348016",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af231f"
+  },
+  "clave": "16DJN1159M",
+  "nombre": "SIMON BOLIVAR",
+  "estado": "MICHOACÁN",
+  "municipio": "LA HUACANA",
+  "comunidad": "La Huacana",
+  "latitud": "18.9600109",
+  "longitud": "-101.8065089",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2320"
+  },
+  "clave": "16DJN1874Y",
+  "nombre": "ROSAURA ZAPATA CANO",
+  "estado": "MICHOACÁN",
+  "municipio": "LA PIEDAD",
+  "comunidad": "La Piedad de Cabadas",
+  "latitud": "20.3474641",
+  "longitud": "-102.0318456",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2321"
+  },
+  "clave": "16DJN2039G",
+  "nombre": "PROF. JESUS ROMERO FLORES",
+  "estado": "JALISCO",
+  "municipio": "TUXPAN",
+  "comunidad": "Tuxpan",
+  "latitud": "19.5572679",
+  "longitud": "-103.3789461",
+  "sede": "Av. Federalismo Norte #1990, Col. Guadalupana, C.P. 44220, Guadalajara, Jalisco",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2322"
+  },
+  "clave": "16DJN2547K",
+  "nombre": "JEAN PIAGET",
+  "estado": "MICHOACÁN",
+  "municipio": "TARIMBARO",
+  "comunidad": "Tarimbaro",
+  "latitud": "19.7911756",
+  "longitud": "-101.1758932",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2323"
+  },
+  "clave": "16EJN0044D",
+  "nombre": "ESPERANZA OLIVARES",
+  "estado": "MICHOACÁN",
+  "municipio": "ZITACUARO",
+  "comunidad": "Zitacuaro",
+  "latitud": "19.4385254",
+  "longitud": "-100.3598778",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2324"
+  },
+  "clave": "16EJN0050O",
+  "nombre": "J.N. ESTHER JOUBLANC",
+  "estado": "MICHOACÁN",
+  "municipio": "CHILCHOTA",
+  "comunidad": "Chilchota",
+  "latitud": "19.8463172",
+  "longitud": "-102.120398",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2325"
+  },
+  "clave": "16FUA0020V",
+  "nombre": "USAER 20V",
+  "estado": "MICHOACÁN",
+  "municipio": "PATZCUARO",
+  "comunidad": "Patzcuaro",
+  "latitud": "19.5134546",
+  "longitud": "-101.6091876",
+  "sede": "Av. Francisco I. Madero Oriente #4525, Col. Cd. Industrial, C.P. 58200, Morelia, Michoacan",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2326"
+  },
+  "clave": "17DJN0001F",
+  "nombre": "TOLTECA",
+  "estado": "MORELOS",
+  "municipio": "JIUTEPEC",
+  "comunidad": "Jiutepec",
+  "latitud": "18.8954874",
+  "longitud": "-99.1732936",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2327"
+  },
+  "clave": "17DJN0010N",
+  "nombre": "TENOCHTITLAN",
+  "estado": "MORELOS",
+  "municipio": "CUAUTLA",
+  "comunidad": "Cuautla",
+  "latitud": "18.8126047",
+  "longitud": "-98.9548261",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2328"
+  },
+  "clave": "17DJN0060V",
+  "nombre": "JDN HIJOS DEL EJERCITO",
+  "estado": "MORELOS",
+  "municipio": "CUERNAVACA",
+  "comunidad": "Cuernavaca",
+  "latitud": "18.9658821",
+  "longitud": "-99.2444044",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2329"
+  },
+  "clave": "17DJN0062T",
+  "nombre": "GLORIA ALMADA DE BEJARANO",
+  "estado": "MORELOS",
+  "municipio": "ATLATLAHUCAN",
+  "comunidad": "Atlatlahucan",
+  "latitud": "18.9353236",
+  "longitud": "-98.8997015",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af232a"
+  },
+  "clave": "17DJN0064R",
+  "nombre": "ALTAGRACIA PADILLA DE RODRIGUEZ GIL",
+  "estado": "MORELOS",
+  "municipio": "OCUITUCO",
+  "comunidad": "Ocuituco",
+  "latitud": "18.8746161",
+  "longitud": "-98.7766057",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af232b"
+  },
+  "clave": "17DJN0101E",
+  "nombre": "LAGO DE CUITZEO",
+  "estado": "MORELOS",
+  "municipio": "YAUTEPEC",
+  "comunidad": "Yautepec de Zaragoza",
+  "latitud": "18.7969317",
+  "longitud": "-99.0551819",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af232c"
+  },
+  "clave": "17DJN0102D",
+  "nombre": "EMILIANO ZAPATA",
+  "estado": "MORELOS",
+  "municipio": "EMILIANO ZAPATA",
+  "comunidad": "Emiliano Zapata",
+  "latitud": "18.8478608",
+  "longitud": "-99.1843676",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af232d"
+  },
+  "clave": "17DJN0104B",
+  "nombre": "LAGO DE PATZCUARO",
+  "estado": "MORELOS",
+  "municipio": "TEPALCINGO",
+  "comunidad": "Tepalcingo",
+  "latitud": "18.5958003",
+  "longitud": "-98.8460125",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af232e"
+  },
+  "clave": "17DJN0166O",
+  "nombre": "REPUBLICA DE VENEZUELA",
+  "estado": "MORELOS",
+  "municipio": "TEMIXCO",
+  "comunidad": "Temixco",
+  "latitud": "18.8593026",
+  "longitud": "-99.2393666",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af232f"
+  },
+  "clave": "17DJN0220S",
+  "nombre": "GUSTAVO ADOLFO BECQUER",
+  "estado": "MORELOS",
+  "municipio": "TETELA DEL VOLCAN",
+  "comunidad": "Tetela del Volcan",
+  "latitud": "18.8937717",
+  "longitud": "-98.7205877",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2330"
+  },
+  "clave": "17DJN0225N",
+  "nombre": "ANTARES",
+  "estado": "MORELOS",
+  "municipio": "TLAYACAPAN",
+  "comunidad": "Tlayacapan",
+  "latitud": "18.960767",
+  "longitud": "-98.9825083",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2331"
+  },
+  "clave": "17DJN0243C",
+  "nombre": "JUAN DE DIOS PEZA",
+  "estado": "MORELOS",
+  "municipio": "YECAPIXTLA",
+  "comunidad": "Yecapixtla",
+  "latitud": "18.8782827",
+  "longitud": "-98.8610882",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2332"
+  },
+  "clave": "17DJN0268L",
+  "nombre": "JESUS REYES HEROLES",
+  "estado": "MORELOS",
+  "municipio": "TOTOLAPAN",
+  "comunidad": "Totolapan",
+  "latitud": "18.9813757",
+  "longitud": "-98.9217747",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2333"
+  },
+  "clave": "17DJN0278S",
+  "nombre": "MA. ELENA OCHOA SILVA",
+  "estado": "MORELOS",
+  "municipio": "AXOCHIAPAN",
+  "comunidad": "Axochiapan",
+  "latitud": "18.5036585",
+  "longitud": "-98.7536237",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2334"
+  },
+  "clave": "17DJN0313H",
+  "nombre": "\"GABRIALA MISTRAL\"",
+  "estado": "MORELOS",
+  "municipio": "JANTETELCO",
+  "comunidad": "Jantetelco",
+  "latitud": "18.7159227",
+  "longitud": "-98.7770328",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2335"
+  },
+  "clave": "17DJN0464N",
+  "nombre": "BERTHA VON GLUMER",
+  "estado": "MORELOS",
+  "municipio": "XOCHITEPEC",
+  "comunidad": "Xochitepec",
+  "latitud": "18.7955184",
+  "longitud": "-99.2314492",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2336"
+  },
+  "clave": "17DJN0503Z",
+  "nombre": "24 DE FEBRERO",
+  "estado": "MORELOS",
+  "municipio": "TLALTIZAPAN",
+  "comunidad": "Tlaltizapan",
+  "latitud": "18.6917239",
+  "longitud": "-99.1135788",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2337"
+  },
+  "clave": "17DJN0612F",
+  "nombre": "GRAL. CELERINO MANZANAREZ",
+  "estado": "MORELOS",
+  "municipio": "TLAQUILTENANGO",
+  "comunidad": "Zacatepec de Hidalgo",
+  "latitud": "18.6590666",
+  "longitud": "-99.1886114",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2338"
+  },
+  "clave": "17DJN0613E",
+  "nombre": "ESTEFANIA CASTAÑEDA",
+  "estado": "MORELOS",
+  "municipio": "HUITZILAC",
+  "comunidad": "Huitzilac",
+  "latitud": "19.0282112",
+  "longitud": "-99.2679119",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2339"
+  },
+  "clave": "17DJN0701Z",
+  "nombre": "AVE DE PARAISO",
+  "estado": "MORELOS",
+  "municipio": "TEMOAC",
+  "comunidad": "Temoac",
+  "latitud": "18.7725947",
+  "longitud": "-98.7750731",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af233a"
+  },
+  "clave": "17FUA0024Q",
+  "nombre": "UNIDAD DE SERVICIOS DE APOYO A LA EDUCACION REGULAR N 8",
+  "estado": "MORELOS",
+  "municipio": "MIACATLAN",
+  "comunidad": "Miacatlan",
+  "latitud": "18.7717876",
+  "longitud": "-99.3534348",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af233b"
+  },
+  "clave": "29FUA0028R",
+  "nombre": "USAER 28",
+  "estado": "MORELOS",
+  "municipio": "AMACUZAC",
+  "comunidad": "Amacuzac",
+  "latitud": "18.6004449",
+  "longitud": "-99.3700834",
+  "sede": "Calle Paris y Nueva Francia #3, Col. Lomas de la Selva Norte, C.P. 62145, Cuernavaca, Morelos",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af233c"
+  },
+  "clave": "18DBT0001G",
+  "nombre": "CAM LABORAL",
+  "estado": "NAYARIT",
+  "municipio": "TEPIC",
+  "comunidad": "Tepic",
+  "latitud": "21.5041651",
+  "longitud": "-104.8945887",
+  "sede": "Av. Insurgentes #1, Col. Loma Bonita, C.P. 63157, Tepic, Nayarit",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af233d"
+  },
+  "clave": "18DCC0045M",
+  "nombre": "MOCTEZUMA",
+  "estado": "NAYARIT",
+  "municipio": "LA YESCA",
+  "comunidad": "La Yesca",
+  "latitud": "21.3182152",
+  "longitud": "-104.0101271",
+  "sede": "Av. Insurgentes #1, Col. Loma Bonita, C.P. 63157, Tepic, Nayarit",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af233e"
+  },
+  "clave": "21DJN0024C",
+  "nombre": "GUILLERMO PRIETO",
+  "estado": "NAYARIT",
+  "municipio": "ROSAMORADA",
+  "comunidad": "Rosamorada",
+  "latitud": "22.1220309",
+  "longitud": "-105.2055226",
+  "sede": "Av. Insurgentes #1, Col. Loma Bonita, C.P. 63157, Tepic, Nayarit",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af233f"
+  },
+  "clave": "18DJN0002D",
+  "nombre": "SALVADOR CERVANTES",
+  "estado": "NAYARIT",
+  "municipio": "SANTA MARIA DEL ORO",
+  "comunidad": "Santa Maria del Oro",
+  "latitud": "21.3327942",
+  "longitud": "-104.5881101",
+  "sede": "Av. Insurgentes #1, Col. Loma Bonita, C.P. 63157, Tepic, Nayarit",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2340"
+  },
+  "clave": "18DJN0019D",
+  "nombre": "JUSTO SIERRA",
+  "estado": "NAYARIT",
+  "municipio": "SANTIAGO IXCUINTLA",
+  "comunidad": "Santiago Ixcuintla",
+  "latitud": "21.8132757",
+  "longitud": "-105.2084382",
+  "sede": "Av. Insurgentes #1, Col. Loma Bonita, C.P. 63157, Tepic, Nayarit",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2341"
+  },
+  "clave": "18DJN0078T",
+  "nombre": "LUIS CASTILLO LEDON",
+  "estado": "NAYARIT",
+  "municipio": "ACAPONETA",
+  "comunidad": "Acaponeta",
+  "latitud": "22.4980315",
+  "longitud": "-105.3586881",
+  "sede": "Av. Insurgentes #1, Col. Loma Bonita, C.P. 63157, Tepic, Nayarit",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2342"
+  },
+  "clave": "18DJN0091N",
+  "nombre": "SXUAAN",
+  "estado": "NAYARIT",
+  "municipio": "TECUALA",
+  "comunidad": "Tecuala",
+  "latitud": "22.3965755",
+  "longitud": "-105.4595306",
+  "sede": "Av. Insurgentes #1, Col. Loma Bonita, C.P. 63157, Tepic, Nayarit",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2343"
+  },
+  "clave": "18DJN1554L",
+  "nombre": "JN JUAN ESCUTIA",
+  "estado": "NAYARIT",
+  "municipio": "XALISCO",
+  "comunidad": "Xalisco",
+  "latitud": "21.4514572",
+  "longitud": "-104.8987807",
+  "sede": "Av. Insurgentes #1, Col. Loma Bonita, C.P. 63157, Tepic, Nayarit",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2344"
+  },
+  "clave": "18EJN0021R",
+  "nombre": "DRA MA MONTESSORI",
+  "estado": "NAYARIT",
+  "municipio": "AHUACATLAN",
+  "comunidad": "Ahuacatlan",
+  "latitud": "21.0533791",
+  "longitud": "-104.4810648",
+  "sede": "Av. Insurgentes #1, Col. Loma Bonita, C.P. 63157, Tepic, Nayarit",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2345"
+  },
+  "clave": "21DCC0002B",
+  "nombre": "VICENTE SUAREZ",
+  "estado": "PUEBLA",
+  "municipio": "HUEYTLALPAN",
+  "comunidad": "Hueytlalpan",
+  "latitud": "20.0263412",
+  "longitud": "-97.6980289",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2346"
+  },
+  "clave": "21DCC0020R",
+  "nombre": "FRANCISCO I MADERO",
+  "estado": "PUEBLA",
+  "municipio": "AJALPAN",
+  "comunidad": "Ajalpan",
+  "latitud": "18.3764036",
+  "longitud": "-97.2539812",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2347"
+  },
+  "clave": "21DCC0034U",
+  "nombre": "EMILIANO  ZAPATA",
+  "estado": "PUEBLA",
+  "municipio": "ATLIXCO",
+  "comunidad": "Atlixco",
+  "latitud": "18.9154765",
+  "longitud": "-98.4772253",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2348"
+  },
+  "clave": "21DCC0065N",
+  "nombre": "LA PRIMAVERA",
+  "estado": "PUEBLA",
+  "municipio": "TLACOTEPEC DE BENITO JUAREZ",
+  "comunidad": "Tlacotepec de Benito Juarez",
+  "latitud": "18.6816256",
+  "longitud": "-97.6483178",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2349"
+  },
+  "clave": "21DCC0165M",
+  "nombre": "IGNACIO ZARAGOZA",
+  "estado": "PUEBLA",
+  "municipio": "HUAUCHINANGO",
+  "comunidad": "Huauchinango",
+  "latitud": "20.1757001",
+  "longitud": "-98.0628862",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af234a"
+  },
+  "clave": "21DCC0173V",
+  "nombre": "CITLALI",
+  "estado": "PUEBLA",
+  "municipio": "ZACATLAN",
+  "comunidad": "Zacatlan",
+  "latitud": "19.9342405",
+  "longitud": "-97.9625353",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af234b"
+  },
+  "clave": "21DCC0180E",
+  "nombre": "NIÑOS HEROES",
+  "estado": "PUEBLA",
+  "municipio": "XIUTETELCO",
+  "comunidad": "San Juan Xiutetelco",
+  "latitud": "19.7961156",
+  "longitud": "-97.3243375",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af234c"
+  },
+  "clave": "21DCC0243Z",
+  "nombre": "IXTACCIHUATL",
+  "estado": "PUEBLA",
+  "municipio": "HUEYTAMALCO",
+  "comunidad": "Hueytamalco",
+  "latitud": "19.9401027",
+  "longitud": "-97.2895663",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af234d"
+  },
+  "clave": "21DCC0248V",
+  "nombre": "YOLOPILI",
+  "estado": "PUEBLA",
+  "municipio": "XOCHITLAN DE VICENTE SUAREZ",
+  "comunidad": "Xochitlan de Vicente Suarez",
+  "latitud": "19.9663131",
+  "longitud": "-97.6267225",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af234e"
+  },
+  "clave": "21DCC0279O",
+  "nombre": "ANGELICA CASTRO DE LA FUENTE",
+  "estado": "PUEBLA",
+  "municipio": "JONOTLA",
+  "comunidad": "Jonotla",
+  "latitud": "20.0300512",
+  "longitud": "-97.5750656",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af234f"
+  },
+  "clave": "21DCC0365K",
+  "nombre": "JUAN FRANCISCO LUCAS",
+  "estado": "PUEBLA",
+  "municipio": "HUITZILAN DE SERDAN",
+  "comunidad": "Huitzilan",
+  "latitud": "19.9681472",
+  "longitud": "-97.6940402",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2350"
+  },
+  "clave": "21DCC0412E",
+  "nombre": "JUAN DE LA BARRERA",
+  "estado": "PUEBLA",
+  "municipio": "ZIHUATEUTLA",
+  "comunidad": "Zihuateutla",
+  "latitud": "20.2524334",
+  "longitud": "-97.8886849",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2351"
+  },
+  "clave": "29DJN0038Y",
+  "nombre": "FERNANDO MONTES DE OCA",
+  "estado": "HIDALGO",
+  "municipio": "HUEHUETLA",
+  "comunidad": "Huehuetla",
+  "latitud": "20.460486",
+  "longitud": "-98.0751645",
+  "sede": "Libramiento Vial a Tampico Km. 3.5, Col. Santiago Jaltepec, C.P. 42182, Pachuca, Hidalgo",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2352"
+  },
+  "clave": "21DCC0732P",
+  "nombre": "MOCTEZUMA XOCOYOTZIN",
+  "estado": "PUEBLA",
+  "municipio": "PUEBLA",
+  "comunidad": "Tlacaelel",
+  "latitud": "18.9331592",
+  "longitud": "-98.2657688",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2353"
+  },
+  "clave": "21DCC0795A",
+  "nombre": "XOCHIQUETZAL",
+  "estado": "PUEBLA",
+  "municipio": "SANTIAGO MIAHUATLAN",
+  "comunidad": "Santiago Miahuatlan",
+  "latitud": "18.5480398",
+  "longitud": "-97.4435441",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2354"
+  },
+  "clave": "21DCC0809N",
+  "nombre": "NETZAHUALCOYOTL",
+  "estado": "PUEBLA",
+  "municipio": "CHILCHOTLA",
+  "comunidad": "Chilchotla",
+  "latitud": "19.2531376",
+  "longitud": "-97.1854785",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2355"
+  },
+  "clave": "21DJN0024C",
+  "nombre": "GUILLERMO PRIETO",
+  "estado": "PUEBLA",
+  "municipio": "SAN MARTIN TEXMELUCAN",
+  "comunidad": "San Rafael Tlanalapan",
+  "latitud": "19.2946632",
+  "longitud": "-98.4678582",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2356"
+  },
+  "clave": "21DJN0033K",
+  "nombre": "MARGARITA NUÑEZ DE AVILA CAMACHO",
+  "estado": "PUEBLA",
+  "municipio": "ZARAGOZA",
+  "comunidad": "Heroica Puebla de Zaragoza",
+  "latitud": "19.025",
+  "longitud": "-98.2132",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2357"
+  },
+  "clave": "21DJN0054X",
+  "nombre": "ALFREDO V. BONFIL",
+  "estado": "TAMAULIPAS",
+  "municipio": "IZUCAR DE MATAMOROS",
+  "comunidad": "Heroica Matamoros",
+  "latitud": "25.8121324",
+  "longitud": "-97.5249182",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2358"
+  },
+  "clave": "21DJN0060H",
+  "nombre": "MARGARITA MAZA DE JUAREZ",
+  "estado": "PUEBLA",
+  "municipio": "RAFAEL LARA GRAJALES",
+  "comunidad": "Rafael Lara Grajales",
+  "latitud": "19.2241665",
+  "longitud": "-97.7999999",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2359"
+  },
+  "clave": "21DJN0137F",
+  "nombre": "\"AMADO NERVO\"",
+  "estado": "PUEBLA",
+  "municipio": "AHUAZOTEPEC",
+  "comunidad": "Ahuazotepec",
+  "latitud": "20.044323",
+  "longitud": "-98.1618209",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af235a"
+  },
+  "clave": "21DJN0153X",
+  "nombre": "INES CANTU",
+  "estado": "PUEBLA",
+  "municipio": "TEZIUTLAN",
+  "comunidad": "Teziutlan",
+  "latitud": "19.8136305",
+  "longitud": "-97.3599102",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af235b"
+  },
+  "clave": "21DJN0171M",
+  "nombre": "\"TEPETZINGO\"",
+  "estado": "PUEBLA",
+  "municipio": "TEHUACAN",
+  "comunidad": "Tehuacan",
+  "latitud": "18.4181147",
+  "longitud": "-97.334103",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af235c"
+  },
+  "clave": "21DJN0184Q",
+  "nombre": "FANNY ANITUA",
+  "estado": "PUEBLA",
+  "municipio": "TEPEOJUMA",
+  "comunidad": "Tepeojuma",
+  "latitud": "18.7258622",
+  "longitud": "-98.4560704",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af235d"
+  },
+  "clave": "21DJN0196V",
+  "nombre": "BELISARIO DOMINGUEZ",
+  "estado": "PUEBLA",
+  "municipio": "ATEMPAN",
+  "comunidad": "Atempan",
+  "latitud": "19.8379586",
+  "longitud": "-97.4564439",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af235e"
+  },
+  "clave": "21DJN0213V",
+  "nombre": "JARDÍN DE NIÑOS FAUSTO M. ORTEGA",
+  "estado": "PUEBLA",
+  "municipio": "SAN ANDRES CHOLULA",
+  "comunidad": "San Bernardino Tlaxcalancingo",
+  "latitud": "19.0387266",
+  "longitud": "-98.258884",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af235f"
+  },
+  "clave": "21EJN1023J",
+  "nombre": "XOCHIPILLI",
+  "estado": "PUEBLA",
+  "municipio": "DOMINGO ARENAS",
+  "comunidad": "Domingo Arenas",
+  "latitud": "19.1384802",
+  "longitud": "-98.4650419",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2360"
+  },
+  "clave": "21DJN0294W",
+  "nombre": "GLORIA CANO ARROYO",
+  "estado": "PUEBLA",
+  "municipio": "CHIGNAHUAPAN",
+  "comunidad": "Chignahuapan",
+  "latitud": "19.8378624",
+  "longitud": "-98.0317451",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2361"
+  },
+  "clave": "21DJN0331J",
+  "nombre": "CADETE VICENTE SUAREZ",
+  "estado": "PUEBLA",
+  "municipio": "CUAUTLANCINGO",
+  "comunidad": "San Juan Cuautlancingo",
+  "latitud": "19.093171",
+  "longitud": "-98.2795957",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2362"
+  },
+  "clave": "21DJN0344N",
+  "nombre": "EL PORVENIR",
+  "estado": "PUEBLA",
+  "municipio": "CAÑADA MORELOS",
+  "comunidad": "Morelos Canada",
+  "latitud": "18.7363062",
+  "longitud": "-97.4229126",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2363"
+  },
+  "clave": "21DJN0345M",
+  "nombre": "PORFIRIO PARRA",
+  "estado": "PUEBLA",
+  "municipio": "TLACHICHUCA",
+  "comunidad": "Tlachichuca",
+  "latitud": "19.116107",
+  "longitud": "-97.4163421",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2364"
+  },
+  "clave": "21DJN0369W",
+  "nombre": "JARDIN DE NIÑOS MAYA",
+  "estado": "PUEBLA",
+  "municipio": "COHUECAN",
+  "comunidad": "Cohuecan",
+  "latitud": "18.7839702",
+  "longitud": "-98.7198249",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2365"
+  },
+  "clave": "21DJN0373I",
+  "nombre": "PASCUAL ORTIZ RUBIO",
+  "estado": "PUEBLA",
+  "municipio": "TEPEXCO",
+  "comunidad": "Tepexco",
+  "latitud": "18.6439962",
+  "longitud": "-98.6901608",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2366"
+  },
+  "clave": "21DJN0378D",
+  "nombre": "PLAN DE AYALA",
+  "estado": "PUEBLA",
+  "municipio": "TLAPANALA",
+  "comunidad": "Tlapanala",
+  "latitud": "18.6957457",
+  "longitud": "-98.5336764",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2367"
+  },
+  "clave": "21DJN0382Q",
+  "nombre": "QUETZALCOATL",
+  "estado": "ESTADO DE MÉXICO",
+  "municipio": "CHIAUTLA",
+  "comunidad": "Chiautla",
+  "latitud": "19.5557624",
+  "longitud": "-98.8891228",
+  "sede": "Teanguistenco #102, Barrio la Teresona, Col. Sanchez, C.P. 50040, Toluca, Estado de Mexico",
+  "region": "Valle de México"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2368"
+  },
+  "clave": "21DJN0396T",
+  "nombre": "JUAN RODRIGUEZ PUEBLA",
+  "estado": "PUEBLA",
+  "municipio": "QUECHOLAC",
+  "comunidad": "Quecholac",
+  "latitud": "18.9554497",
+  "longitud": "-97.6575237",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2369"
+  },
+  "clave": "21DJN0414S",
+  "nombre": "JUAN ALDAMA",
+  "estado": "PUEBLA",
+  "municipio": "TEPEACA",
+  "comunidad": "Tepeaca",
+  "latitud": "18.9659554",
+  "longitud": "-97.8993756",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af236a"
+  },
+  "clave": "21DJN0418O",
+  "nombre": "JARDINDE NIÑOS XICOTEPEC",
+  "estado": "PUEBLA",
+  "municipio": "XICOTEPEC",
+  "comunidad": "Xicotepec de Juarez",
+  "latitud": "20.2692464",
+  "longitud": "-97.9535702",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af236b"
+  },
+  "clave": "21DJN0523Z",
+  "nombre": "CARLOS A. CARRILLO",
+  "estado": "PUEBLA",
+  "municipio": "TEPEXI DE RODRIGUEZ",
+  "comunidad": "Tepexi de Rodriguez",
+  "latitud": "18.5842989",
+  "longitud": "-97.9297331",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af236c"
+  },
+  "clave": "21DJN0625W",
+  "nombre": "FRANCISCO ORONZOR FERNANDEZ",
+  "estado": "PUEBLA",
+  "municipio": "CUYOACO",
+  "comunidad": "Temextla",
+  "latitud": "19.6080519",
+  "longitud": "-97.6639139",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af236d"
+  },
+  "clave": "21DJN0674E",
+  "nombre": "MARIANO ARISTA",
+  "estado": "PUEBLA",
+  "municipio": "AMOZOC",
+  "comunidad": "Amozoc de Mota",
+  "latitud": "19.043829",
+  "longitud": "-98.0437894",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af236e"
+  },
+  "clave": "21DJN0757N",
+  "nombre": "MANANTIALES DE XOCHIAC",
+  "estado": "PUEBLA",
+  "municipio": "CHIAUTZINGO",
+  "comunidad": "San Nicolas Zecalacoayan",
+  "latitud": "19.1976138",
+  "longitud": "-98.4884384",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af236f"
+  },
+  "clave": "21DJN0810S",
+  "nombre": "MITZE",
+  "estado": "PUEBLA",
+  "municipio": "CORONANGO",
+  "comunidad": "Santa Maria Coronango",
+  "latitud": "19.1359063",
+  "longitud": "-98.3049335",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2370"
+  },
+  "clave": "21DJN0812Q",
+  "nombre": "J.DE N. JOSÉ GUADALUPE POSADA",
+  "estado": "PUEBLA",
+  "municipio": "SAN PEDRO CHOLULA",
+  "comunidad": "Cholula",
+  "latitud": "19.0715049",
+  "longitud": "-98.3156742",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2371"
+  },
+  "clave": "21DJN0870G",
+  "nombre": "ZOTOLTEPEC",
+  "estado": "PUEBLA",
+  "municipio": "IXTACAMAXTITLAN",
+  "comunidad": "Ixtacamaxtitlan",
+  "latitud": "19.6223314",
+  "longitud": "-97.8149036",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2372"
+  },
+  "clave": "21DJN1076P",
+  "nombre": "REMIGIO DE YARZA",
+  "estado": "PUEBLA",
+  "municipio": "LOS REYES DE JUAREZ",
+  "comunidad": "Los Reyes de Juarez",
+  "latitud": "18.9452534",
+  "longitud": "-97.8062677",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2373"
+  },
+  "clave": "21DJN1091H",
+  "nombre": "YUNUEN",
+  "estado": "PUEBLA",
+  "municipio": "TEPATLAXCO DE HIDALGO",
+  "comunidad": "Tepatlaxco de Hidalgo",
+  "latitud": "19.0778744",
+  "longitud": "-97.9729094",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2374"
+  },
+  "clave": "21DJN2090P",
+  "nombre": "CARMEN SERDAN ALATRISTE",
+  "estado": "PUEBLA",
+  "municipio": "ACAJETE",
+  "comunidad": "Acajete",
+  "latitud": "19.105729",
+  "longitud": "-97.9429421",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2375"
+  },
+  "clave": "21DJN2317D",
+  "nombre": "DIEGO RIVERA",
+  "estado": "PUEBLA",
+  "municipio": "SAN NICOLAS BUENOS AIRES",
+  "comunidad": "San Nicolas Buenos Aires",
+  "latitud": "19.1634347",
+  "longitud": "-97.5509501",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2376"
+  },
+  "clave": "21DML0018R",
+  "nombre": "CENTRO DE ATENCION MULTIPLE \"FRANCISCO JAVIER BADILLO AGUIL",
+  "estado": "PUEBLA",
+  "municipio": "RTE\"CAMACHALCO",
+  "comunidad": "Tecamachalco",
+  "latitud": "18.8809305",
+  "longitud": "-97.7287703",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2377"
+  },
+  "clave": "21EJN0323Z",
+  "nombre": "PRIMAVERA",
+  "estado": "PUEBLA",
+  "municipio": "ACATZINGO",
+  "comunidad": "Acatzingo",
+  "latitud": "18.9833329",
+  "longitud": "-97.783333",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2378"
+  },
+  "clave": "21EJN0867S",
+  "nombre": "LUIS DONALDO COLOSIO MURRIETA",
+  "estado": "PUEBLA",
+  "municipio": "JOLALPAN",
+  "comunidad": "Jolalpan",
+  "latitud": "18.3259234",
+  "longitud": "-98.8445455",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2379"
+  },
+  "clave": "21EJN1023J",
+  "nombre": "XOCHIPILLI",
+  "estado": "PUEBLA",
+  "municipio": "PALMAR DE BRAVO",
+  "comunidad": "Palmar de Bravo",
+  "latitud": "18.8359203",
+  "longitud": "-97.549097",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af237a"
+  },
+  "clave": "27FUA0004J",
+  "nombre": "USAER 38",
+  "estado": "PUEBLA",
+  "municipio": "ZACAPOAXTLA",
+  "comunidad": "Zacapoaxtla",
+  "latitud": "19.8735055",
+  "longitud": "-97.5887976",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af237b"
+  },
+  "clave": "21FUA0067A",
+  "nombre": "U.S.A.E.R. 64",
+  "estado": "PUEBLA",
+  "municipio": "SAN SALVADOR EL SECO",
+  "comunidad": "San Salvador el Seco",
+  "latitud": "19.1304258",
+  "longitud": "-97.6385368",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af237c"
+  },
+  "clave": "21FUA0087O",
+  "nombre": "USAER 84",
+  "estado": "PUEBLA",
+  "municipio": "CUAPIAXTLA DE MADERO",
+  "comunidad": "Cuapiaxtla de Madero",
+  "latitud": "18.9189112",
+  "longitud": "-97.8259174",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af237d"
+  },
+  "clave": "21FUA0098U",
+  "nombre": "U.S.A.E.R. NO.95",
+  "estado": "PUEBLA",
+  "municipio": "PANTEPEC",
+  "comunidad": "Pantepec",
+  "latitud": "20.5200163",
+  "longitud": "-97.9388566",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af237e"
+  },
+  "clave": "21FUA0102Q",
+  "nombre": "USAER 100",
+  "estado": "CHIAPAS",
+  "municipio": "OCOTEPEC",
+  "comunidad": "Ocotepec",
+  "latitud": "17.2256444",
+  "longitud": "-93.1641611",
+  "sede": "Blvd. Fidel Velazquez #1471, Fracc. 24 de Junio, C.P. 29047, Tuxtla Gutierrez, Chiapas",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af237f"
+  },
+  "clave": "21FUA0111Y",
+  "nombre": "UNIDAD DE SERVICIOS DE APOYO A LA EDUCACIÓN REGULAR 109",
+  "estado": "PUEBLA",
+  "municipio": "CALPAN",
+  "comunidad": "Calpan",
+  "latitud": "19.1059204",
+  "longitud": "-98.4677851",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2380"
+  },
+  "clave": "21FUA0112X",
+  "nombre": "USAER 110",
+  "estado": "PUEBLA",
+  "municipio": "HUEJOTZINGO",
+  "comunidad": "Huejotzingo",
+  "latitud": "19.1589453",
+  "longitud": "-98.4047163",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2381"
+  },
+  "clave": "21FUA0114V",
+  "nombre": "USAER 112",
+  "estado": "PUEBLA",
+  "municipio": "TLANEPANTLA",
+  "comunidad": "Tlanepantla",
+  "latitud": "18.8632785",
+  "longitud": "-97.8857665",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2382"
+  },
+  "clave": "22DCC0037Q",
+  "nombre": "RA DUHU DE RA ÑAÑU",
+  "estado": "QUERÉTARO",
+  "municipio": "AMEALCO DE BONFIL",
+  "comunidad": "Amealco de Bonfil",
+  "latitud": "20.1885969",
+  "longitud": "-100.1451177",
+  "sede": "Av. Camino a Vanegas # 11, Col. Ejido El Retablo, Corregidora, C.P. 76900, Queretaro, Queretaro",
+  "region": {
+    "$numberDouble": "NaN"
+  }
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2383"
+  },
+  "clave": "22DCC0073V",
+  "nombre": "GAPA MA HLLEGUI HU",
+  "estado": "QUERÉTARO",
+  "municipio": "CADEREYTA DE MONTES",
+  "comunidad": "Cadereyta de Montes",
+  "latitud": "20.6904037",
+  "longitud": "-99.8208632",
+  "sede": "Av. Camino a Vanegas # 11, Col. Ejido El Retablo, Corregidora, C.P. 76900, Queretaro, Queretaro",
+  "region": {
+    "$numberDouble": "NaN"
+  }
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2384"
+  },
+  "clave": "22DJN0027Z",
+  "nombre": "JOSE VASCONCELOS",
+  "estado": "QUERÉTARO",
+  "municipio": "PEDRO ESCOBEDO",
+  "comunidad": "Pedro Escobedo",
+  "latitud": "20.5010443",
+  "longitud": "-100.1395169",
+  "sede": "Av. Camino a Vanegas # 11, Col. Ejido El Retablo, Corregidora, C.P. 76900, Queretaro, Queretaro",
+  "region": {
+    "$numberDouble": "NaN"
+  }
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2385"
+  },
+  "clave": "22DJN0038E",
+  "nombre": "J.N. CONÍN",
+  "estado": "QUERÉTARO",
+  "municipio": "QUERETARO",
+  "comunidad": "San Isidro Miranda",
+  "latitud": "20.570563",
+  "longitud": "-100.3172989",
+  "sede": "Av. Camino a Vanegas # 11, Col. Ejido El Retablo, Corregidora, C.P. 76900, Queretaro, Queretaro",
+  "region": {
+    "$numberDouble": "NaN"
+  }
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2386"
+  },
+  "clave": "22DJN0184P",
+  "nombre": "MARGARITA ROMERO MAVERS",
+  "estado": "QUERÉTARO",
+  "municipio": "HUIMILPAN",
+  "comunidad": "Huimilpan",
+  "latitud": "20.3736714",
+  "longitud": "-100.2746876",
+  "sede": "Av. Camino a Vanegas # 11, Col. Ejido El Retablo, Corregidora, C.P. 76900, Queretaro, Queretaro",
+  "region": {
+    "$numberDouble": "NaN"
+  }
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2387"
+  },
+  "clave": "22DJN0414R",
+  "nombre": "ELENA GARRO",
+  "estado": "QUERÉTARO",
+  "municipio": "CORREGIDORA",
+  "comunidad": "Corregidora",
+  "latitud": "20.5551068",
+  "longitud": "-100.3961386",
+  "sede": "Av. Camino a Vanegas # 11, Col. Ejido El Retablo, Corregidora, C.P. 76900, Queretaro, Queretaro",
+  "region": {
+    "$numberDouble": "NaN"
+  }
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2388"
+  },
+  "clave": "22DJN1370R",
+  "nombre": "NICOLAS OROZCO BRAVO",
+  "estado": "QUERÉTARO",
+  "municipio": "TEQUISQUIAPAN",
+  "comunidad": "Tequisquiapan",
+  "latitud": "20.5187326",
+  "longitud": "-99.8850586",
+  "sede": "Av. Camino a Vanegas # 11, Col. Ejido El Retablo, Corregidora, C.P. 76900, Queretaro, Queretaro",
+  "region": {
+    "$numberDouble": "NaN"
+  }
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2389"
+  },
+  "clave": "22DJN1466D",
+  "nombre": "NUESTRO FUTURO",
+  "estado": "QUERÉTARO",
+  "municipio": "JALPAN DE SERRA",
+  "comunidad": "Jalpan de Serra",
+  "latitud": "21.2190312",
+  "longitud": "-99.4714352",
+  "sede": "Av. Camino a Vanegas # 11, Col. Ejido El Retablo, Corregidora, C.P. 76900, Queretaro, Queretaro",
+  "region": {
+    "$numberDouble": "NaN"
+  }
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af238a"
+  },
+  "clave": "23DJN0152W",
+  "nombre": "JARDIN DE NIÑOS \"GOLONDRINAS\"",
+  "estado": "QUINTANA ROO",
+  "municipio": "COZUMEL",
+  "comunidad": "Cozumel",
+  "latitud": "20.4920749",
+  "longitud": "-86.9555358",
+  "sede": "Calle Nicte Ha #225 entrando sobre calle Codorniz, col. Tumben-Cuxtal, C.P. 77026, Chetumal, Quintana Roo",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af238b"
+  },
+  "clave": "25DJN0001O",
+  "nombre": "NIÑOS HEROES DE CHAPULTEPEC",
+  "estado": "SINALOA",
+  "municipio": "CULIACAN",
+  "comunidad": "Culiacan Rosales",
+  "latitud": "24.7865239",
+  "longitud": "-107.3726279",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af238c"
+  },
+  "clave": "25DJN0025Y",
+  "nombre": "J.N. NIÑOS HEROES DE CHAPULTEPEC",
+  "estado": "SINALOA",
+  "municipio": "AHOME",
+  "comunidad": "Estacion Francisco Ninos Heroes de Chapultepec",
+  "latitud": "26.3275625",
+  "longitud": "-108.9415211",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af238d"
+  },
+  "clave": "25DJN0047J",
+  "nombre": "ELOISA AGUIRRE DEL VALLE",
+  "estado": "SINALOA",
+  "municipio": "MAZATLAN",
+  "comunidad": "Mazatlan",
+  "latitud": "23.2436252",
+  "longitud": "-106.3833985",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af238e"
+  },
+  "clave": "25DJN0058P",
+  "nombre": "JESÚS CASTRO CAMACHO",
+  "estado": "SINALOA",
+  "municipio": "ESCUINAPA",
+  "comunidad": "Escuinapa de Hidalgo",
+  "latitud": "22.8317744",
+  "longitud": "-105.7791327",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af238f"
+  },
+  "clave": "25DJN0098Q",
+  "nombre": "JARDIN DE NIÑOS MARIE CURIE",
+  "estado": "SINALOA",
+  "municipio": "NAVOLATO",
+  "comunidad": "Navolato",
+  "latitud": "24.7637822",
+  "longitud": "-107.7014482",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2390"
+  },
+  "clave": "25DJN0118N",
+  "nombre": "JARDIN DE NIÑOS HELEN ADAMS KELLER",
+  "estado": "SINALOA",
+  "municipio": "ANGOSTURA",
+  "comunidad": "Angostura",
+  "latitud": "25.3672009",
+  "longitud": "-108.1604643",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2391"
+  },
+  "clave": "25DJN0306G",
+  "nombre": "MIGUEL HIDALGO",
+  "estado": "SINALOA",
+  "municipio": "SINALOA",
+  "comunidad": "Miguel Hidalgo",
+  "latitud": "25.4527777",
+  "longitud": "-108.5477777",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2392"
+  },
+  "clave": "25DJN0387H",
+  "nombre": "ADOLFO LOPEZ MATEOS",
+  "estado": "SINALOA",
+  "municipio": "COSALA",
+  "comunidad": "Cosala",
+  "latitud": "24.4136366",
+  "longitud": "-106.6915369",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2393"
+  },
+  "clave": "25DJN0428R",
+  "nombre": "JARDIN DE NIÑOS JHON DEWEY",
+  "estado": "SINALOA",
+  "municipio": "ELOTA",
+  "comunidad": "Elota",
+  "latitud": "23.9695737",
+  "longitud": "-106.711657",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2394"
+  },
+  "clave": "25DJN0723T",
+  "nombre": "\"ENRIQUE C. REBSAMEN\"",
+  "estado": "SINALOA",
+  "municipio": "GUASAVE",
+  "comunidad": "Guasave",
+  "latitud": "25.5666987",
+  "longitud": "-108.4673051",
+  "sede": "Blvd. Constitucion #1035, Col. Jorge Almada, C.P. 80200, Culiacan de Rosales, Sinaloa",
+  "region": "Occidente"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2395"
+  },
+  "clave": "27DJN0137Z",
+  "nombre": "SOR JUANA INES DE LA CRUZ",
+  "estado": "TABASCO",
+  "municipio": "NACAJUCA",
+  "comunidad": "Nacajuca",
+  "latitud": "18.1697426",
+  "longitud": "-93.0150692",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2396"
+  },
+  "clave": "27DCC0063J",
+  "nombre": "30 DE ABRIL",
+  "estado": "TABASCO",
+  "municipio": "MACUSPANA",
+  "comunidad": "Macuspana",
+  "latitud": "17.7607017",
+  "longitud": "-92.5936096",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2397"
+  },
+  "clave": "27DJN0049F",
+  "nombre": "AMADO NERVO",
+  "estado": "TABASCO",
+  "municipio": "CENTLA",
+  "comunidad": "Frontera",
+  "latitud": "18.5333932",
+  "longitud": "-92.6460586",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2398"
+  },
+  "clave": "27DJN0056P",
+  "nombre": "CARLOS PELLICER CAMARA",
+  "estado": "TABASCO",
+  "municipio": "COMALCALCO",
+  "comunidad": "Comalcalco",
+  "latitud": "18.2634065",
+  "longitud": "-93.2226899",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af2399"
+  },
+  "clave": "27DJN0093T",
+  "nombre": "J.N. MARIA ENRIQUETA CAMARILLO DE PEREYRA",
+  "estado": "TABASCO",
+  "municipio": "CUNDUACAN",
+  "comunidad": "Cunduacan",
+  "latitud": "18.0721544",
+  "longitud": "-93.1712486",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af239a"
+  },
+  "clave": "27DJN0120Z",
+  "nombre": "NARCISO MENDOZA",
+  "estado": "TABASCO",
+  "municipio": "HUIMANGUILLO",
+  "comunidad": "Huimanguillo",
+  "latitud": "17.8320441",
+  "longitud": "-93.3918106",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af239b"
+  },
+  "clave": "27DJN0137Z",
+  "nombre": "SOR JUANA INES DE LA CRUZ",
+  "estado": "TABASCO",
+  "municipio": "TENOSIQUE",
+  "comunidad": "Tenosique",
+  "latitud": "17.472665",
+  "longitud": "-91.425051",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af239c"
+  },
+  "clave": "27DJN0279Y",
+  "nombre": "DIEGO MARIA RIVERA",
+  "estado": "TABASCO",
+  "municipio": "TEAPA",
+  "comunidad": "Teapa",
+  "latitud": "17.5671054",
+  "longitud": "-92.9500647",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af239d"
+  },
+  "clave": "32EJN0062K",
+  "nombre": "GABRIELA MISTRAL",
+  "estado": "TABASCO",
+  "municipio": "JALPA DE MENDEZ",
+  "comunidad": "Jalpa de Mendez",
+  "latitud": "18.1747989",
+  "longitud": "-93.070142",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af239e"
+  },
+  "clave": "27DJN1288M",
+  "nombre": "FRANCISCO GONZALEZ BOCANEGRA",
+  "estado": "TABASCO",
+  "municipio": "BALANCAN",
+  "comunidad": "Balancan",
+  "latitud": "17.8018991",
+  "longitud": "-91.5413596",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af239f"
+  },
+  "clave": "27EJN1776B",
+  "nombre": "JUAN ESCUTIA",
+  "estado": "TABASCO",
+  "municipio": "TACOTALPA",
+  "comunidad": "Tacotalpa",
+  "latitud": "17.5969832",
+  "longitud": "-92.8265503",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a0"
+  },
+  "clave": "27FUA0004J",
+  "nombre": "USAER 38",
+  "estado": "TABASCO",
+  "municipio": "PARAISO",
+  "comunidad": "Paraiso",
+  "latitud": "18.405578",
+  "longitud": "-93.2027617",
+  "sede": "Calle Juan Alvarez #302, Col. Centro, C.P. 86000, Villahermosa, Tabasco",
+  "region": "Sureste"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a1"
+  },
+  "clave": "28DDI0010X",
+  "nombre": "CENDINO.4",
+  "estado": "TAMAULIPAS",
+  "municipio": "NUEVO LAREDO",
+  "comunidad": "Nuevo Laredo",
+  "latitud": "27.4779362",
+  "longitud": "-99.549573",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a2"
+  },
+  "clave": "28DJN0005H",
+  "nombre": "JARDÍN DE NIÑOS \"JOSEFA LLERA\"",
+  "estado": "TAMAULIPAS",
+  "municipio": "LLERA",
+  "comunidad": "Llera de Canales",
+  "latitud": "23.3114981",
+  "longitud": "-99.0214319",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a3"
+  },
+  "clave": "28DJN0041M",
+  "nombre": "JARDIN DE NIÑOS TAMAULIPAS",
+  "estado": "TAMAULIPAS",
+  "municipio": "TAMPICO",
+  "comunidad": "Tampico",
+  "latitud": "22.2432461",
+  "longitud": "-97.8533205",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a4"
+  },
+  "clave": "28DJN0063Y",
+  "nombre": "BEATRIZ ORDOÑEZ  ACUÑA",
+  "estado": "TAMAULIPAS",
+  "municipio": "REYNOSA",
+  "comunidad": "Reynosa",
+  "latitud": "26.0504979",
+  "longitud": "-98.2969036",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a5"
+  },
+  "clave": "28DJN0095Q",
+  "nombre": "JARDIN DE NINOS ROTARIO",
+  "estado": "TAMAULIPAS",
+  "municipio": "VICTORIA",
+  "comunidad": "Ciudad Victoria",
+  "latitud": "23.7505157",
+  "longitud": "-99.1508576",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a6"
+  },
+  "clave": "28DJN0110S",
+  "nombre": "JARDIN DE NIÑOS ALBORADA",
+  "estado": "TAMAULIPAS",
+  "municipio": "EL MANTE",
+  "comunidad": "Ciudad Mante",
+  "latitud": "22.7385712",
+  "longitud": "-98.9533034",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a7"
+  },
+  "clave": "28DJN0168S",
+  "nombre": "CLUB DE LEONES",
+  "estado": "TAMAULIPAS",
+  "municipio": "ALDAMA",
+  "comunidad": "Aldama",
+  "latitud": "22.923663",
+  "longitud": "-98.0765288",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a8"
+  },
+  "clave": "28DJN0298L",
+  "nombre": "JARDIN DE NIÑOS FRANCISCO VILLA",
+  "estado": "TAMAULIPAS",
+  "municipio": "CIUDAD MADERO",
+  "comunidad": "Ciudad Madero",
+  "latitud": "22.2551876",
+  "longitud": "-97.8560814",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23a9"
+  },
+  "clave": "28DJN0360Y",
+  "nombre": "JARDIN DE NIÑOS VICENTE GUERRERO",
+  "estado": "TAMAULIPAS",
+  "municipio": "ALTAMIRA",
+  "comunidad": "Altamira",
+  "latitud": "22.4077462",
+  "longitud": "-97.9211555",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23aa"
+  },
+  "clave": "28DJN0497K",
+  "nombre": "TENOCH",
+  "estado": "TAMAULIPAS",
+  "municipio": "ANTIGUO MORELOS",
+  "comunidad": "Antiguo Morelos Municipality",
+  "latitud": "22.5510699",
+  "longitud": "-99.0845186",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23ab"
+  },
+  "clave": "28DJN0598I",
+  "nombre": "JUSTOSIERRA",
+  "estado": "TAMAULIPAS",
+  "municipio": "SOTO LA MARINA",
+  "comunidad": "Soto la Marina",
+  "latitud": "23.7704454",
+  "longitud": "-98.2090467",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23ac"
+  },
+  "clave": "28DJN0837S",
+  "nombre": "JARDIN DE NIÑOS JUAN ENRIQUE PESTALOZZI",
+  "estado": "TAMAULIPAS",
+  "municipio": "VALLE HERMOSO",
+  "comunidad": "Valle Hermoso",
+  "latitud": "25.6683739",
+  "longitud": "-97.8159111",
+  "sede": "Calle Gonzalez #2010, esquina con Juan Jose de la Garza, Col. Guadalupe Mainero, C.P. 87100, Ciudad Victoria, Tamaulipas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23ad"
+  },
+  "clave": "29DJN0001K",
+  "nombre": "ESOPO",
+  "estado": "TLAXCALA",
+  "municipio": "CONTLA DE JUAN CUAMATZI",
+  "comunidad": "Contla",
+  "latitud": "19.3338962",
+  "longitud": "-98.1813182",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23ae"
+  },
+  "clave": "29DJN0038Y",
+  "nombre": "FERNANDO MONTES DE OCA",
+  "estado": "TLAXCALA",
+  "municipio": "TEPETITLA DE LARDIZABAL",
+  "comunidad": "Tepetitla",
+  "latitud": "19.2654499",
+  "longitud": "-98.3788284",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23af"
+  },
+  "clave": "29DJN0065V",
+  "nombre": "PAULINA MARAVER CORTES",
+  "estado": "TLAXCALA",
+  "municipio": "HUAMANTLA",
+  "comunidad": "Huamantla",
+  "latitud": "19.3184941",
+  "longitud": "-97.9233826",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b0"
+  },
+  "clave": "29DJN0092S",
+  "nombre": "JARDIN DE NIÑOS AQUILES SERDAN",
+  "estado": "PUEBLA",
+  "municipio": "SANTA ISABEL XILOXOXTLA",
+  "comunidad": "San Lorenzo Almecatla",
+  "latitud": "19.1525582",
+  "longitud": "-98.2311975",
+  "sede": "Av. Jesus Reyes Heroles, # 4402, Col. Ex-Rancho Colorado, entre Av. San Bernardo y Camino Real a San Felipe, C.P. 72044, Puebla, Puebla",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b1"
+  },
+  "clave": "29DJN0109B",
+  "nombre": "SOCRATES",
+  "estado": "TLAXCALA",
+  "municipio": "CUAPIAXTLA",
+  "comunidad": "Cuapiaxtla",
+  "latitud": "19.299075",
+  "longitud": "-97.7715529",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b2"
+  },
+  "clave": "29DJN0123V",
+  "nombre": "FRANCISCA MADERA MARTINEZ",
+  "estado": "TLAXCALA",
+  "municipio": "TOTOLAC",
+  "comunidad": "Panotla",
+  "latitud": "19.3182016",
+  "longitud": "-98.261307",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b3"
+  },
+  "clave": "29DJN0204F",
+  "nombre": "ANGELINA URIBE R.",
+  "estado": "TLAXCALA",
+  "municipio": "XALTOCAN",
+  "comunidad": "Xaltocan",
+  "latitud": "19.4256555",
+  "longitud": "-98.2171967",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b4"
+  },
+  "clave": "29DML0011Q",
+  "nombre": "CENTRO DE ATENCIÓN MÚLTIPLE NO. 11",
+  "estado": "TLAXCALA",
+  "municipio": "CHIAUTEMPAN",
+  "comunidad": "Chiautempan",
+  "latitud": "19.3125811",
+  "longitud": "-98.191238",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b5"
+  },
+  "clave": "29EML0001I",
+  "nombre": "CENTRO DE ATENCION MULTIPLE 01 ZATELCO",
+  "estado": "TLAXCALA",
+  "municipio": "ZACATELCO",
+  "comunidad": "Zacatelco",
+  "latitud": "19.2010418",
+  "longitud": "-98.2347334",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b6"
+  },
+  "clave": "29FUA0028R",
+  "nombre": "USAER 28",
+  "estado": "TLAXCALA",
+  "municipio": "APIZACO",
+  "comunidad": "Apizaco",
+  "latitud": "19.415881",
+  "longitud": "-98.1393179",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b7"
+  },
+  "clave": "29FUA0039X",
+  "nombre": "USAER39",
+  "estado": "TLAXCALA",
+  "municipio": "PANOTLA",
+  "comunidad": "Panotla",
+  "latitud": "19.3124375",
+  "longitud": "-98.2732659",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b8"
+  },
+  "clave": "29FUA0057M",
+  "nombre": "USAER 57",
+  "estado": "TLAXCALA",
+  "municipio": "IXTACUIXTLA DE MARIANO MATAMOROS",
+  "comunidad": "Ixtacuixtla de Mariano Matamoros",
+  "latitud": "19.3266299",
+  "longitud": "-98.3721241",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23b9"
+  },
+  "clave": "29FUA0061Z",
+  "nombre": "U.S.A.E.R. 61",
+  "estado": "TLAXCALA",
+  "municipio": "ATLANGATEPEC",
+  "comunidad": "Atlangatepec",
+  "latitud": "19.5319254",
+  "longitud": "-98.209249",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23ba"
+  },
+  "clave": "29FUA0062Y",
+  "nombre": "USAER62",
+  "estado": "TLAXCALA",
+  "municipio": "SANTA APOLONIA TEACALCO",
+  "comunidad": "Santa Apolonia Teacalco",
+  "latitud": "19.2442482",
+  "longitud": "-98.3129504",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23bb"
+  },
+  "clave": "29FUA1002Q",
+  "nombre": "U.S.A.E.R. 02",
+  "estado": "TLAXCALA",
+  "municipio": "TLAXCO",
+  "comunidad": "Tlaxco",
+  "latitud": "19.61766",
+  "longitud": "-98.1174721",
+  "sede": "Carretera Santa Ana-Ocotlan #21, Col. San Gabriel Cuauhtla, C.P. 90117, Tlaxcala, Tlaxcala",
+  "region": "Centro"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23bc"
+  },
+  "clave": "32DJN0009Q",
+  "nombre": "J.DEN.PROFR.GUSTAVO RUIZ DE CHAVEZ",
+  "estado": "ZACATECAS",
+  "municipio": "FRESNILLO",
+  "comunidad": "Fresnillo",
+  "latitud": "23.1777586",
+  "longitud": "-102.8687414",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23bd"
+  },
+  "clave": "32DJN0012D",
+  "nombre": "JARDIN DE NIÑOS \"CLUB DE LEONES\"",
+  "estado": "ZACATECAS",
+  "municipio": "SOMBRERETE",
+  "comunidad": "Sombrerete",
+  "latitud": "23.6342457",
+  "longitud": "-103.6391657",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23be"
+  },
+  "clave": "32DJN0030T",
+  "nombre": "18 DE MARZO",
+  "estado": "ZACATECAS",
+  "municipio": "OJOCALIENTE",
+  "comunidad": "Ojocaliente",
+  "latitud": "22.5706028",
+  "longitud": "-102.2546666",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23bf"
+  },
+  "clave": "32DJN0036N",
+  "nombre": "LUIS MEDINA BARRON",
+  "estado": "ZACATECAS",
+  "municipio": "TRINIDAD GARCIA DE LA CADENA",
+  "comunidad": "Trinidad Garcia de la Cadena",
+  "latitud": "21.2086275",
+  "longitud": "-103.4632247",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c0"
+  },
+  "clave": "32DJN0087U",
+  "nombre": "MANUEL GUTIERREZ NAJERA",
+  "estado": "ZACATECAS",
+  "municipio": "EL PLATEADO DE JOAQUIN AMARO",
+  "comunidad": "El Plateado de Joaquin Amaro",
+  "latitud": "21.9378787",
+  "longitud": "-103.0906002",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c1"
+  },
+  "clave": "32DJN0090H",
+  "nombre": "FRAY BARTOLOME DE LAS CASAS",
+  "estado": "ZACATECAS",
+  "municipio": "MAZAPIL",
+  "comunidad": "Mazapil",
+  "latitud": "24.6378747",
+  "longitud": "-101.5532019",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c2"
+  },
+  "clave": "32DJN0098Z",
+  "nombre": "SALVADOR VARELA RESENDIZ",
+  "estado": "ZACATECAS",
+  "municipio": "VILLANUEVA",
+  "comunidad": "Villanueva",
+  "latitud": "22.3539588",
+  "longitud": "-102.8841199",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c3"
+  },
+  "clave": "32DJN0099Z",
+  "nombre": "J. DE N. ING. PEDRO RUIZ GONZALEZ",
+  "estado": "ZACATECAS",
+  "municipio": "MIGUEL AUZA",
+  "comunidad": "Miguel Auza",
+  "latitud": "24.2840385",
+  "longitud": "-103.4453969",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c4"
+  },
+  "clave": "32DJN0155A",
+  "nombre": "\"ANTONIO ROSALES\"",
+  "estado": "ZACATECAS",
+  "municipio": "JUCHIPILA",
+  "comunidad": "Juchipila",
+  "latitud": "21.3980159",
+  "longitud": "-103.1185257",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c5"
+  },
+  "clave": "32DJN0170T",
+  "nombre": "IGNACIO MANUEL ALTAMIRANO",
+  "estado": "ZACATECAS",
+  "municipio": "VETAGRANDE",
+  "comunidad": "Vetagrande",
+  "latitud": "22.8340177",
+  "longitud": "-102.5558806",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c6"
+  },
+  "clave": "32DJN0179K",
+  "nombre": "MANUEL ACUÑA",
+  "estado": "ZACATECAS",
+  "municipio": "VILLA DE COS",
+  "comunidad": "Villa de Cos",
+  "latitud": "23.2943621",
+  "longitud": "-102.3499958",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c7"
+  },
+  "clave": "32DJN0231Q",
+  "nombre": "J.DE N. LUIS DE LA ROSA OTEIZA",
+  "estado": "ZACATECAS",
+  "municipio": "JUAN ALDAMA",
+  "comunidad": "Juan Aldama",
+  "latitud": "24.2851899",
+  "longitud": "-103.3884166",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c8"
+  },
+  "clave": "32DJN0237K",
+  "nombre": "TAGORE",
+  "estado": "ZACATECAS",
+  "municipio": "VILLA GARCIA",
+  "comunidad": "Villa Garcia",
+  "latitud": "22.162602",
+  "longitud": "-101.9547783",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23c9"
+  },
+  "clave": "32DJN0276M",
+  "nombre": "JUAN SEBASTIAN BACH",
+  "estado": "ZACATECAS",
+  "municipio": "NORIA DE ANGELES",
+  "comunidad": "Noria de Angeles",
+  "latitud": "22.4420772",
+  "longitud": "-101.9078211",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23ca"
+  },
+  "clave": "32DJN0302U",
+  "nombre": "MARIA  ELENA CHAVEZ SANCHEZ",
+  "estado": "ZACATECAS",
+  "municipio": "SAIN ALTO",
+  "comunidad": "Sain Alto",
+  "latitud": "23.5818229",
+  "longitud": "-103.2521209",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23cb"
+  },
+  "clave": "32DJN0333N",
+  "nombre": "JUAN PAVLOV",
+  "estado": "ZACATECAS",
+  "municipio": "JEREZ",
+  "comunidad": "Jerez de Garcia Salinas",
+  "latitud": "22.6460278",
+  "longitud": "-102.9858741",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23cc"
+  },
+  "clave": "32DJN0591B",
+  "nombre": "J.N. \"ROSAURA ZAPATA\"",
+  "estado": "ZACATECAS",
+  "municipio": "APOZOL",
+  "comunidad": "Apozol",
+  "latitud": "21.4664496",
+  "longitud": "-103.0910527",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23cd"
+  },
+  "clave": "32DML0016Z",
+  "nombre": "BENITO JUAREZ GARCIA",
+  "estado": "ZACATECAS",
+  "municipio": "MONTE ESCOBEDO",
+  "comunidad": "Monte Escobedo",
+  "latitud": "22.3019884",
+  "longitud": "-103.5627736",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23ce"
+  },
+  "clave": "32DML0023I",
+  "nombre": "CENTRO DE ATENCION MULTIPLE NO. 23 FRIDA KAHLO",
+  "estado": "ZACATECAS",
+  "municipio": "CHALCHIHUITES",
+  "comunidad": "Chalchihuites Municipality",
+  "latitud": "23.4758302",
+  "longitud": "-103.8809881",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23cf"
+  },
+  "clave": "32EJN0436I",
+  "nombre": "JARDIN DE NIÑOS YOALTIZITL",
+  "estado": "ZACATECAS",
+  "municipio": "LUIS MOYA",
+  "comunidad": "Luis Moya",
+  "latitud": "22.4383477",
+  "longitud": "-102.2516625",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23d0"
+  },
+  "clave": "32EJN0486Q",
+  "nombre": "JARDÍN DE NIÑOS \"ANA MARÍA YRMA MALDONADO PINEDO\"",
+  "estado": "ZACATECAS",
+  "municipio": "NOCHISTLAN DE MEJIA",
+  "comunidad": "Nochistlan",
+  "latitud": "21.3634678",
+  "longitud": "-102.8436668",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23d1"
+  },
+  "clave": "32EJN0508L",
+  "nombre": "PEDRO CORONEL",
+  "estado": "ZACATECAS",
+  "municipio": "ZACATECAS",
+  "comunidad": "Zacatecas",
+  "latitud": "22.776116",
+  "longitud": "-102.5736406",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23d2"
+  },
+  "clave": "32EJN0517T",
+  "nombre": "MARIA MONTESSORI",
+  "estado": "ZACATECAS",
+  "municipio": "JALPA",
+  "comunidad": "Jalpa",
+  "latitud": "21.637432",
+  "longitud": "-102.9778617",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+},
+{
+  "_id": {
+    "$oid": "676e0762ce77d740b1af23d3"
+  },
+  "clave": "32FUA0027F",
+  "nombre": "VIGOTSKY",
+  "estado": "ZACATECAS",
+  "municipio": "MOYAHUA DE ESTRADA",
+  "comunidad": "Moyahua de Estrada",
+  "latitud": "21.2647837",
+  "longitud": "-103.1659219",
+  "sede": "Elena Poniatowska #1, Col. Ojo de Agua de la Palma Industrial, C.P. 98606, Guadalupe, Zacatecas, Zacatecas",
+  "region": "Norte"
+}]

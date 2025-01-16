@@ -1,0 +1,288 @@
+[{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65e4"
+  },
+  "estado": "CIUDAD DE MEXICO",
+  "direccion": "Av. División del Norte #3305 y 3307, Col. Candelaria, Delegación Coyoacán, C.P. 04380, Ciudad de Mexico.",
+  "longitud": -99.14490571892854,
+  "latitud": 19.331054693492877
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65e5"
+  },
+  "estado": "AGUASCALIENTES",
+  "direccion": "Av. Julio Díaz Torre #110, Fracc. Ciudad Industrial, C.P. 20290, Aguascalientes, Aguascalientes.",
+  "longitud": -102.27934940354409,
+  "latitud": 21.83845731154442
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65e6"
+  },
+  "estado": "BAJA CALIFORNIA",
+  "direccion": "Av. José Clemente Orozco #2393, Zona Río Tijuana, C.P. 22010, Tijuana, Baja California.",
+  "longitud": -117.01473396095749,
+  "latitud": 32.523767460675735
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65e7"
+  },
+  "estado": "BAJA CALIFORNIA SUR",
+  "direccion": "Isabel la Católica #1725, entre Melchor Ocampo y Santos Degollado, Col. Centro, C. P. 23000, La Paz, Baja California Sur.",
+  "longitud": -110.30647525424837,
+  "latitud": 24.14404328091489
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65e8"
+  },
+  "estado": "CAMPECHE",
+  "direccion": "Calle 14 #257-A Barrio de San Román, entre calle Galeana y Talamantes, C.P. 24040, Campeche, Campeche.",
+  "longitud": -90.5421576189201,
+  "latitud": 19.840499865333868
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65e9"
+  },
+  "estado": "COAHUILA",
+  "direccion": "Calle Comonfort #242 Sur, Zona Centro, C.P. 27000, Torreón, Coahuila.",
+  "longitud": -103.44242607956974,
+  "latitud": 25.53903843043742
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65ea"
+  },
+  "estado": "COLIMA",
+  "direccion": "Av. De los Maestros #317, Col. Magisterial, C.P. 28030, Colima, Colima.",
+  "longitud": -103.72735333242419,
+  "latitud": 19.25558355474568
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65eb"
+  },
+  "estado": "CHIAPAS",
+  "direccion": "8ª. Calle Poniente Sur #176, entre 1ª. Sur y Av. Central, Col. Centro, C.P. 29000, Tuxtla Gutiérrez, Chiapas.",
+  "longitud": -93.11731843246133,
+  "latitud": 16.753242059323295
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65ec"
+  },
+  "estado": "CHIHUAHUA",
+  "direccion": "Gómez Farías #118, Col. Centro, C.P. 31000, Chihuahua, Chihuahua.",
+  "longitud": -106.07346425921769,
+  "latitud": 28.635077025006616
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65ed"
+  },
+  "estado": "DURANGO",
+  "direccion": "Boulevard Francisco Villa #5025, Col. Ciudad Industrial, C.P. 34208, Durango, Durango.",
+  "longitud": -104.60914907466478,
+  "latitud": 24.060974214566176
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65ee"
+  },
+  "estado": "GUANAJUATO",
+  "direccion": "División del Norte #124 P. B., Esq. Prolongación Reforma, Col. El Vergel, C.P. 38070, Celaya, Guanajuato.",
+  "longitud": -101.68233447841186,
+  "latitud": 21.12633955415968
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65ef"
+  },
+  "estado": "GUERRERO",
+  "direccion": "Vicente Yañez Pinzón #16, Frac. Magallanes. C.P. 39670, Acapulco, Guerrero.",
+  "longitud": -99.87308448079807,
+  "latitud": 16.861406494550256
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f0"
+  },
+  "estado": "HIDALGO",
+  "direccion": "Boulevard Everardo Márquez No. 700, 2do. Piso, Col. Ex Hacienda de Coscotitlán, C.P. 42080, Pachuca de Soto, Hidalgo.",
+  "longitud": -98.74554485939959,
+  "latitud": 20.09265124694059
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f1"
+  },
+  "estado": "JALISCO",
+  "direccion": "Calle Maestranza #266, Col. Centro, C.P. 44100, Guadalajara, Jalisco.",
+  "longitud": -103.34557187473017,
+  "latitud": 20.67281088936389
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f2"
+  },
+  "estado": "ESTADO DE MEXICO",
+  "direccion": "Vía Gustavo Baz #98, Edificio Dunlop 4to piso, Fracc. Industrial Alce Blanco, C.P. 53370, Naucalpan de Juárez, Estado de México.",
+  "longitud": -99.23107643057462,
+  "latitud": 19.48121918895791
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f3"
+  },
+  "estado": "MICHOACAN",
+  "direccion": "Av. Camelinas #846, Fracc. La Loma, C.P. 58290, Morelia, Michoacán.",
+  "longitud": -101.1838520900876,
+  "latitud": 19.68110871285318
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f4"
+  },
+  "estado": "MORELOS",
+  "direccion": "Plutarco Elías Calles #3, Col. Club de Golf, C.P. 62030, Cuernavaca, Morelos.",
+  "longitud": -99.25118966705807,
+  "latitud": 18.92272976014025
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f5"
+  },
+  "estado": "NAYARIT",
+  "direccion": "Av. Estadios #7-A, Fracc. Estadios, C.P. 63109, Tepic, Nayarit.",
+  "longitud": -104.90329569005551,
+  "latitud": 21.51277925311038
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f6"
+  },
+  "estado": "NUEVO LEON",
+  "direccion": "Calle 5 de Mayo #625 Poniente, Zona Centro, C.P. 64000, Monterrey, Nuevo León.",
+  "longitud": -100.31021252353268,
+  "latitud": 25.673095195685793
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f7"
+  },
+  "estado": "OAXACA",
+  "direccion": "Prolongación de Arteaga y Manuel Ávila Camacho #500, Col. Ex Ejido Trinidad de las Huertas, C.P. 68120, Oaxaca, Oaxaca.",
+  "longitud": -96.70805330362204,
+  "latitud": 17.054377725547663
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f8"
+  },
+  "estado": "PUEBLA",
+  "direccion": "Av. Reforma #322, 2do. Piso, Col. Centro, C.P. 72000, Puebla, Puebla.",
+  "longitud": -98.20052699009786,
+  "latitud": 19.04595912182185
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65f9"
+  },
+  "estado": "QUERETARO",
+  "direccion": "Calle Amealco #112, Col. Estrella, C.P. 76030, Querétaro, Querétaro.",
+  "longitud": -100.38763395939107,
+  "latitud": 20.581556117915223
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65fa"
+  },
+  "estado": "QUINTANA ROO",
+  "direccion": "Calle Venustiano Carranza S/N, Manzana 01, Lote 02, Esq. Av. Nápoles, Col. Nueva Italia, C.P. 77035, Chetumal, Quintana Roo.",
+  "longitud": -88.30592185942514,
+  "latitud": 18.50851666511004
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65fb"
+  },
+  "estado": "SAN LUIS POTOSI",
+  "direccion": "Calle 18 de Marzo #585, Col. Prados de San Luis (Col. Jardín), C.P. 78268, San Luis Potosí, San Luis Potosí.",
+  "longitud": -101.0036235612087,
+  "latitud": 22.14169548321463
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65fc"
+  },
+  "estado": "SINALOA",
+  "direccion": "Boulevard Francisco I. Madero #331 Oriente Altos, Col. Centro, C.P. 80000, Culiacán, Sinaloa.",
+  "longitud": -107.3905977611544,
+  "latitud": 24.805143201934474
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65fd"
+  },
+  "estado": "SONORA",
+  "direccion": "Serdán y Boulevard Rosales, Palacio Federal de Correos planta alta, local 09, Col. Centro, C.P. 83000, Hermosillo, Sonora.",
+  "longitud": -110.95702345206298,
+  "latitud": 29.07678788873521
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65fe"
+  },
+  "estado": "TABASCO",
+  "direccion": "Paseo Usumacinta #120, Col. Reforma, C.P. 86080, Villahermosa, Tabasco.",
+  "longitud": -92.93122293429008,
+  "latitud": 17.97852719750992
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe65ff"
+  },
+  "estado": "TAMAULIPAS",
+  "direccion": "Av. Madero #196 Sur, entre Hidalgo y Juárez, Zona Centro, C.P. 87000, Ciudad Victoria, Tamaulipas.",
+  "longitud": -99.16463799001156,
+  "latitud": 23.760765769971037
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe6600"
+  },
+  "estado": "TLAXCALA",
+  "direccion": "Privada Pensiones #5, Col. Centro. C.P. 90000, Tlaxcala, Tlaxcala.",
+  "longitud": -98.2266774651602,
+  "latitud": 19.328536166108037
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe6601"
+  },
+  "estado": "VERACRUZ",
+  "direccion": "Calle Zamora (sin número) 3er piso, esquina con Diego Leaño, C.P. 91000, Xalapa, Veracruz. (Palacio Federal).",
+  "longitud": -96.91811723645233,
+  "latitud": 19.528051425768282
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe6602"
+  },
+  "estado": "YUCATAN",
+  "direccion": "Calle 60-A #461 x 25, Col. Centro, C.P. 97000, Mérida, Yucatán.",
+  "longitud": -89.62226639377407,
+  "latitud": 20.972811083655156
+},
+{
+  "_id": {
+    "$oid": "678313c9e249ea2afafe6603"
+  },
+  "estado": "ZACATECAS",
+  "direccion": "Julián Adame #316, Col. Lomas de la Soledad, C.P. 98040, Zona Centro, Zacatecas, Zacatecas.",
+  "longitud": -102.58183531702069,
+  "latitud": 22.772871014219422
+}]

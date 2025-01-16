@@ -1,0 +1,9440 @@
+[{
+  "_id": {
+    "$oid": "6787a3f4eb53299f0ad53a1e"
+  },
+  "usuario": "202010001",
+  "contraseña": "ZQRO242997VMGZUNR5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f4eb53299f0ad53a28"
+  },
+  "usuario": "202010002",
+  "contraseña": "VMUG799461SWNFTEER ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f4eb53299f0ad53a31"
+  },
+  "usuario": "202010003",
+  "contraseña": "KEBL639903JDUKLURM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f4eb53299f0ad53a38"
+  },
+  "usuario": "202010004",
+  "contraseña": "MRBY821757MOTQABP4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f4eb53299f0ad53a3b"
+  },
+  "usuario": "202010005",
+  "contraseña": "UATP219020MTWHQON3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f4eb53299f0ad53a43"
+  },
+  "usuario": "202010006",
+  "contraseña": "PDBX883451NNZFDPEN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b2a"
+  },
+  "usuario": "202010007",
+  "contraseña": "OIJT293772NTVIVXKL ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b2f"
+  },
+  "usuario": "202010008",
+  "contraseña": "BNYW594084YFHEXVIW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b37"
+  },
+  "usuario": "202010009",
+  "contraseña": "UUML525512WMFCUCIT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b46"
+  },
+  "usuario": "202010010",
+  "contraseña": "QXWX660543MFUFCQKD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b4e"
+  },
+  "usuario": "202010011",
+  "contraseña": "VDMR040872JZDVVXFW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b56"
+  },
+  "usuario": "202010012",
+  "contraseña": "TKKL649092HVQFNAA3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b5c"
+  },
+  "usuario": "202010013",
+  "contraseña": "TPPY028351JHWHSZD3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b60"
+  },
+  "usuario": "202010014",
+  "contraseña": "QWSG066524ERROQC7E ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b69"
+  },
+  "usuario": "202010015",
+  "contraseña": "PICU187351ZJRYGI5R ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b70"
+  },
+  "usuario": "202010016",
+  "contraseña": "JFDJ201684CWWYLOLE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b78"
+  },
+  "usuario": "202010017",
+  "contraseña": "SLYE824138TDNTLMKG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b81"
+  },
+  "usuario": "202010018",
+  "contraseña": "DFKP392502LMTKUJHT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f5eb53299f0ad53b87"
+  },
+  "usuario": "202010019",
+  "contraseña": "ZTFI879972RIQYGK5B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53d70"
+  },
+  "usuario": "202010020",
+  "contraseña": "MGRD622479NMSUBXUE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53d75"
+  },
+  "usuario": "202040001",
+  "contraseña": "MZLS030986QFYISA7D ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53d7d"
+  },
+  "usuario": "202040002",
+  "contraseña": "NXHG314236ZVEHZTNZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53d87"
+  },
+  "usuario": "202040003",
+  "contraseña": "JARY856868TMSNMK4J ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53d8d"
+  },
+  "usuario": "202040004",
+  "contraseña": "KDBH271936UDEZBPT1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53d98"
+  },
+  "usuario": "202040005",
+  "contraseña": "KOVN212953HARJTLGO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53d9e"
+  },
+  "usuario": "202040006",
+  "contraseña": "LOND384739CHAJZAP4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53da3"
+  },
+  "usuario": "202040007",
+  "contraseña": "ULCT397864WQLRND26 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53db0"
+  },
+  "usuario": "202040008",
+  "contraseña": "MZAC179704QPNDGV3V ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53db6"
+  },
+  "usuario": "202040009",
+  "contraseña": "IGLI320705QKJQUHYM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53dc2"
+  },
+  "usuario": "202040010",
+  "contraseña": "UPNB032521UWZJOJNY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53dc9"
+  },
+  "usuario": "202040011",
+  "contraseña": "FCOP952564BHFAVQZW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f6eb53299f0ad53dcd"
+  },
+  "usuario": "202040012",
+  "contraseña": "TYPM479494FPQIZT4Q ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad53ffc"
+  },
+  "usuario": "202040013",
+  "contraseña": "TFNK121724KYTXCMM7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad54000"
+  },
+  "usuario": "202040014",
+  "contraseña": "QOEB514894FOIZGF7A ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad54008"
+  },
+  "usuario": "202040015",
+  "contraseña": "XUSG797631LVBCXS3D ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad54015"
+  },
+  "usuario": "202040016",
+  "contraseña": "AIGK667698RAETPF0P ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad54020"
+  },
+  "usuario": "202040017",
+  "contraseña": "JHVA539430XGVICRV4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad54028"
+  },
+  "usuario": "202040018",
+  "contraseña": "MBOZ138339RSYHRMSO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad54031"
+  },
+  "usuario": "202040019",
+  "contraseña": "TSOF981883LHGQYIIR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad54039"
+  },
+  "usuario": "202040020",
+  "contraseña": "PFJO110735CSEBKML6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad54042"
+  },
+  "usuario": "202050001",
+  "contraseña": "CPGY453167YDCLZVJ3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad5404b"
+  },
+  "usuario": "202050002",
+  "contraseña": "VZMM791771OYQKEH77 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f7eb53299f0ad54057"
+  },
+  "usuario": "202050003",
+  "contraseña": "EMQT969585YVXXTOEZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad54263"
+  },
+  "usuario": "202050004",
+  "contraseña": "GYSQ565337ENBPQIME ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad5426e"
+  },
+  "usuario": "202050005",
+  "contraseña": "DWSA709555EUPSIN1M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad54278"
+  },
+  "usuario": "202050006",
+  "contraseña": "WKSH820647CUJTONN9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad54288"
+  },
+  "usuario": "202050007",
+  "contraseña": "YKMD624966FQLTGPJV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad54291"
+  },
+  "usuario": "202050008",
+  "contraseña": "ZLXJ381665YKQNKFF5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad54299"
+  },
+  "usuario": "202050009",
+  "contraseña": "ZPMC388269ZYCVBOV4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad542a0"
+  },
+  "usuario": "202050010",
+  "contraseña": "MSMZ461779BZKWWUW6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad542a4"
+  },
+  "usuario": "202050011",
+  "contraseña": "BEIB041012ANIACWTD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad542ad"
+  },
+  "usuario": "202050012",
+  "contraseña": "PUWW897741XBRSOHOO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f8eb53299f0ad542b8"
+  },
+  "usuario": "202050013",
+  "contraseña": "WKNM993814BGTDPJRW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad5447e"
+  },
+  "usuario": "202050014",
+  "contraseña": "TNRN639586JEOVZT7V ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad54487"
+  },
+  "usuario": "202050015",
+  "contraseña": "OGKV006881JJVZEKJI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad54491"
+  },
+  "usuario": "202050016",
+  "contraseña": "WYNN337158DPZRJT6I ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad5449c"
+  },
+  "usuario": "202050017",
+  "contraseña": "SBEM202665UGHXHJ2Q ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad544ac"
+  },
+  "usuario": "202050018",
+  "contraseña": "NASK847788UDRPYTGJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad544b4"
+  },
+  "usuario": "202050019",
+  "contraseña": "JDLK682549GWQOQD1K ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad544be"
+  },
+  "usuario": "202050020",
+  "contraseña": "STVX632594NMOSJVT5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad544c6"
+  },
+  "usuario": "202070001",
+  "contraseña": "LMBN512299TDJUKG8I ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad544d8"
+  },
+  "usuario": "202070002",
+  "contraseña": "RDMK304527LVKSCCSD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3f9eb53299f0ad544de"
+  },
+  "usuario": "202070003",
+  "contraseña": "JGUH734321TEKVXM7I ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad5469c"
+  },
+  "usuario": "202070004",
+  "contraseña": "DFJR522971DQUQYLVP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad546a7"
+  },
+  "usuario": "202070005",
+  "contraseña": "UZUM874418BYRWTT50 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad546ae"
+  },
+  "usuario": "202070006",
+  "contraseña": "ZCLQ715210IJOLOXUJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad546b6"
+  },
+  "usuario": "202070007",
+  "contraseña": "IOVM257253VAPYJZ5O ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad546bf"
+  },
+  "usuario": "202070008",
+  "contraseña": "BLCM283630DUAWLC62 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad546c7"
+  },
+  "usuario": "202070009",
+  "contraseña": "ILEE452153EIXCON93 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad546cd"
+  },
+  "usuario": "202070010",
+  "contraseña": "ILGG094757GFUMYMAY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad546d9"
+  },
+  "usuario": "202070011",
+  "contraseña": "MVNU447110AJPWMES4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad546e2"
+  },
+  "usuario": "202070012",
+  "contraseña": "ZLMK024304KWXBABZ7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3faeb53299f0ad546ec"
+  },
+  "usuario": "202070013",
+  "contraseña": "JRGS614041EMQHWTET ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad548de"
+  },
+  "usuario": "202070014",
+  "contraseña": "WKPO518076TAJSASY8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad548ea"
+  },
+  "usuario": "202070015",
+  "contraseña": "WAGN570716BSFJKUB5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad548f1"
+  },
+  "usuario": "202070016",
+  "contraseña": "WLNB158472SMCDMD8M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad548fa"
+  },
+  "usuario": "202070017",
+  "contraseña": "TSHJ663085ZPYXSRKE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad54901"
+  },
+  "usuario": "202070018",
+  "contraseña": "AIWS409290OSESPX0G ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad5490d"
+  },
+  "usuario": "202070019",
+  "contraseña": "ZFWV738681HNVUAB6S ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad54917"
+  },
+  "usuario": "202070020",
+  "contraseña": "EJZX272487RKARVDPX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad5491f"
+  },
+  "usuario": "202070021",
+  "contraseña": "KBRC896669LGVCCQHC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad54927"
+  },
+  "usuario": "202070022",
+  "contraseña": "ECSS928362KRPNESX3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fbeb53299f0ad5492e"
+  },
+  "usuario": "202070023",
+  "contraseña": "QMCN018096YKFJGQHH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54b52"
+  },
+  "usuario": "202070024",
+  "contraseña": "TNAI373005HQPETDNZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54b59"
+  },
+  "usuario": "202070025",
+  "contraseña": "XWXM332679CSLWVMWB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54b63"
+  },
+  "usuario": "202070026",
+  "contraseña": "BEUE023599XMPQGP9D ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54b6f"
+  },
+  "usuario": "202070027",
+  "contraseña": "XDXI844843QGDAVP5M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54b78"
+  },
+  "usuario": "202070028",
+  "contraseña": "XNMZ743385HWHYZII2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54b89"
+  },
+  "usuario": "202070029",
+  "contraseña": "VYIK583126VZEFGFFG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54b92"
+  },
+  "usuario": "202070030",
+  "contraseña": "XJSZ895713QZPWZPJD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54b9b"
+  },
+  "usuario": "202070031",
+  "contraseña": "EJHU404908OEZBQXY2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54ba2"
+  },
+  "usuario": "202070032",
+  "contraseña": "PSZD689393QTLDCO8S ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fceb53299f0ad54baf"
+  },
+  "usuario": "202070033",
+  "contraseña": "GLLT520682WNHKDGEV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fdeb53299f0ad54d96"
+  },
+  "usuario": "202070034",
+  "contraseña": "QQBK199859DHXTTJKB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fdeb53299f0ad54da0"
+  },
+  "usuario": "202070035",
+  "contraseña": "UEBH098466KQWREKJW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fdeb53299f0ad54daa"
+  },
+  "usuario": "202070036",
+  "contraseña": "PQPX083739DEDVET4B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fdeb53299f0ad54db8"
+  },
+  "usuario": "202070037",
+  "contraseña": "SPRF144103JZMLRY0P ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fdeb53299f0ad54dc4"
+  },
+  "usuario": "202070038",
+  "contraseña": "YHGZ022331KRGEXX9B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fdeb53299f0ad54dc9"
+  },
+  "usuario": "202070039",
+  "contraseña": "RTSC494124DKLENNIK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a3fdeb53299f0ad54df3"
+  },
+  "usuario": "202070040",
+  "contraseña": "YHHE240145EHUPFYZE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60e65"
+  },
+  "usuario": "2021100001",
+  "contraseña": "KVTZ114301DTRJRT39 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60e6f"
+  },
+  "usuario": "2021100002",
+  "contraseña": "VKYF346919ZCBTELDI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60e76"
+  },
+  "usuario": "2021100003",
+  "contraseña": "WHHL928467EAWTDRQ2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60e7c"
+  },
+  "usuario": "2021100004",
+  "contraseña": "JSJQ283523ASVHJSBC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60e82"
+  },
+  "usuario": "2021100005",
+  "contraseña": "SVVD012707CCXMQBLS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60e86"
+  },
+  "usuario": "2021100006",
+  "contraseña": "KYSV066363QWIHQWYL ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60e8c"
+  },
+  "usuario": "2021100007",
+  "contraseña": "NHAP300564FYWILCRB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60e90"
+  },
+  "usuario": "2021100008",
+  "contraseña": "QYOP147988ULCDOHNS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60e99"
+  },
+  "usuario": "2021130001",
+  "contraseña": "COYP053447IYWXWO6X ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60ea4"
+  },
+  "usuario": "2021140001",
+  "contraseña": "KPPZ721413AZZQXYMP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60ead"
+  },
+  "usuario": "2021140002",
+  "contraseña": "VYMH973837OPOVTO89 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60eb2"
+  },
+  "usuario": "2021250001",
+  "contraseña": "VXZR805574DWEMDRKX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60ebb"
+  },
+  "usuario": "2021250002",
+  "contraseña": "ZYAR549864TIETFMJM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a454eb53299f0ad60ec6"
+  },
+  "usuario": "202180001",
+  "contraseña": "UTGK533772JTUVVNKR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad610eb"
+  },
+  "usuario": "2021250003",
+  "contraseña": "AEVG189068EEVBRDYI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad610f4"
+  },
+  "usuario": "2021250004",
+  "contraseña": "JLQK040411GYAIOKJR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad610f9"
+  },
+  "usuario": "2021250005",
+  "contraseña": "JDCF381078XWUQRDEG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad610fe"
+  },
+  "usuario": "2021200001",
+  "contraseña": "LEXB859611MEYVAWSX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad61109"
+  },
+  "usuario": "202140001",
+  "contraseña": "EXCS712759CBVHQV6N ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad6110f"
+  },
+  "usuario": "202170001",
+  "contraseña": "RMEF790706UNMDBHU3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad61119"
+  },
+  "usuario": "202170002",
+  "contraseña": "YDON691769NLEAUMTI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad61123"
+  },
+  "usuario": "2021320001",
+  "contraseña": "FFWZ301991AQKGXCXU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad61129"
+  },
+  "usuario": "2021320002",
+  "contraseña": "VFAE150007IPMXKGJE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad61137"
+  },
+  "usuario": "202170003",
+  "contraseña": "MVQX744375RUJDOQQO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad6113e"
+  },
+  "usuario": "202170004",
+  "contraseña": "PTYH016270RFYWRNJ4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad61145"
+  },
+  "usuario": "2021320003",
+  "contraseña": "NMSM351945CITUIXIH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a455eb53299f0ad6114a"
+  },
+  "usuario": "2021320004",
+  "contraseña": "ICWE521583VEVZXWQJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61343"
+  },
+  "usuario": "2021100009",
+  "contraseña": "HORF514555VHFNXO0G ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad6134b"
+  },
+  "usuario": "2021250006",
+  "contraseña": "GPAU596407SZPOTNFH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61352"
+  },
+  "usuario": "2021220001",
+  "contraseña": "DXLS747489HJFTQQCP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61359"
+  },
+  "usuario": "202170005",
+  "contraseña": "JLVJ740638IKKVKZ7E ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad6135e"
+  },
+  "usuario": "2021320005",
+  "contraseña": "VPDR857654ZUOSORKA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61366"
+  },
+  "usuario": "202180002",
+  "contraseña": "OKLT995941QKYJDM8F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61370"
+  },
+  "usuario": "2021250007",
+  "contraseña": "WKBY001388UWWSGPDF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61378"
+  },
+  "usuario": "2021190001",
+  "contraseña": "WSFI741735YMUKKQLM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61386"
+  },
+  "usuario": "2021190002",
+  "contraseña": "INOE563030QIUDDLIJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61389"
+  },
+  "usuario": "202180003",
+  "contraseña": "EVGO018988NMECRUE9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61390"
+  },
+  "usuario": "2021140003",
+  "contraseña": "JTUZ564725HEFRTLUQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad61396"
+  },
+  "usuario": "2021140004",
+  "contraseña": "XJIB333105ZSBVALGV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad6139b"
+  },
+  "usuario": "2021160001",
+  "contraseña": "MZHG330146OUFYVK8N ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a456eb53299f0ad613a1"
+  },
+  "usuario": "202170006",
+  "contraseña": "EWAA418598ZBTRYTVG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad6156f"
+  },
+  "usuario": "202170007",
+  "contraseña": "RBLE255171FWYPBSFC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad61578"
+  },
+  "usuario": "202170008",
+  "contraseña": "RFWC807120FAIQSPSC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad61581"
+  },
+  "usuario": "202170009",
+  "contraseña": "ROHB169845DRHITWXA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad61589"
+  },
+  "usuario": "2021100010",
+  "contraseña": "WSEL782697AKSGLBTP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad61591"
+  },
+  "usuario": "2021250008",
+  "contraseña": "UEGL533889YMXGLFB2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad6159e"
+  },
+  "usuario": "2021250009",
+  "contraseña": "KNTH575439UXKWUVN9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad615a2"
+  },
+  "usuario": "2021250010",
+  "contraseña": "FFSH192809MULRPFP7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad615ab"
+  },
+  "usuario": "2021190003",
+  "contraseña": "DLED584357UHVWFU9O ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad615b0"
+  },
+  "usuario": "2021240001",
+  "contraseña": "XYUO740962KWPEZN3M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad615b9"
+  },
+  "usuario": "202170010",
+  "contraseña": "TZWT826057VGCXKS64 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad615c0"
+  },
+  "usuario": "202170011",
+  "contraseña": "FWWQ062509KIVDFVUT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad615c5"
+  },
+  "usuario": "202170012",
+  "contraseña": "TBPS436470XPFSEU77 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a457eb53299f0ad615cc"
+  },
+  "usuario": "2021210001",
+  "contraseña": "ZJOO503386MFUNBGO0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad6177c"
+  },
+  "usuario": "2021140005",
+  "contraseña": "NGMT310322ALKXEJG9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad61784"
+  },
+  "usuario": "2021180001",
+  "contraseña": "JJKC160313RKDWJBFA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad6178a"
+  },
+  "usuario": "2021120001",
+  "contraseña": "PBFQ428783KFGHOX3T ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad61798"
+  },
+  "usuario": "2021140006",
+  "contraseña": "CKTA469008TMQOOJO8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad617a0"
+  },
+  "usuario": "2021100011",
+  "contraseña": "ECQZ737857NZSVJAF1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad617aa"
+  },
+  "usuario": "2021120002",
+  "contraseña": "PCHU394809KQOMHL8H ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad617af"
+  },
+  "usuario": "2021180002",
+  "contraseña": "JKWD189844BLUGRXYC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad617ba"
+  },
+  "usuario": "2021220002",
+  "contraseña": "BUTR511662GLLYHLCU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad617c3"
+  },
+  "usuario": "2021100012",
+  "contraseña": "FFXG349092GKTIRDND ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad617c8"
+  },
+  "usuario": "2021240002",
+  "contraseña": "NDHF106622KFESZGWR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad617d3"
+  },
+  "usuario": "2021120003",
+  "contraseña": "UUED191034QNAGLXLS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a458eb53299f0ad617dd"
+  },
+  "usuario": "2021160002",
+  "contraseña": "IHNM021623SECVQR5M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad6195f"
+  },
+  "usuario": "2021260001",
+  "contraseña": "HFXA904061YVEDXSF1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad61966"
+  },
+  "usuario": "2021140007",
+  "contraseña": "NSXV694790XMREKTME ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad6196e"
+  },
+  "usuario": "2021140008",
+  "contraseña": "IAKT905504XDDEOMTU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad61976"
+  },
+  "usuario": "202150001",
+  "contraseña": "ZTQM821072UYIVET23 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad61980"
+  },
+  "usuario": "2021150001",
+  "contraseña": "GRRK965349LYRIAI9J ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad61988"
+  },
+  "usuario": "2021130002",
+  "contraseña": "KWSY730403HQGNLIAJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad61990"
+  },
+  "usuario": "2021320006",
+  "contraseña": "IDZV189466VBDKSI2M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad6199a"
+  },
+  "usuario": "2021320007",
+  "contraseña": "XYOH134294FFMBQBXN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad619a2"
+  },
+  "usuario": "2021140009",
+  "contraseña": "NMTR584985BEESIKAO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a459eb53299f0ad619af"
+  },
+  "usuario": "2021140010",
+  "contraseña": "HBAN329256OHTRSOXN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45aeb53299f0ad61bcd"
+  },
+  "usuario": "2021320008",
+  "contraseña": "ITOA259998ADOIAKJ6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45aeb53299f0ad61bd4"
+  },
+  "usuario": "2021210002",
+  "contraseña": "MJWZ937854NRWAGS6F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45aeb53299f0ad61bde"
+  },
+  "usuario": "2021100013",
+  "contraseña": "CHNI455400WXQKKSUY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45aeb53299f0ad61be5"
+  },
+  "usuario": "2021320009",
+  "contraseña": "UDRO864296CARFUQKX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45aeb53299f0ad61bec"
+  },
+  "usuario": "2021160003",
+  "contraseña": "EEEV020853YVTYLBU2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45aeb53299f0ad61bf8"
+  },
+  "usuario": "2021160004",
+  "contraseña": "KZGL394586SUONTZL4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45aeb53299f0ad61c09"
+  },
+  "usuario": "2021320010",
+  "contraseña": "DESU208053ZZNLADVG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45aeb53299f0ad61c17"
+  },
+  "usuario": "2021250011",
+  "contraseña": "QFSE424306PFPSBUY8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45aeb53299f0ad61c22"
+  },
+  "usuario": "2021320011",
+  "contraseña": "INPP569496LOKVLDV6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e15"
+  },
+  "usuario": "2021320012",
+  "contraseña": "QFUO207158XSDZOA4D ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e23"
+  },
+  "usuario": "2021320013",
+  "contraseña": "HZQB415944ZRKOIM91 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e33"
+  },
+  "usuario": "2021320014",
+  "contraseña": "TCCG620311REUPDIW1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e3a"
+  },
+  "usuario": "2021140011",
+  "contraseña": "OULQ337550DGBXHN7D ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e45"
+  },
+  "usuario": "2021140012",
+  "contraseña": "ZFYS087569GDAOVLKV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e4d"
+  },
+  "usuario": "2021140013",
+  "contraseña": "WJVM858730YDKYZS5Z ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e5f"
+  },
+  "usuario": "202170013",
+  "contraseña": "LGAX422922MNTNQEUZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e67"
+  },
+  "usuario": "2021140014",
+  "contraseña": "JUTH798390RPXOKZQK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e72"
+  },
+  "usuario": "2021260002",
+  "contraseña": "CTFE292690COIPEFTH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45beb53299f0ad61e79"
+  },
+  "usuario": "202130015",
+  "contraseña": "VJRU790909PLRRMLCD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45ceb53299f0ad6202a"
+  },
+  "usuario": "2021110001",
+  "contraseña": "JXKW416288APUXZTGW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45ceb53299f0ad62035"
+  },
+  "usuario": "2021140015",
+  "contraseña": "QRSP395541TMNSGA3A ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45ceb53299f0ad6203a"
+  },
+  "usuario": "202170014",
+  "contraseña": "QHXO548387FUKVMDZM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45ceb53299f0ad62042"
+  },
+  "usuario": "202170015",
+  "contraseña": "BWVI254704FNNXSGSF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45ceb53299f0ad6204d"
+  },
+  "usuario": "202170016",
+  "contraseña": "YLHL684690PLOQZSX9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45ceb53299f0ad62065"
+  },
+  "usuario": "2021150002",
+  "contraseña": "ERNC529137JICMPSB1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45ceb53299f0ad6206f"
+  },
+  "usuario": "2021150003",
+  "contraseña": "HKZP877762LMIJTRN9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45ceb53299f0ad6207a"
+  },
+  "usuario": "2021150004",
+  "contraseña": "NTKA690785SATRWQ0X ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad6223b"
+  },
+  "usuario": "202170017",
+  "contraseña": "LGBK802898UPDWVIL4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad62244"
+  },
+  "usuario": "2021160005",
+  "contraseña": "MWZA427826GLGPWN5L ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad6224b"
+  },
+  "usuario": "2021240003",
+  "contraseña": "LTTL275249NBQYQH2B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad62253"
+  },
+  "usuario": "2021150005",
+  "contraseña": "PZPI099966DJZPKASB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad6225a"
+  },
+  "usuario": "2021320015",
+  "contraseña": "CBWB673429IPVOHUJS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad62267"
+  },
+  "usuario": "2021150006",
+  "contraseña": "QBKA351314YXTZAMA1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad62273"
+  },
+  "usuario": "2021110002",
+  "contraseña": "YXKM933677WAKMWW0B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad6227c"
+  },
+  "usuario": "2021100014",
+  "contraseña": "UKCC986964ONKMFJWN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad62282"
+  },
+  "usuario": "202170018",
+  "contraseña": "EBRH486814YSGYRDHX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45deb53299f0ad6228c"
+  },
+  "usuario": "2021100015",
+  "contraseña": "QFND194530QGQFKJH5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad62439"
+  },
+  "usuario": "202170019",
+  "contraseña": "QPLT225901RFVLUJ2P ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad62443"
+  },
+  "usuario": "202170020",
+  "contraseña": "RTYP086210BXUFJBGV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad6244e"
+  },
+  "usuario": "202170021",
+  "contraseña": "UABC360153VKGMPSQ6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad62456"
+  },
+  "usuario": "2021250012",
+  "contraseña": "YSFH130388PWIGQE9K ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad6245e"
+  },
+  "usuario": "202170022",
+  "contraseña": "RVZC761286WKTVOZZ2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad6246a"
+  },
+  "usuario": "2021190004",
+  "contraseña": "TMNE511954LWEYBFNS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad62473"
+  },
+  "usuario": "2021200002",
+  "contraseña": "ZRTB324506EQWCOOWE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad6247c"
+  },
+  "usuario": "2021160006",
+  "contraseña": "TVVH999256VIHGNCVA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad62488"
+  },
+  "usuario": "2021100016",
+  "contraseña": "AWCK921017LXVNZH03 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45eeb53299f0ad62498"
+  },
+  "usuario": "202170023",
+  "contraseña": "ISZZ017590LPJXZMXE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45feb53299f0ad626c6"
+  },
+  "usuario": "2021100017",
+  "contraseña": "RMIU346448ZKUWNY2X ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45feb53299f0ad626cf"
+  },
+  "usuario": "202170024",
+  "contraseña": "FPMW173400XKGZYWDC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45feb53299f0ad626d7"
+  },
+  "usuario": "202170025",
+  "contraseña": "VPGO314107SWQOCSE8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45feb53299f0ad626de"
+  },
+  "usuario": "2021100018",
+  "contraseña": "PLLI152579BIKYLDNJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45feb53299f0ad626e5"
+  },
+  "usuario": "202170026",
+  "contraseña": "MWOP751625IQTTYV20 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a45feb53299f0ad626ee"
+  },
+  "usuario": "2021160007",
+  "contraseña": "GDVN507374CZRRNBTP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4beeb53299f0ad700cb"
+  },
+  "usuario": "2022150001",
+  "contraseña": "NHBO436631NMHBGOS4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4beeb53299f0ad700d4"
+  },
+  "usuario": "2022120001",
+  "contraseña": "GOOS669523NDYRIVGK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4beeb53299f0ad700db"
+  },
+  "usuario": "2022150002",
+  "contraseña": "PHVX792454BAIWUHHK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4beeb53299f0ad700e6"
+  },
+  "usuario": "2022150003",
+  "contraseña": "ABFZ594718HUVODDCR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4beeb53299f0ad700ec"
+  },
+  "usuario": "2022150004",
+  "contraseña": "OBEZ882709CSBTJI27 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4beeb53299f0ad700f6"
+  },
+  "usuario": "2022140001",
+  "contraseña": "ZZDO058505SBNIQWI1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4beeb53299f0ad700fb"
+  },
+  "usuario": "2022320001",
+  "contraseña": "VCWH611631QRHGIPEY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4beeb53299f0ad70103"
+  },
+  "usuario": "2022320002",
+  "contraseña": "UPWB148478WHQCGUD9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad70108"
+  },
+  "usuario": "2022320003",
+  "contraseña": "HJUO938409SCPQJGM3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad70111"
+  },
+  "usuario": "2022320004",
+  "contraseña": "MONU540709WEETIYLM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad7011a"
+  },
+  "usuario": "2022320005",
+  "contraseña": "LQIZ730721DTXAPQ8J ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad70125"
+  },
+  "usuario": "2022320006",
+  "contraseña": "YPZF884021PUBXKP4X ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad70130"
+  },
+  "usuario": "2022320007",
+  "contraseña": "HOHV216742QWZZSSNT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad7013c"
+  },
+  "usuario": "2022200001",
+  "contraseña": "ACVY417646QGKBRNV8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad70315"
+  },
+  "usuario": "2022140002",
+  "contraseña": "JUQU773687AKZQEKZP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad7031a"
+  },
+  "usuario": "2022200002",
+  "contraseña": "BZEI854599ZATGRFK7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad70323"
+  },
+  "usuario": "2022130001",
+  "contraseña": "HUFQ643469JGRMLU2E ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad70329"
+  },
+  "usuario": "2022210001",
+  "contraseña": "MPVD758975AWHDPKAQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad7032c"
+  },
+  "usuario": "2022100001",
+  "contraseña": "AQEI559480LYFFOST6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4bfeb53299f0ad70334"
+  },
+  "usuario": "2022310001",
+  "contraseña": "KADT786008PQGHCVRA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad7033b"
+  },
+  "usuario": "2022240001",
+  "contraseña": "WHGN849253HDUDUME4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70345"
+  },
+  "usuario": "2022240002",
+  "contraseña": "JOIX535623DJGRXZIY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad7034a"
+  },
+  "usuario": "2022240003",
+  "contraseña": "DGZP319563ESYUNPR8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70351"
+  },
+  "usuario": "2022160001",
+  "contraseña": "ACTS386280SYOSNPPK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70359"
+  },
+  "usuario": "2022130002",
+  "contraseña": "FVLZ536466OUVUMLIZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70360"
+  },
+  "usuario": "2022240004",
+  "contraseña": "ENYO784544SCCPQHJE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70366"
+  },
+  "usuario": "2022240005",
+  "contraseña": "ELNR622320PNEHUNY0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70371"
+  },
+  "usuario": "2022180001",
+  "contraseña": "KTAJ092724OJIQPE68 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70379"
+  },
+  "usuario": "2022180002",
+  "contraseña": "IYGF155665WGCHKOIM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70386"
+  },
+  "usuario": "2022180003",
+  "contraseña": "WAOJ269176ULRWAT7J ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad7038d"
+  },
+  "usuario": "2022180004",
+  "contraseña": "PRBT493018WXTSKT4B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70394"
+  },
+  "usuario": "2022180005",
+  "contraseña": "CBRX416746ZJRNIW36 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70511"
+  },
+  "usuario": "2022180006",
+  "contraseña": "CYAK820392AAYEWA5K ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70519"
+  },
+  "usuario": "2022180007",
+  "contraseña": "KVNX976780WOSDTEBR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70522"
+  },
+  "usuario": "2022180008",
+  "contraseña": "INHB873753ECOKZX11 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70528"
+  },
+  "usuario": "202280001",
+  "contraseña": "GCCV544748PNXHAB3T ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70531"
+  },
+  "usuario": "2022140003",
+  "contraseña": "XXMV345549JGDHPUGT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad7053a"
+  },
+  "usuario": "2022140004",
+  "contraseña": "IFDO286092QASSRSHL ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c0eb53299f0ad70542"
+  },
+  "usuario": "2022210002",
+  "contraseña": "VVQY488978DIYODKV2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c1eb53299f0ad70554"
+  },
+  "usuario": "2022160002",
+  "contraseña": "VJEU104904EOAMQC38 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c1eb53299f0ad7055b"
+  },
+  "usuario": "2022160003",
+  "contraseña": "HFPG977158AJWJRA8O ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c1eb53299f0ad70570"
+  },
+  "usuario": "2022160004",
+  "contraseña": "MJZW014890FWVDMFF4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c1eb53299f0ad7057a"
+  },
+  "usuario": "2022200003",
+  "contraseña": "QZVS580162TMVMTY3Y ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c1eb53299f0ad70702"
+  },
+  "usuario": "2022200004",
+  "contraseña": "QFRF948032TCUSTAT5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c1eb53299f0ad7070c"
+  },
+  "usuario": "2022200005",
+  "contraseña": "APAD695463KIROJJ8F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c1eb53299f0ad70712"
+  },
+  "usuario": "2022250001",
+  "contraseña": "APGE975793RDWUIF9O ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c1eb53299f0ad7071a"
+  },
+  "usuario": "2022250002",
+  "contraseña": "PYVJ395506KRUKXBNM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c1eb53299f0ad70722"
+  },
+  "usuario": "2022210003",
+  "contraseña": "ORWY837315ZNTAED0U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad7072c"
+  },
+  "usuario": "2022140005",
+  "contraseña": "TWJU893146CAECHI1T ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad70735"
+  },
+  "usuario": "2022220001",
+  "contraseña": "DEMH249302MTJOTPZ1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad7073d"
+  },
+  "usuario": "2022150005",
+  "contraseña": "DKLG881018UNCCKQJD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad70744"
+  },
+  "usuario": "2022150006",
+  "contraseña": "OXEN441976TELSKI6U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad7074d"
+  },
+  "usuario": "2022150007",
+  "contraseña": "XIUA998064PIVZARWM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad70900"
+  },
+  "usuario": "2022150008",
+  "contraseña": "QOOH636159FXSQEC97 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad70910"
+  },
+  "usuario": "2022150009",
+  "contraseña": "XVIU930043WQUFAIC0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad70925"
+  },
+  "usuario": "2022150010",
+  "contraseña": "WYWR183025EUKOYW7G ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad7092c"
+  },
+  "usuario": "2022150011",
+  "contraseña": "SNSS734698DVRGUSTC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c2eb53299f0ad70936"
+  },
+  "usuario": "2022150012",
+  "contraseña": "MXKE463902RTLMZG3C ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad7093e"
+  },
+  "usuario": "2022150013",
+  "contraseña": "MFWQ619663HPQCWNV9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad70946"
+  },
+  "usuario": "2022150014",
+  "contraseña": "TAQQ277578OPMDOLJC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad70953"
+  },
+  "usuario": "2022150015",
+  "contraseña": "WDTY474273HGMUKJMY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad7095d"
+  },
+  "usuario": "2022150016",
+  "contraseña": "PCZW526966HIWJGQTP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad70965"
+  },
+  "usuario": "202270001",
+  "contraseña": "XNPF529408JXXHLEIG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad70b39"
+  },
+  "usuario": "202270002",
+  "contraseña": "UNRG553791ETYALD16 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad70b46"
+  },
+  "usuario": "202270003",
+  "contraseña": "HWNX309210APTDQNZQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad70b52"
+  },
+  "usuario": "202270004",
+  "contraseña": "GQKV259434BWOHFRQK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad70b5b"
+  },
+  "usuario": "202270005",
+  "contraseña": "WYKO437007TIBSAGBJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad70b67"
+  },
+  "usuario": "2022200006",
+  "contraseña": "PYYD160438SMDQPT07 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c3eb53299f0ad70b6d"
+  },
+  "usuario": "2022140006",
+  "contraseña": "FTGJ848784COMGBE64 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c4eb53299f0ad70b78"
+  },
+  "usuario": "2022140007",
+  "contraseña": "HHQC951188CDTKDWQA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c4eb53299f0ad70b83"
+  },
+  "usuario": "2022200007",
+  "contraseña": "RCDW268589SQASBFZD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c4eb53299f0ad70b8e"
+  },
+  "usuario": "2022200008",
+  "contraseña": "QEVP580248BYQOQX1W ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c4eb53299f0ad70b93"
+  },
+  "usuario": "2022100002",
+  "contraseña": "PANL763267JPZJBUPE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c4eb53299f0ad70d6e"
+  },
+  "usuario": "2022100003",
+  "contraseña": "KHRO608148TAURHCI2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c4eb53299f0ad70d79"
+  },
+  "usuario": "2022320008",
+  "contraseña": "NBXJ385597IGIQWHCK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c4eb53299f0ad70d7e"
+  },
+  "usuario": "2022240006",
+  "contraseña": "SFCR529411YPKXMRQH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c4eb53299f0ad70d81"
+  },
+  "usuario": "2022240007",
+  "contraseña": "WGTC360568XSSUEOD4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c4eb53299f0ad70d8b"
+  },
+  "usuario": "2022240008",
+  "contraseña": "EZPW699659ZXYFJB57 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c5eb53299f0ad70d94"
+  },
+  "usuario": "2022210004",
+  "contraseña": "HYGZ189231ZNVQIZCK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c5eb53299f0ad70d9a"
+  },
+  "usuario": "2022160005",
+  "contraseña": "HAXY301017KUAIBROJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c5eb53299f0ad70da4"
+  },
+  "usuario": "2022240009",
+  "contraseña": "OYGL073629LPFHBDI5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c5eb53299f0ad70dac"
+  },
+  "usuario": "2022240010",
+  "contraseña": "GKZJ551923EORWTRC2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c5eb53299f0ad70db7"
+  },
+  "usuario": "2022210005",
+  "contraseña": "GUDO087754BUWIGKC8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c5eb53299f0ad70f5a"
+  },
+  "usuario": "2022160006",
+  "contraseña": "IMYF965751HGQVQOX0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c5eb53299f0ad70f63"
+  },
+  "usuario": "202220003",
+  "contraseña": "XZSJ454740LKGKTGA1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c5eb53299f0ad70f69"
+  },
+  "usuario": "202280002",
+  "contraseña": "RHER232959QIAZQMM1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c5eb53299f0ad70f75"
+  },
+  "usuario": "202230009",
+  "contraseña": "YSAC111820UZQHRE2U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c6eb53299f0ad7113a"
+  },
+  "usuario": "202270006",
+  "contraseña": "DPLE256574GQVHQE2N ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c6eb53299f0ad7113e"
+  },
+  "usuario": "2022240011",
+  "contraseña": "AQPJ544348YIJPSWNU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c6eb53299f0ad7114e"
+  },
+  "usuario": "2022240012",
+  "contraseña": "SZJE588620OUCSMA8M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad71157"
+  },
+  "usuario": "202250001",
+  "contraseña": "VRAE126316UCXKWN76 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad71160"
+  },
+  "usuario": "202280003",
+  "contraseña": "ODFW907220KTPZUQJC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad7116a"
+  },
+  "usuario": "2022110001",
+  "contraseña": "SMTR517866MBKIYIOW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad71172"
+  },
+  "usuario": "2022110002",
+  "contraseña": "WTLS386035RWKMHFF3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad71179"
+  },
+  "usuario": "2022110003",
+  "contraseña": "FGBG102871JJFMWBJ1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad7132a"
+  },
+  "usuario": "2022110004",
+  "contraseña": "LGUU697727ZUDASXR5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad7134a"
+  },
+  "usuario": "2022110005",
+  "contraseña": "CUTQ021848GBITKF9X ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad7134f"
+  },
+  "usuario": "2022110006",
+  "contraseña": "AYCT075621YFTZYZ5K ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad71353"
+  },
+  "usuario": "2022110007",
+  "contraseña": "AXNA484866WKEOHKKA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c7eb53299f0ad7135b"
+  },
+  "usuario": "2022110008",
+  "contraseña": "BOAS917377HQZPAZ9G ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c8eb53299f0ad71365"
+  },
+  "usuario": "2022110009",
+  "contraseña": "TUDU990781ITHWIIJP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c8eb53299f0ad71370"
+  },
+  "usuario": "2022110010",
+  "contraseña": "KICC248338EXYRJBIW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c8eb53299f0ad71378"
+  },
+  "usuario": "2022110011",
+  "contraseña": "TUVS773054UMXTTVCG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c8eb53299f0ad71383"
+  },
+  "usuario": "2022110012",
+  "contraseña": "NNHX372941OTZLUR0H ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c8eb53299f0ad71554"
+  },
+  "usuario": "2022110013",
+  "contraseña": "YQJF471005GHAANJVZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c8eb53299f0ad7155e"
+  },
+  "usuario": "2022110014",
+  "contraseña": "BRRM430742YZTNLNLB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c8eb53299f0ad71570"
+  },
+  "usuario": "2022110015",
+  "contraseña": "ODLS699552IBCFTLI1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c8eb53299f0ad7157b"
+  },
+  "usuario": "2022110016",
+  "contraseña": "PVFM273637TCVZBP9R ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c8eb53299f0ad71586"
+  },
+  "usuario": "2022110017",
+  "contraseña": "UAAC229554OHFUXSYK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad71594"
+  },
+  "usuario": "2022110018",
+  "contraseña": "OUAE501978JMXGLU5F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad715a9"
+  },
+  "usuario": "2022180009",
+  "contraseña": "SEVA512245TVLINWT6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad715b4"
+  },
+  "usuario": "2022100004",
+  "contraseña": "LPSB615332ZUDDOUPC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad715be"
+  },
+  "usuario": "2022100005",
+  "contraseña": "YZVO459552JBDWNAHZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad7176d"
+  },
+  "usuario": "2022100006",
+  "contraseña": "ABMI270130BDQNUA6Z ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad71774"
+  },
+  "usuario": "2022150017",
+  "contraseña": "PENK944265ZHIJYY2I ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad71780"
+  },
+  "usuario": "2022150018",
+  "contraseña": "DQDM310392UVVUVRY2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad71787"
+  },
+  "usuario": "2022150019",
+  "contraseña": "BPQX008142XMEUQZ7U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad7178c"
+  },
+  "usuario": "2022150020",
+  "contraseña": "WSEZ149773THFQOZ56 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4c9eb53299f0ad71798"
+  },
+  "usuario": "2022250003",
+  "contraseña": "XYHF734862CEOFVFKY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad7179e"
+  },
+  "usuario": "2022250004",
+  "contraseña": "EMVO900915NJHWRS74 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad717a3"
+  },
+  "usuario": "2022250005",
+  "contraseña": "CRAO858263BXVSMP6H ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad717ad"
+  },
+  "usuario": "2022220002",
+  "contraseña": "HWTK096486MWTBCELW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad717b7"
+  },
+  "usuario": "2022220003",
+  "contraseña": "AHNE335291VAAWOXWB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad7195a"
+  },
+  "usuario": "2022220004",
+  "contraseña": "UKSP122484AOBXAKFQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad71962"
+  },
+  "usuario": "2022310002",
+  "contraseña": "SQZA145528PEZRGLW7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad7196c"
+  },
+  "usuario": "2022310003",
+  "contraseña": "UOQM602486YCAVWW90 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad71974"
+  },
+  "usuario": "2022310004",
+  "contraseña": "QAQQ602200THKVNCO6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad7197b"
+  },
+  "usuario": "2022310005",
+  "contraseña": "GTOQ183931NDEALYII ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4caeb53299f0ad71981"
+  },
+  "usuario": "2022310006",
+  "contraseña": "TTKW762245CBIEHOKN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad71989"
+  },
+  "usuario": "2022150021",
+  "contraseña": "YQOG621122KRYZWYLD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad71994"
+  },
+  "usuario": "2022120002",
+  "contraseña": "WUDY378374POXOOE7L ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad719a2"
+  },
+  "usuario": "2022150022",
+  "contraseña": "QVZE502145HDVZZFI8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad719b6"
+  },
+  "usuario": "2022150023",
+  "contraseña": "XFRN664262IBEAGLUC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad71b45"
+  },
+  "usuario": "2022150024",
+  "contraseña": "WICI352157WISGTXZ0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad71b4b"
+  },
+  "usuario": "2022140008",
+  "contraseña": "GRWD003910LBDCHCOK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad71b53"
+  },
+  "usuario": "2022320009",
+  "contraseña": "NEVH434452GSXPMLJ0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad71b5a"
+  },
+  "usuario": "2022320010",
+  "contraseña": "TAWS510493OKLZQQPG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad71b5f"
+  },
+  "usuario": "2022320011",
+  "contraseña": "RDVO164568HUIQDLIY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cbeb53299f0ad71b69"
+  },
+  "usuario": "2022320012",
+  "contraseña": "WGEM350425HLEIKWFI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cceb53299f0ad71b72"
+  },
+  "usuario": "2022320013",
+  "contraseña": "ESOE618353VREDGUA3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cceb53299f0ad71b7a"
+  },
+  "usuario": "2022320014",
+  "contraseña": "AIWB203633DUCVCD4B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cceb53299f0ad71b85"
+  },
+  "usuario": "2022320015",
+  "contraseña": "FJSW475698EOCMMTFZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cceb53299f0ad71d15"
+  },
+  "usuario": "2022140009",
+  "contraseña": "KCFY003858CKIVTVX1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cceb53299f0ad71d3b"
+  },
+  "usuario": "2022130003",
+  "contraseña": "IJOX741933FCXWUWJ0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cceb53299f0ad71d41"
+  },
+  "usuario": "2022210006",
+  "contraseña": "GBWQ925856QLNOXWG3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cceb53299f0ad71d47"
+  },
+  "usuario": "2022100007",
+  "contraseña": "FXJS793037DKXDOUBS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71d4f"
+  },
+  "usuario": "2022310007",
+  "contraseña": "YEEJ937615ACGPBTM4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71d5b"
+  },
+  "usuario": "2022240013",
+  "contraseña": "PUUN573546MKJYQVJ3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71d64"
+  },
+  "usuario": "2022240014",
+  "contraseña": "ZYWD743377HENTUF8P ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71d6b"
+  },
+  "usuario": "2022240015",
+  "contraseña": "YZMO398774SVZGSLLP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71d74"
+  },
+  "usuario": "2022160007",
+  "contraseña": "QBWJ932740UZFJJF14 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71f51"
+  },
+  "usuario": "2022130004",
+  "contraseña": "CKNW820779BHCLEMK1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71f58"
+  },
+  "usuario": "2022240016",
+  "contraseña": "ULMG495015XMDKWG6F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71f6a"
+  },
+  "usuario": "2022240017",
+  "contraseña": "ZFTT524545DVHOQV6Y ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71f75"
+  },
+  "usuario": "2022180010",
+  "contraseña": "KERH383608CNLJTI8X ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4cdeb53299f0ad71f7a"
+  },
+  "usuario": "2022180011",
+  "contraseña": "XYDQ895700YYNDNB5V ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ceeb53299f0ad71f85"
+  },
+  "usuario": "2022180012",
+  "contraseña": "XGNS298050ZLQCFOTQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ceeb53299f0ad71f8c"
+  },
+  "usuario": "2022180013",
+  "contraseña": "RUEX624793UEQGJL23 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ceeb53299f0ad71f94"
+  },
+  "usuario": "2022180014",
+  "contraseña": "AYKD684666URJEND07 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ceeb53299f0ad71fa6"
+  },
+  "usuario": "2022180015",
+  "contraseña": "VEJN847485XNKGBLOX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ceeb53299f0ad71fad"
+  },
+  "usuario": "2022180016",
+  "contraseña": "TRJL364840RRGMXPFP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ceeb53299f0ad72188"
+  },
+  "usuario": "2022180017",
+  "contraseña": "OBZA200561DGXEEYE4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f6eb53299f0ad77a4c"
+  },
+  "usuario": "202310001",
+  "contraseña": "DHXH682683NZTQMKTH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f6eb53299f0ad77a54"
+  },
+  "usuario": "202310002",
+  "contraseña": "FRFY077319AAVREHS1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f6eb53299f0ad77a60"
+  },
+  "usuario": "202310003",
+  "contraseña": "XZEW709499NHFCNBVN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f6eb53299f0ad77a6a"
+  },
+  "usuario": "202310004",
+  "contraseña": "XSDM825406IGOFFS8N ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f6eb53299f0ad77a74"
+  },
+  "usuario": "202310005",
+  "contraseña": "XVRM026130RBXVYY50 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f6eb53299f0ad77a7b"
+  },
+  "usuario": "202310006",
+  "contraseña": "ALBU184741UQSOTB58 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f6eb53299f0ad77a80"
+  },
+  "usuario": "202310007",
+  "contraseña": "AXPE864439CUBKASMX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f6eb53299f0ad77a88"
+  },
+  "usuario": "202310008",
+  "contraseña": "XIUN083152LTVHKTE7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f6eb53299f0ad77a8e"
+  },
+  "usuario": "202310009",
+  "contraseña": "IEWD681872GWYFTHW3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c40"
+  },
+  "usuario": "202310010",
+  "contraseña": "SUIF310299TLBGYDGB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c45"
+  },
+  "usuario": "202310011",
+  "contraseña": "CAWP171570CEKYNSB5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c4b"
+  },
+  "usuario": "202310012",
+  "contraseña": "STTG578464QWRWTAQC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c51"
+  },
+  "usuario": "202310013",
+  "contraseña": "AEFY147905OFDOOHB9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c58"
+  },
+  "usuario": "202310014",
+  "contraseña": "UAFR864484WBBGEWXO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c5f"
+  },
+  "usuario": "202310015",
+  "contraseña": "QUFC667759HLVXCCJU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c66"
+  },
+  "usuario": "202310016",
+  "contraseña": "UPZD965976CRXZQE7U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c74"
+  },
+  "usuario": "202310017",
+  "contraseña": "GKFD456347UTQUUD5A ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c7c"
+  },
+  "usuario": "202310018",
+  "contraseña": "BNLU002646XKJKGVGQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c86"
+  },
+  "usuario": "202310019",
+  "contraseña": "AWIA323307XDJBWSSF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c95"
+  },
+  "usuario": "202310020",
+  "contraseña": "FRXH484623AMKWWX9B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77c9c"
+  },
+  "usuario": "202350001",
+  "contraseña": "IJUO094500YTJERTAM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77caa"
+  },
+  "usuario": "202350002",
+  "contraseña": "LEQE527251XYWSNRM6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f7eb53299f0ad77cad"
+  },
+  "usuario": "202350003",
+  "contraseña": "XSDF450814ZJCRPHC3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e3e"
+  },
+  "usuario": "202350004",
+  "contraseña": "UXNM686858MNOSKF9T ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e44"
+  },
+  "usuario": "202350005",
+  "contraseña": "ZQMF851886EWJLZJKU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e4e"
+  },
+  "usuario": "202350006",
+  "contraseña": "IYOS800279IBKPYPB8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e57"
+  },
+  "usuario": "202350007",
+  "contraseña": "TDAL654912MRWLNUTI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e5e"
+  },
+  "usuario": "202350008",
+  "contraseña": "MQPF204218FHVIGQXB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e67"
+  },
+  "usuario": "202350009",
+  "contraseña": "MIVO374735FRRTDM6E ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e70"
+  },
+  "usuario": "202350010",
+  "contraseña": "OACN132544IIMNHX1Q ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e7a"
+  },
+  "usuario": "202350011",
+  "contraseña": "JEQY565023ZPCZEROV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e83"
+  },
+  "usuario": "202350012",
+  "contraseña": "SADU466019QOEGTBNX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e8d"
+  },
+  "usuario": "202350013",
+  "contraseña": "AFPL318588ZPHQKCLX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e97"
+  },
+  "usuario": "202360001",
+  "contraseña": "CNON763419XXEXWH7L ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77e9c"
+  },
+  "usuario": "202360002",
+  "contraseña": "LOMT122364KQZPAZUF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f8eb53299f0ad77ea3"
+  },
+  "usuario": "202360003",
+  "contraseña": "WCRV097369MHTPHKDG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad78020"
+  },
+  "usuario": "202360004",
+  "contraseña": "FDRI310678JDBQQT7T ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad78026"
+  },
+  "usuario": "202360005",
+  "contraseña": "IEHZ608776AMYTRJT2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad7802b"
+  },
+  "usuario": "202360006",
+  "contraseña": "QAOY845902HUYKHYMN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad78030"
+  },
+  "usuario": "202360007",
+  "contraseña": "YIUN825714FPELTM1A ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad78036"
+  },
+  "usuario": "202370001",
+  "contraseña": "JKCF550266PTAXDCMN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad7803d"
+  },
+  "usuario": "202370002",
+  "contraseña": "SVTP941368BCOHSH3O ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad78041"
+  },
+  "usuario": "202370003",
+  "contraseña": "UAQB368531VOUTZST8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad7804b"
+  },
+  "usuario": "202370004",
+  "contraseña": "VWWS999879LQWACJ5N ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad78052"
+  },
+  "usuario": "202370005",
+  "contraseña": "EJDX523691VIPGPCOE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad7805b"
+  },
+  "usuario": "202370006",
+  "contraseña": "APXE731241RNHGUCLF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad78062"
+  },
+  "usuario": "202370007",
+  "contraseña": "ZZCT240470ZDKKMTRZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad78069"
+  },
+  "usuario": "202370008",
+  "contraseña": "HCWR612361BBPBPPJS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad78071"
+  },
+  "usuario": "202370009",
+  "contraseña": "BHHM318342RPRRSL6S ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4f9eb53299f0ad7807b"
+  },
+  "usuario": "202370010",
+  "contraseña": "ZPQY825265ACGIGIIY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad7823a"
+  },
+  "usuario": "202370011",
+  "contraseña": "XQAF628463EWPLYVZY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad7823f"
+  },
+  "usuario": "202370012",
+  "contraseña": "QZDV720271QQHIVJ5P ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad78244"
+  },
+  "usuario": "202370013",
+  "contraseña": "JOMS450526QTOYEYSG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad7824c"
+  },
+  "usuario": "202370014",
+  "contraseña": "EUSH316255UNLEZQQK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad78257"
+  },
+  "usuario": "202370015",
+  "contraseña": "CCCO094650HMAGFNNE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad7825a"
+  },
+  "usuario": "202370016",
+  "contraseña": "ITDY628835JPQBENXY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad7825f"
+  },
+  "usuario": "202370017",
+  "contraseña": "OITL347528ODYBEA7I ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad78266"
+  },
+  "usuario": "202370018",
+  "contraseña": "KTSC611396BFZPITQN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad78270"
+  },
+  "usuario": "202370019",
+  "contraseña": "GBLR517058XKFGOTQ1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad78276"
+  },
+  "usuario": "202370020",
+  "contraseña": "XELI821068FMRJCW45 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad7827e"
+  },
+  "usuario": "202370021",
+  "contraseña": "NNAO266484NXBONHEX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad78283"
+  },
+  "usuario": "202370022",
+  "contraseña": "SZFJ558387KKWGNVLJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad7828a"
+  },
+  "usuario": "202370023",
+  "contraseña": "ELMB402403XSBKGGBS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4faeb53299f0ad78291"
+  },
+  "usuario": "202370024",
+  "contraseña": "AQKD355650SJESUOHB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad78486"
+  },
+  "usuario": "202370025",
+  "contraseña": "WAVA721474ALPVBH1X ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad78489"
+  },
+  "usuario": "202370026",
+  "contraseña": "EAME194740MEQTXLNR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad78495"
+  },
+  "usuario": "202370027",
+  "contraseña": "RQQI461463AQNJJSJ8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784a1"
+  },
+  "usuario": "202370028",
+  "contraseña": "ZXDC143694GBOLLQVE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784a8"
+  },
+  "usuario": "202370029",
+  "contraseña": "XWWT422786OOXOJIBE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784af"
+  },
+  "usuario": "202370030",
+  "contraseña": "FCCZ060967VKLGRG15 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784b2"
+  },
+  "usuario": "202370031",
+  "contraseña": "GVKO887647GVVVDMMT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784bb"
+  },
+  "usuario": "202370032",
+  "contraseña": "PFWR848431XQGMXFUU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784c5"
+  },
+  "usuario": "202370033",
+  "contraseña": "CIRH088456PXUWSWJH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784d0"
+  },
+  "usuario": "202370034",
+  "contraseña": "BVFA883735UKSUTPYO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784d8"
+  },
+  "usuario": "202370035",
+  "contraseña": "UQXU521280SBMXYNAB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784e0"
+  },
+  "usuario": "202370036",
+  "contraseña": "ERPF477003KBFBZVD8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fbeb53299f0ad784ec"
+  },
+  "usuario": "202370037",
+  "contraseña": "IVDG629293JTXEXZ93 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786b8"
+  },
+  "usuario": "202370038",
+  "contraseña": "TONU704478BNBBAIQT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786bd"
+  },
+  "usuario": "202370039",
+  "contraseña": "BMNI566297UBQDUJUZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786c2"
+  },
+  "usuario": "202370040",
+  "contraseña": "WPCR192091JSFNNT2Z ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786c8"
+  },
+  "usuario": "202370041",
+  "contraseña": "ILWC304681YSMRYX5H ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786cc"
+  },
+  "usuario": "202370042",
+  "contraseña": "EDNQ848241KDZYLA1W ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786d0"
+  },
+  "usuario": "202370043",
+  "contraseña": "ZMUU033747OJIOFTZQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786d8"
+  },
+  "usuario": "202370044",
+  "contraseña": "YDGB774175PUBZJDZA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786e2"
+  },
+  "usuario": "202370045",
+  "contraseña": "NLIF702012GNNDYSOX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786ec"
+  },
+  "usuario": "202370046",
+  "contraseña": "ALWW821443PQCKML40 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad786f6"
+  },
+  "usuario": "202370047",
+  "contraseña": "GYPM514675QURTHLVP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad78702"
+  },
+  "usuario": "202370048",
+  "contraseña": "JHTS575532NUHRJOFV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad7871e"
+  },
+  "usuario": "202370049",
+  "contraseña": "IAEJ997298PLRTUKC3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad78726"
+  },
+  "usuario": "202370050",
+  "contraseña": "RONY043445NHUMAT9A ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fceb53299f0ad7872f"
+  },
+  "usuario": "202370051",
+  "contraseña": "NKAT756940COVWTXM1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad788a8"
+  },
+  "usuario": "202370052",
+  "contraseña": "HWID868942DMWCJCSG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad788af"
+  },
+  "usuario": "202370053",
+  "contraseña": "ONAP336826LIZDWEKI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad788bf"
+  },
+  "usuario": "202370054",
+  "contraseña": "EEMA437097ANYYYGJT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad788cb"
+  },
+  "usuario": "202370055",
+  "contraseña": "PMBD260386HLFCDR1F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad788d8"
+  },
+  "usuario": "202370056",
+  "contraseña": "MNWO151451EMOCSZCL ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad788e3"
+  },
+  "usuario": "202370057",
+  "contraseña": "DLWL940851AGBHWC33 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad788ec"
+  },
+  "usuario": "202370058",
+  "contraseña": "ZISV662185DYUHHNSR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad788f6"
+  },
+  "usuario": "202370059",
+  "contraseña": "LSNY576968KOMKHQET ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad788fe"
+  },
+  "usuario": "202370060",
+  "contraseña": "QDVB817029REKFXBVR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4fdeb53299f0ad78908"
+  },
+  "usuario": "202370061",
+  "contraseña": "GUFK004320XYRZCT8O ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78a9d"
+  },
+  "usuario": "202370062",
+  "contraseña": "LNYH289421ZIAABALB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78aa5"
+  },
+  "usuario": "202370063",
+  "contraseña": "ZDRI540126ZFMDWRU0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78aad"
+  },
+  "usuario": "202370064",
+  "contraseña": "VIKV749840GYGFYGZI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78ab6"
+  },
+  "usuario": "202370065",
+  "contraseña": "EASL655603KGPYYOJ9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78ac2"
+  },
+  "usuario": "202370066",
+  "contraseña": "AMRA470848EWUZXY8Y ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78aca"
+  },
+  "usuario": "202370067",
+  "contraseña": "LJJT136731SECREWAH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78ad3"
+  },
+  "usuario": "202370068",
+  "contraseña": "JAFX066228YOAKHD46 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78adf"
+  },
+  "usuario": "202370069",
+  "contraseña": "JBTQ781831RXMOZG0U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78aec"
+  },
+  "usuario": "202370070",
+  "contraseña": "RFEV073361ZUYMJIF6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4feeb53299f0ad78af8"
+  },
+  "usuario": "202370071",
+  "contraseña": "RXXP026290HATIRPKI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78cc8"
+  },
+  "usuario": "202370072",
+  "contraseña": "PYWX949981VQSRZBYG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78ccf"
+  },
+  "usuario": "202370073",
+  "contraseña": "UWIR604479YNAUQFLY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78cd6"
+  },
+  "usuario": "202370074",
+  "contraseña": "JHSL766996WHYRYP9H ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78cdc"
+  },
+  "usuario": "202370075",
+  "contraseña": "FRBT163561LRQISPU3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78ce8"
+  },
+  "usuario": "202370076",
+  "contraseña": "QNBI100109PUCHKBSX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78cec"
+  },
+  "usuario": "202370077",
+  "contraseña": "GTYO205768DJSGAO7D ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78cf6"
+  },
+  "usuario": "202370078",
+  "contraseña": "GYYN619986DUBAOQV2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78cff"
+  },
+  "usuario": "202370079",
+  "contraseña": "MPWR572641ACKKESHJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78d06"
+  },
+  "usuario": "202370080",
+  "contraseña": "CQBP629345GPDQHX7F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a4ffeb53299f0ad78d0f"
+  },
+  "usuario": "202370081",
+  "contraseña": "UOAK213776XGIVKU84 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f13"
+  },
+  "usuario": "202370082",
+  "contraseña": "MOPG127268FYRJQJFD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f19"
+  },
+  "usuario": "202370083",
+  "contraseña": "SGRH288850HUIUDKX3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f24"
+  },
+  "usuario": "202370084",
+  "contraseña": "NVYN391821VSAVAB5G ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f2b"
+  },
+  "usuario": "202370085",
+  "contraseña": "PKXM292042BZGWGYBS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f31"
+  },
+  "usuario": "202370086",
+  "contraseña": "ZQBN750920IFKVUG15 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f37"
+  },
+  "usuario": "202370087",
+  "contraseña": "UHLQ058683GZJNMJFN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f42"
+  },
+  "usuario": "202370088",
+  "contraseña": "TWGE964157OFFLBRQT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f52"
+  },
+  "usuario": "202370089",
+  "contraseña": "ZTLQ802551GYMANPJX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f5b"
+  },
+  "usuario": "202370090",
+  "contraseña": "WCRD677696QFMOSX12 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a500eb53299f0ad78f6b"
+  },
+  "usuario": "202370091",
+  "contraseña": "WDQG015002FFELCX20 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad79156"
+  },
+  "usuario": "202370092",
+  "contraseña": "KMTY434048SYFSTGVJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad7915c"
+  },
+  "usuario": "202370093",
+  "contraseña": "JJNC676252SMLUCPTX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad79164"
+  },
+  "usuario": "202370094",
+  "contraseña": "YBUY096971OJWDMH1R ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad79169"
+  },
+  "usuario": "202370095",
+  "contraseña": "WTBK532730VKAMXZP9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad79172"
+  },
+  "usuario": "202370096",
+  "contraseña": "SZMB781063JMJPZYVW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad7917c"
+  },
+  "usuario": "202370097",
+  "contraseña": "PBQR615743YVJVEEER ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad79187"
+  },
+  "usuario": "202370098",
+  "contraseña": "TUMF348932XHLWYLNO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad79193"
+  },
+  "usuario": "202370099",
+  "contraseña": "ONOV107207AGTCFAO8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad7919c"
+  },
+  "usuario": "202370100",
+  "contraseña": "MWUA855187ZEEMOD3P ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a501eb53299f0ad791a6"
+  },
+  "usuario": "202370101",
+  "contraseña": "DSGR226593DMDLESPZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad7933e"
+  },
+  "usuario": "202370102",
+  "contraseña": "FIAA938710SONSGJ3L ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad79345"
+  },
+  "usuario": "202370103",
+  "contraseña": "ADFY804469FPUQXSI0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad79356"
+  },
+  "usuario": "202370104",
+  "contraseña": "BPYF331993KBQIWP9I ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad7935f"
+  },
+  "usuario": "202370105",
+  "contraseña": "SMLP362345RXYMYQ39 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad7936a"
+  },
+  "usuario": "202370106",
+  "contraseña": "NGEN946373HHEOSHPG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad79374"
+  },
+  "usuario": "202370107",
+  "contraseña": "KZXL865050IPTCRRSH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad79381"
+  },
+  "usuario": "202370108",
+  "contraseña": "TZKZ377603PCKFIR5W ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad79388"
+  },
+  "usuario": "202370109",
+  "contraseña": "GMNB400560IEMGXTXY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad79395"
+  },
+  "usuario": "202370110",
+  "contraseña": "SAXD598326IABVINY9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a502eb53299f0ad7939d"
+  },
+  "usuario": "202370111",
+  "contraseña": "JUCZ058139CSRESV7D ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad79530"
+  },
+  "usuario": "202370112",
+  "contraseña": "EQXP925360CWRTXD11 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad79539"
+  },
+  "usuario": "202370113",
+  "contraseña": "OKSY668040AEYZFSSA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad79541"
+  },
+  "usuario": "202370114",
+  "contraseña": "VRNA199936XCZMCHRQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad79549"
+  },
+  "usuario": "202370115",
+  "contraseña": "QKGZ658045IKIAUEZ0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad79553"
+  },
+  "usuario": "202370116",
+  "contraseña": "EIAB961086DYEODE8U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad7955f"
+  },
+  "usuario": "202370117",
+  "contraseña": "FNME377382COPAPTAD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad79567"
+  },
+  "usuario": "202370118",
+  "contraseña": "HRGK376613QYMNJGUJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad7956e"
+  },
+  "usuario": "202370119",
+  "contraseña": "WBQB413306XIMEUHKT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad79578"
+  },
+  "usuario": "202370120",
+  "contraseña": "SFGO732068YKNSGOR4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a503eb53299f0ad79580"
+  },
+  "usuario": "202370121",
+  "contraseña": "OUEP950502QXAKFGRY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad79734"
+  },
+  "usuario": "202370122",
+  "contraseña": "QJMM493153REEJFZQX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad7973d"
+  },
+  "usuario": "202370123",
+  "contraseña": "YTGJ047444NRNEOYGR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad79744"
+  },
+  "usuario": "202370124",
+  "contraseña": "TXHW408613TAMPIXFE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad7974b"
+  },
+  "usuario": "202370125",
+  "contraseña": "KUKR816184CSFBIRMF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad79753"
+  },
+  "usuario": "202370126",
+  "contraseña": "PQNF597895JIBWSME0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad7975a"
+  },
+  "usuario": "202370127",
+  "contraseña": "YWCZ763621MOMOCQ5F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad79763"
+  },
+  "usuario": "202370128",
+  "contraseña": "JAQE974262VODRJB09 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad7976c"
+  },
+  "usuario": "202370129",
+  "contraseña": "COGG020973TYBFFJ5C ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad79774"
+  },
+  "usuario": "202370130",
+  "contraseña": "RAFX462967TJLAVTEZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a504eb53299f0ad7977f"
+  },
+  "usuario": "202370131",
+  "contraseña": "KRUY990763XVLSDIMD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad79966"
+  },
+  "usuario": "202370132",
+  "contraseña": "EENE860333XZQAMSBI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad79973"
+  },
+  "usuario": "202370133",
+  "contraseña": "FEAT853083FXRTVO30 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad7997d"
+  },
+  "usuario": "202370134",
+  "contraseña": "TUDF866390ZQMMDJPA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad79982"
+  },
+  "usuario": "202370135",
+  "contraseña": "IVMY960690TEQQPF3W ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad7998b"
+  },
+  "usuario": "202370136",
+  "contraseña": "VUHA242957VQICQEXT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad79995"
+  },
+  "usuario": "202370137",
+  "contraseña": "NNLW233583MVQFBIHF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad7999f"
+  },
+  "usuario": "202370138",
+  "contraseña": "BEVD816466GBABRVFI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad799aa"
+  },
+  "usuario": "202370139",
+  "contraseña": "AIZD738957DRNRUS79 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad799b6"
+  },
+  "usuario": "202370140",
+  "contraseña": "IJKX238907SOAGWAAV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a505eb53299f0ad799c5"
+  },
+  "usuario": "202370141",
+  "contraseña": "URGE414324KRSEBVQ6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79ba2"
+  },
+  "usuario": "202370142",
+  "contraseña": "YNVO592497QRVQRGSV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79baa"
+  },
+  "usuario": "202370143",
+  "contraseña": "UZSJ189103QRBAOHAF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79bb4"
+  },
+  "usuario": "202370144",
+  "contraseña": "GSUI883747DOONHK4J ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79bbe"
+  },
+  "usuario": "202370145",
+  "contraseña": "OFVW756658KLKABP1V ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79bcb"
+  },
+  "usuario": "202370146",
+  "contraseña": "PSCT775088LAGEBPFJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79bd2"
+  },
+  "usuario": "202370147",
+  "contraseña": "GFRP934981MMRAKXP1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79bdc"
+  },
+  "usuario": "202370148",
+  "contraseña": "PCET555046KPMMOSPF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79be3"
+  },
+  "usuario": "202370149",
+  "contraseña": "HIXK423050SVSHOAY3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79bee"
+  },
+  "usuario": "202370150",
+  "contraseña": "ZHKJ511321NHINEH9B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a506eb53299f0ad79bf7"
+  },
+  "usuario": "202370151",
+  "contraseña": "ZUWL402354NWEFWJYQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79d90"
+  },
+  "usuario": "202370152",
+  "contraseña": "YHZM516533OQCHEICN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79d9c"
+  },
+  "usuario": "202370153",
+  "contraseña": "EJED798177GRNYPXZ7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79db2"
+  },
+  "usuario": "202370154",
+  "contraseña": "VJOG303015PDQIHM45 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79dbc"
+  },
+  "usuario": "202370155",
+  "contraseña": "OVUA815312QKXRLIIC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79dc8"
+  },
+  "usuario": "202370156",
+  "contraseña": "GDWP660731UIAFEMM7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79dd5"
+  },
+  "usuario": "202370157",
+  "contraseña": "JVSD145283GVRMPI7A ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79ddd"
+  },
+  "usuario": "202370158",
+  "contraseña": "AUSL301234DRNZKXUG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79dea"
+  },
+  "usuario": "202370159",
+  "contraseña": "VIKZ619111ETAFMFTP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79df1"
+  },
+  "usuario": "202370160",
+  "contraseña": "VBXO792995IDVBCKNS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a507eb53299f0ad79df9"
+  },
+  "usuario": "202370161",
+  "contraseña": "HDFB726668MNGLCUCQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79f6e"
+  },
+  "usuario": "202370162",
+  "contraseña": "QPIB989055GXSTVMW8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79f73"
+  },
+  "usuario": "202370163",
+  "contraseña": "UXNG291605FYYKFBXF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79f7e"
+  },
+  "usuario": "202370164",
+  "contraseña": "EVYI514240SLRICFHK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79f8b"
+  },
+  "usuario": "202370165",
+  "contraseña": "RQWB979099VVVKSW65 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79f92"
+  },
+  "usuario": "202370166",
+  "contraseña": "UYWA283435GKWRRMT3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79f9a"
+  },
+  "usuario": "202370167",
+  "contraseña": "HZGP207045FTVOUGY6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79fa2"
+  },
+  "usuario": "202370168",
+  "contraseña": "ANUY580696CPJFZR6Y ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79fae"
+  },
+  "usuario": "202370169",
+  "contraseña": "HXBC385571NQRXCMV3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79fb6"
+  },
+  "usuario": "202370170",
+  "contraseña": "QTAG135282OWGVWC66 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a508eb53299f0ad79fbd"
+  },
+  "usuario": "202370171",
+  "contraseña": "HWJV461988ZLGHXMM0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a16b"
+  },
+  "usuario": "202370172",
+  "contraseña": "FQNL080824FQTMONM7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a179"
+  },
+  "usuario": "202370173",
+  "contraseña": "HLVB240118CPTMDCRA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a184"
+  },
+  "usuario": "202370174",
+  "contraseña": "YKMY898821GHKOCG9U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a18f"
+  },
+  "usuario": "202370175",
+  "contraseña": "ISZS386185THBCUXPK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a195"
+  },
+  "usuario": "202370176",
+  "contraseña": "SXLK462357OUKLPMFU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a19c"
+  },
+  "usuario": "202370177",
+  "contraseña": "PMEU577031CXSRLH3V ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a1a4"
+  },
+  "usuario": "202370178",
+  "contraseña": "LEOF852009HSUMBTPF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a1ac"
+  },
+  "usuario": "202370179",
+  "contraseña": "ETII045212KXWMZYFA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a1b9"
+  },
+  "usuario": "202370180",
+  "contraseña": "RYLQ641901USFCEB21 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a509eb53299f0ad7a1c4"
+  },
+  "usuario": "202370181",
+  "contraseña": "BLHT990777HXPCMFFX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a3d8"
+  },
+  "usuario": "202370182",
+  "contraseña": "DKRJ772533JWSWMKF4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a3e3"
+  },
+  "usuario": "202370183",
+  "contraseña": "THWU706852QMZJUCI0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a3e8"
+  },
+  "usuario": "202370184",
+  "contraseña": "EJGL890791FZDINB6C ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a3f3"
+  },
+  "usuario": "202370185",
+  "contraseña": "TTEU117420ARXMRHM6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a3f9"
+  },
+  "usuario": "202370186",
+  "contraseña": "VJZH291227HLYOSZ82 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a402"
+  },
+  "usuario": "202370187",
+  "contraseña": "NZZI732560CHNJEYN3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a412"
+  },
+  "usuario": "202370188",
+  "contraseña": "JVDE800745SMBHCWQN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a420"
+  },
+  "usuario": "202370189",
+  "contraseña": "VLKD445927YDJSIYSL ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a42c"
+  },
+  "usuario": "202370190",
+  "contraseña": "YXHB393863SOGUYJBT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50aeb53299f0ad7a434"
+  },
+  "usuario": "202370191",
+  "contraseña": "OWKT832301IIWWSPS6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a60d"
+  },
+  "usuario": "202370192",
+  "contraseña": "EITQ427620AKNQIO0X ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a618"
+  },
+  "usuario": "202370193",
+  "contraseña": "GIHO312416CFCWTHAK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a621"
+  },
+  "usuario": "202470001",
+  "contraseña": "PUIH087640OYKUHJ42 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a627"
+  },
+  "usuario": "202470002",
+  "contraseña": "RKXA201118ZTSSLEKY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a632"
+  },
+  "usuario": "202470003",
+  "contraseña": "IJKX543208HWTZJLJA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a63d"
+  },
+  "usuario": "202470004",
+  "contraseña": "POSX158355VIIIGRI4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a649"
+  },
+  "usuario": "202470005",
+  "contraseña": "LAEL235294DJEXTPC0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a655"
+  },
+  "usuario": "202470006",
+  "contraseña": "UHYD507211AHFGZP4S ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a660"
+  },
+  "usuario": "202470007",
+  "contraseña": "FCEV051496UKCNFLGV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50beb53299f0ad7a667"
+  },
+  "usuario": "202480001",
+  "contraseña": "KCYD787919USSXNME5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50ceb53299f0ad7a80d"
+  },
+  "usuario": "202480002",
+  "contraseña": "PJTC741127FTYLTO1P ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50ceb53299f0ad7a81a"
+  },
+  "usuario": "202480003",
+  "contraseña": "CHAY215759RVZAXPZJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50ceb53299f0ad7a82d"
+  },
+  "usuario": "202480004",
+  "contraseña": "TEGK700674XORYDBV3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50ceb53299f0ad7a836"
+  },
+  "usuario": "202480005",
+  "contraseña": "SFSR730621XABOQRGP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50ceb53299f0ad7a83f"
+  },
+  "usuario": "202480006",
+  "contraseña": "RZDP788723UACZFS8F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50ceb53299f0ad7a848"
+  },
+  "usuario": "202480007",
+  "contraseña": "GOWX631010HCEWJWDG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50ceb53299f0ad7a84f"
+  },
+  "usuario": "202480008",
+  "contraseña": "YULC989785HIKJHXPW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50ceb53299f0ad7a858"
+  },
+  "usuario": "202480009",
+  "contraseña": "OBJQ797700SZSHZIGW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a50ceb53299f0ad7a860"
+  },
+  "usuario": "202480010",
+  "contraseña": "PAJX144941IRMNHJFI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55ceb53299f0ad8551c"
+  },
+  "usuario": "2024240001",
+  "contraseña": "EWWM372302JLLLWGCA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55ceb53299f0ad85523"
+  },
+  "usuario": "2024310001",
+  "contraseña": "QTTX731567JQTNRV30 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55ceb53299f0ad8552d"
+  },
+  "usuario": "2024180001",
+  "contraseña": "XGMG363169FPHGFD6P ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55ceb53299f0ad85536"
+  },
+  "usuario": "2024180002",
+  "contraseña": "UTPD347909MPWPDKU5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55ceb53299f0ad8553d"
+  },
+  "usuario": "2024130001",
+  "contraseña": "BEKB982984TCUHEUAF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55ceb53299f0ad85542"
+  },
+  "usuario": "2024130002",
+  "contraseña": "LCOP480185BZNGJRVA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55ceb53299f0ad85547"
+  },
+  "usuario": "2024210001",
+  "contraseña": "UUBB048303WNGEXDJF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e0a"
+  },
+  "usuario": "202470008",
+  "contraseña": "LHNF709793ISMQYE4K ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e14"
+  },
+  "usuario": "2024180003",
+  "contraseña": "IBWL221863ZELQDCMI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e21"
+  },
+  "usuario": "2024140001",
+  "contraseña": "BRLL542772EXYDCGKG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e2a"
+  },
+  "usuario": "2024260001",
+  "contraseña": "BOMD915919KZLVTQJD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e32"
+  },
+  "usuario": "202470009",
+  "contraseña": "LTUV230519JTLZFR3W ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e3a"
+  },
+  "usuario": "2024260002",
+  "contraseña": "KIGF186627OIHDXOYZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e40"
+  },
+  "usuario": "2024110001",
+  "contraseña": "RBSB026922LGSWBE99 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e45"
+  },
+  "usuario": "2024130003",
+  "contraseña": "MAQX757917SPOEZBUX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e4d"
+  },
+  "usuario": "202460001",
+  "contraseña": "KPJE367740GOZSZF7F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e51"
+  },
+  "usuario": "2024210002",
+  "contraseña": "JTEM938296UBVWOCHX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e58"
+  },
+  "usuario": "2024210003",
+  "contraseña": "FILA621237QBFTOIN1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e68"
+  },
+  "usuario": "2024130004",
+  "contraseña": "DETF370304SEGKDJHU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e81"
+  },
+  "usuario": "2024130005",
+  "contraseña": "OADR928910FFMSCZ4L ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e89"
+  },
+  "usuario": "2024130006",
+  "contraseña": "WATH979745ANTZNMP1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55deb53299f0ad85e93"
+  },
+  "usuario": "202470010",
+  "contraseña": "QRIG101883REIFVZDO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad8606c"
+  },
+  "usuario": "202470011",
+  "contraseña": "CTSO361957FGNWWE04 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad86079"
+  },
+  "usuario": "202470012",
+  "contraseña": "XGES330121TXJGYEFF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad86083"
+  },
+  "usuario": "202470013",
+  "contraseña": "FTXN345211QZJUYDCX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad86090"
+  },
+  "usuario": "2024100001",
+  "contraseña": "MFBM344974XCCKKG7X ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad86096"
+  },
+  "usuario": "2024100002",
+  "contraseña": "AKFW954500XHTIGYCP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad8609c"
+  },
+  "usuario": "2024100003",
+  "contraseña": "XULT343433KYTHJYY8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad860a4"
+  },
+  "usuario": "2024140002",
+  "contraseña": "HCMA451321OOHCAE55 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad860aa"
+  },
+  "usuario": "2024260003",
+  "contraseña": "KKKO634498ECRCJS6K ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad860b3"
+  },
+  "usuario": "2024260004",
+  "contraseña": "AEHE317790VGWDGDUT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad860bb"
+  },
+  "usuario": "2024130007",
+  "contraseña": "NDEF470326WXNBEM9I ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad860c5"
+  },
+  "usuario": "2024140003",
+  "contraseña": "ZAYO306916KRIQYO9A ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad860d9"
+  },
+  "usuario": "2024140004",
+  "contraseña": "SFXK303988LBHEWK47 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55eeb53299f0ad860e1"
+  },
+  "usuario": "2024140005",
+  "contraseña": "VHWT685687QSUPPDCK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad862e6"
+  },
+  "usuario": "2024250001",
+  "contraseña": "KCMY238276MGVSKCP6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad862f3"
+  },
+  "usuario": "2024240002",
+  "contraseña": "WGYU214812AOVBCHT3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad862fc"
+  },
+  "usuario": "2024240003",
+  "contraseña": "PLCO108963CAESFMI6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad86304"
+  },
+  "usuario": "2024130008",
+  "contraseña": "KWTB486529VFWTZI8N ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad8630c"
+  },
+  "usuario": "202440001",
+  "contraseña": "LUXN273284SCYJCLLB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad86314"
+  },
+  "usuario": "202440002",
+  "contraseña": "BXQG937329FPDIWNOV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad8631e"
+  },
+  "usuario": "202440003",
+  "contraseña": "SQAT570252KHWSKT2N ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad86322"
+  },
+  "usuario": "2024100004",
+  "contraseña": "MJPC200543GSRZOJYC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad8632a"
+  },
+  "usuario": "2024100005",
+  "contraseña": "GUTT673329BZNZACAK ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad86338"
+  },
+  "usuario": "202470014",
+  "contraseña": "DBFH680157TFTYSB9M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad86340"
+  },
+  "usuario": "2024270001",
+  "contraseña": "PDCZ127431DMMEOBVO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad8634b"
+  },
+  "usuario": "202480011",
+  "contraseña": "PXMV173570JZDBALLR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad86351"
+  },
+  "usuario": "2024240004",
+  "contraseña": "AAZA410396XRXPMIWW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a55feb53299f0ad8635d"
+  },
+  "usuario": "2024230001",
+  "contraseña": "AEZI305850SUXERP6T ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad86542"
+  },
+  "usuario": "202470015",
+  "contraseña": "VPAG756347GRDEIJS1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad8654c"
+  },
+  "usuario": "202470016",
+  "contraseña": "DZUG403775GJNCYCCP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad86552"
+  },
+  "usuario": "2024270002",
+  "contraseña": "FBGL226270WJIFJDK2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad8655b"
+  },
+  "usuario": "2024130009",
+  "contraseña": "QELZ238143MHYMERGA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad86560"
+  },
+  "usuario": "2024130010",
+  "contraseña": "SUBL872246AHVAJR5O ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad86565"
+  },
+  "usuario": "202470017",
+  "contraseña": "JJOD985755PAOJGUWM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad8656e"
+  },
+  "usuario": "202470018",
+  "contraseña": "RDLT735474HERUFJBX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad86579"
+  },
+  "usuario": "202470019",
+  "contraseña": "GEPZ827450RVZMWWLY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad86580"
+  },
+  "usuario": "202470020",
+  "contraseña": "QLQL477164TWRMHRR0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad86588"
+  },
+  "usuario": "202470021",
+  "contraseña": "ZQLL538264QAEFBTWQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad86592"
+  },
+  "usuario": "202470022",
+  "contraseña": "PJBA324804ETHMNZTJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad865a1"
+  },
+  "usuario": "202470023",
+  "contraseña": "KSLA394446HLALKNTD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a560eb53299f0ad865a7"
+  },
+  "usuario": "202470024",
+  "contraseña": "PUSU430085SYYZIXKE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad86744"
+  },
+  "usuario": "202480012",
+  "contraseña": "JFPB809690EHZGXHY1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad8674e"
+  },
+  "usuario": "2024210004",
+  "contraseña": "JJMT787848EFLOBQSX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad86756"
+  },
+  "usuario": "202470025",
+  "contraseña": "KAAN053046EJSGNGWN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad86763"
+  },
+  "usuario": "2024240005",
+  "contraseña": "NCNX555047UAKINRB0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad8676b"
+  },
+  "usuario": "2024240006",
+  "contraseña": "ROTE261135DEHUAW9C ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad86778"
+  },
+  "usuario": "202440004",
+  "contraseña": "GMAY960353NIQPGVEB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad8677f"
+  },
+  "usuario": "2024140006",
+  "contraseña": "MCDD633983YDILRL8O ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad86788"
+  },
+  "usuario": "2024210005",
+  "contraseña": "MRAE208404FJZNVDUH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad86790"
+  },
+  "usuario": "2024210006",
+  "contraseña": "YTAT317984WFXJUGQB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad86798"
+  },
+  "usuario": "202440005",
+  "contraseña": "OKTK176407JNRZUKID ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a561eb53299f0ad867a7"
+  },
+  "usuario": "2024260005",
+  "contraseña": "QOUJ725384NPXSNV8M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad8692f"
+  },
+  "usuario": "2024140007",
+  "contraseña": "GWZS131706HRRJROUM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad86941"
+  },
+  "usuario": "202480013",
+  "contraseña": "GMUD304836PUBJXYX7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad8694d"
+  },
+  "usuario": "202470026",
+  "contraseña": "JGVZ574715KXDGZR7F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad86959"
+  },
+  "usuario": "202470027",
+  "contraseña": "QGHC508782UPSKAY5T ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad86962"
+  },
+  "usuario": "202470028",
+  "contraseña": "HCPB025718KRSZGRAK ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad86966"
+  },
+  "usuario": "2024100006",
+  "contraseña": "TZFM495965DTCDBX9M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad86970"
+  },
+  "usuario": "2024240007",
+  "contraseña": "DQDY545791DXVRZWZ6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad86977"
+  },
+  "usuario": "2024270003",
+  "contraseña": "QNGU083850JSTQGQ7M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad86982"
+  },
+  "usuario": "202470029",
+  "contraseña": "QWAU420483SACNSCRI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a562eb53299f0ad86990"
+  },
+  "usuario": "202470030",
+  "contraseña": "YCBQ292443BQPBDKQM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86b53"
+  },
+  "usuario": "202470031",
+  "contraseña": "YVSX297415BZQMBMPO ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86b68"
+  },
+  "usuario": "202470032",
+  "contraseña": "SZJX823050POBKKP4O ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86b72"
+  },
+  "usuario": "2024110002",
+  "contraseña": "TCGV628797ZDSKSA6S ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86b7b"
+  },
+  "usuario": "2024240008",
+  "contraseña": "WCDA712097AEQUFZDE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86b82"
+  },
+  "usuario": "2024210007",
+  "contraseña": "KHYU134035PFSGQBX2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86b8e"
+  },
+  "usuario": "2024140008",
+  "contraseña": "QIFH965039ESDVRRN8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86b98"
+  },
+  "usuario": "2024140009",
+  "contraseña": "BVML150822RKSIZOZB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86ba0"
+  },
+  "usuario": "2024100007",
+  "contraseña": "VLLH708609UNRTPECY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86bb2"
+  },
+  "usuario": "2024100008",
+  "contraseña": "YILH798777ERDLLXHD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a563eb53299f0ad86bbf"
+  },
+  "usuario": "202470033",
+  "contraseña": "FXKN543819IEBXJLOB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a564eb53299f0ad86db7"
+  },
+  "usuario": "202470034",
+  "contraseña": "GQDX718434ANVUXBQI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a564eb53299f0ad86dc2"
+  },
+  "usuario": "202470035",
+  "contraseña": "JUQY194380YXOROD8P ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a564eb53299f0ad86dd1"
+  },
+  "usuario": "202470036",
+  "contraseña": "BJSV233632ZXUMGS6G ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a564eb53299f0ad86dda"
+  },
+  "usuario": "202470037",
+  "contraseña": "GRAY538909FKKKQIIC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a564eb53299f0ad86de9"
+  },
+  "usuario": "202470038",
+  "contraseña": "NYDO106348HDAHLDAC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a564eb53299f0ad86df4"
+  },
+  "usuario": "202470039",
+  "contraseña": "TYXN125037EFEMCQHQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a564eb53299f0ad86dfd"
+  },
+  "usuario": "202470040",
+  "contraseña": "GDLO040068PNLQUAKW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a564eb53299f0ad86e02"
+  },
+  "usuario": "202470041",
+  "contraseña": "HUXA248748DMYIJXF0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a564eb53299f0ad86e09"
+  },
+  "usuario": "202470042",
+  "contraseña": "LNHJ442942NLAQOQNJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad86fe4"
+  },
+  "usuario": "202470043",
+  "contraseña": "OQHW961107YXZBJDG0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad86fef"
+  },
+  "usuario": "202470044",
+  "contraseña": "HUUD137944JXIBTBMG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad86ff7"
+  },
+  "usuario": "2024250002",
+  "contraseña": "XNWA705553NGCKVTFQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad87000"
+  },
+  "usuario": "2024250003",
+  "contraseña": "UWRV069256FTHYED8F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad87014"
+  },
+  "usuario": "2024250004",
+  "contraseña": "PFNI157211MAOJKIPE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad8701d"
+  },
+  "usuario": "2024250005",
+  "contraseña": "ZQTN218497ZHUUHBR0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad87026"
+  },
+  "usuario": "202480014",
+  "contraseña": "FRDU164227CMYDVE3D ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad87037"
+  },
+  "usuario": "2024250006",
+  "contraseña": "IOPJ330130FZBZFSOG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad87044"
+  },
+  "usuario": "2024250007",
+  "contraseña": "PUIK197277XBETYNJF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a565eb53299f0ad87051"
+  },
+  "usuario": "2024250008",
+  "contraseña": "YBWH919548HLRDHGVU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad871d3"
+  },
+  "usuario": "2024250009",
+  "contraseña": "LFGE669100CPLUIHF9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad871dc"
+  },
+  "usuario": "2024250010",
+  "contraseña": "NNFX341081AWTKCWLA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad871e5"
+  },
+  "usuario": "202470045",
+  "contraseña": "MJSF996917DTAPKFUQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad871f4"
+  },
+  "usuario": "2024160001",
+  "contraseña": "JESI714181SDJBKA4F ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad871ff"
+  },
+  "usuario": "202470046",
+  "contraseña": "GQNN826878TUECAKUU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad87207"
+  },
+  "usuario": "2024250011",
+  "contraseña": "KIVK971693OIMKJP50 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad8720e"
+  },
+  "usuario": "202470047",
+  "contraseña": "IYVE752698RDPIGAQB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad87215"
+  },
+  "usuario": "2024130011",
+  "contraseña": "VVZK155642JTYFTC95 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad8721a"
+  },
+  "usuario": "202470048",
+  "contraseña": "QMKD471122SZENXL15 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a566eb53299f0ad87224"
+  },
+  "usuario": "2024130012",
+  "contraseña": "KFRO673621FBVJUZH2 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad873c0"
+  },
+  "usuario": "2024110003",
+  "contraseña": "QFRP757026XVRAIYMZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad873cf"
+  },
+  "usuario": "2024130013",
+  "contraseña": "LQCD648104CKCEGI71 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad873dc"
+  },
+  "usuario": "2024160002",
+  "contraseña": "UCGA010955OZRDGIY6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad873e6"
+  },
+  "usuario": "202470049",
+  "contraseña": "BKLY140808RDNRPVKF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad873f0"
+  },
+  "usuario": "202470050",
+  "contraseña": "YXXE502000QOTVPQLH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad873fa"
+  },
+  "usuario": "2024130014",
+  "contraseña": "RYVF778166ZLPJXIMJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad87403"
+  },
+  "usuario": "202470051",
+  "contraseña": "PNDJ713570LMGSMAWS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad8740d"
+  },
+  "usuario": "202470052",
+  "contraseña": "YHRC612749RUZKKCTF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad87416"
+  },
+  "usuario": "202470053",
+  "contraseña": "KSXI743076LKYXYU4U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a567eb53299f0ad8741d"
+  },
+  "usuario": "202470054",
+  "contraseña": "WTGJ943297POWQDXM1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad875fb"
+  },
+  "usuario": "2024320001",
+  "contraseña": "EKDD682343YEJSTFCQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad87608"
+  },
+  "usuario": "2024290001",
+  "contraseña": "HVRG632654FKENXXME ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad87616"
+  },
+  "usuario": "2024290002",
+  "contraseña": "ZAGD430388YIEUYF9C ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad87623"
+  },
+  "usuario": "2024220001",
+  "contraseña": "PLHQ447167RSDTRKME ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad8762c"
+  },
+  "usuario": "2024160003",
+  "contraseña": "IPOD331460JFDLCWWU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad87634"
+  },
+  "usuario": "2024160004",
+  "contraseña": "FKTM537693BYRVYBW7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad8763e"
+  },
+  "usuario": "202470055",
+  "contraseña": "RFQW580887JRXDGCXD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad8764b"
+  },
+  "usuario": "2024240009",
+  "contraseña": "RRDZ153318BEVXLN6Y ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad87656"
+  },
+  "usuario": "2024220002",
+  "contraseña": "IGOK525567MPEAJS87 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a568eb53299f0ad87662"
+  },
+  "usuario": "2024260006",
+  "contraseña": "LUOC732371EQLNJUZP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad87870"
+  },
+  "usuario": "2024200001",
+  "contraseña": "KKLE960808VVQVZODW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad87882"
+  },
+  "usuario": "202430002",
+  "contraseña": "QXMN907940MPQJKG3T ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad87899"
+  },
+  "usuario": "202480015",
+  "contraseña": "UBOM490046JRNETKA0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad878a4"
+  },
+  "usuario": "202480016",
+  "contraseña": "CYMV325652QIJQYLOW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad878ae"
+  },
+  "usuario": "2024130015",
+  "contraseña": "NQRY973703ZWKEZMQG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad878b9"
+  },
+  "usuario": "202480017",
+  "contraseña": "FAIK782995FMXIZDBJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad878c5"
+  },
+  "usuario": "2024100009",
+  "contraseña": "ATEO561075KJJIIR0E ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad878cd"
+  },
+  "usuario": "2024120001",
+  "contraseña": "VQON203132JGGCRCOE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad878d5"
+  },
+  "usuario": "2024240010",
+  "contraseña": "JUAB419777JVQLZZG7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a569eb53299f0ad878df"
+  },
+  "usuario": "202410004",
+  "contraseña": "MBPZ828433JXLDZV5K ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87aaf"
+  },
+  "usuario": "2024240011",
+  "contraseña": "HIYU840249NEFLJH5U ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87abc"
+  },
+  "usuario": "2024240012",
+  "contraseña": "BSZE757010DHLVJNV6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87ac3"
+  },
+  "usuario": "2024240013",
+  "contraseña": "LRIR497441YXQHIA59 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87ad0"
+  },
+  "usuario": "2024150001",
+  "contraseña": "IZZG928890URKRGECR ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87ae0"
+  },
+  "usuario": "2024120002",
+  "contraseña": "DKZF973075RKCUBXTM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87aea"
+  },
+  "usuario": "2024140010",
+  "contraseña": "YHAU666233KKEXMIPX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87af1"
+  },
+  "usuario": "2024140011",
+  "contraseña": "OEQN656383HADNDOZC ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87af9"
+  },
+  "usuario": "2024160005",
+  "contraseña": "IDNV017227YMPOTGL9 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87b02"
+  },
+  "usuario": "2024120003",
+  "contraseña": "QOQD782768SNMHCY4B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56aeb53299f0ad87b0b"
+  },
+  "usuario": "2024140012",
+  "contraseña": "FUNR783353EOOIXY36 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56beb53299f0ad87c9c"
+  },
+  "usuario": "2024140013",
+  "contraseña": "VTRT274255LQADTXDY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56beb53299f0ad87caf"
+  },
+  "usuario": "2024140014",
+  "contraseña": "LDOS597082XFIFJIB6 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56beb53299f0ad87cdf"
+  },
+  "usuario": "2024150002",
+  "contraseña": "EAWZ672143WFEYMHWV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56beb53299f0ad87ce3"
+  },
+  "usuario": "2024160006",
+  "contraseña": "PDBQ260008HUQGIQ35 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56beb53299f0ad87ce8"
+  },
+  "usuario": "2024140015",
+  "contraseña": "PJCA211581PKCGCU53 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56beb53299f0ad87cf1"
+  },
+  "usuario": "2024250012",
+  "contraseña": "PGJW110102TLNLFJDX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56beb53299f0ad87cfc"
+  },
+  "usuario": "2024250013",
+  "contraseña": "TQTY146235YLQMCNR1 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56ceb53299f0ad87e92"
+  },
+  "usuario": "2024320002",
+  "contraseña": "SNQE125523BEJLMXY8 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56ceb53299f0ad87e9e"
+  },
+  "usuario": "2024270004",
+  "contraseña": "MQMK649157XSEUQP3Y ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56ceb53299f0ad87ea5"
+  },
+  "usuario": "2024320003",
+  "contraseña": "VOXC131810YYRGFX5Y ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a56ceb53299f0ad87eaf"
+  },
+  "usuario": "2024320004",
+  "contraseña": "NFIP445629STSAUUMA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239c3b"
+  },
+  "usuario": "202420003",
+  "contraseña": "SXGS551349LTAXOJUS ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239c47"
+  },
+  "usuario": "202430005",
+  "contraseña": "WWVC295446EQZXISE7 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239c56"
+  },
+  "usuario": "202440006",
+  "contraseña": "ARMH743714JETOJNWN ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239c76"
+  },
+  "usuario": "202450001",
+  "contraseña": "SFYD537756PYHBWAWV ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239d39"
+  },
+  "usuario": "202460002",
+  "contraseña": "EXAI796405HWYYJEEX ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239d4b"
+  },
+  "usuario": "202470056",
+  "contraseña": "UPIF478224MDJKMA3H ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239d68"
+  },
+  "usuario": "202480018",
+  "contraseña": "VQUG815865QLTHDODW ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239d7b"
+  },
+  "usuario": "202490001",
+  "contraseña": "WABI077858LJBSMKX3 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239da3"
+  },
+  "usuario": "2024110004",
+  "contraseña": "JYJC929470CWAQFK0W ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239db5"
+  },
+  "usuario": "2024120004",
+  "contraseña": "SIDT597022QRXQRZR8 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239dc2"
+  },
+  "usuario": "2024130016",
+  "contraseña": "REXT952333GJLAVL9F ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239dcd"
+  },
+  "usuario": "2024140016",
+  "contraseña": "OHHO422847IBEDSS6M ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239ddb"
+  },
+  "usuario": "2024150003",
+  "contraseña": "OHWY849153ZTNZMZZA ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239def"
+  },
+  "usuario": "2024160007",
+  "contraseña": "FJGX255920EVKYUW9W ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239e04"
+  },
+  "usuario": "2024170001",
+  "contraseña": "FCEY698124UALYLDQE ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a57f72bd05f3c7239e11"
+  },
+  "usuario": "2024180004",
+  "contraseña": "KJHR690378DOBOGR5J ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a3b4"
+  },
+  "usuario": "2024190001",
+  "contraseña": "ALIA987393PCXTCQSL ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a3ca"
+  },
+  "usuario": "2024200004",
+  "contraseña": "AZIG302658HXDKFOJF ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a3de"
+  },
+  "usuario": "2024210008",
+  "contraseña": "BDMR500252FGQINKBT ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a3ed"
+  },
+  "usuario": "2024220003",
+  "contraseña": "JIOG444353TBQRDPLO ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a3fa"
+  },
+  "usuario": "2024230002",
+  "contraseña": "CEGT883341SPSPZXY2 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a40c"
+  },
+  "usuario": "2024240014",
+  "contraseña": "WRWR228829MENDDXTV ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a420"
+  },
+  "usuario": "2024250014",
+  "contraseña": "AMDG027990GKZIJTZS ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a42d"
+  },
+  "usuario": "2024260007",
+  "contraseña": "MKZW747908YBLECB0Q ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a443"
+  },
+  "usuario": "2024270005",
+  "contraseña": "NICX963111VZLXIC77 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a45e"
+  },
+  "usuario": "2024280001",
+  "contraseña": "KRRV362980LGNYYUQU ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a470"
+  },
+  "usuario": "2024290003",
+  "contraseña": "AAYB980637DMXNTC0B ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a484"
+  },
+  "usuario": "2024310002",
+  "contraseña": "KWNZ029813ODEVSACU ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58072bd05f3c723a492"
+  },
+  "usuario": "2024320005",
+  "contraseña": "CRZA493229YHNSGPON ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723aa95"
+  },
+  "usuario": "202410002",
+  "contraseña": "WZQW671253MKGHNP70 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723aaa6"
+  },
+  "usuario": "202420004",
+  "contraseña": "QJRW970146DWLVVYV2 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723aaba"
+  },
+  "usuario": "202430006",
+  "contraseña": "OKID950886ZHBFHS1I ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723aac8"
+  },
+  "usuario": "202440007",
+  "contraseña": "WCPD332317ETSZQWYJ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723aad2"
+  },
+  "usuario": "202450002",
+  "contraseña": "SBLO052215NXRQOIT0 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723aae2"
+  },
+  "usuario": "202460003",
+  "contraseña": "UGLA936449FYJTJLSB ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723aaed"
+  },
+  "usuario": "202470057",
+  "contraseña": "YJFY460627OJNJOPKO ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723aafe"
+  },
+  "usuario": "202480019",
+  "contraseña": "VOIS575520IAGUFVWI ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723ab0e"
+  },
+  "usuario": "202490002",
+  "contraseña": "GUKC671745DJNCHUJT ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723ab30"
+  },
+  "usuario": "2024110005",
+  "contraseña": "VCWT236349SIJBQVG8 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58172bd05f3c723ab42"
+  },
+  "usuario": "2024120005",
+  "contraseña": "DNUH011599CBOJIUX7 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b0f1"
+  },
+  "usuario": "2024130017",
+  "contraseña": "FPLE936536GXIQZABP ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b107"
+  },
+  "usuario": "2024140017",
+  "contraseña": "ZKSA476900OZPTKEI6 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b123"
+  },
+  "usuario": "2024150004",
+  "contraseña": "SANZ818334NONTGIUV ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b135"
+  },
+  "usuario": "2024160008",
+  "contraseña": "KRNA017636SQYSGUPK ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b151"
+  },
+  "usuario": "2024170002",
+  "contraseña": "YLXF320220DMKWAC0T ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b166"
+  },
+  "usuario": "2024180005",
+  "contraseña": "DJRN823444OROVXN0G ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b172"
+  },
+  "usuario": "2024190002",
+  "contraseña": "XOOY003794WFDAUHKG ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b190"
+  },
+  "usuario": "2024200005",
+  "contraseña": "LKPJ265370GMZHTYXM ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b1a3"
+  },
+  "usuario": "2024210009",
+  "contraseña": "XEJT666959TCZRBL7V ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58272bd05f3c723b1b4"
+  },
+  "usuario": "2024220004",
+  "contraseña": "BWQP362645DVXBDNKN ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b69a"
+  },
+  "usuario": "2024230003",
+  "contraseña": "HYMS691951AOJAZI0O ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b6b3"
+  },
+  "usuario": "2024240015",
+  "contraseña": "GVCT722012EEVKRO4Z ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b6ce"
+  },
+  "usuario": "2024250015",
+  "contraseña": "HVEY367786KBRDMYLC ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b6e2"
+  },
+  "usuario": "2024260008",
+  "contraseña": "JFNU384665MEOVPG8B ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b6fc"
+  },
+  "usuario": "2024270006",
+  "contraseña": "IQLH037941PRMYFI0S ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b714"
+  },
+  "usuario": "2024280002",
+  "contraseña": "OPGM567158ZQTVIZ9L ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b728"
+  },
+  "usuario": "2024290004",
+  "contraseña": "HWTV797220SPWMKL9Y ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b73f"
+  },
+  "usuario": "2024310003",
+  "contraseña": "XUQG302314ZWFPQRF9 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b752"
+  },
+  "usuario": "2024320006",
+  "contraseña": "SYNG409933OEMRCYDU ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58372bd05f3c723b769"
+  },
+  "usuario": "202410003",
+  "contraseña": "PLNU809679OHPSDXG3 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58472bd05f3c723bcd1"
+  },
+  "usuario": "202420005",
+  "contraseña": "CHAA387564TWCLJSL5 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58472bd05f3c723bcea"
+  },
+  "usuario": "202430007",
+  "contraseña": "KDZO532702ENDWVVGJ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58472bd05f3c723bd14"
+  },
+  "usuario": "202440008",
+  "contraseña": "EKXV135720MAQOWC9U ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58472bd05f3c723bd27"
+  },
+  "usuario": "202450003",
+  "contraseña": "KZBT120603LBSJHNMN ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58472bd05f3c723bd4a"
+  },
+  "usuario": "202460004",
+  "contraseña": "DQOE427484OILKMXQ9 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58472bd05f3c723bd61"
+  },
+  "usuario": "202470058",
+  "contraseña": "GKPT129175LPIXRQQX ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58472bd05f3c723bd77"
+  },
+  "usuario": "202480020",
+  "contraseña": "ACFY282514YJAXNEND ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58472bd05f3c723bd8c"
+  },
+  "usuario": "202490003",
+  "contraseña": "YYZX192533MGFCHCB3 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58472bd05f3c723bdbb"
+  },
+  "usuario": "2024110006",
+  "contraseña": "TTCX907969MLNZGZZJ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c3a1"
+  },
+  "usuario": "2024120006",
+  "contraseña": "GEHW451393LJGYZG3H ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c3b5"
+  },
+  "usuario": "2024130018",
+  "contraseña": "JTRW742529TJOQKI99 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c3ca"
+  },
+  "usuario": "2024140018",
+  "contraseña": "KXMB074857IRGRSRGP ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c3d8"
+  },
+  "usuario": "2024150005",
+  "contraseña": "ZXOD893364RYRVGHUG ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c3ef"
+  },
+  "usuario": "2024160009",
+  "contraseña": "SITI445544SBOUDLUE ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c406"
+  },
+  "usuario": "2024170003",
+  "contraseña": "NAJH286519AQVKAF3X ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c418"
+  },
+  "usuario": "2024180006",
+  "contraseña": "IADF045585HWAYKF1R ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c433"
+  },
+  "usuario": "2024190003",
+  "contraseña": "AJLE044145NTRUUW9H ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c450"
+  },
+  "usuario": "2024200006",
+  "contraseña": "OSPP916918MHVVDY6V ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58572bd05f3c723c46e"
+  },
+  "usuario": "2024210010",
+  "contraseña": "JDHM818412HPWIQJKC ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723caab"
+  },
+  "usuario": "2024220005",
+  "contraseña": "CEKD981988LYTYRCYW ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723cabe"
+  },
+  "usuario": "2024230004",
+  "contraseña": "DNGM276621NMYVOR6M ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723cacf"
+  },
+  "usuario": "2024240016",
+  "contraseña": "BKXN586933MXDMKK6O ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723cae3"
+  },
+  "usuario": "2024250016",
+  "contraseña": "GKAU814532TOCZTXGX ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723cafb"
+  },
+  "usuario": "2024260009",
+  "contraseña": "BSCP361461YMFCFWYM ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723cb0f"
+  },
+  "usuario": "2024270007",
+  "contraseña": "VAHJ852429ELOPPFPS ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723cb23"
+  },
+  "usuario": "2024280003",
+  "contraseña": "ULKO956693VGWLAZDK ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723cb45"
+  },
+  "usuario": "2024290005",
+  "contraseña": "MTXY319526ZWAGIHTA ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723cb52"
+  },
+  "usuario": "2024310004",
+  "contraseña": "ILXE492051ZLGCNCIK ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58672bd05f3c723cb64"
+  },
+  "usuario": "2024320007",
+  "contraseña": "WLGS703519OFMKDXCV ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a58772bd05f3c723d086"
+  },
+  "usuario": "202420006",
+  "contraseña": "SOKB981865PQNNFAYH ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a58772bd05f3c723d09a"
+  },
+  "usuario": "202430008",
+  "contraseña": "XLMO487447EFVLIRMY ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a58772bd05f3c723d0ad"
+  },
+  "usuario": "202440009",
+  "contraseña": "COVU812051ATKJQH41 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5e37"
+  },
+  "usuario": "202440010",
+  "contraseña": "CTXU275909CHOAWEHF ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5e40"
+  },
+  "usuario": "202450004",
+  "contraseña": "VOQT887451DXOMQSYC ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5e4e"
+  },
+  "usuario": "202460005",
+  "contraseña": "JPMC921189PNZEZBT5 ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5e54"
+  },
+  "usuario": "202470059",
+  "contraseña": "ZWUU728706XZYPJNLM ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5e5d"
+  },
+  "usuario": "202480021",
+  "contraseña": "QBUQ832832OQSRRDO5 ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5e62"
+  },
+  "usuario": "202490004",
+  "contraseña": "WINO786278VJUDJZLX ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5f27"
+  },
+  "usuario": "2024110007",
+  "contraseña": "ZQDE100003GJFBDOVM ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5f2c"
+  },
+  "usuario": "2024120007",
+  "contraseña": "DCIP575636KFYFDWRX ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5f36"
+  },
+  "usuario": "2024130019",
+  "contraseña": "JXYH860086QTIXZW1O ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5f40"
+  },
+  "usuario": "2024140019",
+  "contraseña": "NSWR215000IAGTDQ4Z ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5f4b"
+  },
+  "usuario": "2024150006",
+  "contraseña": "SZFA128704XKGNSUUQ ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5f52"
+  },
+  "usuario": "2024160010",
+  "contraseña": "PTJP356913PZPQJIHY ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5f5b"
+  },
+  "usuario": "2024170004",
+  "contraseña": "VKUJ604569BFPROI54 ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5f64"
+  },
+  "usuario": "2024180007",
+  "contraseña": "HDCZ630005DBCQDW5D ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5a9d728ed12fbcd5f6f"
+  },
+  "usuario": "2024190004",
+  "contraseña": "HGNU219299AZRWINQW ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd628f"
+  },
+  "usuario": "2024200007",
+  "contraseña": "RBIQ912034RHRGENCI ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd6295"
+  },
+  "usuario": "2024210011",
+  "contraseña": "ERCQ737207SFJJCGGO ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd629a"
+  },
+  "usuario": "2024220006",
+  "contraseña": "NTKY901751OHCWVCPR ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd62a8"
+  },
+  "usuario": "2024230005",
+  "contraseña": "JZXH717340EPAEZS39 ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd62b0"
+  },
+  "usuario": "2024240017",
+  "contraseña": "UMQW358434NUQPNA4E ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd62b9"
+  },
+  "usuario": "2024250017",
+  "contraseña": "ATAB481461AONXQOWI ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd62c3"
+  },
+  "usuario": "2024260010",
+  "contraseña": "IRZB464748TVLKUFCM ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd62d3"
+  },
+  "usuario": "2024270008",
+  "contraseña": "RISP164734AQEJHDB5 ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd62e7"
+  },
+  "usuario": "2024280004",
+  "contraseña": "RILD013082XLYADT5Q ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5aad728ed12fbcd62fd"
+  },
+  "usuario": "2024290006",
+  "contraseña": "HEEP278079WOIONPMZ ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5abd728ed12fbcd6522"
+  },
+  "usuario": "2024310005",
+  "contraseña": "MGRV152463RGYIGYNX ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5abd728ed12fbcd652f"
+  },
+  "usuario": "2024320008",
+  "contraseña": "IELX850507NFHTIQ8A ",
+  "nivel": "ECA"
+},
+{
+  "_id": {
+    "$oid": "6787a5e972bd05f3c7261af6"
+  },
+  "usuario": "202510001",
+  "contraseña": "RXWQ648078FZRFMK7Q ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261b0a"
+  },
+  "usuario": "202520001",
+  "contraseña": "SPND677980VCJEBQGK ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261b24"
+  },
+  "usuario": "202530001",
+  "contraseña": "WWML136276TAARQNKQ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261f3e"
+  },
+  "usuario": "202540001",
+  "contraseña": "VEZF072731WWNKVZIA ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261f4b"
+  },
+  "usuario": "202550001",
+  "contraseña": "YNHV819689FKYXJOPV ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261f59"
+  },
+  "usuario": "202560001",
+  "contraseña": "VAJQ247206QJZQCBFD ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261f6f"
+  },
+  "usuario": "202570001",
+  "contraseña": "FEWE595344HYLSVWL3 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261f7b"
+  },
+  "usuario": "202580001",
+  "contraseña": "SWEQ465818AODFESQ4 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261f94"
+  },
+  "usuario": "202590001",
+  "contraseña": "LATH684373YKGSTF0M ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261fa2"
+  },
+  "usuario": "2025100002",
+  "contraseña": "IQQF936853DRUYYEQ0 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261fb5"
+  },
+  "usuario": "2025110001",
+  "contraseña": "WRQM016456LYPBDHKP ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261fc6"
+  },
+  "usuario": "2025120001",
+  "contraseña": "BRAN668990EKERPH5U ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261fd6"
+  },
+  "usuario": "2025130001",
+  "contraseña": "VWHP760092MGNNTR8D ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261fe8"
+  },
+  "usuario": "2025140001",
+  "contraseña": "NRAR172556REFJIJKY ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c7261ffd"
+  },
+  "usuario": "2025150001",
+  "contraseña": "FTFH763802ZAVRSISR ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ea72bd05f3c726200c"
+  },
+  "usuario": "2025160001",
+  "contraseña": "QSHM661109VRZCTXCY ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c726250d"
+  },
+  "usuario": "2025170001",
+  "contraseña": "NSET267092ZCYCPIMC ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c7262526"
+  },
+  "usuario": "2025180001",
+  "contraseña": "XQUH177987WJAYKCXK ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c7262535"
+  },
+  "usuario": "2025190001",
+  "contraseña": "KSKT911449FXPDDG2E ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c7262543"
+  },
+  "usuario": "2025200002",
+  "contraseña": "CXHT054707VCKQSGP3 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c7262553"
+  },
+  "usuario": "2025210001",
+  "contraseña": "MEWA010940QDZKWUR2 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c726255e"
+  },
+  "usuario": "2025220001",
+  "contraseña": "MNWT324391PTLFKIGY ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c7262570"
+  },
+  "usuario": "2025230001",
+  "contraseña": "JTOZ913147AECLZDA4 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c726257c"
+  },
+  "usuario": "2025240001",
+  "contraseña": "HKUG571357ZEOUNUNV ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c726258a"
+  },
+  "usuario": "2025250001",
+  "contraseña": "KOAV885926KCRNWRUH ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c726259b"
+  },
+  "usuario": "2025260001",
+  "contraseña": "SPRF448803QAFBHF67 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c72625a9"
+  },
+  "usuario": "2025270001",
+  "contraseña": "BOZT057958TJHVRGKA ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c72625b8"
+  },
+  "usuario": "2025280001",
+  "contraseña": "BGIJ995812NZVOQJN5 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5eb72bd05f3c72625c8"
+  },
+  "usuario": "2025290001",
+  "contraseña": "VPIZ769375XSBJKNCS ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262a91"
+  },
+  "usuario": "2025310001",
+  "contraseña": "EWPN681356XVREIXNF ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262aa9"
+  },
+  "usuario": "2025320001",
+  "contraseña": "SIHQ962357FQAVQQ5C ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262ab4"
+  },
+  "usuario": "202510002",
+  "contraseña": "HXUB932866VXFMCQU8 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262ac6"
+  },
+  "usuario": "202520002",
+  "contraseña": "ZFOY669983NMVJEH6P ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262ad0"
+  },
+  "usuario": "202530002",
+  "contraseña": "EKYT723814PXOPJHNP ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262ade"
+  },
+  "usuario": "202540002",
+  "contraseña": "MZXA211619IQUZVE5C ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262af3"
+  },
+  "usuario": "202550002",
+  "contraseña": "XQXZ587020BJVATIX3 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262b04"
+  },
+  "usuario": "202560002",
+  "contraseña": "QOLT313095LELLRV2S ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262b0e"
+  },
+  "usuario": "202570002",
+  "contraseña": "IZZN529962QDFXECWN ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262b22"
+  },
+  "usuario": "202580002",
+  "contraseña": "YMVV377438HJUBGN7G ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262b31"
+  },
+  "usuario": "202590002",
+  "contraseña": "WHRS605976RSPJSTY4 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262b41"
+  },
+  "usuario": "2025100003",
+  "contraseña": "QVXN940102HMPJHG8S ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262b5b"
+  },
+  "usuario": "2025110002",
+  "contraseña": "DITU466683TGIWUAHF ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262b6d"
+  },
+  "usuario": "2025120002",
+  "contraseña": "OPWR224329JKWRJB62 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262b87"
+  },
+  "usuario": "2025130002",
+  "contraseña": "LVWM264297XZXJONJC ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ec72bd05f3c7262ba0"
+  },
+  "usuario": "2025140002",
+  "contraseña": "YGZC899073XPDZITNP ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c72630ef"
+  },
+  "usuario": "2025150002",
+  "contraseña": "AHJR289956BNNMLUDS ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c7263119"
+  },
+  "usuario": "2025160002",
+  "contraseña": "ZIPH614645HQFANVN8 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c7263133"
+  },
+  "usuario": "2025170002",
+  "contraseña": "JJWL105235EOIASWFU ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c7263147"
+  },
+  "usuario": "2025180002",
+  "contraseña": "EUPX633676HMFAUSUQ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c7263156"
+  },
+  "usuario": "2025190002",
+  "contraseña": "NGOJ245153WSSGSDN9 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c7263167"
+  },
+  "usuario": "2025200003",
+  "contraseña": "SALD863774HTWZVEWD ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c7263182"
+  },
+  "usuario": "2025210002",
+  "contraseña": "RGVY915454VQEYRIXI ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c72631a4"
+  },
+  "usuario": "2025220002",
+  "contraseña": "KMNL692501LKHUBX4V ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c72631d2"
+  },
+  "usuario": "2025230002",
+  "contraseña": "XPRY621741CZLAVLN6 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ed72bd05f3c72631f4"
+  },
+  "usuario": "2025240002",
+  "contraseña": "RXQX731626SJWBQLPB ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c72637b9"
+  },
+  "usuario": "2025250002",
+  "contraseña": "KIWI199299ZGVAQYBF ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c72637db"
+  },
+  "usuario": "2025260002",
+  "contraseña": "JKAQ384865OKGBMITY ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c72637f0"
+  },
+  "usuario": "2025270002",
+  "contraseña": "VCMO893186FHOWMMMM ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c7263809"
+  },
+  "usuario": "2025280002",
+  "contraseña": "JRUI416503EHOWVTUJ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c726382b"
+  },
+  "usuario": "2025290002",
+  "contraseña": "SDJF356312UAQAFO3V ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c726384d"
+  },
+  "usuario": "2025310002",
+  "contraseña": "PKLE939399LDIUAUOK ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c7263868"
+  },
+  "usuario": "2025320002",
+  "contraseña": "JJZQ800466LMUCEMYG ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c7263888"
+  },
+  "usuario": "202510003",
+  "contraseña": "HFIH176085NJAWZPGN ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c72638bc"
+  },
+  "usuario": "202520003",
+  "contraseña": "EIEB493716QTKIWFO8 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ee72bd05f3c72638de"
+  },
+  "usuario": "202530003",
+  "contraseña": "YHST759675RHNRNOZB ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263e7b"
+  },
+  "usuario": "202540003",
+  "contraseña": "STWZ549576TDMWYONJ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263e9c"
+  },
+  "usuario": "202550003",
+  "contraseña": "WLYV494321OKRJMPWT ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263eb1"
+  },
+  "usuario": "202560003",
+  "contraseña": "VUIO064902EQRQNVFS ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263ec5"
+  },
+  "usuario": "202570003",
+  "contraseña": "BEKL788162LLLGEQD0 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263ed7"
+  },
+  "usuario": "202580003",
+  "contraseña": "GHRC838709RBAFVXRN ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263eed"
+  },
+  "usuario": "202590003",
+  "contraseña": "FOBU830214AZSEZQA0 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263eff"
+  },
+  "usuario": "2025100004",
+  "contraseña": "ZKJR621211JJRCHD53 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263f13"
+  },
+  "usuario": "2025110003",
+  "contraseña": "DVZU625709WUADRBU5 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263f25"
+  },
+  "usuario": "2025120003",
+  "contraseña": "VRDM684887XSXDXSOC ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5ef72bd05f3c7263f3a"
+  },
+  "usuario": "2025130003",
+  "contraseña": "DATB618667YPQGENCX ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c7264485"
+  },
+  "usuario": "2025140003",
+  "contraseña": "WPDI338376PFYUILE3 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c72644a6"
+  },
+  "usuario": "2025150003",
+  "contraseña": "MUDR739831URTNAR2G ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c72644b5"
+  },
+  "usuario": "2025160003",
+  "contraseña": "KOGJ040190GBSOPPYK ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c72644c6"
+  },
+  "usuario": "2025170003",
+  "contraseña": "LRRZ413253HCYNAU03 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c72644d7"
+  },
+  "usuario": "2025180003",
+  "contraseña": "REBT606788UDTSMLWN ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c72644eb"
+  },
+  "usuario": "2025190003",
+  "contraseña": "ZKKR504202LMXTWQ9J ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c72644f3"
+  },
+  "usuario": "2025200004",
+  "contraseña": "JORW020986NZRJQAE8 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c726450b"
+  },
+  "usuario": "2025210003",
+  "contraseña": "QLGH461926KARCMGE0 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c726451e"
+  },
+  "usuario": "2025220003",
+  "contraseña": "GYVE091709LLAHLYTM ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f072bd05f3c7264531"
+  },
+  "usuario": "2025230003",
+  "contraseña": "ECVZ086685JYMDOOMQ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264a28"
+  },
+  "usuario": "2025240003",
+  "contraseña": "CPFB627620AXIPDSDX ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264a40"
+  },
+  "usuario": "2025250003",
+  "contraseña": "XZGZ207375TMWLCG9Y ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264a60"
+  },
+  "usuario": "2025260003",
+  "contraseña": "RHYZ324491VVKMFPXZ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264a70"
+  },
+  "usuario": "2025270003",
+  "contraseña": "WPYY168044QTWODXYB ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264a84"
+  },
+  "usuario": "2025280003",
+  "contraseña": "EDEM016503QJLRXXWT ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264aab"
+  },
+  "usuario": "2025290003",
+  "contraseña": "BSBZ670962LJRZXYTI ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264ac3"
+  },
+  "usuario": "2025310003",
+  "contraseña": "AKGX648895HMAAMI1G ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264ad6"
+  },
+  "usuario": "2025320003",
+  "contraseña": "IUOW804960TRZOMQQG ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264aea"
+  },
+  "usuario": "202510004",
+  "contraseña": "ZJUH369931MUYHYIY7 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f172bd05f3c7264b04"
+  },
+  "usuario": "202520004",
+  "contraseña": "LEIG199790CCJHOGI8 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c7265069"
+  },
+  "usuario": "202530004",
+  "contraseña": "HGJP150080SKCAUO05 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c7265084"
+  },
+  "usuario": "202540004",
+  "contraseña": "ZMZA962259KHXSJLUX ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c72650a0"
+  },
+  "usuario": "202550004",
+  "contraseña": "QUHQ184891RPZVBG7N ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c72650b4"
+  },
+  "usuario": "202560004",
+  "contraseña": "NFOO761488TXJNNP33 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c72650ce"
+  },
+  "usuario": "202570004",
+  "contraseña": "MXWM308747UPCPOELU ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c72650e3"
+  },
+  "usuario": "202580004",
+  "contraseña": "FTFO965485KJVWMLD4 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c7265103"
+  },
+  "usuario": "202590004",
+  "contraseña": "QSKQ245212INYVFL4E ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c7265136"
+  },
+  "usuario": "2025100005",
+  "contraseña": "WBSR620850SMPRGA93 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c7265153"
+  },
+  "usuario": "2025110004",
+  "contraseña": "OHAJ862892MFWYBTDD ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f272bd05f3c726517a"
+  },
+  "usuario": "2025120004",
+  "contraseña": "WRYB713211LHUBNLK1 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c7265765"
+  },
+  "usuario": "2025130004",
+  "contraseña": "DSZQ382217YRCRRPX4 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c726577b"
+  },
+  "usuario": "2025140004",
+  "contraseña": "XHRE506356XICARS5K ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c7265797"
+  },
+  "usuario": "2025150004",
+  "contraseña": "CNUD552425YKYBECTB ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c72657aa"
+  },
+  "usuario": "2025160004",
+  "contraseña": "TZLU772212XENPHXI5 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c72657d3"
+  },
+  "usuario": "2025170004",
+  "contraseña": "TWXG716262HWAGDIUO ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c72657ea"
+  },
+  "usuario": "2025180004",
+  "contraseña": "TWQB617328WFHKHRZK ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c726580b"
+  },
+  "usuario": "2025190004",
+  "contraseña": "NKSY613768TUBLFQQL ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c726582e"
+  },
+  "usuario": "2025200005",
+  "contraseña": "QWXW220948DTYHFPYT ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c7265853"
+  },
+  "usuario": "2025210004",
+  "contraseña": "MTLH992871DFFPINNX ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f372bd05f3c726586b"
+  },
+  "usuario": "2025220004",
+  "contraseña": "JYYR643963UVEPVYZ8 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265dd5"
+  },
+  "usuario": "2025230004",
+  "contraseña": "VZEQ456375JALUFT7J ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265dea"
+  },
+  "usuario": "2025240004",
+  "contraseña": "JNLK713832SITJBOZV ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265e01"
+  },
+  "usuario": "2025250004",
+  "contraseña": "FHTJ785182VFFBAXF8 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265e26"
+  },
+  "usuario": "2025260004",
+  "contraseña": "FEQB513532LKAOYPS1 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265e41"
+  },
+  "usuario": "2025270004",
+  "contraseña": "ZJGA364023RIILZO8M ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265e54"
+  },
+  "usuario": "2025280004",
+  "contraseña": "KWLS009127IFSXLF5Z ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265e78"
+  },
+  "usuario": "2025290004",
+  "contraseña": "ZVNW014669LVGNXDHQ ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265e94"
+  },
+  "usuario": "2025310004",
+  "contraseña": "YVHU409178GFXHPQJR ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265ea8"
+  },
+  "usuario": "2025320004",
+  "contraseña": "QWIX558873GGWFXMJA ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f472bd05f3c7265ebf"
+  },
+  "usuario": "202510005",
+  "contraseña": "RUFZ119789XRBHYKBW ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c726637a"
+  },
+  "usuario": "202520005",
+  "contraseña": "TQPO042001QXDCVN4R ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c7266391"
+  },
+  "usuario": "202530005",
+  "contraseña": "PBYF037990KXITCQWL ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c72663a4"
+  },
+  "usuario": "202540005",
+  "contraseña": "UJJN234120JDSIXNEC ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c72663ba"
+  },
+  "usuario": "202550005",
+  "contraseña": "QMPW634011BXBINH0G ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c72663cb"
+  },
+  "usuario": "202560005",
+  "contraseña": "CHHA451137XMOVDPBB ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c72663e4"
+  },
+  "usuario": "202570005",
+  "contraseña": "DZOC825444ATNDVWZR ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c72663f4"
+  },
+  "usuario": "202580005",
+  "contraseña": "BMMC550146XMGCCWGL ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c7266406"
+  },
+  "usuario": "202590005",
+  "contraseña": "NXVH751455GMEEGQB4 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c7266415"
+  },
+  "usuario": "2025100006",
+  "contraseña": "ERRF616930QVMUIDSD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a5f572bd05f3c7266428"
+  },
+  "usuario": "2025110005",
+  "contraseña": "EPGU602024UAPTBEHN ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c7266911"
+  },
+  "usuario": "2025120005",
+  "contraseña": "SJRW913709SEQVFSPO ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c726692e"
+  },
+  "usuario": "2025130005",
+  "contraseña": "BVDZ218814LKWKYCJ7 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c7266940"
+  },
+  "usuario": "2025140005",
+  "contraseña": "OOMY246060TLPQZBNY ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c7266958"
+  },
+  "usuario": "2025150005",
+  "contraseña": "CPSK182846TTIWSN2A ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c7266967"
+  },
+  "usuario": "2025160005",
+  "contraseña": "EISP206664WPRZLV5G ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c7266982"
+  },
+  "usuario": "2025170005",
+  "contraseña": "HUYW480689NHHRBANL ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c7266993"
+  },
+  "usuario": "2025180005",
+  "contraseña": "BDSC303941HKDXZSGL ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c72669a9"
+  },
+  "usuario": "2025190005",
+  "contraseña": "FOPJ273451NAPQUJV9 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c72669c1"
+  },
+  "usuario": "2025200006",
+  "contraseña": "JUTD935446VCDTWAU3 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f672bd05f3c72669d2"
+  },
+  "usuario": "2025210005",
+  "contraseña": "UMSJ471109REMHTHB4 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a5f772bd05f3c7266f5f"
+  },
+  "usuario": "2025220005",
+  "contraseña": "WUFJ004341RFFQRRD6 ",
+  "nivel": "EC1"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f21"
+  },
+  "usuario": "2025110006",
+  "contraseña": "GJWZ605939QRPDVF8B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f2c"
+  },
+  "usuario": "2025110007",
+  "contraseña": "PKGH569262UEIOPSYE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f37"
+  },
+  "usuario": "2025110008",
+  "contraseña": "XZRH054560UAXSOZ5J ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f44"
+  },
+  "usuario": "2025110009",
+  "contraseña": "UJXA448261GUIFWQDA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f4c"
+  },
+  "usuario": "2025110010",
+  "contraseña": "OKVU881318NTPMJKYD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f5e"
+  },
+  "usuario": "2025110011",
+  "contraseña": "FLNC156336YYYWDW3B ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f6d"
+  },
+  "usuario": "2025110012",
+  "contraseña": "OPWW104692WUIYPFIP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f78"
+  },
+  "usuario": "2025110013",
+  "contraseña": "EEKI648380KCWXWQTB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f81"
+  },
+  "usuario": "2025110014",
+  "contraseña": "FUOW719871EAHLDITI ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a629eb53299f0ada3f8a"
+  },
+  "usuario": "2025110015",
+  "contraseña": "IFXL900662UOUGEYYV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada415b"
+  },
+  "usuario": "2025110016",
+  "contraseña": "PXCL151892WGNXCLCJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada4166"
+  },
+  "usuario": "2025110017",
+  "contraseña": "HMPK589610ECJCGBZJ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada416b"
+  },
+  "usuario": "2025110018",
+  "contraseña": "KTYN525445RSXUMCPS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada4172"
+  },
+  "usuario": "2025110019",
+  "contraseña": "TIGA577362WYJCOS1I ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada4177"
+  },
+  "usuario": "2025110020",
+  "contraseña": "SICE585207PPPAWO93 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada418d"
+  },
+  "usuario": "2025110021",
+  "contraseña": "QSLK487770PJZXLVKB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada419a"
+  },
+  "usuario": "2025110022",
+  "contraseña": "YFEQ316094KRONZE2S ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada41a9"
+  },
+  "usuario": "2025110023",
+  "contraseña": "YDGU605358BHSFVB4Z ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada41b3"
+  },
+  "usuario": "2025110024",
+  "contraseña": "ZECC594867FPDDCD9M ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62aeb53299f0ada41c0"
+  },
+  "usuario": "2025110025",
+  "contraseña": "YYFV475546LOZTOVZ4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada43f0"
+  },
+  "usuario": "2025110026",
+  "contraseña": "ASKY998510ATKVYEJT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada43fc"
+  },
+  "usuario": "2025110027",
+  "contraseña": "OTLO251193AVWOMR44 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada4405"
+  },
+  "usuario": "2025110028",
+  "contraseña": "NMMB848727AAXPASEX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada4411"
+  },
+  "usuario": "2025110029",
+  "contraseña": "VHHJ151237AUFRUPL4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada4418"
+  },
+  "usuario": "2025110030",
+  "contraseña": "JUWA517730VNBNEXS3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada4424"
+  },
+  "usuario": "2025110031",
+  "contraseña": "MEBV314859OTHRYL2I ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada442e"
+  },
+  "usuario": "2025110032",
+  "contraseña": "UPVT129119JHTRAGL5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada4441"
+  },
+  "usuario": "2025110033",
+  "contraseña": "FBLX569359WKQQFDQX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada444e"
+  },
+  "usuario": "2025120006",
+  "contraseña": "KXSR269150PPPJWTKN ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62beb53299f0ada4457"
+  },
+  "usuario": "2025120007",
+  "contraseña": "RPQT374407LOWAIZ7A ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada4699"
+  },
+  "usuario": "2025120008",
+  "contraseña": "ZTIT237304CXJQHGK5 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada46a4"
+  },
+  "usuario": "2025120009",
+  "contraseña": "QRUY283488QHYCOZKE ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada46b3"
+  },
+  "usuario": "2025120010",
+  "contraseña": "CUZR115430CTGBSDUB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada46b7"
+  },
+  "usuario": "2025120011",
+  "contraseña": "QTFD044943EKVTIVJM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada46c5"
+  },
+  "usuario": "2025120012",
+  "contraseña": "QWWV940127CRAMDJZ0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada46d3"
+  },
+  "usuario": "2025120013",
+  "contraseña": "PRUX174046ABKNSHJP ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada46df"
+  },
+  "usuario": "2025120014",
+  "contraseña": "YKKJ040735HOGPGGXV ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada46f1"
+  },
+  "usuario": "2025120015",
+  "contraseña": "PRSO344435IUPRWWPS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada4702"
+  },
+  "usuario": "2025120016",
+  "contraseña": "GZTF259313MDLYYIWU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62ceb53299f0ada470c"
+  },
+  "usuario": "2025120017",
+  "contraseña": "WHAM287385MWDUSNUS ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada48f9"
+  },
+  "usuario": "2025120018",
+  "contraseña": "MXTB065361CSZUJZYT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada4903"
+  },
+  "usuario": "2025120019",
+  "contraseña": "SFQW282912LYWFMKOZ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada490e"
+  },
+  "usuario": "2025120020",
+  "contraseña": "EQST316469NFTZZDUF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada4914"
+  },
+  "usuario": "2025120021",
+  "contraseña": "GZKH417250NLBSEUSQ ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada491b"
+  },
+  "usuario": "2025120022",
+  "contraseña": "GIEM742634JNLQDYNG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada492b"
+  },
+  "usuario": "2025120023",
+  "contraseña": "HZPC991368XJCTCPMG ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada4934"
+  },
+  "usuario": "2025120024",
+  "contraseña": "VSMH868217VLWOUWKW ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada4945"
+  },
+  "usuario": "2025120025",
+  "contraseña": "LLFX279315VEXTWTWT ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada4952"
+  },
+  "usuario": "2025120026",
+  "contraseña": "TILT170594TLQWZO9V ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada4960"
+  },
+  "usuario": "2025120027",
+  "contraseña": "WYQB067068XITLUHHF ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62deb53299f0ada496a"
+  },
+  "usuario": "2025120028",
+  "contraseña": "RWHG967236FBORRZ4K ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4b4e"
+  },
+  "usuario": "2025120029",
+  "contraseña": "UTPV831134KFUNPMET ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4b58"
+  },
+  "usuario": "2025120030",
+  "contraseña": "BUKI676189KGQJKWAX ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4b5f"
+  },
+  "usuario": "2025120031",
+  "contraseña": "DXVQ126723THJMFGNH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4b67"
+  },
+  "usuario": "2025120032",
+  "contraseña": "CYCO283205SOBHMRAY ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4b72"
+  },
+  "usuario": "2025120033",
+  "contraseña": "SWOZ895137TEQBJRFB ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4b7a"
+  },
+  "usuario": "2025120034",
+  "contraseña": "TFEF349872XCZOYTUH ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4b8c"
+  },
+  "usuario": "2025120035",
+  "contraseña": "OYOX794336SDZYRITD ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4b94"
+  },
+  "usuario": "2025120036",
+  "contraseña": "URHL064250DCWVTBC7 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4b9f"
+  },
+  "usuario": "2025120037",
+  "contraseña": "GZRM428284JKTHRZH4 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62eeb53299f0ada4ba6"
+  },
+  "usuario": "2025120038",
+  "contraseña": "IQZR721912RUGXOH8N ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62feb53299f0ada4d83"
+  },
+  "usuario": "2025120039",
+  "contraseña": "JRAG595530BMVTHMP3 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62feb53299f0ada4d91"
+  },
+  "usuario": "2025120040",
+  "contraseña": "NEFT577211PFUNTKTA ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62feb53299f0ada4d9c"
+  },
+  "usuario": "2025120041",
+  "contraseña": "HMKK394653BAHWAH5C ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62feb53299f0ada4da6"
+  },
+  "usuario": "2025120042",
+  "contraseña": "AXFY953840BPZJAKI0 ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62feb53299f0ada4db3"
+  },
+  "usuario": "2025120043",
+  "contraseña": "UYMU314488RWHAIRQM ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62feb53299f0ada4dc0"
+  },
+  "usuario": "2025120044",
+  "contraseña": "AFYQ707085GPXFKQXU ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "6787a62feb53299f0ada4dcf"
+  },
+  "usuario": "2025120045",
+  "contraseña": "EOIN998739CVJLTM7Q ",
+  "nivel": "EC2"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de06"
+  },
+  "usuario": "202401AS20",
+  "contraseña": "<UZQ?",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de07"
+  },
+  "usuario": "202402BC32",
+  "contraseña": "LECMT",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de08"
+  },
+  "usuario": "202403BS1",
+  "contraseña": "Q>3U5",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de09"
+  },
+  "usuario": "202404CC15",
+  "contraseña": "8PTVZ",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de0a"
+  },
+  "usuario": "202405CL6",
+  "contraseña": "JJI9Q",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de0b"
+  },
+  "usuario": "202406CM44",
+  "contraseña": "HG17Q",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de0c"
+  },
+  "usuario": "202407CS57",
+  "contraseña": "UJ31I",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de0d"
+  },
+  "usuario": "202408CH83",
+  "contraseña": "C3OFL",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de0e"
+  },
+  "usuario": "202409DF91",
+  "contraseña": "TA8ZE",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de0f"
+  },
+  "usuario": "202410DG63",
+  "contraseña": "51FPU",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de10"
+  },
+  "usuario": "202411GT54",
+  "contraseña": "<OFJ4",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de11"
+  },
+  "usuario": "202412GR82",
+  "contraseña": "9C?;6",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de12"
+  },
+  "usuario": "202413HG10",
+  "contraseña": "BJ546",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de13"
+  },
+  "usuario": "202414JC3",
+  "contraseña": "?FB1I",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de14"
+  },
+  "usuario": "202415MC18",
+  "contraseña": "XH=>I",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de15"
+  },
+  "usuario": "202416MN9",
+  "contraseña": "4:=Q5",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de16"
+  },
+  "usuario": "202417MS25",
+  "contraseña": "WAKBD",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de17"
+  },
+  "usuario": "202418NT33",
+  "contraseña": "QL>B7",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de18"
+  },
+  "usuario": "202419NL77",
+  "contraseña": "RBBC@",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de19"
+  },
+  "usuario": "202420OC14",
+  "contraseña": "ANA80",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de1a"
+  },
+  "usuario": "202421PL45",
+  "contraseña": "ODROP",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de1b"
+  },
+  "usuario": "202422QT12",
+  "contraseña": "E6WNA",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de1c"
+  },
+  "usuario": "202423QR5",
+  "contraseña": "7Y>;;",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de1d"
+  },
+  "usuario": "202424SP55",
+  "contraseña": "C64Z1",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de1e"
+  },
+  "usuario": "202425SL97",
+  "contraseña": "J@J25",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de1f"
+  },
+  "usuario": "202426SR2",
+  "contraseña": "PTUG8",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de20"
+  },
+  "usuario": "202427TC21",
+  "contraseña": "D17G8",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de21"
+  },
+  "usuario": "202428TS4",
+  "contraseña": ";9V4I",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de22"
+  },
+  "usuario": "202429TL73",
+  "contraseña": "Y@3?G",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de23"
+  },
+  "usuario": "202430VZ16",
+  "contraseña": "NO5<8",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de24"
+  },
+  "usuario": "202431YN84",
+  "contraseña": "CO8TO",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "67874315fcf80f370c91de25"
+  },
+  "usuario": "202432ZS00",
+  "contraseña": "9;V3K",
+  "nivel": "COT"
+},
+{
+  "_id": {
+    "$oid": "6787c3daf3277d39899cc00b"
+  },
+  "usuario": "almacenes",
+  "contraseña": "1234",
+  "nivel": "AA"
+}]
