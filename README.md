@@ -63,7 +63,3 @@ La estructura del proyecto es la siguiente:
 1. Asegúrate de configurar el archivo `.env` en la carpeta `/code`.
 2. Ejecuta `execute_all.py` desde la carpeta `/code` para iniciar todos los microservicios y el servicio principal.
 3. Accede a la interfaz web a través del puerto configurado para **main_dev**.
-
-## Licencia
-
-Este proyecto está protegido por derechos de autor. Para más información, consulta los términos de uso en los documentos del proyecto.
